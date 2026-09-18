@@ -1,0 +1,265 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: ercot.com "Large Load Interconnection Status Update" 2026 "Approval to Energize" MW TAC report pdf
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards" [ref=e25] [cursor=pointer]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: Rewards
+          - img [ref=e30]
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Web" [ref=e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=18cd70255a16f6e3377e80330e7bbaece5e466be8e8e5492e5d6bc89d655bfa9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWVyY290LmNvbSslMjJMYXJnZStMb2FkK0ludGVyY29ubmVjdGlvbitTdGF0dXMrVXBkYXRlJTIyKzIwMjYrJTIyQXBwcm92YWwrdG8rRW5lcmdpemUlMjIrTVcrVEFDK3JlcG9ydCtwZGYmd2Vic2NwPTEmRk9STT1IRFJXU0M&ntb=1
+        - listitem [ref=e50]:
+          - link "Search" [ref=e51] [cursor=pointer]:
+            - /url: /copilotsearch?q=ercot.com+%22Large+Load+Interconnection+Status+Update%22+2026+%22Approval+to+Energize%22+MW+TAC+report+pdf&FORM=CSSCOP
+            - img [ref=e52]
+            - text: Search
+        - listitem [ref=e54]:
+          - link "Videos" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=366a70357b4bdbe291259c21bab6ee2674fdc3bed99cde376ef7d31ae508a492JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT1lcmNvdC5jb20rJTIyTGFyZ2UrTG9hZCtJbnRlcmNvbm5lY3Rpb24rU3RhdHVzK1VwZGF0ZSUyMisyMDI2KyUyMkFwcHJvdmFsK3RvK0VuZXJnaXplJTIyK01XK1RBQytyZXBvcnQrcGRmJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e56]:
+          - link "Images" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1d04b226df5cabca34655a0dfc5752d802bb7a8ac0ea55c2319f9c33569fc293JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT1lcmNvdC5jb20rJTIyTGFyZ2UrTG9hZCtJbnRlcmNvbm5lY3Rpb24rU3RhdHVzK1VwZGF0ZSUyMisyMDI2KyUyMkFwcHJvdmFsK3RvK0VuZXJnaXplJTIyK01XK1RBQytyZXBvcnQrcGRmJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e58]:
+          - link "Maps" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=edc8790f803f54a9232ffa016bcafa7c927eedb90bab5892448d9182290c42e9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT1lcmNvdC5jb20rJTIyTGFyZ2UrTG9hZCtJbnRlcmNvbm5lY3Rpb24rU3RhdHVzK1VwZGF0ZSUyMisyMDI2KyUyMkFwcHJvdmFsK3RvK0VuZXJnaXplJTIyK01XK1RBQytyZXBvcnQrcGRmJkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=e60]:
+          - link "Copilot" [ref=e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=56472a8b38d37d22065cbb41de9d1482421b9fe0067212b82761c456abbc8517JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PWVyY290LmNvbSslMjJMYXJnZStMb2FkK0ludGVyY29ubmVjdGlvbitTdGF0dXMrVXBkYXRlJTIyKzIwMjYrJTIyQXBwcm92YWwrdG8rRW5lcmdpemUlMjIrTVcrVEFDK3JlcG9ydCtwZGYmc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+        - listitem [ref=e62]:
+          - button "More" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: More
+  - generic [ref=e67]:
+    - main "Search Results" [ref=e68]:
+      - generic [ref=e70]: About 3,790 results
+      - list [ref=e79]:
+        - listitem [ref=e80]:
+          - link "Electric Reliability Council of Texas" [ref=e82] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e31fd83a29184381c89c8e05b9ad4d2a2c1575ebf884a833953a9ea589193297JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3QuY29tL2ZpbGVzL2RvY3MvMjAyNi8wMy8wNS9GZWJydWFyeS1UQUMtUmVwb3J0LnBkZg&ntb=1
+            - img "Global web icon" [ref=e86]
+            - generic [ref=e87]:
+              - generic [ref=e88]: Electric Reliability Council of Texas
+              - generic [ref=e91]: https://www.ercot.com › files › docs › February-TAC-Report.pdf
+          - generic [ref=e92]:
+            - generic [ref=e93]: "[PDF]"
+            - heading "Large Load Interconnection Status Update - ercot.com" [level=2] [ref=e94]:
+              - link "Large Load Interconnection Status Update - ercot.com" [ref=e95] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e31fd83a29184381c89c8e05b9ad4d2a2c1575ebf884a833953a9ea589193297JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3QuY29tL2ZpbGVzL2RvY3MvMjAyNi8wMy8wNS9GZWJydWFyeS1UQUMtUmVwb3J0LnBkZg&ntb=1
+          - paragraph [ref=e97]: Mar 5, 2026 · Current Large Load Interconnection Queue Observed Energized – Projects that have received Approval to Energize …
+        - listitem [ref=e98]:
+          - link "Electric Reliability Council of Texas" [ref=e100] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4c3894d163a1a45f471a833184efe3f8c0c959d043a9d0110cf22dd09f33bafbJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3QuY29tL2ZpbGVzL2RvY3MvMjAyNi8wNC8wOS9FUkNPVExhcmdlTG9hZFVwZGF0ZS1BcHJpbDlIb3VzZVN0YXRlQWZmYWlyc0hlYXJpbmcucGRm&ntb=1
+            - img "Global web icon" [ref=e104]
+            - generic [ref=e105]:
+              - generic [ref=e106]: Electric Reliability Council of Texas
+              - generic [ref=e109]: https://www.ercot.com › files › docs
+          - generic [ref=e110]:
+            - generic [ref=e111]: "[PDF]"
+            - heading "ERCOT Update" [level=2] [ref=e112]:
+              - link "ERCOT Update" [ref=e113] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=4c3894d163a1a45f471a833184efe3f8c0c959d043a9d0110cf22dd09f33bafbJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3QuY29tL2ZpbGVzL2RvY3MvMjAyNi8wNC8wOS9FUkNPVExhcmdlTG9hZFVwZGF0ZS1BcHJpbDlIb3VzZVN0YXRlQWZmYWlyc0hlYXJpbmcucGRm&ntb=1
+          - paragraph [ref=e115]: "Apr 9, 2026 · Key Takeaway: Solar and Energy Storage account for more than 76% of the amount of generation seeking …"
+        - listitem [ref=e116]:
+          - generic [ref=e118]:
+            - heading "Videos of ERCOT Com Large Load Interconnection Status Update 202…" [level=2] [ref=e120]:
+              - link "Videos of ERCOT Com Large Load Interconnection Status Update 202…" [ref=e121] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=51a9578be047606964a29c04ba21d290af774b1b49523073c612f03020b3aa47JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT1lcmNvdC5jb20rJTIyTGFyZ2UrTG9hZCtJbnRlcmNvbm5lY3Rpb24rU3RhdHVzK1VwZGF0ZSUyMisyMDI2KyUyMkFwcHJvdmFsK3RvK0VuZXJnaXplJTIyK01XK1RBQytyZXBvcnQrUERGJnFwdnQ9ZXJjb3QuY29tKyUyMkxhcmdlK0xvYWQrSW50ZXJjb25uZWN0aW9uK1N0YXR1cytVcGRhdGUlMjIrMjAyNislMjJBcHByb3ZhbCt0bytFbmVyZ2l6ZSUyMitNVytUQUMrcmVwb3J0K3BkZiZGT1JNPVZEUkU&ntb=1
+                - generic [ref=e122]: Videos of ERCOT Com Large Load Interconnection Status Update 202…
+                - img [ref=e124]
+            - generic [ref=e127]:
+              - 'link "ERCOT 2026 Market Update: Data Center Surge, Negative Reserve Margins & What Changes Next from YouTube · Duration: 12 minutes 11 seconds · 8 views · uploaded on 2 months ago · uploaded by Keentel Engineering · Click to play. · ERCOT''s large-load queue has hit 440,000 MW in total requests — but only ~30,000 MW is study-backed and firm, and just ~6,000 MW has actually taken service. The queue is now 95% data center, with 180+ projects exceeding 1,000 MW each. This July 2026 update covers the full picture: Batch Zero, Senate Bill 6 financial standards, the 4CP to 12CP ..." [ref=e130] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=1da9d7657d147f775e59a33b58164872760645ccf2105793ef6d785f25b18017JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9ZXJjb3QuY29tKyUyMkxhcmdlK0xvYWQrSW50ZXJjb25uZWN0aW9uK1N0YXR1cytVcGRhdGUlMjIrMjAyNislMjJBcHByb3ZhbCt0bytFbmVyZ2l6ZSUyMitNVytUQUMrcmVwb3J0K3BkZiZtaWQ9MjdDQ0FFMUQ1MTEzNzFENzA0NkMyN0NDQUUxRDUxMTM3MUQ3MDQ2QyZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQ0VmQVFFSXBUWGFZdGwyMVNlOEFTdlEmRk9STT1WSVJF&ntb=1
+                - generic [ref=e131]:
+                  - generic [ref=e132]:
+                    - 'img "ERCOT 2026 Market Update: Data Center Surge, Negative Reserve Margins & What Changes Next" [ref=e134]'
+                    - generic [ref=e140]: 12:11
+                  - generic [ref=e141]:
+                    - 'generic "ERCOT 2026 Market Update: Data Center Surge, Negative Reserve Margins & What Changes Next" [ref=e142]':
+                      - strong [ref=e143]: ERCOT
+                      - strong [ref=e144]: "2026"
+                      - text: Market
+                      - strong [ref=e145]: Update
+                      - text: ": Data Center Surge, Negative Reserve Margins & What Changes Next"
+                    - generic [ref=e146]:
+                      - generic [ref=e147]:
+                        - img "Video source site" [ref=e148]
+                        - text: YouTube · Keentel Engineering
+                      - generic [ref=e149]: 8 views · 2 months ago
+              - 'link "$50K/MW Fee, Zero Allocated MW: ERCOT Batch Zero Large Load Workshop 6 — March 30, 2026 from YouTube · Duration: 6 hours 11 minutes 54 seconds · 68 views · uploaded on 3 months ago · uploaded by James Dickey · Click to play. · ## ERCOT Batch Study Process for Large Load Interconnections — Workshop 6 **PGR-145 / NPRR-1325 | March 30, 2026 | 6 hr 11 min** --- ## WHAT YOU''LL HEAR - Stakeholders challenge ERCOT''s March 4 study validity cutoff date, arguing July 10 (or post-approval date) is the legally consistent benchmark under existing PGR-115 rules - ANGI and ..." [ref=e152] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=68620a78f0a8d19c92f11eb6a58eb8b27131b0d463ff4651b97897dc0444d859JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9ZXJjb3QuY29tKyUyMkxhcmdlK0xvYWQrSW50ZXJjb25uZWN0aW9uK1N0YXR1cytVcGRhdGUlMjIrMjAyNislMjJBcHByb3ZhbCt0bytFbmVyZ2l6ZSUyMitNVytUQUMrcmVwb3J0K3BkZiZtaWQ9NDQzNDg1RTU3NkQ3Q0FDQUU1QkE0NDM0ODVFNTc2RDdDQUNBRTVCQSZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQ2VkazloNzkycWZTUmc3dGxhV1RISXcmRk9STT1WSVJF&ntb=1
+                - generic [ref=e153]:
+                  - generic [ref=e154]:
+                    - 'img "$50K/MW Fee, Zero Allocated MW: ERCOT Batch Zero Large Load Workshop 6 — March 30, 2026" [ref=e156]'
+                    - generic [ref=e162]: 6:11:54
+                  - generic [ref=e163]:
+                    - 'generic "$50K/MW Fee, Zero Allocated MW: ERCOT Batch Zero Large Load Workshop 6 — March 30, 2026" [ref=e164]':
+                      - text: $50K/
+                      - strong [ref=e165]: MW
+                      - text: Fee, Zero Allocated
+                      - strong [ref=e166]: MW
+                      - text: ":"
+                      - strong [ref=e167]: ERCOT
+                      - text: Batch Zero
+                      - strong [ref=e168]: Large
+                      - strong [ref=e169]: Load
+                      - text: Workshop 6 — March 30,
+                      - strong [ref=e170]: "2026"
+                    - generic [ref=e171]:
+                      - generic [ref=e172]:
+                        - img "Video source site" [ref=e173]
+                        - text: YouTube · James Dickey
+                      - generic [ref=e174]: 68 views · 3 months ago
+              - 'link "ERCOT TAC — NPRR 1309 (DRRS), Load Forecast & Market Rule Changes — April 29, 2026 from YouTube · Duration: 5 hours 27 minutes 48 seconds · 19 views · uploaded on 3 months ago · uploaded by James Dickey · Click to play. · Recording of the ERCOT Technical Advisory Committee (TAC) regular meeting held April 29, 2026. The session ran approximately 5 hours and 27 minutes and covered voting on priority revision requests, load forecast updates, large load interconnection matters, and ancillary service market rule changes. ## Key Topics - NPRR 1309 (Dispatchable ..." [ref=e177] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=5695078ac7d6705a051fe60c8e50f2608e64491482158c55625abd24c8b3133eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9ZXJjb3QuY29tKyUyMkxhcmdlK0xvYWQrSW50ZXJjb25uZWN0aW9uK1N0YXR1cytVcGRhdGUlMjIrMjAyNislMjJBcHByb3ZhbCt0bytFbmVyZ2l6ZSUyMitNVytUQUMrcmVwb3J0K3BkZiZtaWQ9OTQ1NzdEOEU1QUI2QjUyOTBDOEQ5NDU3N0Q4RTVBQjZCNTI5MEM4RCZjaHVybD1odHRwcyUzYSUyZiUyZnd3dy55b3V0dWJlLmNvbSUyZmNoYW5uZWwlMmZVQ2VkazloNzkycWZTUmc3dGxhV1RISXcmRk9STT1WSVJF&ntb=1
+                - generic [ref=e178]:
+                  - generic [ref=e179]:
+                    - img "ERCOT TAC — NPRR 1309 (DRRS), Load Forecast & Market Rule Changes — April 29, 2026" [ref=e181]
+                    - generic [ref=e187]: 5:27:48
+                  - generic [ref=e188]:
+                    - generic "ERCOT TAC — NPRR 1309 (DRRS), Load Forecast & Market Rule Changes — April 29, 2026" [ref=e189]:
+                      - strong [ref=e190]: ERCOT
+                      - strong [ref=e191]: TAC
+                      - text: — NPRR 1309 (DRRS),
+                      - strong [ref=e192]: Load
+                      - text: Forecast & Market Rule Changes — April 29,
+                      - strong [ref=e193]: "2026"
+                    - generic [ref=e194]:
+                      - generic [ref=e195]:
+                        - img "Video source site" [ref=e196]
+                        - text: YouTube · James Dickey
+                      - generic [ref=e197]: 19 views · 3 months ago
+        - listitem [ref=e198]:
+          - link "ercotqueue.com" [ref=e200] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9a03e186e988d0fdd40ebe03a53bf6c8027ce63a90181328cd4935d10375271bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3RxdWV1ZS5jb20vbGFyZ2UtbG9hZHM&ntb=1
+            - img "Global web icon" [ref=e204]
+            - generic [ref=e205]:
+              - generic [ref=e206]: ercotqueue.com
+              - generic [ref=e209]: https://www.ercotqueue.com › large-loads
+          - heading "Large Loads · ercotqueue.com" [level=2] [ref=e210]:
+            - link "Large Loads · ercotqueue.com" [ref=e211] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=9a03e186e988d0fdd40ebe03a53bf6c8027ce63a90181328cd4935d10375271bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3RxdWV1ZS5jb20vbGFyZ2UtbG9hZHM&ntb=1
+          - paragraph [ref=e213]: Jun 18, 2026 · Public-source tracker for ERCOT large-load interconnection status, load studies, process events, and supporting filings.
+        - listitem [ref=e214]:
+          - link "Baker Botts" [ref=e216] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=02d5ccd3cc247490aaad1561339888a75041b880c1efe9ee83ba7d5ae5a7feffJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuYmFrZXJib3R0cy5jb20vdGhvdWdodC1sZWFkZXJzaGlwL3B1YmxpY2F0aW9ucy8yMDI2L2F1Z3VzdC90ZXhhcy1sYXJnZS1sb2FkLWludGVyY29ubmVjdGlvbi11cGRhdGUtLS1lcmNvdC1iYXRjaC16ZXJvLXBhdXNlLWFuZC12ZXJpZmljYXRpb24tcHJvY2Vzcw&ntb=1
+            - generic [ref=e221]:
+              - generic [ref=e222]: Baker Botts
+              - generic [ref=e225]: https://www.bakerbotts.com › thought-leadership › ...
+          - 'heading "Texas Large Load Interconnection Update: ERCOT Batch Zero Pause …" [level=2] [ref=e226]':
+            - 'link "Texas Large Load Interconnection Update: ERCOT Batch Zero Pause …" [ref=e227] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=02d5ccd3cc247490aaad1561339888a75041b880c1efe9ee83ba7d5ae5a7feffJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuYmFrZXJib3R0cy5jb20vdGhvdWdodC1sZWFkZXJzaGlwL3B1YmxpY2F0aW9ucy8yMDI2L2F1Z3VzdC90ZXhhcy1sYXJnZS1sb2FkLWludGVyY29ubmVjdGlvbi11cGRhdGUtLS1lcmNvdC1iYXRjaC16ZXJvLXBhdXNlLWFuZC12ZXJpZmljYXRpb24tcHJvY2Vzcw&ntb=1
+          - paragraph [ref=e229]: Aug 17, 2026 · The Governor’s August 3 directive requires the Commission and ERCOT to conduct a comprehensive verification and …
+        - listitem [ref=e230]:
+          - link "keentelengineering.com" [ref=e232] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=16cc2c6bcfed475c4a8dd5d9ed51a5b856fcf91c22a2a7a59300b2d41ba40a4dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9rZWVudGVsZW5naW5lZXJpbmcuY29tL25ld3NsZXR0ZXIvZXJjb3QtZW5lcmd5LW1hcmtldC11cGRhdGUtanVseS0yMDI2&ntb=1
+            - generic [ref=e237]:
+              - generic [ref=e238]: keentelengineering.com
+              - generic [ref=e241]: https://keentelengineering.com › newsletter
+          - heading "ERCOT Energy Market Update | July 2026 Market Intelligence" [level=2] [ref=e242]:
+            - link "ERCOT Energy Market Update | July 2026 Market Intelligence" [ref=e243] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=16cc2c6bcfed475c4a8dd5d9ed51a5b856fcf91c22a2a7a59300b2d41ba40a4dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9rZWVudGVsZW5naW5lZXJpbmcuY29tL25ld3NsZXR0ZXIvZXJjb3QtZW5lcmd5LW1hcmtldC11cGRhdGUtanVseS0yMDI2&ntb=1
+          - paragraph [ref=e245]: Hundreds of thousands of megawatts of large-load interconnection requests — overwhelmingly data centers — have arrived faster …
+        - listitem [ref=e246]:
+          - link "zeroemissiongrid.com" [ref=e248] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9542c2a999b90cdb7942a6230e297dedf6a6a490bfe8add0f3dee4e06a58b57eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuemVyb2VtaXNzaW9uZ3JpZC5jb20vaXNvLXJ0by9lcmNvdC10YWMtanVseS0yMDI2LWhpZ2hsaWdodHMv&ntb=1
+            - generic [ref=e253]:
+              - generic [ref=e254]: zeroemissiongrid.com
+              - generic [ref=e257]: https://www.zeroemissiongrid.com › iso-rto
+          - 'heading "ERCOT TAC July 2026 Highlights: Batch Zero, Large Loads" [level=2] [ref=e258]':
+            - 'link "ERCOT TAC July 2026 Highlights: Batch Zero, Large Loads" [ref=e259] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=9542c2a999b90cdb7942a6230e297dedf6a6a490bfe8add0f3dee4e06a58b57eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuemVyb2VtaXNzaW9uZ3JpZC5jb20vaXNvLXJ0by9lcmNvdC10YWMtanVseS0yMDI2LWhpZ2hsaWdodHMv&ntb=1
+          - paragraph [ref=e261]: Aug 5, 2026 · ERCOT TAC July 2026 meeting summary covering Batch Zero eligibility, large-load interconnections, Comprehensive …
+        - listitem [ref=e262]:
+          - generic [ref=e263]:
+            - link "Explore this image" [ref=e266] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=iYxESG1p&id=C95576BC3A5111C2CA908ED617750FDD3032CC2D&thid=OIP.iYxESG1p7Z9lAGXVLMX9MwHaGx&mediaurl=https://zeg-13bc3.kxcdn.com/wp-content/uploads/2026/05/33.png&q=ercot.com+%22Large+Load+Interconnection+Status+Update%22+2026+%22Approval+to+Energize%22+MW+TAC+report+pdf&ck=1EB47D8CA9AEE87619519C25B6DC3894&idpp=rc&expw=1420&exph=1300&form=rc2idp
+            - generic [ref=e268]:
+              - link "zeroemissiongrid.com" [ref=e270] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e77fddce03bf2f53b0dd9f1ab5f9d779b0e21d0ef76fe37dfc8799ba31a3c045JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuemVyb2VtaXNzaW9uZ3JpZC5jb20vaXNvLXJ0by9lcmNvdC10YWMtMDUtMTkv&ntb=1
+                - generic [ref=e275]:
+                  - generic [ref=e276]: zeroemissiongrid.com
+                  - generic [ref=e279]: https://www.zeroemissiongrid.com › iso-rto
+              - 'heading "ERCOT TAC Meeting: Batch Zero and Large Load …" [level=2] [ref=e280]':
+                - 'link "ERCOT TAC Meeting: Batch Zero and Large Load …" [ref=e281] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=e77fddce03bf2f53b0dd9f1ab5f9d779b0e21d0ef76fe37dfc8799ba31a3c045JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuemVyb2VtaXNzaW9uZ3JpZC5jb20vaXNvLXJ0by9lcmNvdC10YWMtMDUtMTkv&ntb=1
+              - paragraph [ref=e282]: May 22, 2026 · The ERCOT Technical Advisory Committee (TAC) meeting held on May 19, 2026 primarily …
+        - listitem [ref=e284]:
+          - link "ercotqueue.com" [ref=e286] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0b8e71bf5d4e4d7dd7c982e77f5ea87889e28c270a1327c0dfae5423884ab0a7JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3RxdWV1ZS5jb20vY2hhcnRzL2VyY290LWxhcmdlLWxvYWQtZnVubmVs&ntb=1
+            - generic [ref=e291]:
+              - generic [ref=e292]: ercotqueue.com
+              - generic [ref=e295]: https://www.ercotqueue.com › charts › ercot-large-load-funnel
+          - 'heading "ERCOT large-load queue: requested vs approved-to-energize vs …" [level=2] [ref=e296]':
+            - 'link "ERCOT large-load queue: requested vs approved-to-energize vs …" [ref=e297] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=0b8e71bf5d4e4d7dd7c982e77f5ea87889e28c270a1327c0dfae5423884ab0a7JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3RxdWV1ZS5jb20vY2hhcnRzL2VyY290LWxhcmdlLWxvYWQtZnVubmVs&ntb=1
+          - paragraph [ref=e299]: ERCOT's large-load interconnection queue holds 466,497 MW of requests as of June 2026, nearly double the 238,629 MW of March …
+        - listitem [ref=e300]:
+          - link "Electric Power Engineers (EPE)" [ref=e302] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=dadd8d7b17f20fc707987d489f4ac443909798360eb5c664c4e91c222cc369c9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9lcGVjb25zdWx0aW5nLmNvbS8yMDI2LTA1LWVyZ2VuLW1hcmtldC11cGRhdGUtZXJjb3QtbGFyZ2UtbG9hZA&ntb=1
+            - generic [ref=e307]:
+              - generic [ref=e308]: Electric Power Engineers (EPE)
+              - generic [ref=e311]: https://epeconsulting.com
+          - heading "ERCOT Large Load Market Update May 2026 | EPE" [level=2] [ref=e312]:
+            - link "ERCOT Large Load Market Update May 2026 | EPE" [ref=e313] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=dadd8d7b17f20fc707987d489f4ac443909798360eb5c664c4e91c222cc369c9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9lcGVjb25zdWx0aW5nLmNvbS8yMDI2LTA1LWVyZ2VuLW1hcmtldC11cGRhdGUtZXJjb3QtbGFyZ2UtbG9hZA&ntb=1
+          - paragraph [ref=e315]: EPE's May 2026 Market Update discusses critical regulatory developments and process changes that are reshaping the ERCOT queue.
+        - listitem [ref=e316]:
+          - link "interconnectionqueue.org" [ref=e318] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=591a4e2faaf92cfb3c27ea8bf82a0da88ca586f35eae1b196e6fba785fea1bc1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnRlcmNvbm5lY3Rpb25xdWV1ZS5vcmcvaXNvL2VyY290&ntb=1
+            - generic [ref=e323]:
+              - generic [ref=e324]: interconnectionqueue.org
+              - generic [ref=e327]: https://interconnectionqueue.org › iso › ercot
+          - heading "ERCOT interconnection queue — Tracker" [level=2] [ref=e328]:
+            - link "ERCOT interconnection queue — Tracker" [ref=e329] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=591a4e2faaf92cfb3c27ea8bf82a0da88ca586f35eae1b196e6fba785fea1bc1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnRlcmNvbm5lY3Rpb25xdWV1ZS5vcmcvaXNvL2VyY290&ntb=1
+          - paragraph [ref=e331]: Jul 9, 2026 · Queue status reform-in-progress Large-load posture Developing Generation queue notes As of Feb. 28, 2026, ERCOT …
+        - listitem [ref=e332]:
+          - link "Some results have been removed" [ref=e334] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cfae312eccc7b1136a2e8edfaa56fb317e844dceaa61d61539a83af16197d145JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e335]:
+          - navigation "More results for ercot.com \"Large Load Interconnection Status Update\" 2026 \"Approval to Energize\" MW TAC report pdf":
+            - list:
+              - listitem [ref=e336]:
+                - generic "Page 1" [ref=e337]: "1"
+              - listitem [ref=e338]:
+                - link "Page 2" [ref=e339] [cursor=pointer]:
+                  - /url: /search?q=ercot.com+%22Large+Load+Interconnection+Status+Update%22+2026+%22Approval+to+Energize%22+MW+TAC+report+pdf&FPIG=C7DF9F8601134BC4AA2881EA9B13BDA7&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e340]:
+                - link "Page 3" [ref=e341] [cursor=pointer]:
+                  - /url: /search?q=ercot.com+%22Large+Load+Interconnection+Status+Update%22+2026+%22Approval+to+Energize%22+MW+TAC+report+pdf&FPIG=C7DF9F8601134BC4AA2881EA9B13BDA7&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e342]:
+                - link "Next page" [ref=e343] [cursor=pointer]:
+                  - /url: /search?q=ercot.com+%22Large+Load+Interconnection+Status+Update%22+2026+%22Approval+to+Energize%22+MW+TAC+report+pdf&FPIG=C7DF9F8601134BC4AA2881EA9B13BDA7&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=e344]:
+      - list
+  - contentinfo [ref=e345]:
+    - generic [ref=e346]:
+      - list:
+        - listitem [ref=e347]:
+          - link "Privacy" [ref=e348] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e349]:
+          - link "Terms" [ref=e350] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

@@ -257,3 +257,191 @@ parameters:
     url: https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai
     as_of: 2025-04
     note: "China ~25%, Europe ~15%. Electricity share is a proxy for deployment share, not the same thing."
+
+  # ============================================================== NVIDIA
+  nvda_revenue_fy2026:
+    value: 215938
+    unit: USD millions
+    provenance: FILED
+    source: "NVIDIA FY2026 10-K"
+    url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+    as_of: 2026-01-25
+
+  nvda_datacenter_revenue_fy2026:
+    value: 193737
+    unit: USD millions
+    provenance: FILED
+    source: "NVIDIA FY2026 10-K, revenue by specialized markets"
+    url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+    as_of: 2026-01-25
+    note: "89.7% of total. Compute 162,361 / Networking 31,376."
+
+  nvda_fy2027_h1_actual:
+    value: 177837
+    unit: USD millions
+    provenance: FILED
+    source: "NVIDIA Q2 FY2027 10-Q, six months ended 2026-07-26"
+    url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+    as_of: 2026-07-26
+
+  nvda_q3_fy2027_guidance_midpoint:
+    value: 108000
+    unit: USD millions
+    provenance: FILED
+    source: "NVIDIA Q2 FY2027 earnings release (8-K), +/- 2%"
+    url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000073/q2fy27pr.htm
+    as_of: 2026-08-26
+    note: "+12.2% q/q off Q2's 96.221."
+
+  nvda_fy2028_revenue_growth_guided:
+    value: "0.70"
+    unit: dimensionless
+    provenance: FILED
+    source: "Colette Kress, CFO, Q2 FY2027 earnings call: 'approximately 70%... This is a supply-constrained outlook.'"
+    url: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+    as_of: 2026-08-26
+    note: >
+      THE DOLLAR FIGURE $673B IS NOT NVIDIA'S. It is CNBC's arithmetic:
+      $396B LSEG analyst consensus x 1.70. The string "673" appears zero
+      times in the 8-K, the 10-Q and the corrected call transcript, and
+      neither filing contains any FY2028 revenue statement at all.
+
+  nvda_revenue_per_gw_hopper:
+    value: 18
+    unit: USD billions per GW
+    provenance: FILED
+    source: "Kress/Huang, Q2 FY2027 call"
+    url: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+    as_of: 2026-08-26
+    note: "Restated: on the Q3 FY2026 call nine months earlier Huang said Hopper was 'twenty to twenty-five'."
+
+  nvda_revenue_per_gw_grace_blackwell:
+    value: 25
+    unit: USD billions per GW
+    provenance: FILED
+    source: "Kress/Huang, Q2 FY2027 call"
+    url: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+    as_of: 2026-08-26
+    note: "Restated from 'probably 30 plus or minus' nine months earlier."
+
+  nvda_revenue_per_gw_vera_rubin:
+    value: 40
+    unit: USD billions per GW
+    provenance: FILED
+    source: "Kress/Huang, Q2 FY2027 call"
+    url: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+    as_of: 2026-08-26
+    note: >
+      The single most useful parameter in the whole model: it converts a
+      revenue forecast directly into gigawatts. Independently cross-checked
+      against PORTS-Pike (4.25 GW / ~1.5M GPUs) at ~$34.3B/GW.
+
+  nvda_gross_margin_fy2028_guided:
+    value: ["0.72", "0.73"]
+    unit: dimensionless
+    provenance: FILED
+    source: "Kress, Q2 FY2027 call: margins bottom 71-72% in Q4 then 72-73% in FY2028 'as executed price increases take effect in Q1'"
+    url: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+    as_of: 2026-08-26
+    note: "Margin EXPANDING into FY2028 on executed price increases. Not the signature of ASP compression."
+
+  nvda_supply_commitments:
+    value: 279000
+    unit: USD millions
+    provenance: FILED
+    source: "NVIDIA Q2 FY2027 10-Q, supply and capacity commitments"
+    url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm
+    as_of: 2026-07-26
+    note: >
+      Up from $119B the prior quarter, 'primarily memory and manufacturing
+      facilities'. $267B of the $279B matures inside three fiscal years.
+      Portions are explicitly cancelable, rescheduled or adjustable.
+
+  # ------------------------------------------------- CoWoS: the doubling claim
+  cowos_wpm_2023: {value: 13000,  unit: wafers/month, provenance: ESTIMATED, source: "Nomad Semi", url: "https://www.nomadsemi.com/p/tsmcs-cowos-capacity"}
+  cowos_wpm_2024: {value: 35000,  unit: wafers/month, provenance: ESTIMATED, source: "Commercial Times via TrendForce", url: "https://www.trendforce.com/news/2024/12/13/news-tsmc-ramps-up-cowos-capacity-across-taiwan-projected-to-nearly-triple-by-2026/"}
+  cowos_wpm_2025: {value: 77500,  unit: wafers/month, provenance: ESTIMATED, source: "TrendForce (75-80k actual)", url: "https://www.trendforce.com/news/2025/12/08/news-tsmcs-cowos-l-s-reportedly-fully-booked-osat-partners-step-up-with-ases-cowop-in-focus/"}
+  cowos_wpm_2026: {value: 130000, unit: wafers/month, provenance: ESTIMATED, source: "TrendForce (120-140k TSMC in-house)", url: "https://www.trendforce.com/news/2026/06/15/news-tsmc-cowos-supply-demand-gap-reportedly-seen-narrowing-from-20-to-10-by-end-2026-as-capacity-expands/"}
+  cowos_wpm_2027: {value: 200000, unit: wafers/month, provenance: ESTIMATED, source: "DigiTimes", url: "https://www.digitimes.com/news/a20260710PD226/tsmc-cowos-2027-packaging-capacity.html"}
+  cowos_wpm_2028: {value: 260000, unit: wafers/month, provenance: ESTIMATED, source: "TrendForce", url: "https://www.trendforce.com/news/2026/09/14/news-tsmc-reportedly-targets-22-2nm-16-3nm-capacity-boost-by-mid-2027-cowos-to-double-by-2028"}
+
+  fab_build_years:
+    value: [2, 3]
+    unit: years
+    provenance: FILED
+    source: "C.C. Wei, TSMC CEO, 1Q26 call: 'two to three years to build a new fab. No shortcuts.'"
+    url: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+    as_of: 2026-04
+
+  fab_ramp_years:
+    value: [1, 2]
+    unit: years
+    provenance: FILED
+    source: "C.C. Wei, TSMC CEO, 1Q26 call: 'And it takes another one to two years to ramp it up.'"
+    url: https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-08/3e494f0c14dd0890f897aa044415e21d93486cc4/TSMC%202Q26%20Transcript.pdf
+    as_of: 2026-04
+
+  # ---------------------------------------------------- GPU rental prices
+  h100_neocloud_usd_per_gpu_hour_trough:
+    value: "2.00"
+    unit: USD/GPU-hour
+    provenance: ESTIMATED
+    source: "Silicon Data neocloud index trough, 2025-12-09"
+    url: https://www.silicondata.com/blog/h100-price-spike
+    as_of: 2025-12-09
+
+  h100_neocloud_usd_per_gpu_hour_now:
+    value: "2.65"
+    unit: USD/GPU-hour
+    provenance: ESTIMATED
+    source: "Silicon Data neocloud index"
+    url: https://www.silicondata.com/blog/h100-price-spike
+    as_of: 2026-09-18
+    note: "Silicon Data's own public pages served inconsistent values the same day ($2.53 vs $2.65). Licensed feed required for precision."
+
+  a100_neocloud_usd_per_gpu_hour_now:
+    value: "1.58"
+    unit: USD/GPU-hour
+    provenance: ESTIMATED
+    source: "Silicon Data neocloud index"
+    url: https://www.silicondata.com/blog/h100-price-spike
+    as_of: 2026-09-18
+    note: "An A100 is a 2020 part. It is appreciating."
+
+  h100_rental_yoy_change_disclosed:
+    value: "0.20"
+    unit: dimensionless
+    provenance: FILED
+    source: "NVIDIA Q1 FY2027 call: 'The price of renting an H100 has risen 20% year to date, while A100 cloud pricing is up nearly 15%.'"
+    url: https://www.nvidia.com/en-us/investor-relations/
+    as_of: 2026-05-20
+
+  h100_reserve_12mo_usd_per_gpu_hour:
+    value: "2.30"
+    unit: USD/GPU-hour
+    provenance: ESTIMATED
+    source: "Silicon Data term structure, 2026-09-07 (spot 2.63)"
+    url: https://www.silicondata.com/blog/compute-provider-guide-arbitrage-reserve-contracts-gpu-futures
+    as_of: 2026-09-07
+    note: "Backwardated: committed capacity is CHEAPER than spot at every observed tenor."
+
+  neocloud_contracted_ebitda_margin:
+    value: "0.75"
+    unit: dimensionless
+    provenance: FILED
+    source: "CoreWeave March 2026 investor presentation, illustrative contracted run-rate incl. lease obligations, power and direct opex"
+    url: https://s205.q4cdn.com/133937190/files/doc_events/2026/Mar/02/March-2026-Investor-Presentation.pdf
+    as_of: 2026-03
+
+  nebius_yield_per_mw_year_midterm:
+    value: [20, 25]
+    unit: USD millions per MW per year
+    provenance: FILED
+    source: "Nebius Q2 2026 disclosure, mid-term deals"
+    url: https://group.nebius.com/investors
+    as_of: 2026-07
+    note: >
+      The only disclosure anywhere that converts directly between megawatts
+      and revenue, which makes it the bridge between the grid side and the
+      economics side of this model. Short-duration (<=6mo) deals yield
+      $40-50M/MW/yr.

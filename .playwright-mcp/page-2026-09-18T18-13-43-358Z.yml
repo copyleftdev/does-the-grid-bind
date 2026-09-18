@@ -1,0 +1,278 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: Synergy Research hyperscale data center capacity GW 2026 number operational US share
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards" [ref=e25] [cursor=pointer]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: Rewards
+          - img [ref=e30]
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Web" [ref=e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=5e1aaf2052bea586099405d256e102f7a74cc5e2f992378e4c375dd245c27ca0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPVN5bmVyZ3krUmVzZWFyY2graHlwZXJzY2FsZStkYXRhK2NlbnRlcitjYXBhY2l0eStHVysyMDI2K251bWJlcitvcGVyYXRpb25hbCtVUytzaGFyZSZ3ZWJzY3A9MSZGT1JNPUhEUldTQw&ntb=1
+        - listitem [ref=e50]:
+          - link "Search" [ref=e51] [cursor=pointer]:
+            - /url: /copilotsearch?q=Synergy+Research+hyperscale+data+center+capacity+GW+2026+number+operational+US+share&FORM=CSSCOP
+            - img [ref=e52]
+            - text: Search
+        - listitem [ref=e54]:
+          - link "Images" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=dfc4817010fdb4768d5a93e279744bc0bbc15de4dca3c7d5cba2759559cb96ffJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT1TeW5lcmd5K1Jlc2VhcmNoK2h5cGVyc2NhbGUrZGF0YStjZW50ZXIrY2FwYWNpdHkrR1crMjAyNitudW1iZXIrb3BlcmF0aW9uYWwrVVMrc2hhcmUmRk9STT1IRFJTQzM&ntb=1
+        - listitem [ref=e56]:
+          - link "Videos" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=97c1e2a8f6086fc9a647988baaf7c02b9d57ea6b071c74e1b005bfc423ec1579JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT1TeW5lcmd5K1Jlc2VhcmNoK2h5cGVyc2NhbGUrZGF0YStjZW50ZXIrY2FwYWNpdHkrR1crMjAyNitudW1iZXIrb3BlcmF0aW9uYWwrVVMrc2hhcmUmRk9STT1IRFJTQzQ&ntb=1
+        - listitem [ref=e58]:
+          - link "Maps" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=574b96eb9bef067eea8b101e17affaa5cbd38a999983cfb7f8c2afb0e22e6362JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT1TeW5lcmd5K1Jlc2VhcmNoK2h5cGVyc2NhbGUrZGF0YStjZW50ZXIrY2FwYWNpdHkrR1crMjAyNitudW1iZXIrb3BlcmF0aW9uYWwrVVMrc2hhcmUmRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=e60]:
+          - link "Copilot" [ref=e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f907fb3b0ba2964055630ed0859a59e1726ee23c9434e616b52aad44d9f1eb41JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PVN5bmVyZ3krUmVzZWFyY2graHlwZXJzY2FsZStkYXRhK2NlbnRlcitjYXBhY2l0eStHVysyMDI2K251bWJlcitvcGVyYXRpb25hbCtVUytzaGFyZSZzZW5kcXVlcnk9MSZGT1JNPVNDQ09EWA&ntb=1
+        - listitem [ref=e62]:
+          - button "More" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: More
+  - main "Search Results" [ref=e68]:
+    - generic [ref=e69]:
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - heading "Copilot Search Branding" [level=2] [ref=e75]:
+                - link "Copilot Search Branding" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=445832e6c9680542260a483f566477a8af31bf18fa3c8aaa149aa30aac283489JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NvcGlsb3RzZWFyY2g_cT1TeW5lcmd5K1Jlc2VhcmNoK2h5cGVyc2NhbGUrZGF0YStjZW50ZXIrY2FwYWNpdHkrR1crMjAyNitudW1iZXIrb3BlcmF0aW9uYWwrVVMrc2hhcmUmZm9ybT1DU0JSQU5E&ntb=1
+              - button "More info about AI summary" [ref=e82]:
+                - img [ref=e84]
+            - region "Copilot Search" [ref=e88]:
+              - generic [ref=e94]: Searching for "Synergy Research hyperscale data center capacity GW 2026 number operational US share"
+      - list [ref=e95]:
+        - listitem [ref=e96]:
+          - link "TechInsights" [ref=e98] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1f33057a8098d14201bf367e00638cd8326de82243a2a2e87805e4b56caa3081JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cudGVjaGluc2lnaHRzLmNvbS9ibG9nL2h5cGVyc2NhbGVycy1nbG9iYWwtZGF0YWNlbnRlci1jYXBhY2l0eS1RMS0yMDI2&ntb=1
+            - generic [ref=e103]:
+              - generic [ref=e104]: TechInsights
+              - generic [ref=e107]: https://www.techinsights.com › blog
+          - heading "US Leads Global Datacenter Capacity in 2026 | TechInsights" [level=2] [ref=e108]:
+            - link "US Leads Global Datacenter Capacity in 2026 | TechInsights" [ref=e109] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=1f33057a8098d14201bf367e00638cd8326de82243a2a2e87805e4b56caa3081JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cudGVjaGluc2lnaHRzLmNvbS9ibG9nL2h5cGVyc2NhbGVycy1nbG9iYWwtZGF0YWNlbnRlci1jYXBhY2l0eS1RMS0yMDI2&ntb=1
+          - paragraph [ref=e111]: Aug 20, 2026 · Synergy Research Group, now part of TechInsights, has updated its analysis of the world’s leading locations for …
+        - listitem [ref=e112]:
+          - link "srgresearch.com" [ref=e114] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a87b1fdbe80dc27b1391d0cfd02fc38b49cd4383b352f2259acf2db24713d31cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc3JncmVzZWFyY2guY29tL2FydGljbGVzL2h5cGVyc2NhbGUtc3BlbmRpbmctc3ByZWUtaXMtZHJpdmluZy1kcmFtYXRpYy1ncm93dGgtaW4tZGF0YS1jZW50ZXItY2FwYWNpdHk&ntb=1
+            - generic [ref=e119]:
+              - generic [ref=e120]: srgresearch.com
+              - generic [ref=e123]: https://www.srgresearch.com › articles › hyperscale...
+          - heading "Hyperscale Spending Spree is Driving Dramatic Growth in Data …" [level=2] [ref=e124]:
+            - link "Hyperscale Spending Spree is Driving Dramatic Growth in Data …" [ref=e125] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=a87b1fdbe80dc27b1391d0cfd02fc38b49cd4383b352f2259acf2db24713d31cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc3JncmVzZWFyY2guY29tL2FydGljbGVzL2h5cGVyc2NhbGUtc3BlbmRpbmctc3ByZWUtaXMtZHJpdmluZy1kcmFtYXRpYy1ncm93dGgtaW4tZGF0YS1jZW50ZXItY2FwYWNpdHk&ntb=1
+          - paragraph [ref=e127]: Dec 19, 2025 · AI-driven expansion has also seen the US share of worldwide hyperscale operational capacity increase. The US now …
+        - listitem [ref=e128]:
+          - link "useluminix.com" [ref=e130] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f44b913ec7d4bc31de45c05e1210f1c9afdcdfa9ec7c488a8e203192dff0fc6aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cudXNlbHVtaW5peC5jb20vcmVwb3J0cy9pbmR1c3RyeS1hbmFseXNpcy9jb3VudGluZy1vcGVyYXRpb25hbC1kYXRhLWNlbnRlcnMtaW4tdGhlLXVzLW1heS0yMDI2&ntb=1
+            - generic [ref=e135]:
+              - generic [ref=e136]: useluminix.com
+              - generic [ref=e139]: https://www.useluminix.com › ...
+          - 'heading "US Data Centers 2026: 61.8 GW Operational Capacity & Pipeline Reality" [level=2] [ref=e140]':
+            - 'link "US Data Centers 2026: 61.8 GW Operational Capacity & Pipeline Reality" [ref=e141] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=f44b913ec7d4bc31de45c05e1210f1c9afdcdfa9ec7c488a8e203192dff0fc6aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cudXNlbHVtaW5peC5jb20vcmVwb3J0cy9pbmR1c3RyeS1hbmFseXNpcy9jb3VudGluZy1vcGVyYXRpb25hbC1kYXRhLWNlbnRlcnMtaW4tdGhlLXVzLW1heS0yMDI2&ntb=1
+          - paragraph [ref=e143]: May 16, 2026 · Source Research Reports The full underlying research reports cited throughout this analysis. Tap a report to expand. …
+        - listitem [ref=e144]:
+          - link "srgresearch.com" [ref=e146] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=286c769482ec14c220bea52eb5b2077f716f8bdc6912188c977363b5f0f6997fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc3JncmVzZWFyY2guY29tL3Jlc2VhcmNoL2h5cGVyc2NhbGUtbWFya2V0LXRyYWNrZXI&ntb=1
+            - generic [ref=e151]:
+              - generic [ref=e152]: srgresearch.com
+              - generic [ref=e155]: https://www.srgresearch.com › research › hyperscale-market-tracker
+          - heading "Hyperscale Market Tracker | Synergy Research Group" [level=2] [ref=e156]:
+            - link "Hyperscale Market Tracker | Synergy Research Group" [ref=e157] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=286c769482ec14c220bea52eb5b2077f716f8bdc6912188c977363b5f0f6997fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc3JncmVzZWFyY2guY29tL3Jlc2VhcmNoL2h5cGVyc2NhbGUtbWFya2V0LXRyYWNrZXI&ntb=1
+          - paragraph [ref=e159]: The Synergy Research Group Hyperscale Cloud Market Tracker monitors the small group of companies that operate global networks …
+        - listitem [ref=e160]:
+          - link "lambdafin.com" [ref=e162] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0120aec64687d1773ff9a40d78acb0a86d62615d4cbe989bc5cba10a9889d7efJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cubGFtYmRhZmluLmNvbS9hcnRpY2xlcy9sYXJnZXN0LWRhdGFjZW50ZXItb3BlcmF0b3JzLWJ5LWNhcGFjaXR5LTIwMjY&ntb=1
+            - generic [ref=e167]:
+              - generic [ref=e168]: lambdafin.com
+              - generic [ref=e171]: https://www.lambdafin.com › articles
+          - heading "Largest Datacenter Operators by Capacity 2026 - Lambda Finance" [level=2] [ref=e172]:
+            - link "Largest Datacenter Operators by Capacity 2026 - Lambda Finance" [ref=e173] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=0120aec64687d1773ff9a40d78acb0a86d62615d4cbe989bc5cba10a9889d7efJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cubGFtYmRhZmluLmNvbS9hcnRpY2xlcy9sYXJnZXN0LWRhdGFjZW50ZXItb3BlcmF0b3JzLWJ5LWNhcGFjaXR5LTIwMjY&ntb=1
+          - paragraph [ref=e175]: May 23, 2026 · The four largest US hyperscalers (Amazon, Microsoft, Alphabet, Meta) together operate roughly 19.4 GW of self-built …
+        - listitem [ref=e176]:
+          - link "lowdown.today" [ref=e178] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0e24c136468f3d2dbf49614aa070c37755efe0741584d6b26276a426ef8e85acJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9sb3dkb3duLnRvZGF5L2Uvc3luZXJneS1yZXNlYXJjaC1ncm91cC8&ntb=1
+            - generic [ref=e183]:
+              - generic [ref=e184]: lowdown.today
+              - generic [ref=e187]: https://lowdown.today › synergy-research-group
+          - 'heading "Synergy Research Group | Data Centres: Boom and Backlash" [level=2] [ref=e188]':
+            - 'link "Synergy Research Group | Data Centres: Boom and Backlash" [ref=e189] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=0e24c136468f3d2dbf49614aa070c37755efe0741584d6b26276a426ef8e85acJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9sb3dkb3duLnRvZGF5L2Uvc3luZXJneS1yZXNlYXJjaC1ncm91cC8&ntb=1
+          - paragraph [ref=e191]: Jul 25, 2026 · Synergy Research Group counted a US data-centre forward pipeline near 45 GW across 74 companies as of 23 July …
+        - listitem [ref=e192]:
+          - generic [ref=e193]:
+            - link "Explore this image" [ref=e196] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=uG+/mIBB&id=792FDC7CE6A761456B12A184F4750FB12C0D61E0&thid=OIP.uG-_mIBBngLdEseGSUMVCAAAAA&mediaurl=https://eu-images.contentstack.com/v3/assets/blt8eb3cdfc1fce5194/bltd99cf7f24751b758/695c1af839267baf51f0aaa4/world_map_of_electronic_and_digital_components_conceptually_representing_the_world_s_technology.jpg?disable=upscale&width=1200&height=630&fit=crop&q=Synergy+Research+hyperscale+data+center+capacity+GW+2026+number+operational+US+share&ck=E299EF3FB8B13E7CA4570F7E91554F6E&idpp=rc&expw=474&exph=248&form=rc2idp
+            - generic [ref=e198]:
+              - link "Data Center Knowledge" [ref=e200] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=8b5b61498686ff68f235a2fee67e3f13dc86a5560db7a9e9e37cba0383280e00JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmtub3dsZWRnZS5jb20vaHlwZXJzY2FsZXJzL2h5cGVyc2NhbGVycy1pbi0yMDI2LXdoYXQtcy1uZXh0LWZvci10aGUtd29ybGQtcy1sYXJnZXN0LWRhdGEtY2VudGVyLW9wZXJhdG9ycy0&ntb=1
+                - generic [ref=e205]:
+                  - generic [ref=e206]: Data Center Knowledge
+                  - generic [ref=e209]: https://www.datacenterknowledge.com › hyperscalers
+              - 'heading "AI-First Hyperscalers: 2026’s Sprint Meets the Power …" [level=2] [ref=e210]':
+                - 'link "AI-First Hyperscalers: 2026’s Sprint Meets the Power …" [ref=e211] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=8b5b61498686ff68f235a2fee67e3f13dc86a5560db7a9e9e37cba0383280e00JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmtub3dsZWRnZS5jb20vaHlwZXJzY2FsZXJzL2h5cGVyc2NhbGVycy1pbi0yMDI2LXdoYXQtcy1uZXh0LWZvci10aGUtd29ybGQtcy1sYXJnZXN0LWRhdGEtY2VudGVyLW9wZXJhdG9ycy0&ntb=1
+              - paragraph [ref=e212]: Jan 6, 2026 · As of late 2025, Synergy Research Group counted 1,297 operational hyperscale data centers …
+        - listitem [ref=e214]:
+          - link "DatacenterDynamics" [ref=e216] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ed9046fdcecc2b30b48aa355b8fff3f483939c198e9008833bccfb51b1da4c97JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmR5bmFtaWNzLmNvbS9lbi90YWdzL3N5bmVyZ3ktcmVzZWFyY2gtZ3JvdXAv&ntb=1
+            - generic [ref=e221]:
+              - generic [ref=e222]: DatacenterDynamics
+              - generic [ref=e225]: https://www.datacenterdynamics.com › en › tags › synergy-research-group
+          - heading "Synergy Research Group - DCD - datacenterdynamics.com" [level=2] [ref=e226]:
+            - link "Synergy Research Group - DCD - datacenterdynamics.com" [ref=e227] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=ed9046fdcecc2b30b48aa355b8fff3f483939c198e9008833bccfb51b1da4c97JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmR5bmFtaWNzLmNvbS9lbi90YWdzL3N5bmVyZ3ktcmVzZWFyY2gtZ3JvdXAv&ntb=1
+          - paragraph [ref=e229]: Jan 2, 2026 · Twenty markets account for 60 percent of hyperscale data center capacity - Synergy 31 Jul 2026
+        - listitem [ref=e230]:
+          - link "theworlddata.com" [ref=e232] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f6db2147863f38850a9e44a0ce7875068bb4151fe5c06058f3c816d9f9e8d06fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly90aGV3b3JsZGRhdGEuY29tL2RhdGEtY2VudGVyLXN0YXRpc3RpY3MtaW4tdXMv&ntb=1
+            - generic [ref=e237]:
+              - generic [ref=e238]: theworlddata.com
+              - generic [ref=e241]: https://theworlddata.com › data-center-statistics-in-us
+          - heading "Data Center Statistics in US 2026 | Data Center Facts" [level=2] [ref=e242]:
+            - link "Data Center Statistics in US 2026 | Data Center Facts" [ref=e243] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=f6db2147863f38850a9e44a0ce7875068bb4151fe5c06058f3c816d9f9e8d06fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly90aGV3b3JsZGRhdGEuY29tL2RhdGEtY2VudGVyLXN0YXRpc3RpY3MtaW4tdXMv&ntb=1
+          - paragraph [ref=e245]: Apr 9, 2026 · The US accounts for approximately 54% of all hyperscale data center capacity worldwide, a concentration that reflects …
+        - listitem [ref=e246]:
+          - link "CRN" [ref=e248] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7b2e10e765fd889fd2031f14b9298014fd2afbb9b2fea92adc858e8ea71e2c6cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY3JuLmNvbS9uZXdzL2RhdGEtY2VudGVyLzIwMjYvZGF0YS1jZW50ZXItbWFya2V0LXNoYXJlLWZhY2Utb2ZmLWh5cGVyc2NhbGVycy12cy1jb2xvY2F0aW9uLXZzLWVudGVycHJpc2U&ntb=1
+            - generic [ref=e253]:
+              - generic [ref=e254]: CRN
+              - generic [ref=e257]: https://www.crn.com › news › data-center › data...
+          - 'heading "Data Center Market Share Face-Off: Hyperscalers Vs. Colo Vs ... - CRN" [level=2] [ref=e258]':
+            - 'link "Data Center Market Share Face-Off: Hyperscalers Vs. Colo Vs ... - CRN" [ref=e259] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=7b2e10e765fd889fd2031f14b9298014fd2afbb9b2fea92adc858e8ea71e2c6cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY3JuLmNvbS9uZXdzL2RhdGEtY2VudGVyLzIwMjYvZGF0YS1jZW50ZXItbWFya2V0LXNoYXJlLWZhY2Utb2ZmLWh5cGVyc2NhbGVycy12cy1jb2xvY2F0aW9uLXZzLWVudGVycHJpc2U&ntb=1
+          - paragraph [ref=e261]: Apr 10, 2026 · Data center capacity market share is led by cloud hyperscalers in 2026, with colocation data centers and enterprise …
+        - listitem [ref=e262]:
+          - generic [ref=e264]:
+            - heading "People also ask" [level=2] [ref=e265]:
+              - generic [ref=e266]: People also ask
+            - list [ref=e269]:
+              - listitem [ref=e270]:
+                - heading "How many hyperscale data centers are there in 2025?" [level=3] [ref=e271]:
+                  - button "How many hyperscale data centers are there in 2025?" [ref=e272] [cursor=pointer]:
+                    - generic [ref=e273]: How many hyperscale data centers are there in 2025?
+                    - generic:
+                      - img
+              - listitem [ref=e274]:
+                - heading "How many hyperscale data centers will synergy have in Q3?" [level=3] [ref=e275]:
+                  - button "How many hyperscale data centers will synergy have in Q3?" [ref=e276] [cursor=pointer]:
+                    - generic [ref=e277]: How many hyperscale data centers will synergy have in Q3?
+                    - generic:
+                      - img
+              - listitem [ref=e278]:
+                - heading "Will hyperscalers control global data center capacity?" [level=3] [ref=e279]:
+                  - button "Will hyperscalers control global data center capacity?" [ref=e280] [cursor=pointer]:
+                    - generic [ref=e281]: Will hyperscalers control global data center capacity?
+                    - generic:
+                      - img
+              - listitem [ref=e282]:
+                - heading "How many hyperscale data centers are there?" [level=3] [ref=e283]:
+                  - button "How many hyperscale data centers are there?" [ref=e284] [cursor=pointer]:
+                    - generic [ref=e285]: How many hyperscale data centers are there?
+                    - generic:
+                      - img
+        - listitem [ref=e287]:
+          - generic [ref=e288]:
+            - heading "Searches you might like" [level=2] [ref=e289]
+            - list [ref=e290]:
+              - listitem [ref=e291]:
+                - link "hyperscale data centers" [ref=e292] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=92a176c52c15408099c573604e1a6f22cf4ee1c6d958898198292d938ff7a7c8JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWh5cGVyc2NhbGUlMjBkYXRhJTIwY2VudGVycyZGT1JNPUJNUVMwMQ&ntb=1
+                  - generic [ref=e294]:
+                    - strong [ref=e295]: hyperscale
+                    - text: data centers
+              - listitem [ref=e296]:
+                - link "largest data center companies" [ref=e297] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=5117ac0b1020e9ff647a0941ec000181727cdda98caa1b9ac00ba445198e08e2JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWxhcmdlc3QlMjBkYXRhJTIwY2VudGVyJTIwY29tcGFuaWVzJkZPUk09Qk1RUzAy&ntb=1
+                  - generic [ref=e299]:
+                    - text: largest
+                    - strong [ref=e300]: data center
+                    - text: companies
+              - listitem [ref=e301]:
+                - link "data center companies in usa" [ref=e302] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=4a0de62fe22a56d192998ea7fc826715937f62ba419a7cf26a6b535371d07fe6JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjBjb21wYW5pZXMlMjBpbiUyMHVzYSZGT1JNPUJNUVMwMw&ntb=1
+                  - generic [ref=e304]:
+                    - strong [ref=e305]: data center
+                    - text: companies in usa
+              - listitem [ref=e306]:
+                - link "data center world 2025" [ref=e307] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1a4e4f9ba05a25359e9f71d6eacb189baed53975a06cb2d73f714c51950b68bfJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjB3b3JsZCUyMDIwMjUmRk9STT1CTVFTMDQ&ntb=1
+                  - generic [ref=e309]:
+                    - text: data center world
+                    - strong [ref=e310]: "2025"
+              - listitem [ref=e311]:
+                - link "data center power solutions" [ref=e312] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f655ec19b744e2d2e3b89b6008b90eb31382c98659bb03295398b2909ba06d43JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjBwb3dlciUyMHNvbHV0aW9ucyZGT1JNPUJNUVMwNQ&ntb=1
+                  - generic [ref=e314]:
+                    - strong [ref=e315]: data center power
+                    - text: solutions
+              - listitem [ref=e316]:
+                - link "data center construction projects" [ref=e317] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f706b7d1e64fce7fb2bff76c34e8bb1220263679d8c0295c3907c2b56e2f4c43JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjBjb25zdHJ1Y3Rpb24lMjBwcm9qZWN0cyZGT1JNPUJNUVMwNg&ntb=1
+                  - generic [ref=e319]:
+                    - strong [ref=e320]: data center
+                    - text: construction projects
+              - listitem [ref=e321]:
+                - link "data center solutions" [ref=e322] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=50a788bed43bd969c0506c5d2b1f2b3f6ae42a1c9468b9d2260cc8458a02cbb8JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjBzb2x1dGlvbnMmRk9STT1CTVFTMDc&ntb=1
+                  - generic [ref=e324]:
+                    - strong [ref=e325]: data center
+                    - text: solutions
+              - listitem [ref=e326]:
+                - link "top data center companies" [ref=e327] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=0c00bd557f4d6399f45f7171d219d22c2d58ca8fa639bad051c83a62fc621ac6JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPXRvcCUyMGRhdGElMjBjZW50ZXIlMjBjb21wYW5pZXMmRk9STT1CTVFTMDg&ntb=1
+                  - generic [ref=e329]:
+                    - text: top
+                    - strong [ref=e330]: data center companies
+        - listitem [ref=e331]:
+          - navigation "More results for Synergy Research hyperscale data center capacity GW 2026 number operational US share":
+            - list:
+              - listitem [ref=e332]:
+                - generic "Page 1" [ref=e333]: "1"
+              - listitem [ref=e334]:
+                - link "Page 2" [ref=e335] [cursor=pointer]:
+                  - /url: /search?q=Synergy+Research+hyperscale+data+center+capacity+GW+2026+number+operational+US+share&FPIG=6992EDF760AC470CA42247882A4D42CB&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e336]:
+                - link "Page 3" [ref=e337] [cursor=pointer]:
+                  - /url: /search?q=Synergy+Research+hyperscale+data+center+capacity+GW+2026+number+operational+US+share&FPIG=6992EDF760AC470CA42247882A4D42CB&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e338]:
+                - link "Next page" [ref=e339] [cursor=pointer]:
+                  - /url: /search?q=Synergy+Research+hyperscale+data+center+capacity+GW+2026+number+operational+US+share&FPIG=6992EDF760AC470CA42247882A4D42CB&first=11&FORM=PORE
+      - complementary "Additional Results" [ref=e340]:
+        - list
+  - contentinfo [ref=e341]:
+    - generic [ref=e342]:
+      - list:
+        - listitem [ref=e343]:
+          - link "Privacy" [ref=e344] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e345]:
+          - link "Terms" [ref=e346] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

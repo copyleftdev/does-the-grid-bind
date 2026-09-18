@@ -1,0 +1,280 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: ERCOT large load interconnection queue GW energized 2026 report "large flexible load" MW
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards"
+      - link "Sign in" [ref=e25] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e26]
+    - navigation "Search Filter" [ref=e27]:
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "All" [ref=e30] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e31]:
+          - link "Web" [ref=e32] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3c171a97b391d609e52370e74ad72de14793c58066a480ca4b7989b5f44e958fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPUVSQ09UK2xhcmdlK2xvYWQraW50ZXJjb25uZWN0aW9uK3F1ZXVlK0dXK2VuZXJnaXplZCsyMDI2K3JlcG9ydCslMjJsYXJnZStmbGV4aWJsZStsb2FkJTIyK01XJndlYnNjcD0xJkZPUk09SERSV1ND&ntb=1
+        - listitem [ref=e33]:
+          - link "Search" [ref=e34] [cursor=pointer]:
+            - /url: /copilotsearch?q=ERCOT+large+load+interconnection+queue+GW+energized+2026+report+%22large+flexible+load%22+MW&FORM=CSSCOP
+            - img [ref=e35]
+            - text: Search
+        - listitem [ref=e37]:
+          - link "Videos" [ref=e38] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=032842cf118e9841e80b6069a85045e6705439055686a05aca959f2e7dc87a48JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT1FUkNPVCtsYXJnZStsb2FkK2ludGVyY29ubmVjdGlvbitxdWV1ZStHVytlbmVyZ2l6ZWQrMjAyNityZXBvcnQrJTIybGFyZ2UrZmxleGlibGUrbG9hZCUyMitNVyZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=e39]:
+          - link "Images" [ref=e40] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e735ed5104010054d94bd6e7888ba0695f8f614b1ab815df95bb042d84852642JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT1FUkNPVCtsYXJnZStsb2FkK2ludGVyY29ubmVjdGlvbitxdWV1ZStHVytlbmVyZ2l6ZWQrMjAyNityZXBvcnQrJTIybGFyZ2UrZmxleGlibGUrbG9hZCUyMitNVyZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=e41]:
+          - link "Maps" [ref=e42] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=715ddc7b14c24f463b9e587fbe2e436189144f23c2d5b46d28d24ba35c20d944JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT1FUkNPVCtsYXJnZStsb2FkK2ludGVyY29ubmVjdGlvbitxdWV1ZStHVytlbmVyZ2l6ZWQrMjAyNityZXBvcnQrJTIybGFyZ2UrZmxleGlibGUrbG9hZCUyMitNVyZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e43]:
+          - link "Copilot" [ref=e44] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=19619521f14074f69b693cf37e9bf218b5519f3089da4ff092660f3bbec8533fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PUVSQ09UK2xhcmdlK2xvYWQraW50ZXJjb25uZWN0aW9uK3F1ZXVlK0dXK2VuZXJnaXplZCsyMDI2K3JlcG9ydCslMjJsYXJnZStmbGV4aWJsZStsb2FkJTIyK01XJnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+        - listitem [ref=e45]:
+          - button "More" [ref=e46] [cursor=pointer]:
+            - img [ref=e48]
+            - text: More
+  - generic [ref=e50]:
+    - main "Search Results" [ref=e51]:
+      - generic [ref=e53]: About 331 results
+      - list [ref=e64]:
+        - listitem [ref=e65]:
+          - link "Electric Reliability Council of Texas" [ref=e67] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e31fd83a29184381c89c8e05b9ad4d2a2c1575ebf884a833953a9ea589193297JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3QuY29tL2ZpbGVzL2RvY3MvMjAyNi8wMy8wNS9GZWJydWFyeS1UQUMtUmVwb3J0LnBkZg&ntb=1
+            - generic [ref=e72]:
+              - generic [ref=e73]: Electric Reliability Council of Texas
+              - generic [ref=e76]: https://www.ercot.com › files › docs › February-TAC-Report.pdf
+          - generic [ref=e77]:
+            - generic [ref=e78]: "[PDF]"
+            - heading "Large Load Interconnection Status Update - ercot.com" [level=2] [ref=e79]:
+              - link "Large Load Interconnection Status Update - ercot.com" [ref=e80] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e31fd83a29184381c89c8e05b9ad4d2a2c1575ebf884a833953a9ea589193297JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3QuY29tL2ZpbGVzL2RvY3MvMjAyNi8wMy8wNS9GZWJydWFyeS1UQUMtUmVwb3J0LnBkZg&ntb=1
+          - paragraph [ref=e82]: Mar 5, 2026 · Additionally, MWs that were not approved by ERCOT after review of planning studies are included in this category until …
+        - listitem [ref=e83]:
+          - generic [ref=e85]:
+            - heading "Videos of ERCOT Large Load Interconnection Queue GW Energized 2…" [level=2] [ref=e87]:
+              - link "Videos of ERCOT Large Load Interconnection Queue GW Energized 2…" [ref=e88] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e77c31b032c1eb7bfb2a54cd9a9052b3becfc3ddde3461a7978942804b3c1270JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT1FUkNPVCtsYXJnZStsb2FkK2ludGVyY29ubmVjdGlvbitxdWV1ZStHVytlbmVyZ2l6ZWQrMjAyNityZXBvcnQrJTIybGFyZ2UrZmxleGlibGUrbG9hZCUyMitNVyZxcHZ0PUVSQ09UK2xhcmdlK2xvYWQraW50ZXJjb25uZWN0aW9uK3F1ZXVlK0dXK2VuZXJnaXplZCsyMDI2K3JlcG9ydCslMjJsYXJnZStmbGV4aWJsZStsb2FkJTIyK01XJkZPUk09VkRSRQ&ntb=1
+                - generic [ref=e89]: Videos of ERCOT Large Load Interconnection Queue GW Energized 2…
+                - img [ref=e91]
+            - generic [ref=e94]:
+              - 'link "ERCOT AI Power Queue__Explained__NERC from YouTube · Duration: 3 minutes 1 seconds · 13 views · uploaded on 1 month ago · uploaded by ENTERTAINMENT AND TRAVEL VLOGS · Click to play. · The video investigates ERCOT’s rapidly expanding large-load queue, which reached approximately 474 GW in July 2026, with about 90% tied to data centers. It distinguishes requested capacity from realistic development, examines Batch Zero eligibility, transformer shortages, transmission constraints and annual energy implications, while ..." [ref=e97] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=0ef755bb5e5681dd1e584297cdbc428841d02d3dbfb18ef9975e1574cfe2b970JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9RVJDT1QrbGFyZ2UrbG9hZCtpbnRlcmNvbm5lY3Rpb24rcXVldWUrR1crZW5lcmdpemVkKzIwMjYrcmVwb3J0KyUyMmxhcmdlK2ZsZXhpYmxlK2xvYWQlMjIrTVcmbWlkPTUzMDRDQUNGODZFMjA1Rjk3NDkwNTMwNENBQ0Y4NkUyMDVGOTc0OTAmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUNKRjh4OGpXS0poc19UZ01MdTRrYlpBJkZPUk09VklSRQ&ntb=1
+                - generic [ref=e98]:
+                  - generic [ref=e99]:
+                    - img "ERCOT AI Power Queue__Explained__NERC" [ref=e101]
+                    - generic [ref=e107]: 3:01
+                  - generic [ref=e108]:
+                    - generic "ERCOT AI Power Queue__Explained__NERC" [ref=e109]:
+                      - strong [ref=e110]: ERCOT
+                      - text: AI Power
+                      - strong [ref=e111]: Queue
+                      - text: __Explained__NERC
+                    - generic [ref=e112]:
+                      - generic [ref=e113]:
+                        - img "Video source site" [ref=e114]
+                        - text: YouTube · ENTERTAINMENT AND TRAVEL VLOGS
+                      - generic [ref=e115]: 13 views · 1 month ago
+              - 'link "ERCOT 2026 Market Update: Data Center Surge, Negative Reserve Margins & What Changes Next from YouTube · Duration: 12 minutes 11 seconds · 8 views · uploaded on 2 months ago · uploaded by Keentel Engineering · Click to play. · ERCOT''s large-load queue has hit 440,000 MW in total requests — but only ~30,000 MW is study-backed and firm, and just ~6,000 MW has actually taken service. The queue is now 95% data center, with 180+ projects exceeding 1,000 MW each. This July 2026 update covers the full picture: Batch Zero, Senate Bill 6 financial standards, the 4CP to 12CP ..." [ref=e118] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=bc72c0bd01e6af236e18da3b22a80f1eb0c660fade6a0b2db922f466e6816697JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9RVJDT1QrbGFyZ2UrbG9hZCtpbnRlcmNvbm5lY3Rpb24rcXVldWUrR1crZW5lcmdpemVkKzIwMjYrcmVwb3J0KyUyMmxhcmdlK2ZsZXhpYmxlK2xvYWQlMjIrTVcmbWlkPTI3Q0NBRTFENTExMzcxRDcwNDZDMjdDQ0FFMUQ1MTEzNzFENzA0NkMmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUNFZkFRRUlwVFhhWXRsMjFTZThBU3ZRJkZPUk09VklSRQ&ntb=1
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - 'img "ERCOT 2026 Market Update: Data Center Surge, Negative Reserve Margins & What Changes Next" [ref=e122]'
+                    - generic [ref=e128]: 12:11
+                  - generic [ref=e129]:
+                    - 'generic "ERCOT 2026 Market Update: Data Center Surge, Negative Reserve Margins & What Changes Next" [ref=e130]':
+                      - strong [ref=e131]: ERCOT
+                      - strong [ref=e132]: "2026"
+                      - text: "Market Update: Data Center Surge, Negative Reserve Margins & What Changes Next"
+                    - generic [ref=e133]:
+                      - generic [ref=e134]:
+                        - img "Video source site" [ref=e135]
+                        - text: YouTube · Keentel Engineering
+                      - generic [ref=e136]: 8 views · 2 months ago
+              - 'link "$50K/MW Fee, Zero Allocated MW: ERCOT Batch Zero Large Load Workshop 6 — March 30, 2026 from YouTube · Duration: 6 hours 11 minutes 54 seconds · 68 views · uploaded on 3 months ago · uploaded by James Dickey · Click to play. · ## ERCOT Batch Study Process for Large Load Interconnections — Workshop 6 **PGR-145 / NPRR-1325 | March 30, 2026 | 6 hr 11 min** --- ## WHAT YOU''LL HEAR - Stakeholders challenge ERCOT''s March 4 study validity cutoff date, arguing July 10 (or post-approval date) is the legally consistent benchmark under existing PGR-115 rules - ANGI and ..." [ref=e139] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=e6d9dad1ae6783920132a700736879ffff2a1f81d966eecfcd206c378f432cf1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9RVJDT1QrbGFyZ2UrbG9hZCtpbnRlcmNvbm5lY3Rpb24rcXVldWUrR1crZW5lcmdpemVkKzIwMjYrcmVwb3J0KyUyMmxhcmdlK2ZsZXhpYmxlK2xvYWQlMjIrTVcmbWlkPTQ0MzQ4NUU1NzZEN0NBQ0FFNUJBNDQzNDg1RTU3NkQ3Q0FDQUU1QkEmY2h1cmw9aHR0cHMlM2ElMmYlMmZ3d3cueW91dHViZS5jb20lMmZjaGFubmVsJTJmVUNlZGs5aDc5MnFmU1JnN3RsYVdUSEl3JkZPUk09VklSRQ&ntb=1
+                - generic [ref=e140]:
+                  - generic [ref=e141]:
+                    - 'img "$50K/MW Fee, Zero Allocated MW: ERCOT Batch Zero Large Load Workshop 6 — March 30, 2026" [ref=e143]'
+                    - generic [ref=e149]: 6:11:54
+                  - generic [ref=e150]:
+                    - 'generic "$50K/MW Fee, Zero Allocated MW: ERCOT Batch Zero Large Load Workshop 6 — March 30, 2026" [ref=e151]':
+                      - text: $50K/
+                      - strong [ref=e152]: MW
+                      - text: Fee, Zero Allocated
+                      - strong [ref=e153]: MW
+                      - text: ":"
+                      - strong [ref=e154]: ERCOT
+                      - text: Batch Zero
+                      - strong [ref=e155]: Large
+                      - strong [ref=e156]: Load
+                      - text: Workshop 6 — March 30,
+                      - strong [ref=e157]: "2026"
+                    - generic [ref=e158]:
+                      - generic [ref=e159]:
+                        - img "Video source site" [ref=e160]
+                        - text: YouTube · James Dickey
+                      - generic [ref=e161]: 68 views · 3 months ago
+        - listitem [ref=e162]:
+          - link "Electric Reliability Council of Texas" [ref=e164] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=5a1f9321fbae1c2b28f7bf2f5b574ea4c3872b789f468cd6e25fee4d53521be2JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3QuY29tL2ZpbGVzL2RvY3MvMjAyNi8wNC8wMS9FUkNPVF9MYXJnZUxvYWRfVXBkYXRlX0FwcmlsMjAyNl9CLUNfLUhlYXJpbmcucGRm&ntb=1
+            - generic [ref=e169]:
+              - generic [ref=e170]: Electric Reliability Council of Texas
+              - generic [ref=e173]: https://www.ercot.com › files › docs
+          - generic [ref=e174]:
+            - generic [ref=e175]: "[PDF]"
+            - heading "ERCOT Update" [level=2] [ref=e176]:
+              - link "ERCOT Update" [ref=e177] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=5a1f9321fbae1c2b28f7bf2f5b574ea4c3872b789f468cd6e25fee4d53521be2JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3QuY29tL2ZpbGVzL2RvY3MvMjAyNi8wNC8wMS9FUkNPVF9MYXJnZUxvYWRfVXBkYXRlX0FwcmlsMjAyNl9CLUNfLUhlYXJpbmcucGRm&ntb=1
+          - paragraph [ref=e179]: "Apr 1, 2026 · Key Takeaway: Solar and Energy Storage account for more than 76% of the amount of generation seeking …"
+        - listitem [ref=e180]:
+          - link "ercotqueue.com" [ref=e182] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4985a084ef108023c9e7251b53510f1fbb66499145db608cfae49dd0f70a8cb1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3RxdWV1ZS5jb20v&ntb=1
+            - generic [ref=e187]:
+              - generic [ref=e188]: ercotqueue.com
+              - generic [ref=e191]: https://www.ercotqueue.com
+          - heading "ERCOTQueue Dashboard" [level=2] [ref=e192]:
+            - link "ERCOTQueue Dashboard" [ref=e193] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=4985a084ef108023c9e7251b53510f1fbb66499145db608cfae49dd0f70a8cb1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3RxdWV1ZS5jb20v&ntb=1
+          - paragraph [ref=e195]: Track the ERCOT generation interconnection queue from application to operation, with project pages, developer track records, …
+        - listitem [ref=e196]:
+          - link "interconnectionqueue.org" [ref=e198] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=591a4e2faaf92cfb3c27ea8bf82a0da88ca586f35eae1b196e6fba785fea1bc1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnRlcmNvbm5lY3Rpb25xdWV1ZS5vcmcvaXNvL2VyY290&ntb=1
+            - generic [ref=e203]:
+              - generic [ref=e204]: interconnectionqueue.org
+              - generic [ref=e207]: https://interconnectionqueue.org › iso › ercot
+          - heading "ERCOT interconnection queue — Tracker" [level=2] [ref=e208]:
+            - link "ERCOT interconnection queue — Tracker" [ref=e209] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=591a4e2faaf92cfb3c27ea8bf82a0da88ca586f35eae1b196e6fba785fea1bc1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnRlcmNvbm5lY3Rpb25xdWV1ZS5vcmcvaXNvL2VyY290&ntb=1
+          - paragraph [ref=e211]: Jul 9, 2026 · Queue status reform-in-progress Large-load posture Developing Generation queue notes As of Feb. 28, 2026, ERCOT …
+        - listitem [ref=e212]:
+          - link "ercotqueue.com" [ref=e214] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9a03e186e988d0fdd40ebe03a53bf6c8027ce63a90181328cd4935d10375271bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3RxdWV1ZS5jb20vbGFyZ2UtbG9hZHM&ntb=1
+            - generic [ref=e219]:
+              - generic [ref=e220]: ercotqueue.com
+              - generic [ref=e223]: https://www.ercotqueue.com › large-loads
+          - heading "Large Loads · ercotqueue.com" [level=2] [ref=e224]:
+            - link "Large Loads · ercotqueue.com" [ref=e225] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=9a03e186e988d0fdd40ebe03a53bf6c8027ce63a90181328cd4935d10375271bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZXJjb3RxdWV1ZS5jb20vbGFyZ2UtbG9hZHM&ntb=1
+          - paragraph [ref=e227]: Jun 18, 2026 · Public-source tracker for ERCOT large-load interconnection status, load studies, process events, and supporting filings.
+        - listitem [ref=e228]:
+          - link "corleyenergy.com" [ref=e230] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4f5093edacce13c4a77a564bad15d3ec81f57efa1fcd23c32c4970c122bf0887JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY29ybGV5ZW5lcmd5LmNvbS9lcmNvdC1sYXJnZS1sb2FkLXF1ZXVlLmh0bWw&ntb=1
+            - generic [ref=e235]:
+              - generic [ref=e236]: corleyenergy.com
+              - generic [ref=e239]: https://www.corleyenergy.com › ercot-large-load-queue.html
+          - heading "State of the ERCOT large-load queue · Corley Energy" [level=2] [ref=e240]:
+            - link "State of the ERCOT large-load queue · Corley Energy" [ref=e241] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=4f5093edacce13c4a77a564bad15d3ec81f57efa1fcd23c32c4970c122bf0887JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY29ybGV5ZW5lcmd5LmNvbS9lcmNvdC1sYXJnZS1sb2FkLXF1ZXVlLmh0bWw&ntb=1
+          - paragraph [ref=e243]: In testimony to the Texas Senate on April 1, 2026, ERCOT reported approximately 410 GW of large loads seeking interconnection — …
+        - listitem [ref=e244]:
+          - link "keentelengineering.com" [ref=e246] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=16cc2c6bcfed475c4a8dd5d9ed51a5b856fcf91c22a2a7a59300b2d41ba40a4dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9rZWVudGVsZW5naW5lZXJpbmcuY29tL25ld3NsZXR0ZXIvZXJjb3QtZW5lcmd5LW1hcmtldC11cGRhdGUtanVseS0yMDI2&ntb=1
+            - generic [ref=e251]:
+              - generic [ref=e252]: keentelengineering.com
+              - generic [ref=e255]: https://keentelengineering.com › newsletter
+          - heading "ERCOT Energy Market Update | July 2026 Market Intelligence" [level=2] [ref=e256]:
+            - link "ERCOT Energy Market Update | July 2026 Market Intelligence" [ref=e257] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=16cc2c6bcfed475c4a8dd5d9ed51a5b856fcf91c22a2a7a59300b2d41ba40a4dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9rZWVudGVsZW5naW5lZXJpbmcuY29tL25ld3NsZXR0ZXIvZXJjb3QtZW5lcmd5LW1hcmtldC11cGRhdGUtanVseS0yMDI2&ntb=1
+          - paragraph [ref=e259]: Hundreds of thousands of megawatts of large-load interconnection requests — overwhelmingly data centers — have arrived faster …
+        - listitem [ref=e260]:
+          - link "zeroemissiongrid.com" [ref=e262] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e2dd97f613785f17729552f915999fa0c5b6b536a9d6f14a8e6e6bed37803e57JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuemVyb2VtaXNzaW9uZ3JpZC5jb20vaXNvLXJ0by9lcmNvdC1sbHdnLTA2LTE5LTI2Lw&ntb=1
+            - generic [ref=e267]:
+              - generic [ref=e268]: zeroemissiongrid.com
+              - generic [ref=e271]: https://www.zeroemissiongrid.com › iso-rto
+          - heading "ERCOT LLWG 06/19/26 - Batch Zero, Dynamic Models, & Large Loads" [level=2] [ref=e272]:
+            - link "ERCOT LLWG 06/19/26 - Batch Zero, Dynamic Models, & Large Loads" [ref=e273] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=e2dd97f613785f17729552f915999fa0c5b6b536a9d6f14a8e6e6bed37803e57JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuemVyb2VtaXNzaW9uZ3JpZC5jb20vaXNvLXJ0by9lcmNvdC1sbHdnLTA2LTE5LTI2Lw&ntb=1
+          - paragraph [ref=e275]: Jun 23, 2026 · ERCOT provided an update on the Large Load Interconnection (LLI) queue and Batch Zero preparation activities. …
+        - listitem [ref=e276]:
+          - link "texascommercialplans.com" [ref=e278] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a9aecf1a4eef959657be58c9fe965281394d61a943087d048393ec2106997caJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly90ZXhhc2NvbW1lcmNpYWxwbGFucy5jb20vZGFpbHktbWFya2V0LW5ld3MvZXJjb3QtNDEwLWd3LWxvYWQtcXVldWUtY29tbWVyY2lhbC1lbGVjdHJpY2l0eS1pbXBhY3Qv&ntb=1
+            - generic [ref=e283]:
+              - generic [ref=e284]: texascommercialplans.com
+              - generic [ref=e287]: https://texascommercialplans.com › daily-market-news
+          - 'heading "ERCOT 410 GW Load Queue: What It Means for Commercial Electricity" [level=2] [ref=e288]':
+            - 'link "ERCOT 410 GW Load Queue: What It Means for Commercial Electricity" [ref=e289] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=6a9aecf1a4eef959657be58c9fe965281394d61a943087d048393ec2106997caJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly90ZXhhc2NvbW1lcmNpYWxwbGFucy5jb20vZGFpbHktbWFya2V0LW5ld3MvZXJjb3QtNDEwLWd3LWxvYWQtcXVldWUtY29tbWVyY2lhbC1lbGVjdHJpY2l0eS1pbXBhY3Qv&ntb=1
+          - paragraph [ref=e291]: Apr 15, 2026 · ERCOT's large load interconnection queue has reached 410 GW, roughly five times the grid's current peak capacity of …
+        - listitem [ref=e292]:
+          - link "zeroemissiongrid.com" [ref=e294] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9542c2a999b90cdb7942a6230e297dedf6a6a490bfe8add0f3dee4e06a58b57eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuemVyb2VtaXNzaW9uZ3JpZC5jb20vaXNvLXJ0by9lcmNvdC10YWMtanVseS0yMDI2LWhpZ2hsaWdodHMv&ntb=1
+            - generic [ref=e299]:
+              - generic [ref=e300]: zeroemissiongrid.com
+              - generic [ref=e303]: https://www.zeroemissiongrid.com › iso-rto
+          - 'heading "ERCOT TAC July 2026 Highlights: Batch Zero, Large Loads" [level=2] [ref=e304]':
+            - 'link "ERCOT TAC July 2026 Highlights: Batch Zero, Large Loads" [ref=e305] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=9542c2a999b90cdb7942a6230e297dedf6a6a490bfe8add0f3dee4e06a58b57eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuemVyb2VtaXNzaW9uZ3JpZC5jb20vaXNvLXJ0by9lcmNvdC10YWMtanVseS0yMDI2LWhpZ2hsaWdodHMv&ntb=1
+          - paragraph [ref=e307]: Aug 5, 2026 · 1. Large Load Working Group Updates LLWG focused on the continuing rapid increase in large-load interconnection …
+        - listitem [ref=e308]:
+          - generic [ref=e310]:
+            - heading "People also ask" [level=2] [ref=e311]:
+              - generic [ref=e312]: People also ask
+            - list [ref=e315]:
+              - listitem [ref=e316]:
+                - heading "What percentage of energy generation is seeking interconnection in ERCOT?" [level=3] [ref=e317]:
+                  - button "What percentage of energy generation is seeking interconnection in ERCOT?" [ref=e318] [cursor=pointer]:
+                    - generic [ref=e319]: What percentage of energy generation is seeking interconnection in ERCOT?
+                    - generic:
+                      - img
+              - listitem [ref=e320]:
+                - heading "How to track ERCOT generation interconnection queue?" [level=3] [ref=e321]:
+                  - button "How to track ERCOT generation interconnection queue?" [ref=e322] [cursor=pointer]:
+                    - generic [ref=e323]: How to track ERCOT generation interconnection queue?
+                    - generic:
+                      - img
+              - listitem [ref=e324]:
+                - heading "What if a mw is not approved by ERCOT?" [level=3] [ref=e325]:
+                  - button "What if a mw is not approved by ERCOT?" [ref=e326] [cursor=pointer]:
+                    - generic [ref=e327]: What if a mw is not approved by ERCOT?
+                    - generic:
+                      - img
+              - listitem [ref=e328]:
+                - heading "How many GW of large loads are requesting interconnection?" [level=3] [ref=e329]:
+                  - button "How many GW of large loads are requesting interconnection?" [ref=e330] [cursor=pointer]:
+                    - generic [ref=e331]: How many GW of large loads are requesting interconnection?
+                    - generic:
+                      - img
+        - listitem [ref=e333]:
+          - link "Some results have been removed" [ref=e335] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cfae312eccc7b1136a2e8edfaa56fb317e844dceaa61d61539a83af16197d145JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e336]:
+          - navigation "More results for ERCOT large load interconnection queue GW energized 2026 report \"large flexible load\" MW":
+            - list:
+              - listitem [ref=e337]:
+                - generic "Page 1" [ref=e338]: "1"
+              - listitem [ref=e339]:
+                - link "Page 2" [ref=e340] [cursor=pointer]:
+                  - /url: /search?q=ERCOT+large+load+interconnection+queue+GW+energized+2026+report+%22large+flexible+load%22+MW&FPIG=D6EFAC5D6FB44927BEB128DD7074885B&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e341]:
+                - link "Page 3" [ref=e342] [cursor=pointer]:
+                  - /url: /search?q=ERCOT+large+load+interconnection+queue+GW+energized+2026+report+%22large+flexible+load%22+MW&FPIG=D6EFAC5D6FB44927BEB128DD7074885B&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e343]:
+                - link "Next page" [ref=e344] [cursor=pointer]:
+                  - /url: /search?q=ERCOT+large+load+interconnection+queue+GW+energized+2026+report+%22large+flexible+load%22+MW&FPIG=D6EFAC5D6FB44927BEB128DD7074885B&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=e345]:
+      - list
+  - contentinfo [ref=e346]:
+    - generic [ref=e347]:
+      - list:
+        - listitem [ref=e348]:
+          - link "Privacy" [ref=e349] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e350]:
+          - link "Terms" [ref=e351] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

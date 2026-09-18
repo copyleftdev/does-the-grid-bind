@@ -1,0 +1,242 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: CBRE North America Data Center Trends H1 2026 MW total inventory under construction vacancy preleasing
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards" [ref=e25] [cursor=pointer]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: Rewards
+          - img [ref=e30]
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Web" [ref=e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a4cfb934d48c5e6c53edcdc68a630483dc96c968edd64d30136b510ab9e0fe5dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPUNCUkUrTm9ydGgrQW1lcmljYStEYXRhK0NlbnRlcitUcmVuZHMrSDErMjAyNitNVyt0b3RhbCtpbnZlbnRvcnkrdW5kZXIrY29uc3RydWN0aW9uK3ZhY2FuY3krcHJlbGVhc2luZyZ3ZWJzY3A9MSZGT1JNPUhEUldTQw&ntb=1
+        - listitem [ref=e50]:
+          - link "Search" [ref=e51] [cursor=pointer]:
+            - /url: /copilotsearch?q=CBRE+North+America+Data+Center+Trends+H1+2026+MW+total+inventory+under+construction+vacancy+preleasing&FORM=CSSCOP
+            - img [ref=e52]
+            - text: Search
+        - listitem [ref=e54]:
+          - link "Images" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=fb7f98a30fbc7d5027ed0960c7b13c2450bb02bfba623883c5589879f7e3e942JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT1DQlJFK05vcnRoK0FtZXJpY2ErRGF0YStDZW50ZXIrVHJlbmRzK0gxKzIwMjYrTVcrdG90YWwraW52ZW50b3J5K3VuZGVyK2NvbnN0cnVjdGlvbit2YWNhbmN5K3ByZWxlYXNpbmcmRk9STT1IRFJTQzM&ntb=1
+        - listitem [ref=e56]:
+          - link "Videos" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f24b12af6b5d9b852dc7c344bd8c4fb55202fe9e60f0069847b01811cbcb6e0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT1DQlJFK05vcnRoK0FtZXJpY2ErRGF0YStDZW50ZXIrVHJlbmRzK0gxKzIwMjYrTVcrdG90YWwraW52ZW50b3J5K3VuZGVyK2NvbnN0cnVjdGlvbit2YWNhbmN5K3ByZWxlYXNpbmcmRk9STT1IRFJTQzQ&ntb=1
+        - listitem [ref=e58]:
+          - link "Maps" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1a082cbf01d6b305e14a29ffb139347bf3852d390184f770f843c9ddcd877c6bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT1DQlJFK05vcnRoK0FtZXJpY2ErRGF0YStDZW50ZXIrVHJlbmRzK0gxKzIwMjYrTVcrdG90YWwraW52ZW50b3J5K3VuZGVyK2NvbnN0cnVjdGlvbit2YWNhbmN5K3ByZWxlYXNpbmcmRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=e60]:
+          - link "Copilot" [ref=e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9069dce388e8fe18f60e8220cdfcf1780c44a6c1216dac33e97dbd3c32db1efdJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PUNCUkUrTm9ydGgrQW1lcmljYStEYXRhK0NlbnRlcitUcmVuZHMrSDErMjAyNitNVyt0b3RhbCtpbnZlbnRvcnkrdW5kZXIrY29uc3RydWN0aW9uK3ZhY2FuY3krcHJlbGVhc2luZyZzZW5kcXVlcnk9MSZGT1JNPVNDQ09EWA&ntb=1
+        - listitem [ref=e62]:
+          - button "More" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: More
+  - main "Search Results" [ref=e68]:
+    - generic [ref=e69]:
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - heading "Copilot Search Branding" [level=2] [ref=e75]:
+                - link "Copilot Search Branding" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=cb34b55b7f0a026cc01e3b9e8a80adb6d2b62526938677ee1139bc9377290aefJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NvcGlsb3RzZWFyY2g_cT1DQlJFK05vcnRoK0FtZXJpY2ErRGF0YStDZW50ZXIrVHJlbmRzK0gxKzIwMjYrTVcrdG90YWwraW52ZW50b3J5K3VuZGVyK2NvbnN0cnVjdGlvbit2YWNhbmN5K3ByZWxlYXNpbmcmZm9ybT1DU0JSQU5E&ntb=1
+              - button "More info about AI summary" [ref=e82]:
+                - img [ref=e84]
+            - region "Copilot Search" [ref=e88]:
+              - generic [ref=e94]: Searching for "CBRE North America Data Center Trends H1 2026 MW total inventory under construction vacancy preleasing"
+      - list [ref=e95]:
+        - listitem [ref=e96]:
+          - link "CBRE Canada" [ref=e98] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c510c1f7d904468597dcc395c3736d932b47617530d885771229a4a69e4bb1f9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY2JyZS5jYS9pbnNpZ2h0cy9ib29rcy9ub3J0aC1hbWVyaWNhLWRhdGEtY2VudGVyLXRyZW5kcy1oMS0yMDI2&ntb=1
+            - generic [ref=e103]:
+              - generic [ref=e104]: CBRE Canada
+              - generic [ref=e107]: https://www.cbre.ca › insights › books
+          - heading "North America Data Center Trends H1 2026 | CBRE Canada" [level=2] [ref=e108]:
+            - link "North America Data Center Trends H1 2026 | CBRE Canada" [ref=e109] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c510c1f7d904468597dcc395c3736d932b47617530d885771229a4a69e4bb1f9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY2JyZS5jYS9pbnNpZ2h0cy9ib29rcy9ub3J0aC1hbWVyaWNhLWRhdGEtY2VudGVyLXRyZW5kcy1oMS0yMDI2&ntb=1
+          - paragraph [ref=e111]: Aug 27, 2026 · Total under-construction capacity across primary markets increased by 24.8% in H1 to a record high of 7,481.1 MW. …
+        - listitem [ref=e112]:
+          - link "CBRE" [ref=e114] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f96e5b9860c7bb38d2ce62bbb6747a822920b989d2454f335b359d00d96317f0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY2JyZS5jb20vcHJlc3MtcmVsZWFzZXMvbm9ydGgtYW1lcmljYW4tZGF0YS1jZW50ZXItZGVtYW5kLWNvbnRpbnVlcy10by1vdXRwYWNlLXN1cHBseS1kZXNwaXRlLXJlY29yZC1jb25zdHJ1Y3Rpb24tYWN0aXZpdHk&ntb=1
+            - generic [ref=e119]:
+              - generic [ref=e120]: CBRE
+              - generic [ref=e123]: https://www.cbre.com › press-releases › north-american...
+          - heading "North American Data Center Demand Continues to Outpace Supply" [level=2] [ref=e124]:
+            - link "North American Data Center Demand Continues to Outpace Supply" [ref=e125] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=f96e5b9860c7bb38d2ce62bbb6747a822920b989d2454f335b359d00d96317f0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY2JyZS5jb20vcHJlc3MtcmVsZWFzZXMvbm9ydGgtYW1lcmljYW4tZGF0YS1jZW50ZXItZGVtYW5kLWNvbnRpbnVlcy10by1vdXRwYWNlLXN1cHBseS1kZXNwaXRlLXJlY29yZC1jb25zdHJ1Y3Rpb24tYWN0aXZpdHk&ntb=1
+          - paragraph [ref=e127]: "Aug 27, 2026 · North American data center demand outpaces record supply in H1 2026: construction up 24.8% to 7,481 MW, …"
+        - listitem [ref=e128]:
+          - link "CBRE" [ref=e130] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=783a5eef0adf8f5cae5ad2a95dec98ccb79859f639769aa15fb478d81f00078cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY2JyZS5jb20vcHJlc3MtcmVsZWFzZXMvbm9ydGgtYW1lcmljYW4tZGF0YS1jZW50ZXItZGVtYW5kLWNvbnRpbnVlcy10by1vdXRwYWNlLXN1cHBseS1kZXNwaXRlLXJlY29yZC1jb25zdHJ1Y3Rpb24&ntb=1
+            - generic [ref=e135]:
+              - generic [ref=e136]: CBRE
+              - generic [ref=e139]: https://www.cbre.com › press-releases › north-american...
+          - heading "North American Data Center Demand Continues to Outpace Supply" [level=2] [ref=e140]:
+            - link "North American Data Center Demand Continues to Outpace Supply" [ref=e141] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=783a5eef0adf8f5cae5ad2a95dec98ccb79859f639769aa15fb478d81f00078cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY2JyZS5jb20vcHJlc3MtcmVsZWFzZXMvbm9ydGgtYW1lcmljYW4tZGF0YS1jZW50ZXItZGVtYW5kLWNvbnRpbnVlcy10by1vdXRwYWNlLXN1cHBseS1kZXNwaXRlLXJlY29yZC1jb25zdHJ1Y3Rpb24&ntb=1
+          - paragraph [ref=e143]: Surging demand has left the North American data center market with less available capacity despite record construction, per CBRE's …
+        - listitem [ref=e144]:
+          - link "Data Center Frontier" [ref=e146] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=aa790536006f3f9d7fdc73de67a3ba2fcb5474e4bfa2e8683ca1d8a41caf426bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmZyb250aWVyLmNvbS9zaXRlLXNlbGVjdGlvbi9uZXdzLzU1NDAxNDYyL2NicmUtcmVjb3JkLWRhdGEtY2VudGVyLWNvbnN0cnVjdGlvbi1mYWlscy10by1lYXNlLWNhcGFjaXR5LWNydW5jaA&ntb=1
+            - generic [ref=e151]:
+              - generic [ref=e152]: Data Center Frontier
+              - generic [ref=e155]: https://www.datacenterfrontier.com › site-selection › news › cbre-record-data...
+          - 'heading "CBRE: Record Data Center Construction Fails to Ease Capacity Crunch" [level=2] [ref=e156]':
+            - 'link "CBRE: Record Data Center Construction Fails to Ease Capacity Crunch" [ref=e157] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=aa790536006f3f9d7fdc73de67a3ba2fcb5474e4bfa2e8683ca1d8a41caf426bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmZyb250aWVyLmNvbS9zaXRlLXNlbGVjdGlvbi9uZXdzLzU1NDAxNDYyL2NicmUtcmVjb3JkLWRhdGEtY2VudGVyLWNvbnN0cnVjdGlvbi1mYWlscy10by1lYXNlLWNhcGFjaXR5LWNydW5jaA&ntb=1
+          - paragraph [ref=e159]: Aug 28, 2026 · Data center construction reached a record 7,481 MW in H1 2026, with 80.4% of capacity under construction already …
+        - listitem [ref=e160]:
+          - link "MBA Newslink" [ref=e162] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0422525c02fa03d2ce046c2b8c066d98105e9630b70459c323e8369ae325912bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9uZXdzbGluay5tYmEub3JnL21iYS1uZXdzbGlua3MvMjAyNi9zZXB0ZW1iZXIvbWJhLW5ld3NsaW5rLWZyaWRheS1zZXB0LTQtMjAyNi9jYnJlLWRhdGEtY2VudGVyLWRlbWFuZC1vdXRwYWNlcy1zdXBwbHktZGVzcGl0ZS1yZWNvcmQtY29uc3RydWN0aW9uLWFjdGl2aXR5Lw&ntb=1
+            - generic [ref=e167]:
+              - generic [ref=e168]: MBA Newslink
+              - generic [ref=e171]: https://newslink.mba.org › mba-newslinks › september › ...
+          - 'heading "CBRE: Data Center Demand Outpaces Supply Despite Record …" [level=2] [ref=e172]':
+            - 'link "CBRE: Data Center Demand Outpaces Supply Despite Record …" [ref=e173] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=0422525c02fa03d2ce046c2b8c066d98105e9630b70459c323e8369ae325912bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9uZXdzbGluay5tYmEub3JnL21iYS1uZXdzbGlua3MvMjAyNi9zZXB0ZW1iZXIvbWJhLW5ld3NsaW5rLWZyaWRheS1zZXB0LTQtMjAyNi9jYnJlLWRhdGEtY2VudGVyLWRlbWFuZC1vdXRwYWNlcy1zdXBwbHktZGVzcGl0ZS1yZWNvcmQtY29uc3RydWN0aW9uLWFjdGl2aXR5Lw&ntb=1
+          - paragraph [ref=e175]: Sep 3, 2026 · Surging demand has left the North American data center market with less available capacity than a year ago despite …
+        - listitem [ref=e176]:
+          - link "LinkedIn" [ref=e178] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8067fb316ade00ed1bdcfd7aa211f706e7966426bc501da0a39c0abe403b1d15JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL3Bvc3RzL2NicmUtZGF0YS1jZW50ZXJzX25vcnRoLWFtZXJpY2EtZGF0YS1jZW50ZXItdHJlbmRzLWgxLTIwMjYtYWN0aXZpdHktNzQ5ODc2NzUyMzQ4ODY2OTY5Ni1UR2xs&ntb=1
+            - generic [ref=e183]:
+              - generic [ref=e184]: LinkedIn
+              - generic [ref=e187]: https://www.linkedin.com › posts
+          - heading "North America Data Center Trends - H1 2026 | CBRE Data ... - LinkedIn" [level=2] [ref=e188]:
+            - link "North America Data Center Trends - H1 2026 | CBRE Data ... - LinkedIn" [ref=e189] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=8067fb316ade00ed1bdcfd7aa211f706e7966426bc501da0a39c0abe403b1d15JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL3Bvc3RzL2NicmUtZGF0YS1jZW50ZXJzX25vcnRoLWFtZXJpY2EtZGF0YS1jZW50ZXItdHJlbmRzLWgxLTIwMjYtYWN0aXZpdHktNzQ5ODc2NzUyMzQ4ODY2OTY5Ni1UR2xs&ntb=1
+          - paragraph [ref=e191]: Data center construction is breaking records. So why is vacancy still falling? North America's primary markets added record levels of …
+        - listitem [ref=e192]:
+          - generic [ref=e193]:
+            - link "Explore this image" [ref=e196] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=U0tXBbJH&id=B28E7C543330B5D95B85B4589F0128E1970AC94A&thid=OIP.U0tXBbJHkYL0Calx5DqmpwHaHa&mediaurl=https://mediaassets.cbre.com/-/media/project/cbre/shared-site/headshots/a/n/d/andrew-jay-headshot-752x752.jpg&q=CBRE+North+America+Data+Center+Trends+H1+2026+MW+total+inventory+under+construction+vacancy+preleasing&ck=5C682E51E3627E5471946307FE6530DF&idpp=rc&expw=752&exph=752&form=rc2idp
+            - generic [ref=e198]:
+              - link "CBRE" [ref=e200] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e6f2fb1aaef59924740efb8e4266fa6eb45c17aba1febf5649f89205b5c24a04JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY2JyZS5jb20vaW5zaWdodHMvcmVwb3J0cy9nbG9iYWwtZGF0YS1jZW50ZXItdHJlbmRzLTIwMjY&ntb=1
+                - generic [ref=e205]:
+                  - generic [ref=e206]: CBRE
+                  - generic [ref=e209]: https://www.cbre.com › insights › reports
+              - heading "Global Data Center Trends 2026 - CBRE" [level=2] [ref=e210]:
+                - link "Global Data Center Trends 2026 - CBRE" [ref=e211] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e6f2fb1aaef59924740efb8e4266fa6eb45c17aba1febf5649f89205b5c24a04JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY2JyZS5jb20vaW5zaWdodHMvcmVwb3J0cy9nbG9iYWwtZGF0YS1jZW50ZXItdHJlbmRzLTIwMjY&ntb=1
+              - paragraph [ref=e212]: Jun 17, 2026 · Global data center inventory surged year-over-year in Q1 2026 across all major regions, …
+        - listitem [ref=e214]:
+          - link "JLL" [ref=e216] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=adf34a91e5765c00ecce95756c837efad907c06bae772636ac36442701163fe7JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuamxsLmNvbS9lbi11cy9pbnNpZ2h0cy9tYXJrZXQtZHluYW1pY3Mvbm9ydGgtYW1lcmljYS1kYXRhLWNlbnRlcnM&ntb=1
+            - generic [ref=e221]:
+              - generic [ref=e222]: JLL
+              - generic [ref=e225]: https://www.jll.com › ... › north-america-data-centers
+          - heading "North America Data Center Report Midyear 2026 - JLL" [level=2] [ref=e226]:
+            - link "North America Data Center Report Midyear 2026 - JLL" [ref=e227] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=adf34a91e5765c00ecce95756c837efad907c06bae772636ac36442701163fe7JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuamxsLmNvbS9lbi11cy9pbnNpZ2h0cy9tYXJrZXQtZHluYW1pY3Mvbm9ydGgtYW1lcmljYS1kYXRhLWNlbnRlcnM&ntb=1
+          - paragraph [ref=e229]: Aug 11, 2026 · Vacancy remains at 1% for the third consecutive year, despite unprecedented construction. This reflects structural …
+        - listitem [ref=e230]:
+          - link "Construction Dive" [ref=e232] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e78f659c1b12ad088646e87c291b779cd372978deb7409bad1813ab28126af0bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY29uc3RydWN0aW9uZGl2ZS5jb20vbmV3cy9kYXRhLWNlbnRlci1hbGwtdGltZS1sb3ctdmFjYW5jeS1yZWNvcmQtY29uc3RydWN0aW9uLzgyOTMzOS8&ntb=1
+            - generic [ref=e237]:
+              - generic [ref=e238]: Construction Dive
+              - generic [ref=e241]: https://www.constructiondive.com › news › data-center...
+          - heading "Data center market faces all-time low vacancies despite record …" [level=2] [ref=e242]:
+            - link "Data center market faces all-time low vacancies despite record …" [ref=e243] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=e78f659c1b12ad088646e87c291b779cd372978deb7409bad1813ab28126af0bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY29uc3RydWN0aW9uZGl2ZS5jb20vbmV3cy9kYXRhLWNlbnRlci1hbGwtdGltZS1sb3ctdmFjYW5jeS1yZWNvcmQtY29uc3RydWN0aW9uLzgyOTMzOS8&ntb=1
+          - paragraph [ref=e245]: Sep 2, 2026 · Data center market faces all-time low vacancies despite record-breaking construction Power capacity available for …
+        - listitem [ref=e246]:
+          - link "Data Center Frontier" [ref=e248] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=370414483da9911c09eb424e178204a61b1ad34cd61600791c4e2aef031cb8d9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmZyb250aWVyLmNvbS9lbmVyZ3kvYXJ0aWNsZS81NTM1MjQ1My9jYnJlcy0yMDI2LWRhdGEtY2VudGVyLW91dGxvb2stZGVtYW5kLXN1cmdlcy1hcy1kZWxpdmVyeS1iZWNvbWVzLXRoZS1jb25zdHJhaW50&ntb=1
+            - generic [ref=e253]:
+              - generic [ref=e254]: Data Center Frontier
+              - generic [ref=e257]: https://www.datacenterfrontier.com › energy › article
+          - 'heading "CBRE’s 2026 Data Center Outlook: Demand Surges as Delivery …" [level=2] [ref=e258]':
+            - 'link "CBRE’s 2026 Data Center Outlook: Demand Surges as Delivery …" [ref=e259] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=370414483da9911c09eb424e178204a61b1ad34cd61600791c4e2aef031cb8d9JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmZyb250aWVyLmNvbS9lbmVyZ3kvYXJ0aWNsZS81NTM1MjQ1My9jYnJlcy0yMDI2LWRhdGEtY2VudGVyLW91dGxvb2stZGVtYW5kLXN1cmdlcy1hcy1kZWxpdmVyeS1iZWNvbWVzLXRoZS1jb25zdHJhaW50&ntb=1
+          - paragraph [ref=e261]: Jan 22, 2026 · Based on CBRE’s 2026 outlook, this analysis examines how power, preleasing, and execution risk are reshaping data …
+        - listitem [ref=e262]:
+          - generic [ref=e263]:
+            - heading "Searches you might like" [level=2] [ref=e264]
+            - list [ref=e265]:
+              - listitem [ref=e266]:
+                - link "data centers" [ref=e267] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8d37f7c8a2c5121f64390217fdbfe71ba0dc87c13ad518f32b1a58118685918eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXJzJkZPUk09Qk1RUzAx&ntb=1
+                  - strong [ref=e270]: data centers
+              - listitem [ref=e271]:
+                - link "data center trade shows 2025" [ref=e272] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=109c06ea7d6a62c4a56f7705c22f7a63ced60eca1cb80a72221b629fe2ae9d84JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjB0cmFkZSUyMHNob3dzJTIwMjAyNSZGT1JNPUJNUVMwMg&ntb=1
+                  - generic [ref=e274]: data center trade shows 2025
+              - listitem [ref=e275]:
+                - link "data center world 2025" [ref=e276] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=d5356b24d2c47a68fb912b9c52df5406e1441b2a2f8b8a7678fc7e645b1d6507JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjB3b3JsZCUyMDIwMjUmRk9STT1CTVFTMDM&ntb=1
+                  - generic [ref=e278]:
+                    - text: data center world
+                    - strong [ref=e279]: "2025"
+              - listitem [ref=e280]:
+                - link "data center companies in usa" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=c684d97f93a4fb858b886e7b3d5eec2ea3053b1661f09b8b85b4d4e4c81de0ccJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjBjb21wYW5pZXMlMjBpbiUyMHVzYSZGT1JNPUJNUVMwNA&ntb=1
+                  - generic [ref=e283]:
+                    - strong [ref=e284]: data center
+                    - text: companies in usa
+              - listitem [ref=e285]:
+                - link "cbre insights" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=50856ba19b0c71a5b0a76a14a834557a7ef86daa96d11430392d4958271b1c19JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWNicmUlMjBpbnNpZ2h0cyZGT1JNPUJNUVMwNQ&ntb=1
+                  - generic [ref=e288]:
+                    - strong [ref=e289]: cbre
+                    - text: insights
+              - listitem [ref=e290]:
+                - link "data center construction projects" [ref=e291] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f706b7d1e64fce7fb2bff76c34e8bb1220263679d8c0295c3907c2b56e2f4c43JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjBjb25zdHJ1Y3Rpb24lMjBwcm9qZWN0cyZGT1JNPUJNUVMwNg&ntb=1
+                  - generic [ref=e293]:
+                    - strong [ref=e294]: data center
+                    - text: construction projects
+              - listitem [ref=e295]:
+                - link "coreweave data centers" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8e388269661609861944cd0edd8ead39801bb570fcffdec678eb1bf520345672JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWNvcmV3ZWF2ZSUyMGRhdGElMjBjZW50ZXJzJkZPUk09Qk1RUzA3&ntb=1
+                  - generic [ref=e298]:
+                    - strong [ref=e299]: coreweave
+                    - text: data centers
+              - listitem [ref=e300]:
+                - link "data center knowledge white papers" [ref=e301] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b2a0a84ba1a25e8b8903bc5b5b145bb34736e725610d0aa9477981ca333a7b77JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPWRhdGElMjBjZW50ZXIlMjBrbm93bGVkZ2UlMjB3aGl0ZSUyMHBhcGVycyZGT1JNPUJNUVMwOA&ntb=1
+                  - generic [ref=e303]: data center knowledge white papers
+        - listitem [ref=e304]:
+          - navigation "More results for CBRE North America Data Center Trends H1 2026 MW total inventory under construction vacancy preleasing":
+            - list:
+              - listitem [ref=e305]:
+                - generic "Page 1" [ref=e306]: "1"
+              - listitem [ref=e307]:
+                - link "Page 2" [ref=e308] [cursor=pointer]:
+                  - /url: /search?q=CBRE+North+America+Data+Center+Trends+H1+2026+MW+total+inventory+under+construction+vacancy+preleasing&FPIG=18FB7DD0F90E462DBCB5A665B1D53328&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e309]:
+                - link "Page 3" [ref=e310] [cursor=pointer]:
+                  - /url: /search?q=CBRE+North+America+Data+Center+Trends+H1+2026+MW+total+inventory+under+construction+vacancy+preleasing&FPIG=18FB7DD0F90E462DBCB5A665B1D53328&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e311]:
+                - link "Next page" [ref=e312] [cursor=pointer]:
+                  - /url: /search?q=CBRE+North+America+Data+Center+Trends+H1+2026+MW+total+inventory+under+construction+vacancy+preleasing&FPIG=18FB7DD0F90E462DBCB5A665B1D53328&first=11&FORM=PORE
+      - complementary "Additional Results" [ref=e313]:
+        - list
+  - contentinfo [ref=e314]:
+    - generic [ref=e315]:
+      - list:
+        - listitem [ref=e316]:
+          - link "Privacy" [ref=e317] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e318]:
+          - link "Terms" [ref=e319] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

@@ -1,0 +1,248 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: Oncor "large load" interconnection requests GW 2026 data center energized in service
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards"
+      - link "Sign in" [ref=e25] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e26]
+    - navigation "Search Filter" [ref=e27]:
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "All" [ref=e30] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e31]:
+          - link "Web" [ref=e32] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=340449e86f90f2711bac746338e88a3b1fd9c3506415146cecb2c98adef3efa8JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPU9uY29yKyUyMmxhcmdlK2xvYWQlMjIraW50ZXJjb25uZWN0aW9uK3JlcXVlc3RzK0dXKzIwMjYrZGF0YStjZW50ZXIrZW5lcmdpemVkK2luK3NlcnZpY2Umd2Vic2NwPTEmRk9STT1IRFJXU0M&ntb=1
+        - listitem [ref=e33]:
+          - link "Search" [ref=e34] [cursor=pointer]:
+            - /url: /copilotsearch?q=Oncor+%22large+load%22+interconnection+requests+GW+2026+data+center+energized+in+service&FORM=CSSCOP
+            - img [ref=e35]
+            - text: Search
+        - listitem [ref=e37]:
+          - link "Images" [ref=e38] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a60a720692d24c2920b88fa129057e475f85e3e3fe3424b942019580e72d0513JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT1PbmNvcislMjJsYXJnZStsb2FkJTIyK2ludGVyY29ubmVjdGlvbityZXF1ZXN0cytHVysyMDI2K2RhdGErY2VudGVyK2VuZXJnaXplZCtpbitzZXJ2aWNlJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e39]:
+          - link "Videos" [ref=e40] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=950d5332a7d47bcaca3f3537214d7bba5496a6fe2643df0216d81b33d512a13bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT1PbmNvcislMjJsYXJnZStsb2FkJTIyK2ludGVyY29ubmVjdGlvbityZXF1ZXN0cytHVysyMDI2K2RhdGErY2VudGVyK2VuZXJnaXplZCtpbitzZXJ2aWNlJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e41]:
+          - link "Maps" [ref=e42] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=643468ee8138d31359248d5a0ae8c8de37577639ac045e39252783da2045d5baJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT1PbmNvcislMjJsYXJnZStsb2FkJTIyK2ludGVyY29ubmVjdGlvbityZXF1ZXN0cytHVysyMDI2K2RhdGErY2VudGVyK2VuZXJnaXplZCtpbitzZXJ2aWNlJkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=e43]:
+          - link "Copilot" [ref=e44] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=09843179b8faba409777611333e4c52b80a1f272671716000d40b8ea9acd3744JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PU9uY29yKyUyMmxhcmdlK2xvYWQlMjIraW50ZXJjb25uZWN0aW9uK3JlcXVlc3RzK0dXKzIwMjYrZGF0YStjZW50ZXIrZW5lcmdpemVkK2luK3NlcnZpY2Umc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+        - listitem [ref=e45]:
+          - button "More" [ref=e46] [cursor=pointer]:
+            - img [ref=e48]
+            - text: More
+  - main "Search Results" [ref=e51]:
+    - generic [ref=e52]:
+      - list [ref=e53]:
+        - listitem [ref=e54]:
+          - generic [ref=e56]:
+            - generic [ref=e57]:
+              - heading "Copilot Search Branding" [level=2] [ref=e58]:
+                - link "Copilot Search Branding" [ref=e59] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=bd79e5c5f5d4c6dea6b1f4406c704f1a5ce1aaa92d7329a94523af14454c2129JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NvcGlsb3RzZWFyY2g_cT1PbmNvcislMjJsYXJnZStsb2FkJTIyK2ludGVyY29ubmVjdGlvbityZXF1ZXN0cytHVysyMDI2K2RhdGErY2VudGVyK2VuZXJnaXplZCtpbitzZXJ2aWNlJmZvcm09Q1NCUkFORA&ntb=1
+              - button "More info about AI summary" [ref=e65]:
+                - img [ref=e67]
+            - region "Copilot Search" [ref=e71]:
+              - generic [ref=e77]: Searching for "Oncor "large load" interconnection requests GW 2026 data center energized in service"
+      - list [ref=e78]:
+        - listitem [ref=e79]:
+          - link "Utility Dive" [ref=e81] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9ff21707223ec35b5b5920b1b12244ff344417b35293911bce98d06ae3228752JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cudXRpbGl0eWRpdmUuY29tL25ld3MvZmF0ZS1vZi1vbmNvcnMtbmVhcmx5LTMwMC1ndy1sb2FkLXBpcGVsaW5lLXVuY2xlYXItZm9sbG93aW5nLXRleGFzLWRhdGEtY2UvODI3MzAzLw&ntb=1
+            - generic [ref=e86]:
+              - generic [ref=e87]: Utility Dive
+              - generic [ref=e90]: https://www.utilitydive.com › news
+          - heading "Oncor weighs impact of Texas data center freeze on nearly 300-GW …" [level=2] [ref=e91]:
+            - link "Oncor weighs impact of Texas data center freeze on nearly 300-GW …" [ref=e92] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=9ff21707223ec35b5b5920b1b12244ff344417b35293911bce98d06ae3228752JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cudXRpbGl0eWRpdmUuY29tL25ld3MvZmF0ZS1vZi1vbmNvcnMtbmVhcmx5LTMwMC1ndy1sb2FkLXBpcGVsaW5lLXVuY2xlYXItZm9sbG93aW5nLXRleGFzLWRhdGEtY2UvODI3MzAzLw&ntb=1
+          - paragraph [ref=e94]: Aug 7, 2026 · About 44 GW of large load projects slated for Oncor’s service territory qualified for ERCOT’s new “Batch Zero” …
+        - listitem [ref=e95]:
+          - link "rantsorinsights.com" [ref=e97] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4051073315f9188bcd063780549be17567c6eca91dbdda845ee4d9a87fb472b1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9yYW50c29yaW5zaWdodHMuY29tLzIwMjYvMDgvMDgvdGV4YXMtZW5lcmd5LWdpYW50LW9uY29yLXN1cHBvcnRzLWdvdmVybm9ycy1kYXRhLWNlbnRlci1mcmVlemUv&ntb=1
+            - generic [ref=e102]:
+              - generic [ref=e103]: rantsorinsights.com
+              - generic [ref=e106]: https://rantsorinsights.com › texas-energy-giant-oncor-supports-governors...
+          - heading "Texas Energy Giant Oncor Supports Governor’s Data Center Freeze" [level=2] [ref=e107]:
+            - link "Texas Energy Giant Oncor Supports Governor’s Data Center Freeze" [ref=e108] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=4051073315f9188bcd063780549be17567c6eca91dbdda845ee4d9a87fb472b1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9yYW50c29yaW5zaWdodHMuY29tLzIwMjYvMDgvMDgvdGV4YXMtZW5lcmd5LWdpYW50LW9uY29yLXN1cHBvcnRzLWdvdmVybm9ycy1kYXRhLWNlbnRlci1mcmVlemUv&ntb=1
+          - paragraph [ref=e110]: Aug 8, 2026 · About 44 GW of large load projects slated for Oncor’s service territory qualified for ERCOT’s new “Batch Zero” …
+        - listitem [ref=e111]:
+          - generic [ref=e112]:
+            - link "Explore this image" [ref=e115] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=Qbjlss1p&id=7448FE7C3B7CA3E702F7A6314ED8FBAB94817652&thid=OIP.Qbjlss1pg8cBqKWotkFwcQAAAA&mediaurl=https://www.rtoinsider.com/wp-content/uploads/2026/04/Pablo-Vegas-Texas-Senate-FI.jpg&q=Oncor+%22large+load%22+interconnection+requests+GW+2026+data+center+energized+in+service&ck=268CD7780CEE43B021838103370CD395&idpp=rc&expw=474&exph=474&form=rc2idp
+            - generic [ref=e117]:
+              - link "rtoinsider.com" [ref=e119] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=92a4087dfd8dac812b704d92d248f9bc29dc02581baf29be5c975dde5db86931JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucnRvaW5zaWRlci5jb20vMTI5NDIxLWVyY290LWxhcmdlLWxvYWQtcmVxdWVzdHMtc29hci1hZ2Fpbi8&ntb=1
+                - generic [ref=e124]:
+                  - generic [ref=e125]: rtoinsider.com
+                  - generic [ref=e128]: https://www.rtoinsider.com
+              - heading "ERCOT Large Load Interconnection Queue Hits 410 GW" [level=2] [ref=e129]:
+                - link "ERCOT Large Load Interconnection Queue Hits 410 GW" [ref=e130] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=92a4087dfd8dac812b704d92d248f9bc29dc02581baf29be5c975dde5db86931JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucnRvaW5zaWRlci5jb20vMTI5NDIxLWVyY290LWxhcmdlLWxvYWQtcmVxdWVzdHMtc29hci1hZ2Fpbi8&ntb=1
+              - paragraph [ref=e131]: A slew of interconnection requests from large load customers submitted by Oncor Electric Delivery has …
+        - listitem [ref=e133]:
+          - link "Oncor" [ref=e135] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=879b57f13757de53538a2503980989886a716275441ef58a0637080033f700aaJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cub25jb3IuY29tL2NvbnRlbnQvb25jb3J3d3cvd2lyZS9lbi9ob21lL25ld3Nyb29tL09OQ09SLVJFUE9SVFMtMjAyNS1SRVNVTFRTLS0tQU5OT1VOQ0VTLS00Ny01LUJJTExJT04tMjAyNi0yMDMwLUJBU0UtQ0FQSVRBTC1QTEFOLmh0bWw&ntb=1
+            - generic [ref=e140]:
+              - generic [ref=e141]: Oncor
+              - generic [ref=e144]: https://www.oncor.com › content › oncorwww › wire › en › home › newsroom
+          - heading "Oncor Reports 2025 Results; Announces $47.5 Billion 2026-2030 …" [level=2] [ref=e145]:
+            - link "Oncor Reports 2025 Results; Announces $47.5 Billion 2026-2030 …" [ref=e146] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=879b57f13757de53538a2503980989886a716275441ef58a0637080033f700aaJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cub25jb3IuY29tL2NvbnRlbnQvb25jb3J3d3cvd2lyZS9lbi9ob21lL25ld3Nyb29tL09OQ09SLVJFUE9SVFMtMjAyNS1SRVNVTFRTLS0tQU5OT1VOQ0VTLS00Ny01LUJJTExJT04tMjAyNi0yMDMwLUJBU0UtQ0FQSVRBTC1QTEFOLmh0bWw&ntb=1
+          - paragraph [ref=e148]: Feb 26, 2026 · Those requests include approximately 255 gigawatts from data centers and over 18 gigawatts of load from various …
+        - listitem [ref=e149]:
+          - link "DatacenterDynamics" [ref=e151] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=304184c25da24a5da0c0c1abe644ff027ceaaa8005da8ebc9fc9a2cd69a84106JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmR5bmFtaWNzLmNvbS9lbi9uZXdzL3RleGFzLXV0aWxpdHktb25jb3ItcmVwb3J0cy0xODZndy1vZi1pbnRlcmNvbm5lY3Rpb24tcmVxdWVzdHMtZnJvbS1kYXRhLWNlbnRlcnMv&ntb=1
+            - generic [ref=e156]:
+              - generic [ref=e157]: DatacenterDynamics
+              - generic [ref=e160]: https://www.datacenterdynamics.com › en › news
+          - heading "Texas utility Oncor reports 186GW of interconnection requests from …" [level=2] [ref=e161]:
+            - link "Texas utility Oncor reports 186GW of interconnection requests from …" [ref=e162] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=304184c25da24a5da0c0c1abe644ff027ceaaa8005da8ebc9fc9a2cd69a84106JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmR5bmFtaWNzLmNvbS9lbi9uZXdzL3RleGFzLXV0aWxpdHktb25jb3ItcmVwb3J0cy0xODZndy1vZi1pbnRlcmNvbm5lY3Rpb24tcmVxdWVzdHMtZnJvbS1kYXRhLWNlbnRlcnMv&ntb=1
+          - paragraph [ref=e164]: Aug 14, 2025 · Oncor Electric Delivery, Texas’s largest transmission and distribution electric utility, has reported more than 200GW …
+        - listitem [ref=e165]:
+          - link "thetexasdispatch.com" [ref=e167] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4c89965e44b5df5975ecb562c2643f5b36faa3849ffbe69832330d4cdf35e70dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly90aGV0ZXhhc2Rpc3BhdGNoLmNvbS9wdWJsaWMtdXRpbGl0eS1jb21taXNzaW9uLXNlcHRlbWJlci0xOC0yMDI2LWxhcmdlLWxvYWQtaW50ZXJjb25uZWN0aW9uLXJ1bGUtYWRvcHRpb24v&ntb=1
+            - generic [ref=e172]:
+              - generic [ref=e173]: thetexasdispatch.com
+              - generic [ref=e176]: https://thetexasdispatch.com
+          - heading "PUC halves the deposit huge data centers must post" [level=2] [ref=e177]:
+            - link "PUC halves the deposit huge data centers must post" [ref=e178] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=4c89965e44b5df5975ecb562c2643f5b36faa3849ffbe69832330d4cdf35e70dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly90aGV0ZXhhc2Rpc3BhdGNoLmNvbS9wdWJsaWMtdXRpbGl0eS1jb21taXNzaW9uLXNlcHRlbWJlci0xOC0yMDI2LWxhcmdlLWxvYWQtaW50ZXJjb25uZWN0aW9uLXJ1bGUtYWRvcHRpb24v&ntb=1
+          - paragraph [ref=e180]: 1 day ago · The Public Utility Commission votes September 18 on the Texas large-load interconnection rule, which now asks $50,000 …
+        - listitem [ref=e181]:
+          - link "Oncor" [ref=e183] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6de9c00489d16335198212d1b66f73f82eb0fdf7ff1482a0915cc5abd7548c9cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cub25jb3IuY29tL2NvbnRlbnQvb25jb3J3d3cvdXMvZW4vaG9tZS9zbWFydC1lbmVyZ3kvcmVuZXdhYmxlcy1zb2xhci1hbmQtbW9yZS9lbmVyZ3ktc3lzdGVtLWRldmVsb3BlcnMuaHRtbA&ntb=1
+            - generic [ref=e188]:
+              - generic [ref=e189]: Oncor
+              - generic [ref=e192]: https://www.oncor.com › content › oncorwww › us › en › home › ...
+          - heading "ENERGY SYSTEM DEVELOPERS - oncor-www" [level=2] [ref=e193]:
+            - link "ENERGY SYSTEM DEVELOPERS - oncor-www" [ref=e194] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=6de9c00489d16335198212d1b66f73f82eb0fdf7ff1482a0915cc5abd7548c9cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cub25jb3IuY29tL2NvbnRlbnQvb25jb3J3d3cvdXMvZW4vaG9tZS9zbWFydC1lbmVyZ3kvcmVuZXdhYmxlcy1zb2xhci1hbmQtbW9yZS9lbmVyZ3ktc3lzdGVtLWRldmVsb3BlcnMuaHRtbA&ntb=1
+          - paragraph [ref=e196]: Developers of DER and grid resources, generally classified in sizes ranging from 500 kW up to 10 MW or more, can also begin the …
+        - listitem [ref=e197]:
+          - link "texascommercialplans.com" [ref=e199] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a9aecf1a4eef959657be58c9fe965281394d61a943087d048393ec2106997caJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly90ZXhhc2NvbW1lcmNpYWxwbGFucy5jb20vZGFpbHktbWFya2V0LW5ld3MvZXJjb3QtNDEwLWd3LWxvYWQtcXVldWUtY29tbWVyY2lhbC1lbGVjdHJpY2l0eS1pbXBhY3Qv&ntb=1
+            - generic [ref=e204]:
+              - generic [ref=e205]: texascommercialplans.com
+              - generic [ref=e208]: https://texascommercialplans.com › daily-market-news
+          - 'heading "ERCOT 410 GW Load Queue: What It Means for Commercial Electricity" [level=2] [ref=e209]':
+            - 'link "ERCOT 410 GW Load Queue: What It Means for Commercial Electricity" [ref=e210] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=6a9aecf1a4eef959657be58c9fe965281394d61a943087d048393ec2106997caJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly90ZXhhc2NvbW1lcmNpYWxwbGFucy5jb20vZGFpbHktbWFya2V0LW5ld3MvZXJjb3QtNDEwLWd3LWxvYWQtcXVldWUtY29tbWVyY2lhbC1lbGVjdHJpY2l0eS1pbXBhY3Qv&ntb=1
+          - paragraph [ref=e212]: Apr 15, 2026 · ERCOT's large load interconnection queue has reached 410 GW, roughly five times the grid's current peak capacity of …
+        - listitem [ref=e213]:
+          - link "Utility Dive" [ref=e215] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=22f39434a779afe1d6e707d6904928a47aad7f8dd06c5a0c665cacb3b9d201beJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cudXRpbGl0eWRpdmUuY29tL25ld3MvdGV4YXMtZmFjaW5nLTQzOC1ndy1xdWV1ZS1hcHByb3Zlcy1pbml0aWFsLWxhcmdlLWxvYWQtaW50ZXJjb25uZWN0aW9uLXByby84MjMzNjcv&ntb=1
+            - generic [ref=e220]:
+              - generic [ref=e221]: Utility Dive
+              - generic [ref=e224]: https://www.utilitydive.com › news
+          - heading "Texas, facing 438 GW queue, approves initial large-load …" [level=2] [ref=e225]:
+            - link "Texas, facing 438 GW queue, approves initial large-load …" [ref=e226] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=22f39434a779afe1d6e707d6904928a47aad7f8dd06c5a0c665cacb3b9d201beJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cudXRpbGl0eWRpdmUuY29tL25ld3MvdGV4YXMtZmFjaW5nLTQzOC1ndy1xdWV1ZS1hcHByb3Zlcy1pbml0aWFsLWxhcmdlLWxvYWQtaW50ZXJjb25uZWN0aW9uLXByby84MjMzNjcv&ntb=1
+          - paragraph [ref=e228]: Jun 22, 2026 · The Public Utility Commission of Texas on Thursday approved rules for the state’s grid operator to process large load …
+        - listitem [ref=e229]:
+          - link "pluginsolarmap.com" [ref=e231] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c60e31e99f2caa73f4667ade902167af0e2dcae72bcf75a0a55841ed493ee27cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGx1Z2luc29sYXJtYXAuY29tL2FydGljbGVzL3RleGFzLWVsZWN0cmljaXR5LWJpbGxzLWRhdGEtY2VudGVycy0yMDI2&ntb=1
+            - generic [ref=e236]:
+              - generic [ref=e237]: pluginsolarmap.com
+              - generic [ref=e240]: https://www.pluginsolarmap.com › articles
+          - heading "Why Texas Electric Bills Are Surging in 2026 — And What ERCOT …" [level=2] [ref=e241]:
+            - link "Why Texas Electric Bills Are Surging in 2026 — And What ERCOT …" [ref=e242] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c60e31e99f2caa73f4667ade902167af0e2dcae72bcf75a0a55841ed493ee27cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGx1Z2luc29sYXJtYXAuY29tL2FydGljbGVzL3RleGFzLWVsZWN0cmljaXR5LWJpbGxzLWRhdGEtY2VudGVycy0yMDI2&ntb=1
+          - paragraph [ref=e244]: ERCOT expects demand to grow nearly 10% in 2026, with data-center interconnection requests set to explode over the next decade. …
+        - listitem [ref=e245]:
+          - generic [ref=e246]:
+            - heading "Searches you might like" [level=2] [ref=e247]
+            - list [ref=e248]:
+              - listitem [ref=e249]:
+                - link "oncor electric" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=11a4f513d4d7d2653068e632644668810689f59c8b9a62a67770722df30875d3JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPW9uY29yJTIwZWxlY3RyaWMmRk9STT1CTVFTMDE&ntb=1
+                  - generic [ref=e252]:
+                    - strong [ref=e253]: oncor
+                    - text: electric
+              - listitem [ref=e254]:
+                - link "oncor energy" [ref=e255] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=d8ea7b962136fc25847f83d4b63658905882335c19e129bc83e2f846b69c8917JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPW9uY29yJTIwZW5lcmd5JkZPUk09Qk1RUzAy&ntb=1
+                  - generic [ref=e257]:
+                    - strong [ref=e258]: oncor
+                    - text: energy
+              - listitem [ref=e259]:
+                - link "oncor electric delivery" [ref=e260] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=9aa17d792c985634a99eca0c5dd68f72dabe328dd0c7aff460d053ca47444249JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPW9uY29yJTIwZWxlY3RyaWMlMjBkZWxpdmVyeSZGT1JNPUJNUVMwMw&ntb=1
+                  - generic [ref=e262]:
+                    - strong [ref=e263]: oncor
+                    - text: electric delivery
+              - listitem [ref=e264]:
+                - link "oncor electric website" [ref=e265] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=636f602ee7e8971e281e1ad198c3b47335db0a4b95137c04fec4a5a3e27ba829JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPW9uY29yJTIwZWxlY3RyaWMlMjB3ZWJzaXRlJkZPUk09Qk1RUzA0&ntb=1
+                  - generic [ref=e267]:
+                    - strong [ref=e268]: oncor
+                    - text: electric website
+              - listitem [ref=e269]:
+                - link "oncor electric texas" [ref=e270] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=bf0cc5fd8d1af2488178f4e21d033af9501b4075636abae97f0d1f88ffb45879JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPW9uY29yJTIwZWxlY3RyaWMlMjB0ZXhhcyZGT1JNPUJNUVMwNQ&ntb=1
+                  - generic [ref=e272]:
+                    - strong [ref=e273]: oncor
+                    - text: electric texas
+              - listitem [ref=e274]:
+                - link "oncor electric service" [ref=e275] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b824228c3a1191ba4bbd5d0ecced216d7a66f3417eba5742c4954264e630465aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPW9uY29yJTIwZWxlY3RyaWMlMjBzZXJ2aWNlJkZPUk09Qk1RUzA2&ntb=1
+                  - generic [ref=e277]:
+                    - strong [ref=e278]: oncor
+                    - text: electric service
+              - listitem [ref=e279]:
+                - link "oncor electric company" [ref=e280] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=3b6af917167f0cb3b6e5e6bbc57a8e43be0afabbfc8f1346fceb7a15243b175fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPW9uY29yJTIwZWxlY3RyaWMlMjBjb21wYW55JkZPUk09Qk1RUzA3&ntb=1
+                  - generic [ref=e282]:
+                    - strong [ref=e283]: oncor
+                    - text: electric company
+              - listitem [ref=e284]:
+                - link "oncore electricity tx" [ref=e285] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=50b548e715a0a01823232cd961cd69b021825b80b43ef74b12e94289c4ed32cdJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPW9uY29yZSUyMGVsZWN0cmljaXR5JTIwdHgmRk9STT1CTVFTMDg&ntb=1
+                  - generic [ref=e287]:
+                    - strong [ref=e288]: oncore
+                    - text: electricity tx
+        - listitem [ref=e289]:
+          - link "Some results have been removed" [ref=e291] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cfae312eccc7b1136a2e8edfaa56fb317e844dceaa61d61539a83af16197d145JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e292]:
+          - navigation "More results for Oncor \"large load\" interconnection requests GW 2026 data center energized in service":
+            - list:
+              - listitem [ref=e293]:
+                - generic "Page 1" [ref=e294]: "1"
+              - listitem [ref=e295]:
+                - link "Page 2" [ref=e296] [cursor=pointer]:
+                  - /url: /search?q=Oncor+%22large+load%22+interconnection+requests+GW+2026+data+center+energized+in+service&FPIG=2E1D1A6A18D94A96967E13CFABCF7D96&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e297]:
+                - link "Page 3" [ref=e298] [cursor=pointer]:
+                  - /url: /search?q=Oncor+%22large+load%22+interconnection+requests+GW+2026+data+center+energized+in+service&FPIG=2E1D1A6A18D94A96967E13CFABCF7D96&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e299]:
+                - link "Next page" [ref=e300] [cursor=pointer]:
+                  - /url: /search?q=Oncor+%22large+load%22+interconnection+requests+GW+2026+data+center+energized+in+service&FPIG=2E1D1A6A18D94A96967E13CFABCF7D96&first=11&FORM=PORE
+      - complementary "Additional Results" [ref=e301]:
+        - list
+  - contentinfo [ref=e302]:
+    - generic [ref=e303]:
+      - list:
+        - listitem [ref=e304]:
+          - link "Privacy" [ref=e305] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e306]:
+          - link "Terms" [ref=e307] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

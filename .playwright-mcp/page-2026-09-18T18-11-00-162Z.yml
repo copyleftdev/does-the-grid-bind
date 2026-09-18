@@ -1,0 +1,250 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner "Top Header" [ref=e4]:
+    - generic [ref=e8]:
+      - link "Berkeley Lab" [ref=e11] [cursor=pointer]:
+        - /url: https://www.lbl.gov/
+      - generic [ref=e15]:
+        - navigation [ref=e17]:
+          - list [ref=e18]:
+            - listitem [ref=e19]:
+              - link "About the Lab" [ref=e20] [cursor=pointer]:
+                - /url: https://www.lbl.gov/about/
+            - listitem [ref=e21]:
+              - link "Research" [ref=e22] [cursor=pointer]:
+                - /url: https://www.lbl.gov/research/
+            - listitem [ref=e23]:
+              - link "Capabilities" [ref=e24] [cursor=pointer]:
+                - /url: https://www.lbl.gov/capabilities/
+            - listitem [ref=e25]:
+              - link "News" [ref=e26] [cursor=pointer]:
+                - /url: https://newscenter.lbl.gov/
+            - listitem [ref=e27]:
+              - link "Careers" [ref=e28] [cursor=pointer]:
+                - /url: https://careers.lbl.gov
+        - generic [ref=e30]:
+          - textbox "Search the Lab" [ref=e31]
+          - button "Submit Search" [ref=e32] [cursor=pointer]
+  - generic [ref=e35]:
+    - list [ref=e40]:
+      - listitem [ref=e41]:
+        - link "Energy Technologies Area" [ref=e42] [cursor=pointer]:
+          - /url: http://eta.lbl.gov
+      - listitem [ref=e43]:
+        - link "Intranet (link is external)" [ref=e44] [cursor=pointer]:
+          - /url: https://eta-intranet.lbl.gov
+          - text: Intranet
+          - img "(link is external)" [ref=e45]
+    - navigation [ref=e48]:
+      - generic [ref=e49]:
+        - link "Home" [ref=e52] [cursor=pointer]:
+          - /url: /
+          - img "Home" [ref=e53]
+        - generic [ref=e55]:
+          - list [ref=e56]:
+            - listitem [ref=e57]:
+              - link "Research Themes" [ref=e58] [cursor=pointer]:
+                - /url: /research
+              - generic:
+                - generic:
+                  - img [ref=e59]
+                  - paragraph [ref=e60]: Energy Technologies Area (ETA) researchers are continually building on the strong scientific foundation we have developed over the past 50 years. We address the world’s most pressing scientific challenges across the buildings, transportation, and industrial sectors. ETA is at the forefront of improving the country's aging electrical grid and innovating distributed energy and storage solutions; developing grid-integrated building systems; and providing the most comprehensive market and data analysis worldwide.
+                - list [ref=e61]:
+                  - listitem [ref=e62]:
+                    - link "Securing U.S. Critical Minerals & Materials Supply Chain" [ref=e63] [cursor=pointer]:
+                      - /url: /critical-minerals
+                  - listitem [ref=e64]:
+                    - link "Driving Energy Innovation in Data Centers" [ref=e65] [cursor=pointer]:
+                      - /url: /data-centers
+                  - listitem [ref=e66]:
+                    - link "Ensuring a Reliable & Secure Grid" [ref=e67] [cursor=pointer]:
+                      - /url: /reliable-grid
+                  - listitem [ref=e68]:
+                    - link "Improving U.S. Industrial Competitiveness" [ref=e69] [cursor=pointer]:
+                      - /url: /improving-industrial-competitiveness
+                  - listitem [ref=e70]:
+                    - link "Energy Storage" [ref=e71] [cursor=pointer]:
+                      - /url: /storage
+                  - listitem [ref=e72]:
+                    - link "Innovation Economy" [ref=e73] [cursor=pointer]:
+                      - /url: /innovation-economy
+            - listitem [ref=e74]:
+              - link "Publications" [ref=e75] [cursor=pointer]:
+                - /url: /publications
+            - listitem [ref=e76]:
+              - link "News" [ref=e77] [cursor=pointer]:
+                - /url: /news
+              - generic:
+                - paragraph [ref=e78]:
+                  - text: "For media inquiries, please email:"
+                  - link "etamedia@lbl.gov(link sends email)" [ref=e79] [cursor=pointer]:
+                    - /url: mailto:etamedia@lbl.gov
+                    - text: etamedia@lbl.gov
+                    - img "(link sends email)" [ref=e80]
+                - list [ref=e82]:
+                  - listitem [ref=e83]:
+                    - link "Multimedia" [ref=e84] [cursor=pointer]:
+                      - /url: /multimedia
+                    - list [ref=e85]:
+                      - listitem [ref=e86]:
+                        - link "Video & Animation" [ref=e87] [cursor=pointer]:
+                          - /url: /videos
+                      - listitem [ref=e88]:
+                        - link "Our Websites" [ref=e89] [cursor=pointer]:
+                          - /url: /our-websites
+                  - listitem [ref=e90]:
+                    - link "Social Media" [ref=e91] [cursor=pointer]:
+                      - /url: /social-media
+                  - listitem [ref=e92]:
+                    - link "Media Outreach" [ref=e93] [cursor=pointer]:
+                      - /url: /media-outreach
+                  - listitem [ref=e94]:
+                    - link "Join Our Mailing List" [ref=e95] [cursor=pointer]:
+                      - /url: /join
+            - listitem [ref=e96]:
+              - link "About Us" [ref=e97] [cursor=pointer]:
+                - /url: /about-us
+              - generic:
+                - generic:
+                  - img [ref=e98]
+                  - paragraph [ref=e99]: The Energy Technologies Area (ETA) is unique in translating fundamental scientific discoveries into scalable technology adoption. Our approach combines an understanding of the marketplace and the role of state and federal regulation and policies. ETA's research drives real-world, practical results that affect and improve the everyday lives of Americans and those across the globe. Saving energy and increasing reliability are key to the foundation of our research, which is driven by techno-economic analysis and in-lab experimentation and discovery.
+                - list [ref=e100]:
+                  - listitem [ref=e101]:
+                    - link "About Us" [ref=e102] [cursor=pointer]:
+                      - /url: /about-us
+                    - list [ref=e103]:
+                      - listitem [ref=e104]:
+                        - link "Staff" [ref=e105] [cursor=pointer]:
+                          - /url: /people
+                      - listitem [ref=e106]:
+                        - link "ETA Safety (link is external)" [ref=e107] [cursor=pointer]:
+                          - /url: https://eta-safety.lbl.gov/
+                          - text: ETA Safety
+                          - img "(link is external)" [ref=e108]
+                      - listitem [ref=e111]:
+                        - link "Mentoring" [ref=e112] [cursor=pointer]:
+                          - /url: /mentoring
+                  - listitem [ref=e113]:
+                    - link "Tools" [ref=e114] [cursor=pointer]:
+                      - /url: /tools
+                  - listitem [ref=e115]:
+                    - link "Divisions" [ref=e116] [cursor=pointer]:
+                      - /url: /divisions
+                    - list [ref=e117]:
+                      - listitem [ref=e118]:
+                        - link "Building & Industrial Energy Systems (link is external)" [ref=e119] [cursor=pointer]:
+                          - /url: https://bies.lbl.gov/
+                          - text: Building & Industrial Energy Systems
+                          - img "(link is external)" [ref=e120]
+                      - listitem [ref=e123]:
+                        - link "Energy Analysis (link is external)" [ref=e124] [cursor=pointer]:
+                          - /url: https://energyanalysis.lbl.gov/
+                          - text: Energy Analysis
+                          - img "(link is external)" [ref=e125]
+                      - listitem [ref=e128]:
+                        - link "Energy Technologies & Systems (link is external)" [ref=e129] [cursor=pointer]:
+                          - /url: https://ets.lbl.gov/
+                          - text: Energy Technologies & Systems
+                          - img "(link is external)" [ref=e130]
+          - generic [ref=e134]:
+            - textbox "Search" [ref=e136]
+            - img [ref=e137] [cursor=pointer]
+            - button "Apply" [ref=e141]
+    - main [ref=e142]:
+      - generic [ref=e145]:
+        - heading "Page not found" [level=1] [ref=e147]
+        - generic [ref=e148]: The requested page could not be found.
+    - contentinfo [ref=e149]:
+      - generic [ref=e151]:
+        - generic [ref=e152]:
+          - img [ref=e154]
+          - generic [ref=e155]:
+            - link " (link is external)" [ref=e156] [cursor=pointer]:
+              - /url: https://www.facebook.com/energytechnologiesarea.lbnl/
+              - generic [ref=e157]: 
+              - img "(link is external)" [ref=e158]
+            - link " (link is external)" [ref=e161] [cursor=pointer]:
+              - /url: https://twitter.com/BerkeleyLabETA
+              - generic [ref=e162]: 
+              - img "(link is external)" [ref=e163]
+            - link " (link is external)" [ref=e166] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/lawrence-berkeley-national-laboratory/
+              - generic [ref=e167]: 
+              - img "(link is external)" [ref=e168]
+          - generic [ref=e171]: ©2026 Energy Technologies Area, Berkeley Lab
+        - navigation "OUR ORGANIZATION" [ref=e173]:
+          - heading "OUR ORGANIZATION" [level=2] [ref=e174]
+          - list [ref=e175]:
+            - listitem [ref=e176]:
+              - link "Join Our Mailing List" [ref=e177] [cursor=pointer]:
+                - /url: /join
+            - listitem [ref=e178]:
+              - link "Organizational Charts" [ref=e179] [cursor=pointer]:
+                - /url: /organizational-charts
+            - listitem [ref=e180]:
+              - link "History" [ref=e181] [cursor=pointer]:
+                - /url: /history
+            - listitem [ref=e182]:
+              - link "Intranet (staff only) (link is external)" [ref=e183] [cursor=pointer]:
+                - /url: https://eta-intranet.lbl.gov/
+                - text: Intranet (staff only)
+                - img "(link is external)" [ref=e184]
+  - contentinfo "Bottom Footer" [ref=e188]:
+    - generic [ref=e193]:
+      - link "Berkeley Lab" [ref=e196] [cursor=pointer]:
+        - /url: https://www.lbl.gov/
+      - generic [ref=e200]:
+        - generic [ref=e202]:
+          - navigation "Bottom Footer Nav" [ref=e203]:
+            - list [ref=e204]:
+              - listitem [ref=e205]:
+                - link "Contact" [ref=e206] [cursor=pointer]:
+                  - /url: https://www.lbl.gov/contact/
+              - listitem [ref=e207]:
+                - link "Visit Us" [ref=e208] [cursor=pointer]:
+                  - /url: https://visits.lbl.gov/
+              - listitem [ref=e209]:
+                - link "Subscribe" [ref=e210] [cursor=pointer]:
+                  - /url: https://www.lbl.gov/subscribe/
+          - navigation "Icon List" [ref=e212]:
+            - generic [ref=e213]:
+              - generic:
+                - link "LinkedIn" [ref=e216] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/164691/
+                - link "Instagram" [ref=e220] [cursor=pointer]:
+                  - /url: https://www.instagram.com/berkeleylab/
+                - link "Threads" [ref=e224] [cursor=pointer]:
+                  - /url: https://www.threads.net/@berkeleylab
+                - link "Facebook" [ref=e228] [cursor=pointer]:
+                  - /url: https://www.facebook.com/BerkeleyLab
+                - link "X" [ref=e232] [cursor=pointer]:
+                  - /url: https://x.com/BerkeleyLab
+                - link "YouTube" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/BerkeleyLab
+        - generic [ref=e239]:
+          - link "U.S. Department of Energy - Office of Science Logo" [ref=e241] [cursor=pointer]:
+            - /url: https://www.energy.gov/science/office-science
+            - img "U.S. Department of Energy - Office of Science Logo" [ref=e242]
+          - link "University of California Logo" [ref=e244] [cursor=pointer]:
+            - /url: https://www.ucop.edu/laboratory-management/about-the-labs/overview-lbnl.html
+            - img "University of California Logo" [ref=e245]
+    - generic [ref=e250]:
+      - paragraph [ref=e252]: Lawrence Berkeley National Laboratory is a U.S. DOE Office of Science national laboratory managed by the University of California.
+      - navigation [ref=e254]:
+        - list [ref=e255]:
+          - listitem [ref=e256]:
+            - link "Staff Directory" [ref=e257] [cursor=pointer]:
+              - /url: https://phonebook.lbl.gov/
+          - listitem [ref=e258]:
+            - link "For Employees" [ref=e259] [cursor=pointer]:
+              - /url: https://elements.lbl.gov/
+          - listitem [ref=e260]:
+            - link "Emergency Status" [ref=e261] [cursor=pointer]:
+              - /url: https://status.lbl.gov/
+          - listitem [ref=e262]:
+            - link "Privacy & Security Notice" [ref=e263] [cursor=pointer]:
+              - /url: https://www.lbl.gov/terms-and-conditions/
+          - listitem [ref=e264]:
+            - link "Site Feedback" [ref=e265] [cursor=pointer]:
+              - /url: https://www.lbl.gov/web-support/

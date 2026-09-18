@@ -1,0 +1,199 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: "\"phantom data centers\" utility interconnection requests duplicate speculative load percentage multiple AEP PJM 2026"
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards" [ref=e25] [cursor=pointer]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: Rewards
+          - img [ref=e30]
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Web" [ref=e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=50e211226597241aaf46b94d15165d00307bfa802cd09d1acc3b8acf07698eb0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPSUyMnBoYW50b20rZGF0YStjZW50ZXJzJTIyK3V0aWxpdHkraW50ZXJjb25uZWN0aW9uK3JlcXVlc3RzK2R1cGxpY2F0ZStzcGVjdWxhdGl2ZStsb2FkK3BlcmNlbnRhZ2UrbXVsdGlwbGUrQUVQK1BKTSsyMDI2JndlYnNjcD0xJkZPUk09SERSV1ND&ntb=1
+        - listitem [ref=e50]:
+          - link "Search" [ref=e51] [cursor=pointer]:
+            - /url: /copilotsearch?q=%22phantom+data+centers%22+utility+interconnection+requests+duplicate+speculative+load+percentage+multiple+AEP+PJM+2026&FORM=CSSCOP
+            - img [ref=e52]
+            - text: Search
+        - listitem [ref=e54]:
+          - link "Images" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a4c4f99a6f296f5c2be7a201a7ece0c831da27214192e4d51f7e770c492688afJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT0lMjJwaGFudG9tK2RhdGErY2VudGVycyUyMit1dGlsaXR5K2ludGVyY29ubmVjdGlvbityZXF1ZXN0cytkdXBsaWNhdGUrc3BlY3VsYXRpdmUrbG9hZCtwZXJjZW50YWdlK211bHRpcGxlK0FFUCtQSk0rMjAyNiZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=e56]:
+          - link "Videos" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=5e378509a143a185a4aa73fd03afd28c65f54b47e295e4fe6bf8f4905a1e18afJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT0lMjJwaGFudG9tK2RhdGErY2VudGVycyUyMit1dGlsaXR5K2ludGVyY29ubmVjdGlvbityZXF1ZXN0cytkdXBsaWNhdGUrc3BlY3VsYXRpdmUrbG9hZCtwZXJjZW50YWdlK211bHRpcGxlK0FFUCtQSk0rMjAyNiZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=e58]:
+          - link "Maps" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=52ac1dc55e801cd48be2135c5c97f2ab2b4c4595f6719a9ad829ef36051f7279JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT0lMjJwaGFudG9tK2RhdGErY2VudGVycyUyMit1dGlsaXR5K2ludGVyY29ubmVjdGlvbityZXF1ZXN0cytkdXBsaWNhdGUrc3BlY3VsYXRpdmUrbG9hZCtwZXJjZW50YWdlK211bHRpcGxlK0FFUCtQSk0rMjAyNiZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e60]:
+          - link "Copilot" [ref=e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b995d227f50101f647c575929f17bd26fdb7650edb4cf8ce9f88a5ff1dfd4be3JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PSUyMnBoYW50b20rZGF0YStjZW50ZXJzJTIyK3V0aWxpdHkraW50ZXJjb25uZWN0aW9uK3JlcXVlc3RzK2R1cGxpY2F0ZStzcGVjdWxhdGl2ZStsb2FkK3BlcmNlbnRhZ2UrbXVsdGlwbGUrQUVQK1BKTSsyMDI2JnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+        - listitem [ref=e62]:
+          - button "More" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: More
+  - main "Search Results" [ref=e68]:
+    - generic [ref=e69]:
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - heading "Copilot Search Branding" [level=2] [ref=e75]:
+                - link "Copilot Search Branding" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=41110eba1d33e633dbdfceafb2a5b606c08f6424d5fcb22eb3dfe76a2bf7d19dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NvcGlsb3RzZWFyY2g_cT0lMjJwaGFudG9tK2RhdGErY2VudGVycyUyMit1dGlsaXR5K2ludGVyY29ubmVjdGlvbityZXF1ZXN0cytkdXBsaWNhdGUrc3BlY3VsYXRpdmUrbG9hZCtwZXJjZW50YWdlK211bHRpcGxlK0FFUCtQSk0rMjAyNiZmb3JtPUNTQlJBTkQ&ntb=1
+              - button "More info about AI summary" [ref=e82]:
+                - img [ref=e84]
+            - region "Copilot Search" [ref=e88]:
+              - generic [ref=e94]: Searching for ""phantom data centers" utility interconnection requests duplicate speculative load percentage multiple AEP PJM 2026"
+      - list [ref=e95]:
+        - listitem [ref=e96]:
+          - link "GridUnity" [ref=e98] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=59230f7f7d9dd32c8f5d1f4efe6c5acf6e03530cb86af64e9e62e550d372b7deJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZ3JpZHVuaXR5LmNvbS9yZXNvdXJjZXMvbGF0aXR1ZGUtbWVkaWEtcGhhbnRvbS1kYXRhLWNlbnRlcnMtYXJlLWZsb29kaW5nLXRoZS1sb2FkLXF1ZXVl&ntb=1
+            - generic [ref=e103]:
+              - generic [ref=e104]: GridUnity
+              - generic [ref=e107]: https://www.gridunity.com › resources › latitude-media...
+          - heading "Latitude Media:‘Phantom’ data centers are flooding the load queue" [level=2] [ref=e108]:
+            - link "Latitude Media:‘Phantom’ data centers are flooding the load queue" [ref=e109] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=59230f7f7d9dd32c8f5d1f4efe6c5acf6e03530cb86af64e9e62e550d372b7deJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZ3JpZHVuaXR5LmNvbS9yZXNvdXJjZXMvbGF0aXR1ZGUtbWVkaWEtcGhhbnRvbS1kYXRhLWNlbnRlcnMtYXJlLWZsb29kaW5nLXRoZS1sb2FkLXF1ZXVl&ntb=1
+          - paragraph [ref=e111]: Latitude Media recently featured an article by Bianca Giacobone exploring how speculative data center load requests—many of …
+        - listitem [ref=e112]:
+          - generic [ref=e113]:
+            - link "Explore this image" [ref=e116] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=+G4LW41Z&id=AE93BA6990E4733620E589F36D992626CB976973&thid=OIP.-G4LW41ZWZVZ5Pz5ws9aBgHaEC&mediaurl=https://jisenergy-cms-u44d8.ondigitalocean.app/uploads/image_d10742e886.png&q=%22phantom+data+centers%22+utility+interconnection+requests+duplicate+speculative+load+percentage+multiple+AEP+PJM+2026&ck=CAB0A315C5CE19DCF1FC379884353075&idpp=rc&expw=1408&exph=768&form=rc2idp
+            - generic [ref=e118]:
+              - link "jisenergy.com" [ref=e120] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=8b93a0c9a160ef74287b4d74ea1ac950983608f945d4d8838d6bf0b98d6e7a6eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9qaXNlbmVyZ3kuY29tL3BoYW50b20tZGF0YS1jZW50ZXJzLWNsb2ctZ3JpZC1xdWV1ZXMtMjAyNjA1MTgv&ntb=1
+                - generic [ref=e125]:
+                  - generic [ref=e126]: jisenergy.com
+                  - generic [ref=e129]: https://jisenergy.com
+              - heading "Phantom Data Centers Clog Grid Queues - jisenergy.com" [level=2] [ref=e130]:
+                - link "Phantom Data Centers Clog Grid Queues - jisenergy.com" [ref=e131] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8b93a0c9a160ef74287b4d74ea1ac950983608f945d4d8838d6bf0b98d6e7a6eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9qaXNlbmVyZ3kuY29tL3BoYW50b20tZGF0YS1jZW50ZXJzLWNsb2ctZ3JpZC1xdWV1ZXMtMjAyNjA1MTgv&ntb=1
+              - paragraph [ref=e132]: May 18, 2026 · A surge of speculative 'phantom data center' projects is overwhelming grid interconnection …
+        - listitem [ref=e134]:
+          - generic [ref=e135]:
+            - link "Explore this image" [ref=e138] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=QFOeBvgo&id=A68F7987F0E5ED5010DC1E29F73B6267FBEA9EA2&thid=OIP.QFOeBvgocEO3BVQhIFTJnAHaEK&mediaurl=https://d32r1sh890xpii.cloudfront.net/article/1200x675/2025-09-02_i6psy7prff.jpg&q=%22phantom+data+centers%22+utility+interconnection+requests+duplicate+speculative+load+percentage+multiple+AEP+PJM+2026&ck=671BD348E4CC32066FD36A583CE06396&idpp=rc&expw=1000&exph=563&form=rc2idp
+            - generic [ref=e140]:
+              - link "OilPrice.com" [ref=e142] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=2efece3032268a8e1ba46f3f4c72c62aae9b7c613e2e2af3771f0f0afc00840cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9vaWxwcmljZS5jb20vRW5lcmd5L0VuZXJneS1HZW5lcmFsL1VTLVV0aWxpdGllcy1BcmUtQmFmZmxlZC1ieS1QaGFudG9tLURhdGEtQ2VudGVycy5odG1s&ntb=1
+                - generic [ref=e147]:
+                  - generic [ref=e148]: OilPrice.com
+                  - generic [ref=e151]: https://oilprice.com › Energy › Energy-General › US...
+              - heading "U.S. Utilities Are Baffled by Phantom Data Centers" [level=2] [ref=e152]:
+                - link "U.S. Utilities Are Baffled by Phantom Data Centers" [ref=e153] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=2efece3032268a8e1ba46f3f4c72c62aae9b7c613e2e2af3771f0f0afc00840cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9vaWxwcmljZS5jb20vRW5lcmd5L0VuZXJneS1HZW5lcmFsL1VTLVV0aWxpdGllcy1BcmUtQmFmZmxlZC1ieS1QaGFudG9tLURhdGEtQ2VudGVycy5odG1s&ntb=1
+              - paragraph [ref=e154]: Sep 2, 2025 · US electric utilities are struggling to accurately forecast future power demand due to …
+        - listitem [ref=e156]:
+          - link "latitudemedia.com" [ref=e158] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=07bbc75d42c5c1dbedcb52315af7686a2c0c72f1b4827f658edef0a505cfcb36JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cubGF0aXR1ZGVtZWRpYS5jb20vbmV3cy9waGFudG9tLWRhdGEtY2VudGVycy1hcmUtZmxvb2RpbmctdGhlLWxvYWQtcXVldWUv&ntb=1
+            - generic [ref=e163]:
+              - generic [ref=e164]: latitudemedia.com
+              - generic [ref=e167]: https://www.latitudemedia.com › news › phantom-data...
+          - heading "Load queue flooded by phantom data centers | Latitude Media" [level=2] [ref=e168]:
+            - link "Load queue flooded by phantom data centers | Latitude Media" [ref=e169] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=07bbc75d42c5c1dbedcb52315af7686a2c0c72f1b4827f658edef0a505cfcb36JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cubGF0aXR1ZGVtZWRpYS5jb20vbmV3cy9waGFudG9tLWRhdGEtY2VudGVycy1hcmUtZmxvb2RpbmctdGhlLWxvYWQtcXVldWUv&ntb=1
+          - paragraph [ref=e171]: Mar 26, 2025 · As companies race to secure their place in the booming data center market, they’re flooding power providers with …
+        - listitem [ref=e172]:
+          - link "computeforecast.com" [ref=e174] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=f465f0d92d165d616f0f0207d7a1d103456161b0a69c758c587b02db505d5f96JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY29tcHV0ZWZvcmVjYXN0LmNvbS9PcGluaW9uL2R1cGxpY2F0ZS1kZW1hbmQtYWktZ3JpZC1wbGFubmluZy1waGFudG9tLXF1ZXVlLw&ntb=1
+            - generic [ref=e179]:
+              - generic [ref=e180]: computeforecast.com
+              - generic [ref=e183]: https://www.computeforecast.com › Opinion › duplicate...
+          - heading "How “Duplicate Demand” Is Distorting the Global Energy Transition" [level=2] [ref=e184]:
+            - link "How “Duplicate Demand” Is Distorting the Global Energy Transition" [ref=e185] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=f465f0d92d165d616f0f0207d7a1d103456161b0a69c758c587b02db505d5f96JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY29tcHV0ZWZvcmVjYXN0LmNvbS9PcGluaW9uL2R1cGxpY2F0ZS1kZW1hbmQtYWktZ3JpZC1wbGFubmluZy1waGFudG9tLXF1ZXVlLw&ntb=1
+          - paragraph [ref=e187]: Jul 6, 2026 · AI and high-density data center developers routinely submit large-load requests to multiple utilities simultaneously while …
+        - listitem [ref=e188]:
+          - generic [ref=e189]:
+            - link "Explore this image" [ref=e192] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=Wxcaqbg1&id=5D9ACD61928F488FA861B49F833C0F3A2AF86F60&thid=OIP.Wxcaqbg1NygqRvIKmtSM2AHaE7&mediaurl=https://www.powermag.com/wp-content/uploads/2025/02/fig1-power-grid.jpg&q=%22phantom+data+centers%22+utility+interconnection+requests+duplicate+speculative+load+percentage+multiple+AEP+PJM+2026&ck=B53F7355D9A8AAEF5BFE5E10BF9D2FA0&idpp=rc&expw=650&exph=432&form=rc2idp
+            - generic [ref=e194]:
+              - link "POWER Magazine" [ref=e196] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=6a54e2ae94be26a78d2bfa1af545a51ae3352d536b22691ac64f3589efabe780JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucG93ZXJtYWcuY29tL3BoYW50b20tZGF0YS1jZW50ZXJzLWRpZG50LWJyZWFrLXRoZS1wb3dlci1ncmlkLXRoZXktcHJvdmVkLWl0LXdhcy1hbHJlYWR5LWJyb2tlbi8&ntb=1
+                - generic [ref=e201]:
+                  - generic [ref=e202]: POWER Magazine
+                  - generic [ref=e205]: https://www.powermag.com › phantom-data-centers-didnt...
+              - heading "Phantom Data Centers Didn't Break the Power …" [level=2] [ref=e206]:
+                - link "Phantom Data Centers Didn't Break the Power …" [ref=e207] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=6a54e2ae94be26a78d2bfa1af545a51ae3352d536b22691ac64f3589efabe780JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucG93ZXJtYWcuY29tL3BoYW50b20tZGF0YS1jZW50ZXJzLWRpZG50LWJyZWFrLXRoZS1wb3dlci1ncmlkLXRoZXktcHJvdmVkLWl0LXdhcy1hbHJlYWR5LWJyb2tlbi8&ntb=1
+              - paragraph [ref=e208]: May 15, 2026 · These requests didn’t create today’s power infrastructure crisis, but they exposed one that …
+        - listitem [ref=e210]:
+          - link "aixenergy.io" [ref=e212] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=fb11e233907f464be4cda3bbca6026dc9a11c6bcfb07a72d403b3a03e661ae07JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuYWl4ZW5lcmd5LmlvL21hbmFnaW5nLWRhdGEtY2VudGVyLXVuY2VydGFpbnR5LXBhcnQtaWktcGhhbnRvbS1kYXRhLWNlbnRlcnMtaG93LXN0cmF0ZWdpYy1vcGFjaXR5LWRyaXZlcy1vdmVyYnVpbGQv&ntb=1
+            - generic [ref=e217]:
+              - generic [ref=e218]: aixenergy.io
+              - generic [ref=e221]: https://www.aixenergy.io › managing-data-center...
+          - 'heading "Managing Data Center Uncertainty Part II — Phantom Data Centers: …" [level=2] [ref=e222]':
+            - 'link "Managing Data Center Uncertainty Part II — Phantom Data Centers: …" [ref=e223] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=fb11e233907f464be4cda3bbca6026dc9a11c6bcfb07a72d403b3a03e661ae07JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuYWl4ZW5lcmd5LmlvL21hbmFnaW5nLWRhdGEtY2VudGVyLXVuY2VydGFpbnR5LXBhcnQtaWktcGhhbnRvbS1kYXRhLWNlbnRlcnMtaG93LXN0cmF0ZWdpYy1vcGFjaXR5LWRyaXZlcy1vdmVyYnVpbGQv&ntb=1
+          - paragraph [ref=e225]: Jul 29, 2026 · AI developers are inflating power demand with phantom data centers—projects that exist on paper but never connect. …
+        - listitem [ref=e226]:
+          - link "investinsidernews.com" [ref=e228] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c885cf305bb7e3fc94c93c296739ed5218565bad71fba974aea0feffff263902JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RpbnNpZGVybmV3cy5jb20vdXRpbGl0aWVzL3Utcy11dGlsaXRpZXMtYXJlLWJhZmZsZWQtYnktcGhhbnRvbS1kYXRhLWNlbnRlcnMv&ntb=1
+            - generic [ref=e233]:
+              - generic [ref=e234]: investinsidernews.com
+              - generic [ref=e237]: https://investinsidernews.com › utilities › u-s...
+          - heading "U.S. Utilities Are Baffled by Phantom Data Centers" [level=2] [ref=e238]:
+            - link "U.S. Utilities Are Baffled by Phantom Data Centers" [ref=e239] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=c885cf305bb7e3fc94c93c296739ed5218565bad71fba974aea0feffff263902JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RpbnNpZGVybmV3cy5jb20vdXRpbGl0aWVzL3Utcy11dGlsaXRpZXMtYXJlLWJhZmZsZWQtYnktcGhhbnRvbS1kYXRhLWNlbnRlcnMv&ntb=1
+          - paragraph [ref=e241]: Sep 2, 2025 · Hyperscalers and AI-focused tech groups are sounding out the utilities in the areas they are considering for future data …
+        - listitem [ref=e242]:
+          - link "substack.com" [ref=e244] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9eefde71eb37882e07fd57f4ed20980876d4a372e3fc2c8bf2211a5455b5304aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9zYW5keXdsYXdyZW5jZS5zdWJzdGFjay5jb20vcC9kYXRhLWNlbnRlci1waGFudG9tLWludGVyY29ubmVjdGlvbg&ntb=1
+            - generic [ref=e249]:
+              - generic [ref=e250]: substack.com
+              - generic [ref=e253]: https://sandywlawrence.substack.com › data-center-phantom-interconnection
+          - heading "Data Center Phantom Interconnection Requests" [level=2] [ref=e254]:
+            - link "Data Center Phantom Interconnection Requests" [ref=e255] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=9eefde71eb37882e07fd57f4ed20980876d4a372e3fc2c8bf2211a5455b5304aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9zYW5keXdsYXdyZW5jZS5zdWJzdGFjay5jb20vcC9kYXRhLWNlbnRlci1waGFudG9tLWludGVyY29ubmVjdGlvbg&ntb=1
+          - paragraph [ref=e257]: "May 16, 2025 · But there is a fundamental challenge facing utilities, grid operators and power system regulators today: speculative …"
+        - listitem [ref=e258]:
+          - link "LinkedIn" [ref=e260] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=539d4288fe2d41408dab748110167a07f1dea69f57f1f0a783b45980a44ccef5JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL3B1bHNlL2hvdy1iYWQtcGhhbnRvbS1kYXRhLWNlbnRlci1sb2FkLWxhdGl0dWRlLW1lZGlhLWluYy11d2YwYy8&ntb=1
+            - generic [ref=e265]:
+              - generic [ref=e266]: LinkedIn
+              - generic [ref=e269]: https://www.linkedin.com › pulse
+          - heading "How bad is phantom data center load? - LinkedIn" [level=2] [ref=e270]:
+            - link "How bad is phantom data center load? - LinkedIn" [ref=e271] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=539d4288fe2d41408dab748110167a07f1dea69f57f1f0a783b45980a44ccef5JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cubGlua2VkaW4uY29tL3B1bHNlL2hvdy1iYWQtcGhhbnRvbS1kYXRhLWNlbnRlci1sb2FkLWxhdGl0dWRlLW1lZGlhLWluYy11d2YwYy8&ntb=1
+          - paragraph [ref=e273]: Mar 19, 2025 · Utilities and grid operators are drowning in load requests, creating ghost-filled queues that distort load growth …
+        - listitem [ref=e274]:
+          - link "Some results have been removed" [ref=e276] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cfae312eccc7b1136a2e8edfaa56fb317e844dceaa61d61539a83af16197d145JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e277]:
+          - navigation "More results for \"phantom data centers\" utility interconnection requests duplicate speculative load percentage multiple AEP PJM 2026":
+            - list:
+              - listitem [ref=e278]:
+                - generic "Page 1" [ref=e279]: "1"
+              - listitem [ref=e280]:
+                - link "Next page" [ref=e281] [cursor=pointer]:
+                  - /url: /search?q=%22phantom+data+centers%22+utility+interconnection+requests+duplicate+speculative+load+percentage+multiple+AEP+PJM+2026&FPIG=2BBFF716E80643C68F9969B71296CC22&first=11&FORM=PORE
+      - complementary "Additional Results" [ref=e282]:
+        - list
+  - contentinfo [ref=e283]:
+    - generic [ref=e284]:
+      - list:
+        - listitem [ref=e285]:
+          - link "Privacy" [ref=e286] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e287]:
+          - link "Terms" [ref=e288] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1
