@@ -12,10 +12,24 @@ rational arithmetic; floats are refused at the type boundary.
 
 ## Verdict
 
-The article's **structure** is sound and its **central accounting claim is
-correct and has already been observed in a filing**. Most of its supporting
-claims do not survive contact with primary sources, and two of them are
-falsified by evidence the article's own mechanism predicts.
+**The article's conclusion is probably right — about 80% likely — and most of
+its stated reasons for it are wrong.**
+
+That combination is the whole result. The grid constraint is real and binding;
+the evidence for it is not the evidence the article cites; and two of its
+supporting claims are falsified by data its own mechanism predicts.
+
+```
+P(regime C — stranding forced)        80.2%
+median annual shortfall               +1.66 GW/yr
+median stranded share of shipments    20.7%
+```
+
+n = 500,000, seed 20260918. The exact interval classification returns
+**UNDECIDED** — the evidence straddles the boundary — so the probability above
+is the honest form of the answer and the interval is the honest form of the
+uncertainty. Anyone quoting a point estimate here is overstating what is
+known.
 
 | # | Claim | Verdict |
 |---|---|---|
@@ -23,9 +37,9 @@ falsified by evidence the article's own mechanism predicts.
 | C2 | NVIDIA outlined FY2028 revenue ≈ $673B | **Misattributed.** Not NVIDIA's number. CNBC's $396B analyst consensus × 1.70. "673" appears **zero times** in the 8-K, the 10-Q and the corrected transcript |
 | C3 | 30-point gap ⟹ ASP compression | **Wrong four ways.** Arithmetic (−15%, not −30%); different speakers/dates/periods; undefined basket; and NVIDIA attributed the gap to **supply** on the same call |
 | C4 | Fab can double in several quarters | **No longer true.** CoWoS YoY decays +169→+121→+68→+54→+30%. TSMC's CEO: *"two to three years to build a new fab. No shortcuts."* |
-| C5 | Transformers 36–48 months | *pending grid research* |
-| C6 | Queues average 4–7 years | *pending grid research* |
-| C7 | Grid cannot double energized MW in 12 months | *pending grid research* |
+| C5 | Transformers 36–48 months | **Directionally right, high, thin.** Best survey: 29 mo (power), 33 (GSU). All figures trace to one root — vendor interviews and one proprietary survey |
+| C6 | Queues average 4–7 years | **Stands.** Measured median request-to-COD is **61 months** for 2025 completions |
+| C7 | Grid cannot double energized MW in 12 months | **Stands, emphatically.** ERCOT energized **+0.9 GW** of large load in 2025 against 445.8 GW of applications |
 | C8 | Two paths, both penalised | **Refined: it is three regimes**, with a computable boundary. TLC-verified |
 | C9 | Accelerators halve in competitiveness in 3–4 yr | **Falsified.** A 2020-vintage A100 is *appreciating*: NVIDIA disclosed A100 rental +~15% y/y |
 | C10 | Hyperscalers extended 3–4 yr → 5–6 yr, deferring billions | **Confirmed, exactly.** $43.8bn of FY2025 operating income across five companies, 11% of reported |
@@ -342,6 +356,126 @@ Stated plainly, because the sensitivity analysis shows these dominate:
 
 ---
 
+---
+
+## 9. The grid side, measured — and the verdict
+
+### The supply constraint is real, and larger than the article argues
+
+The two operators in the United States who publish actual meter readings for
+data-centre energization are delivering roughly **one gigawatt a year each**:
+
+| | 2024 | 2025 |
+|---|---|---|
+| ERCOT, observed energized large load | +0.5 GW | +0.9 GW |
+| Dominion Virginia, data centres physically connected | 977 MW | 744 MW |
+
+Dominion's best year ever was 1,006 MW, in 2022; 2025 fell 24% year on year.
+ERCOT's 5.7 GW of energized large load sits against **445.8 GW of
+applications** — 1.3%. ERCOT's own framing: 5,302 MW is *"approximately 2% of
+the total load in ERCOT's large load interconnection process."* And on
+2026-08-03 ERCOT **paused all data-centre energization above 75 MW** pending a
+governor-directed audit.
+
+**The tension to carry:** national models imply ~17 GW/yr of data-centre
+interconnection capacity is needed. The only two operators publishing meter
+readings are delivering about one gigawatt a year apiece.
+
+### The queue is not a pipeline
+
+| | |
+|---|---|
+| Median interconnection request → COD, 2025 completions | **61 months** (was 22 in 2008) |
+| Same, 200+ MW projects | 59 months |
+| Completion rate, 2000–2020 cohort, by capacity | **13%** (19% by count) |
+| Withdrawn | **75%** |
+| Conversion after an **executed** interconnection agreement | **43%** |
+| Active queue, end-2025 | 2,061 GW |
+| Reached operation in 2025 | **53 GW — a 2% throughput rate** |
+
+**Little's Law cross-check (I6).** With 53 GW completing and ~750 GW
+withdrawing against a 2,290 GW queue, mean residence across all departures is
+**2.85 years**, while LBNL measures **5.08 years** for completers. Both are
+right and they are different quantities: withdrawals exit early and pull the
+mean down, so completers wait about 1.8× the average departure. Two
+independent statistics reconcile — which is the point of running the check.
+
+### Both relief valves are smaller than they look
+
+**Curtailment-enabled headroom** (Duke Nicholas Institute, the study everyone
+cites): **76 GW** at 0.25% of annual energy curtailed, 98 GW at 0.5%, 126 GW at
+1.0%. Two things are routinely misread. The limits are percentages of
+**energy**, not hours — 0.5% is 177 curtailment hours, not 44, because most
+events are partial. And the authors' own caveat is load-bearing: *"the results
+cannot be taken as an accurate estimate of the load that can be added to the
+system"*; no network constraints, no loss-of-load modelling. **Demonstrated at
+scale: ~0.1 MW** — 256 GPUs, in one experiment. No US source publishes a single
+gigawatt of data-centre load actually operating under a curtailable tariff.
+
+**Behind-the-meter:** one commercial projection of **22.5 GW over 2026–2030**
+(~36% of additions). The measured counterpart is **1,025 MW** — two ERCOT
+co-location arrangements approved under Texas SB6. Gas turbine order books total
+~246 GW globally, but GE Vernova is *"mostly sold out through 2030"* and its H1
+2026 deliveries **fell** year on year, 7.5 GW against 8.2. The only US nuclear
+arrangement that has ever operated behind the meter is Susquehanna's legacy
+300 MW; FERC rejected the expansion.
+
+### The regime
+
+| | GW/yr |
+|---|---|
+| S gross — US AI capacity additions (reconciled two ways) | [6.8, 11.6] |
+| less refresh, bounded at [0.00, 0.23] | |
+| **S net — needing new power** | **[5.2, 11.6]** |
+| ERCOT + Dominion measured energization, scaled to US | [2.8, 7.5] |
+| plus behind-the-meter (1.0 measured … 4.5 projected) | [0.2, 4.5] |
+| **E total** | **[3.0, 12.0]** |
+
+Exact interval classification: **UNDECIDED** — consistent with all three
+regimes. Monte Carlo over the same ranges: **P(regime C) = 80.2%**, median
+shortfall **+1.66 GW/yr**, median stranded share of shipments **20.7%**.
+
+**So the article is probably right, and the magnitude is modest.** Not a
+collapse — about a fifth of shipments, in the median case, arriving before
+power. And the one number that carries the conclusion is the one with the
+least evidence behind it: the scaling from two published meter readings to a
+national figure, which no source provides.
+
+---
+
+## 10. What this exercise actually changed
+
+Ranked by how much each moved the answer.
+
+1. **The grid constraint survives; the article's evidence for it does not.**
+   C5 is high and thin, C6 stands, C7 stands emphatically — but the decisive
+   evidence is ERCOT's and Dominion's meter readings, which the article does
+   not cite, not the transformer and queue figures, which it does.
+
+2. **The strongest support for the thesis is a number the article never
+   mentions.** An enterprise rack draws 8–10 kW; a GB300 NVL72 draws 132–142.
+   Converting a rack slot recovers 5.6–7.6% of what the AI rack needs. New
+   hardware cannot hide in old power.
+
+3. **The article's own mechanism refutes two of its conclusions.** If energized
+   megawatts are scarce, hardware in an energized slot is priced off the
+   scarcity of the slot — which is why a 2020-vintage A100 is appreciating,
+   why prior generations are not being ripped out, and why the impairment
+   does not bite.
+
+4. **Straight-line depreciation is faster than the market.** Linear book
+   against exponential resale: the curves cross at ~1.4 years, and beyond that
+   early retirement books a gain. Every observed resale point sits above
+   six-year straight-line book.
+
+5. **66% of the remaining uncertainty sits in two quantities nobody has
+   measured** — and after all this research, one is now bounded from physics
+   (refresh, [0.00, 0.23]) and the other is still a single commercial
+   projection against a 1 GW measured base.
+
+
+---
+
 ## Method
 
 - **Formal:** `spec/Energization.tla`, 9 TLC configurations with declared
@@ -358,3 +492,4 @@ Stated plainly, because the sensitivity analysis shows these dominate:
   first-order and total-effect indices.
 - **Tests:** 15, including cross-checks that the Python regime classifier
   reproduces all three TLC regimes from independent code.
+

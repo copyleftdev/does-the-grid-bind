@@ -671,3 +671,146 @@ parameters:
       10 GW on paper; near-zero is energized. Export licensing gates it:
       NVIDIA's FY2026 10-K names Saudi Arabia and the UAE in Country Groups
       D:1/D:4/D:5 requiring licences for GB200 NVL72 and B200.
+
+  # ==================================================== grid: supply side
+  transformer_lead_months_power:
+    value: 29
+    unit: months
+    provenance: ESTIMATED
+    source: "Wood Mackenzie Q2 2025 survey, power transformers 128 weeks"
+    url: https://www.powermag.com/transformers-in-2026-shortage-scramble-or-self-inflicted-crisis/
+    as_of: 2025-06
+    note: "GSU transformers 143-144 weeks (~33 mo); HV circuit breakers ~151 weeks (~35 mo); switchgear 44 weeks (~10 mo)."
+
+  transformer_lead_months_baseline_2019:
+    value: [9, 12]
+    unit: months
+    provenance: FILED
+    source: "DOE Large Power Transformer Resilience, Report to Congress: in 2019/20 'possible to place an order for a large transformer with a lead time of less than a year'"
+    url: https://www.energy.gov/sites/default/files/2024-10/EXEC-2022-001242%20-%20Large%20Power%20Transformer%20Resilience%20Report%20signed%20by%20Secretary%20Granholm%20on%207-10-24.pdf
+    as_of: 2024-07
+
+  transformer_lead_months_article_claim:
+    value: [36, 48]
+    unit: months
+    provenance: ADVOCACY
+    source: "DOE '36 months commonly quoted, up to 60'; NIAC '2-4 years'; both trace to vendor interviews (Hitachi Energy, Prolec GE)"
+    url: https://www.cisa.gov/sites/default/files/2024-09/NIAC_Addressing%20the%20Critical%20Shortage%20of%20Power%20Transformers%20to%20Ensure%20Reliability%20of%20the%20U.S.%20Grid_Report_06112024_508c_pdf_0.pdf
+    as_of: 2024-06
+    note: >
+      Directionally right but ONE evidentiary root, not four. DOE's figure
+      rests on interviews conducted 15-23 June 2023; the 80-210 week range is
+      Wood Mackenzie proprietary survey data with unpublished method and n,
+      and 210 weeks is an outer-extreme observation, not a mean. NERC's
+      '120 weeks' footnotes the same Wood Mackenzie article. There is no
+      independent government MEASUREMENT of LPT lead times.
+
+  queue_median_ir_to_cod_months_2025:
+    value: 61
+    unit: months
+    provenance: MEASURED
+    source: "LBNL Queued Up 2026 Edition, median interconnection-request-to-COD for 2025 completions (200+ MW projects: 59 months)"
+    url: https://www.osti.gov/servlets/purl/3376147
+    as_of: 2026-06-30
+    note: "Was 22 months for the 2008 cohort, 36 for 2015, 55 for 2024. IR->IA 45 months, IA->COD 31 months."
+
+  queue_completion_rate_by_capacity:
+    value: "0.13"
+    unit: dimensionless
+    provenance: MEASURED
+    source: "LBNL Queued Up 2026: 2000-2020 cohort, 3,501 GW of requests, 13% operational by capacity (19% by count), 75% withdrawn"
+    url: https://www.osti.gov/servlets/purl/3376147
+    as_of: 2025-12-31
+    note: "Even an EXECUTED interconnection agreement converts to operation only 43% of the time."
+
+  queue_active_gw_2025:
+    value: 2061
+    unit: GW
+    provenance: MEASURED
+    source: "LBNL Queued Up 2026, active queue at end-2025 (2,290 GW at end-2024, 12% decline)"
+    url: https://www.osti.gov/servlets/purl/3376147
+    as_of: 2025-12-31
+
+  queue_annual_throughput_gw:
+    value: 53
+    unit: GW/yr
+    provenance: MEASURED
+    source: "LBNL Queued Up 2026: of the 2,290 GW active at end-2024, 53 GW reached operation in 2025 - a 2% annual throughput rate"
+    url: https://www.osti.gov/servlets/purl/3376147
+    as_of: 2025-12-31
+
+  us_capacity_additions_gw_2025:
+    value: "57.56"
+    unit: GW/yr
+    provenance: MEASURED
+    source: "EIA-860M July 2026 file, nameplate MW by operating year, 50 states + DC"
+    url: https://www.eia.gov/electricity/data/eia860m/xls/july_generator2026.xlsx
+    as_of: 2026-07
+    note: "2020 33.65, 2021 38.58, 2022 32.44, 2023 44.93, 2024 51.01, 2025 57.56. Net of retirements: 2024 +39.53, 2025 +52.67."
+
+  # -------------------------------- the only two MEASURED energization series
+  ercot_large_load_energized_gw_per_yr:
+    value: ["0.5", "0.9"]
+    unit: GW/yr
+    provenance: OFFICIAL
+    source: "ERCOT Monthly, observed energized large load: 4.3 GW (2023) -> 4.8 (2024) -> 5.7 (2025)"
+    url: https://www.ercot.com/files/docs/2026/05/13/ERCOT-Monthly-April-2026-FINAL.pdf
+    as_of: 2026-04
+    note: >
+      Against 445.8 GW of applications: 1.3% energized. ERCOT's own framing:
+      5,302 MW is 'approximately 2% of the total load in ERCOT's large load
+      interconnection process'. ERCOT PAUSED all data-center energization
+      >=75 MW on 2026-08-03 pending a Governor-directed audit.
+
+  dominion_dc_connected_gw_per_yr:
+    value: ["0.744", "0.977"]
+    unit: GW/yr
+    provenance: OFFICIAL
+    source: "Dominion Energy Q4 2025 earnings deck slide 53: data centers physically connected, 977 MW (2024), 744 MW (2025)"
+    url: https://www.dominionenergy.com/investors
+    as_of: 2026-02-23
+    note: >
+      Best year ever was 1,006 MW (2022); 2025 fell 24% YoY. Cumulative
+      2015-2025 is 6,895 MW against 53.8 GW under contract - 7.8x everything
+      ever connected.
+
+  # ------------------------------------------- the relief valves
+  curtailment_headroom_gw:
+    value: [76, 126]
+    unit: GW
+    provenance: ESTIMATED
+    source: "Norris et al., Rethinking Load Growth, NI R 25-01, Duke Nicholas Institute: 76 GW at 0.25% of annual ENERGY curtailed, 98 GW at 0.5%, 126 GW at 1.0%"
+    url: https://nicholasinstitute.duke.edu/sites/default/files/publications/rethinking-load-growth.pdf
+    as_of: 2025-02-11
+    note: >
+      Limits are percentages of ENERGY, not hours: 0.5% corresponds to 177
+      curtailment hours, not 44, because most events are partial. Authors'
+      own caveat is load-bearing: 'the results cannot be taken as an accurate
+      estimate of the load that can be added to the system'; no network
+      constraints, no LOLE modelling. PJM 17.8 GW, MISO 14.8, ERCOT 10.0 at
+      the 0.5% limit. Demonstrated at scale: ~0.1 MW (Emerald AI, 256 GPUs).
+      No US source publishes GW of data-center load actually operating under
+      a curtailable tariff.
+
+  btm_gw_2026_2030_projected:
+    value: "22.5"
+    unit: GW
+    provenance: ESTIMATED
+    source: "Enverus Intelligence Research, Behind-the-Meter Generation Forecast, 2026-2030, ~36% of US data center capacity additions"
+    url: https://www.enverus.com/blog/data-center-sites-powered-by-gas-isnt-the-same-as-ready-to-build/
+    as_of: 2026-09-17
+    note: >
+      COMMERCIAL PROJECTION, not a measurement. The measured counterpart is
+      1,025 MW: two ERCOT co-location arrangements approved under Texas SB6
+      as of May 2026. Gas turbine order books are ~246 GW globally but GE
+      Vernova is 'mostly sold out through 2030' and its H1 2026 deliveries
+      FELL year on year (7.5 GW vs 8.2 GW).
+
+  nerc_tier1_net_additions_10yr:
+    value: 60
+    unit: GW
+    provenance: OFFICIAL
+    source: "NERC 2025 Long-Term Reliability Assessment: ~60 GW of net additions planned in the most certain Tier 1 category over 10 years, against +224 GW of summer peak demand growth"
+    url: https://www.nerc.com/pa/RAPA/ra/Reliability%20Assessments%20DL/NERC_LTRA_2025.pdf
+    as_of: 2026-01
+    note: "Another 190 GW of Tier 2 would need to complete interconnection and reach operation to meet expected demand growth."

@@ -1,0 +1,84 @@
+
+==============================================================================
+First, an independent check on the queue numbers (I6, Little's Law)
+==============================================================================
+  active queue, end-2025                             2061 GW
+  reached operation in 2025                            53 GW
+  withdrew in 2025                                    750 GW
+  => Little's Law residence, ALL departures          2.85 years
+  LBNL's MEASURED median for completers              5.08 years
+
+  These are consistent and they are different quantities. A queue where 75%
+  of capacity leaves by withdrawal has a short average residence and a long
+  completion time: withdrawals exit early and drag the mean down. Completers
+  wait about 1.8x the average departure. The two independent statistics
+  reconcile, which is the point of running the check.
+
+  VERDICT ON C6 ("queues average four to seven years"): the measured median
+  interconnection-request-to-COD is 61 months (5.1 years) for 2025
+  completions and 59 months for 200+ MW projects. The article's range
+  brackets the median correctly. C6 STANDS.
+
+  But the number that matters more is one the article does not cite: of
+  3,501 GW of requests in the 2000-2020 cohort, 13% by capacity reached
+  operation and 75% withdrew. Even an EXECUTED interconnection agreement
+  converts only 43% of the time. A queue is not a pipeline.
+
+
+==============================================================================
+C5 — transformer lead times
+==============================================================================
+  article's claim                                  [36, 48] months
+  Wood Mackenzie Q2 2025, power transformers             29 months
+  ... generator step-up units                            33 months
+  ... HV circuit breakers                                35 months
+  2019/20 baseline (DOE)                            [9, 12] months
+  => increase since 2019/20                             2.4 x
+
+  VERDICT ON C5: directionally right, somewhat high, and resting on thinner
+  evidence than its confidence implies. The best current survey figure is 29
+  months for power transformers and 33 for GSUs, against the article's 36-48.
+  DOE's "36 months, up to 60" traces to vendor interviews conducted 15-23
+  June 2023; the 80-210 week range is proprietary survey data whose method
+  and sample size are unpublished, and 210 weeks is an outer extreme, not a
+  mean. NERC's widely-quoted 120 weeks footnotes the same article. There is
+  no independent government measurement of transformer lead times at all.
+
+
+==============================================================================
+The regime test
+==============================================================================
+
+  Annual flows for the United States. S is new AI capacity needing power, E
+  is newly available energized capacity. The installed-base term B is already
+  netted out through share_refresh, bounded in analysis/08.
+
+  S gross, US AI capacity additions (reconciled)          [6.8, 11.6] GW/yr
+  share absorbed by refresh (bounded, analysis/08)       [0.00, 0.23]
+  S net, needing NEW power                                [5.2, 11.6] GW/yr
+
+  ERCOT large load energized (MEASURED)                  [0.50, 0.90] GW/yr
+  Dominion data centres connected (MEASURED)             [0.74, 0.98] GW/yr
+  the two markets together                               [1.24, 1.88] GW/yr
+  their share of US data centre capacity (assumed)       [0.25, 0.45]
+  => implied US grid energization                          [2.8, 7.5] GW/yr
+  + behind-the-meter (1.0 GW measured .. 4.5 proj.)        [0.2, 4.5] GW/yr
+  E total                                                 [3.0, 12.0] GW/yr
+
+  VERDICT: UNDECIDED: the evidence straddles a boundary
+  consistent with: A_FREE, B_ENVELOPE_BOUND, C_SUPPLY_BOUND
+
+==============================================================================
+The distribution, since the intervals do not decide it
+==============================================================================
+  n = 500,000   seed = 20260918
+  P(regime C — stranding forced)                    80.2%
+  P(regime A — absorption free)                     19.8%
+
+  annual shortfall S - E:
+    p5     -1.53 GW/yr
+    p25    +0.34 GW/yr
+    p50    +1.66 GW/yr
+    p75    +3.00 GW/yr
+    p95    +4.79 GW/yr
+  median stranded as a share of shipments           20.7%
