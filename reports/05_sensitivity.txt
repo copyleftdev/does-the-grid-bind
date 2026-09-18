@@ -1,0 +1,45 @@
+
+==============================================================================
+Required new US grid capacity — the seven-factor chain, sampled
+==============================================================================
+  n = 400,000   seed = 20260918
+
+  required new US grid capacity for the FY2028 NVIDIA cohort
+    p5       3.10 GW
+    p25      3.93 GW
+    p50      4.67 GW
+    p75      5.53 GW
+    p95      6.95 GW
+    ratio p95/p5 = 2.2x
+
+==============================================================================
+Sobol decomposition — which input owns the variance
+==============================================================================
+  factor                   S1     +/-       ST     +/-   provenance of the range
+  share_offgrid         0.326   0.012    0.339   0.007   *** UNSOURCED ***
+  share_refresh         0.326   0.013    0.339   0.007   *** UNSOURCED ***
+  revenue_per_gw        0.311   0.011    0.324   0.008   FILED, but restated once
+  share_us              0.015   0.003    0.016   0.000   ESTIMATED (electricity proxy)
+  dc_revenue_bn         0.002   0.001    0.002   0.000   FILED growth rate, analyst base
+
+  Share of total-effect index carried by the two UNSOURCED factors:
+      66.4%
+
+  That is the finding. The two quantities that dominate the answer -- what
+  fraction of new hardware lands in an already-energized envelope, and what
+  fraction is powered outside the interconnection queue -- are precisely the
+  two the article never mentions, and neither has a published measurement.
+
+  Meanwhile the factors the debate actually argues about, NVIDIA's revenue and
+  the transformer and queue lead times, are either already disclosed or barely
+  move the result. Measuring the interconnection queue more precisely cannot
+  resolve this question, because the queue is not where the variance lives.
+
+
+==============================================================================
+What would actually collapse the uncertainty
+==============================================================================
+    pin share_refresh    -> p95/p5 falls   2.2x ->   1.9x   (13.6% of the spread removed)
+    pin share_offgrid    -> p95/p5 falls   2.2x ->   1.9x   (13.6% of the spread removed)
+    pin revenue_per_gw   -> p95/p5 falls   2.2x ->   2.0x   (12.4% of the spread removed)
+    pin share_us         -> p95/p5 falls   2.2x ->   2.2x   ( 0.5% of the spread removed)

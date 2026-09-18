@@ -1,0 +1,55 @@
+
+==============================================================================
+Route A — bottom-up from LBNL's energy model
+==============================================================================
+  LBNL 2030 US data centre energy, Reference                    649 TWh
+  AI servers as a share of it (LBNL scenarios)         [0.53, 0.59]
+  => AI-attributable energy in 2030                      [344, 383] TWh
+  capacity factor, EPRI MEASURED (colo..hyperscale)    [0.57, 0.75]
+  => US AI nameplate capacity in 2030                  [52.4, 76.7] GW
+
+  same construction for 2024 (AI share 25-35%)          [7.3, 13.5] GW
+  => implied US AI capacity additions, 2024-2030        [6.5, 11.6] GW/yr
+
+==============================================================================
+Route B — top-down from NVIDIA's revenue guidance and disclosed $/GW
+==============================================================================
+  NVIDIA FY2028 Data Center revenue                $ [600.7, 625.4] B
+  NVIDIA disclosed revenue per GW (GB..Vera Rubin) $       [25, 40] B/GW
+  => global AI factory build                           [15.0, 25.0] GW/yr
+  US share                                             [0.45, 0.50]
+  => US AI capacity additions                           [6.8, 12.5] GW/yr
+
+==============================================================================
+Do they close?
+==============================================================================
+  Route A, LBNL energy model bottom-up      [6.5, 11.6] GW/yr
+  Route B, NVIDIA revenue top-down          [6.8, 12.5] GW/yr
+
+  THEY RECONCILE. Overlap:                  [6.8, 11.6] GW/yr
+
+  Two methods sharing no inputs -- a national bottom-up energy model built
+  from server shipments and measured power draw, and a vendor's revenue
+  guidance divided by its own disclosed content per gigawatt -- agree on the
+  rate at which US AI capacity is being added.
+
+  That is worth more than either number alone. It means the quantity on the
+  demand side of the energization question is roughly KNOWN, to within a
+  factor of about two, and the remaining argument is entirely on the supply
+  side and in the two unsourced shares from the sensitivity analysis.
+
+
+==============================================================================
+Now set that against the numbers the debate actually quotes
+==============================================================================
+  US AI capacity actually being added, per year    6.8 - 11.6 GW/yr   reconciled, two methods
+  LBNL implied US interconnection additions              17.4 GW/yr   DERIVED from the demand forecast, at the 50% assumption
+  ERCOT large-load queue                                     230 GW   one state, an option book
+  Dominion signed data-centre contracts                       47 GW   one utility
+  Dominion's own forecast of realised load                  16.6 GW   same utility, same filing
+
+  The gap between what is queued and what is needed is not evidence of a
+  shortage. It is evidence that a queue position is a cheap option and that
+  the same megawatt is counted in several places at once. Dominion states
+  both numbers in one filing: 47 GW contracted, 16.6 GW expected.
+
