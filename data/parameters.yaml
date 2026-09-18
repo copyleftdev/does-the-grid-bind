@@ -583,3 +583,91 @@ parameters:
     url: https://suttonfinancialreporting.com/wp-content/uploads/2026/04/Hyperscalers-AI-assets-and-depreciation-policy.pdf
     as_of: 2026-04
     note: "11% of the $438.5bn aggregate reported operating income. Method independently reproduced exactly from its stated inputs."
+
+  # ================================================ geography and refresh
+  us_share_of_global_dc_capacity_iea:
+    value: "0.433"
+    unit: dimensionless
+    provenance: ESTIMATED
+    source: "IEA Energy and AI Annex A Table A.2: US 42 GW of 97 GW world data-centre capacity"
+    url: https://iea.blob.core.windows.net/assets/40a4db21-2225-42f0-8a07-addcc2ea86b3/EnergyandAI.pdf
+    as_of: 2024
+    note: "China 24 GW (24.7%), Europe 16 GW (16.5%), Middle East 0.4 GW (0.4%). IEA publishes no region x AI cross-tab."
+
+  us_share_of_ai_capacity_bounded:
+    value: ["0.43", "0.75"]
+    unit: dimensionless
+    provenance: ESTIMATED
+    source: "Low anchor IEA all-data-centres 43.3%; high anchor Epoch frontier AI compute ~75% (arXiv 2504.16026)"
+    url: https://arxiv.org/abs/2504.16026
+    as_of: 2026-09
+    note: >
+      BOUNDED, NOT KNOWN, and the two anchors measure different populations.
+      Epoch's database covers 46% of global deployed AI compute (90% CI
+      26-79%) with an admitted US collection bias, so its own data cannot
+      distinguish a 45% US share from a 90% one. Do not carry a point estimate.
+
+  nvda_us_revenue_share_restatement_fy2025:
+    value: "0.125"
+    unit: dimensionless
+    provenance: FILED
+    source: "NVIDIA FY2025 US revenue 46.9% on the billing-location basis, recast to 59.4% on the customer-headquarters basis"
+    url: https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm
+    as_of: 2026-01-25
+    note: >
+      A $16.2B, 12.5-percentage-point swing with no change in physical
+      hardware. Singapore was 18% of FY2025 revenue on the old basis but
+      'shipments to Singapore were less than 2%'. Q1 FY2027 US 78.1%,
+      Q2 FY2027 62.4% - a 16-point quarterly swing. NVIDIA's geographic
+      revenue line cannot carry a deployment-location argument.
+
+  rack_kw_enterprise_mean:
+    value: ["8.0", "10.0"]
+    unit: kW/rack
+    provenance: MEASURED
+    source: "Uptime Institute operator survey: 2.4 kW (2011), 5.6 (2017), 8.4 (2020); 2024 'remain below 8'; 2025 n>800 'shifting toward 10'"
+    url: https://journal.uptimeinstitute.com/rack-density-is-rising/
+    as_of: 2025
+    note: "Only ~1% of operators report any rack exceeding 100 kW."
+
+  us_server_retirement_share_2024:
+    value: ["0.53", "0.67"]
+    unit: dimensionless
+    provenance: DERIVED
+    source: "LBNL-2001758 model inputs: ~3.1-4.0M US server retirements against 5.9M shipped in 2024"
+    url: https://www.osti.gov/servlets/purl/3374245
+    note: "Implies 10-13% annual fleet turnover by unit count."
+
+  ai_server_retirement_share_2024:
+    value: "0.17"
+    unit: dimensionless
+    provenance: DERIVED
+    source: "LBNL-2001758: AI-server retirements as a share of AI-server shipments, 2024"
+    url: https://www.osti.gov/servlets/purl/3374245
+    note: >
+      Low because the AI fleet compounds at ~42%/yr. AI retirements do not
+      become material until roughly 2029. This is the ceiling on MW-neutral
+      AI-to-AI refresh.
+
+  lbnl_accelerator_life_elasticity:
+    value: "0.091"
+    unit: dimensionless
+    provenance: ESTIMATED
+    source: "LBNL-2001758 Low Accelerator Lifetime scenario: cutting assumed accelerator life 5 -> 4 years lowers projected 2030 US data-centre electricity from 649 to 590 TWh"
+    url: https://doi.org/10.71468/P1RP4F
+    as_of: 2026-06
+    note: "The refresh-rate term is not very load-bearing in LBNL's own model."
+
+  middle_east_dc_capacity_installed:
+    value: "0.4"
+    unit: GW
+    provenance: ESTIMATED
+    source: "IEA Energy and AI Annex A, Middle East installed data-centre capacity 2024 (0.7 GW by 2030)"
+    url: https://iea.blob.core.windows.net/assets/40a4db21-2225-42f0-8a07-addcc2ea86b3/EnergyandAI.pdf
+    as_of: 2024
+    note: >
+      Against an 'almost 10 GW' announced regional pipeline. Announced
+      non-US sovereign capacity totals ~11.2 GW and rivals US Stargate's
+      10 GW on paper; near-zero is energized. Export licensing gates it:
+      NVIDIA's FY2026 10-K names Saudi Arabia and the UAE in Country Groups
+      D:1/D:4/D:5 requiring licences for GB200 NVL72 and B200.

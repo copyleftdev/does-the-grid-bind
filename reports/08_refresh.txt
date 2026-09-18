@@ -1,0 +1,65 @@
+
+==============================================================================
+Bounding share_refresh
+==============================================================================
+
+  There are only two ways a new accelerator can occupy power that already
+  exists: displace a conventional server, or displace an older accelerator.
+  They behave completely differently and must be bounded separately.
+
+
+==============================================================================
+Route 1 — conventional server displaced by an AI server: nearly worthless
+==============================================================================
+  enterprise mean rack draw (Uptime, measured)        [8.0, 10.0] kW
+  GB300 NVL72 rack draw (OEM)                          [132, 142] kW
+  density ratio                                      [13.2, 17.8] x
+  => power recovered per rack slot converted        [0.056, 0.076]
+
+  Converting an enterprise rack to an AI rack recovers only [5.6, 7.6]% of what
+  the AI rack needs. The other [92.4, 94.4]% has to come from somewhere new.
+
+  And the headline turnover number is misleading here. US server retirements
+  ran at [0.53, 0.67] of shipments in 2024 -- 10-13% annual fleet turnover --
+  which sounds like a large reuse pool. It is not, because in LBNL's own model
+  CONVENTIONAL SERVER ENERGY IS ESSENTIALLY FLAT from 2024 to 2030: efficiency
+  gains absorb workload growth, and the retiring slots are refilled with
+  conventional servers rather than released. Flat energy means no net
+  megawatts freed, whatever the unit turnover.
+
+
+==============================================================================
+Route 2 — older accelerator displaced by a newer one: MW-neutral, but small
+==============================================================================
+  AI-server retirements as a share of AI shipments, 2024        0.17
+
+  This route IS megawatt-neutral: retire 132 kW of Hopper, install 132 kW of
+  Blackwell, the envelope is unchanged. But it is bounded by how much AI
+  hardware is old enough to retire, and a fleet compounding at ~42%/yr has
+  very little of that. LBNL's inputs put AI retirements at 17% of AI
+  shipments in 2024; they do not become material until roughly 2029.
+
+  Note this also contradicts the article's cannibalization premise in a
+  second way. The article pictures operators pulling two-year-old Hopper to
+  make room. The observed retirement rate says almost nobody is doing it --
+  consistent with Oracle renewing four-year-old GPUs at a 20% premium and AWS
+  stating it has never retired an A100.
+
+
+==============================================================================
+Bound
+==============================================================================
+  Route 1 contribution   ~0 (conventional energy is flat)
+  Route 2 contribution   <= 0.17
+  => share_refresh bounded at                    [0.00, 0.23]
+
+  I began this model allowing share_refresh anywhere in [0.10, 0.45]. The
+  physical and fleet-composition evidence bounds it at roughly [0.05, 0.23].
+  That is a real tightening of one of the two dominant factors, and it moves
+  the answer TOWARD the article's conclusion: less of the new hardware can
+  hide in existing power than a casual reading of "10-13% fleet turnover"
+  would suggest.
+
+  This is the strongest single piece of support the article's thesis gets
+  from this exercise, and it comes from a number the article never cites.
+
