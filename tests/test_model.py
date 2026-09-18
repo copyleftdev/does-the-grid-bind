@@ -139,3 +139,37 @@ def test_littles_law_is_monotone_in_throughput():
     slow = littles_law_wait(Interval.of(1000), Interval.of(50))
     fast = littles_law_wait(Interval.of(1000), Interval.of(100))
     assert slow.lo > fast.hi
+
+
+# ------------------------------------------------------------ the chain
+
+def test_chain_measures_factors_as_they_enter():
+    """A complemented share must be blamed for the width of (1-x), not of x."""
+    from chipgrid.chain import required_new_grid_mw, relative_width, width_attribution
+
+    r = required_new_grid_mw(
+        d_units=Interval.of(1000), share_accelerator=Interval.of(1),
+        watts_each=Interval.of(1000), pue=Interval.of(1), share_us=Interval.of(1),
+        share_refresh=Interval.of(0), share_offgrid=Interval.of("0.10", "0.40"),
+    )
+    stated = relative_width(Interval.of("0.10", "0.40"))
+    entered = relative_width(r.as_entered["(1-share_offgrid)"])
+    assert stated == Fraction(6, 5)
+    assert entered == Fraction(2, 5)
+    assert dict(width_attribution(r))["(1-share_offgrid)"] == entered
+
+
+def test_chain_product_cannot_beat_its_widest_factor():
+    """A multiplicative chain is never tighter than its loosest input, so
+    measuring the well-known factors more carefully cannot rescue it."""
+    from chipgrid.chain import required_new_grid_mw, relative_width
+
+    r = required_new_grid_mw(
+        d_units=Interval.of(3_000_000, 6_000_000),
+        share_accelerator=Interval.of("0.35", "0.65"),
+        watts_each=Interval.of(700, 1400), pue=Interval.of("1.15", "1.35"),
+        share_us=Interval.of("0.45", "0.75"), share_refresh=Interval.of("0.10", "0.35"),
+        share_offgrid=Interval.of("0.10", "0.40"),
+    )
+    widest = max(relative_width(v) for v in r.as_entered.values())
+    assert relative_width(r.required_mw) >= widest

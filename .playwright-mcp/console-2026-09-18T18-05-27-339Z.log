@@ -1,0 +1,21 @@
+[     722ms] [INFO] stickyFooterAd loaded @ https://markets.businessinsider.com/scripts/main.db6ae23fef1704e85ae2.js:0
+[     883ms] [LOG] Messaging without detection successfully executed. @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[     888ms] [LOG] interaction complete @ https://cdn.privacy-mgmt.com/unified/wrapperMessagingWithoutDetection.js:0
+[    1074ms] [WARNING] [GPT] PubAdsService.getTargeting is deprecated, use googletag.getConfig('targeting') instead.
+https://goo.gle/gpt-message#200 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[    1083ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[    1427ms] [LOG] PLSUB init called 17897547287593349 @ https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js:5
+[    1438ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[    1450ms] [WARNING] Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either the publisherProvidedId or the __gads value when that is missing. @ https://cdn.jsdelivr.net/gh/prebid/shared-id/pubcid.js/docs/pubcid.min.js:0
+[    1486ms] [LOG] %cNovatiq: %c%s color:blue color:#997300 Novatiq core integration library version: 2.3.cdn @ https://cdn.fusion-platform.com/static/js/novatiq_gam_integration.min.js:0
+[    1548ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[    1784ms] [INFO] [2026-09-18T18:05:29.123Z] Information: Using HubProtocol 'messagepack'. @ https://markets.businessinsider.com/chunks/scripts/24624.489153a5ef1cfd2b7c2a.js:0
+[    2097ms] [WARNING] [GPT] Attempted to load GPT from both standard and limited ads domains.
+https://goo.gle/gpt-message#153 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[    4079ms] [WARNING] Unrecognized feature: 'join-ad-interest-group'. @ https://p.ad.gt/api/v1/p/800:0
+[    4079ms] [WARNING] Unrecognized feature: 'run-ad-auction'. @ https://p.ad.gt/api/v1/p/800:0
+[    4079ms] [WARNING] Unrecognized feature: 'attribution-reporting'. @ https://p.ad.gt/api/v1/p/800:0
+[    4219ms] [WARNING] [Audigent] script has already been initialised. Skip further execution @ https://a.ad.gt/api/v1/u/matches/800?_it=0:0
