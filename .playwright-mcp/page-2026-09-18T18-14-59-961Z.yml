@@ -1,0 +1,211 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - navigation "User account menu" [ref=e8]:
+      - heading "User account menu" [level=2] [ref=e9]
+      - list [ref=e10]:
+        - listitem [ref=e11]:
+          - link "Log in" [ref=e12] [cursor=pointer]:
+            - /url: /user/login
+    - navigation [ref=e13]:
+      - generic [ref=e14]:
+        - link "Home" [ref=e17] [cursor=pointer]:
+          - /url: /
+          - img "Home" [ref=e18]
+        - generic [ref=e20]:
+          - navigation "Main navigation" [ref=e21]:
+            - heading "Main navigation" [level=2] [ref=e22]
+            - list [ref=e23]:
+              - listitem [ref=e24]:
+                - link "Home" [ref=e25] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e26]:
+                - link "Keywords" [ref=e27] [cursor=pointer]:
+                  - /url: /keywords
+              - listitem [ref=e28]:
+                - link "Authors" [ref=e29] [cursor=pointer]:
+                  - /url: /authors
+          - generic [ref=e31]:
+            - searchbox "Search" [ref=e33]
+            - button "Search" [ref=e34]
+    - main [ref=e35]:
+      - 'heading "United States Data Center Energy Usage Report: 2025 Update" [ref=e36]':
+        - 'heading "United States Data Center Energy Usage Report: 2025 Update" [level=1] [ref=e40]'
+      - generic [ref=e45]:
+        - table [ref=e46]:
+          - rowgroup [ref=e47]:
+            - row "Date Published 06/2026" [ref=e48]:
+              - rowheader "Date Published" [ref=e49]
+              - cell "06/2026" [ref=e50]:
+                - generic [ref=e52]: 06/2026
+            - row "Publication Type Report" [ref=e53]:
+              - rowheader "Publication Type" [ref=e54]
+              - cell "Report" [ref=e55]:
+                - generic [ref=e56]: Report
+        - table [ref=e57]:
+          - rowgroup [ref=e58]:
+            - row "Authors Sarah Josephine Smith, Alex Hubbard, Alexander Newkirk, Mohan Ganeshalingam, Billie Holecek, Dale A Sartor, Michael Mills, Arman Shehabi" [ref=e59]:
+              - rowheader "Authors" [ref=e60]
+              - cell "Sarah Josephine Smith, Alex Hubbard, Alexander Newkirk, Mohan Ganeshalingam, Billie Holecek, Dale A Sartor, Michael Mills, Arman Shehabi" [ref=e61]:
+                - generic [ref=e63]:
+                  - generic [ref=e64]:
+                    - link "Sarah Josephine Smith" [ref=e65] [cursor=pointer]:
+                      - /url: /author/sarah-josephine-smith
+                    - text: ","
+                  - generic [ref=e66]:
+                    - link "Alex Hubbard" [ref=e67] [cursor=pointer]:
+                      - /url: /author/alex-hubbard
+                    - text: ","
+                  - generic [ref=e68]:
+                    - link "Alexander Newkirk" [ref=e69] [cursor=pointer]:
+                      - /url: /author/alexander-newkirk
+                    - text: ","
+                  - generic [ref=e70]:
+                    - link "Mohan Ganeshalingam" [ref=e71] [cursor=pointer]:
+                      - /url: /author/mohan-ganeshalingam
+                    - text: ","
+                  - generic [ref=e72]:
+                    - link "Billie Holecek" [ref=e73] [cursor=pointer]:
+                      - /url: /author/billie-holecek
+                    - text: ","
+                  - generic [ref=e74]:
+                    - link "Dale A Sartor" [ref=e75] [cursor=pointer]:
+                      - /url: /author/dale-a-sartor
+                    - text: ","
+                  - generic [ref=e76]:
+                    - link "Michael Mills" [ref=e77] [cursor=pointer]:
+                      - /url: /author/michael-mills
+                    - text: ","
+                  - link "Arman Shehabi" [ref=e79] [cursor=pointer]:
+                    - /url: /author/arman-shehabi
+            - row [ref=e80]:
+              - rowheader "Abstract" [ref=e81]
+              - cell [ref=e82]:
+                - paragraph [ref=e85]: "This report updates the 2024 Data Center Energy Usage Report (2024 Report) and estimates that data centers could account for 11.8% of total U.S. electricity by 2030. The estimate also includes a range of scenarios that indicate the energy use could be between 9.5 and 15.3% of total U.S. electricity use by 2030. In comparison, the 2024 Report estimate range was 6.7% to 12.0% of total U.S. electricity by 2028. The resulting electricity usage estimates in this Report are derived from a “bottom-up” energy use model, which determines electricity use from real-world data for planned data center IT equipment shipments (purchases), models of per-device annual electricity use and cooling system performance simulations, along with information on data center facility types and locations. The Reference Case estimate for electricity use (649 TWh in 2030) is calculated based on the current understanding of expected shipments and equipment design across the data center industry. The estimated range for electricity use by 2030 is derived from our Sensitivity Scenarios that explore targeted adjustments from the Reference Case. These Sensitivity Scenarios are driven by alternative data sources or industry feedback suggesting parameters or input datasets that may differ from the Reference Case. The parameters and adjustments include: • Lowering the forecasted installations of data center IT equipment (578 TWh in 2030); • Increasing the forecasted number of specialized graphics chips shipped and installed (664 TWh in 2030); • Reducing the assumed average operating lifetime of Artificial Intelligence (AI) chips (590 TWh in 2030); and • Increasing the idle power and utilization rates of AI servers (782 TWh in 2030). Additionally, the above sensitivities and additional uncertainty are combined into high and low Compounded Uncertainty scenarios, producing the ultimate estimate bounds of 521-843 TWh of U.S. data center electricity consumption in 2030."
+            - row "Year of Publication 2026" [ref=e86]:
+              - rowheader "Year of Publication" [ref=e87]
+              - cell "2026" [ref=e88]:
+                - generic [ref=e90]: "2026"
+            - row "URL https://escholarship.org/uc/item/33m6w3x0" [ref=e91]:
+              - rowheader "URL" [ref=e92]
+              - cell "https://escholarship.org/uc/item/33m6w3x0" [ref=e93]:
+                - link "https://escholarship.org/uc/item/33m6w3x0" [ref=e96] [cursor=pointer]:
+                  - /url: https://escholarship.org/uc/item/33m6w3x0
+            - row "Organizations Building & Industrial Energy Systems Division Energy Analysis Division Systems and Energy Technologies Analysis Department Energy Technologies Area" [ref=e97]:
+              - rowheader "Organizations" [ref=e98]
+              - cell "Building & Industrial Energy Systems Division Energy Analysis Division Systems and Energy Technologies Analysis Department Energy Technologies Area" [ref=e99]:
+                - generic [ref=e101]:
+                  - link "Building & Industrial Energy Systems Division" [ref=e103] [cursor=pointer]:
+                    - /url: /organization/building-industrial-energy-systems
+                  - link "Energy Analysis Division" [ref=e105] [cursor=pointer]:
+                    - /url: /organization/energy-analysis-division
+                  - link "Systems and Energy Technologies Analysis Department" [ref=e107] [cursor=pointer]:
+                    - /url: /organization/systems-and-energy-technologies
+                  - link "Energy Technologies Area" [ref=e109] [cursor=pointer]:
+                    - /url: /organization/energy-technologies-area
+            - row "Research Areas Data Centers" [ref=e110]:
+              - rowheader "Research Areas" [ref=e111]
+              - cell "Data Centers" [ref=e112]:
+                - link "Data Centers" [ref=e116] [cursor=pointer]:
+                  - /url: /research-areas/data-centers
+            - row "Download citation Google Scholar | BibTeX | Endnote tagged | RIS" [ref=e117]:
+              - rowheader "Download citation" [ref=e118]
+              - cell "Google Scholar | BibTeX | Endnote tagged | RIS" [ref=e119]:
+                - paragraph [ref=e121]:
+                  - link "Google Scholar" [ref=e122] [cursor=pointer]:
+                    - /url: https://scholar.google.com/scholar?btnG=Search%2BScholar&as_q=%22United%2BStates%2BData%2BCenter%2BEnergy%2BUsage%2BReport%3A%2B2025%2BUpdate%22&as_occt=any&as_epq=&as_oq=&as_eq=&as_publication=&as_ylo=&as_yhi=&as_sdtAAP=1&as_sdtp=1
+                  - text: "|"
+                  - link "BibTeX" [ref=e123] [cursor=pointer]:
+                    - /url: /bibcite/export/bibtex/bibcite_reference/36976
+                  - text: "|"
+                  - link "Endnote tagged" [ref=e124] [cursor=pointer]:
+                    - /url: /bibcite/export/tagged/bibcite_reference/36976
+                  - text: "|"
+                  - link "RIS" [ref=e125] [cursor=pointer]:
+                    - /url: /bibcite/export/ris/bibcite_reference/36976
+    - contentinfo [ref=e126]:
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - img [ref=e131]
+          - generic [ref=e132]:
+            - link "" [ref=e133] [cursor=pointer]:
+              - /url: https://www.facebook.com/energytechnologiesarea.lbnl/
+              - generic [ref=e134]: 
+            - link "" [ref=e135] [cursor=pointer]:
+              - /url: https://twitter.com/BerkeleyLabETA
+              - generic [ref=e136]: 
+          - generic [ref=e137]: ©2026 Energy Technologies Area, Berkeley Lab
+        - navigation "Our organization" [ref=e139]:
+          - heading "Our organization" [level=2] [ref=e140]
+          - list [ref=e141]:
+            - listitem [ref=e142]:
+              - link "Contact" [ref=e143] [cursor=pointer]:
+                - /url: /contact
+            - listitem [ref=e144]:
+              - link "Energy Technologies Area" [ref=e145] [cursor=pointer]:
+                - /url: https://eta.lbl.gov/
+            - listitem [ref=e146]:
+              - link "Lawrence Berkeley National Laboratory" [ref=e147] [cursor=pointer]:
+                - /url: https://lbl.gov/
+            - listitem [ref=e148]:
+              - link "Privacy and Security Notice" [ref=e149] [cursor=pointer]:
+                - /url: https://www.lbl.gov/disclaimers/
+  - contentinfo "Bottom Footer" [ref=e151]:
+    - generic [ref=e156]:
+      - link "Berkeley Lab" [ref=e159] [cursor=pointer]:
+        - /url: https://www.lbl.gov/
+      - generic [ref=e163]:
+        - generic [ref=e165]:
+          - navigation "Bottom Footer Nav" [ref=e166]:
+            - list [ref=e167]:
+              - listitem [ref=e168]:
+                - link "Contact" [ref=e169] [cursor=pointer]:
+                  - /url: https://www.lbl.gov/contact/
+              - listitem [ref=e170]:
+                - link "Visit Us" [ref=e171] [cursor=pointer]:
+                  - /url: https://visits.lbl.gov/
+              - listitem [ref=e172]:
+                - link "Subscribe" [ref=e173] [cursor=pointer]:
+                  - /url: https://www.lbl.gov/subscribe/
+          - navigation "Icon List" [ref=e175]:
+            - generic [ref=e176]:
+              - generic:
+                - link "LinkedIn" [ref=e179] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/164691/
+                - link "Instagram" [ref=e183] [cursor=pointer]:
+                  - /url: https://www.instagram.com/berkeleylab/
+                - link "Threads" [ref=e187] [cursor=pointer]:
+                  - /url: https://www.threads.net/@berkeleylab
+                - link "Facebook" [ref=e191] [cursor=pointer]:
+                  - /url: https://www.facebook.com/BerkeleyLab
+                - link "X" [ref=e195] [cursor=pointer]:
+                  - /url: https://x.com/BerkeleyLab
+                - link "YouTube" [ref=e199] [cursor=pointer]:
+                  - /url: https://www.youtube.com/user/BerkeleyLab
+        - generic [ref=e202]:
+          - link "U.S. Department of Energy - Office of Science Logo" [ref=e204] [cursor=pointer]:
+            - /url: https://www.energy.gov/science/office-science
+            - img "U.S. Department of Energy - Office of Science Logo" [ref=e205]
+          - link "University of California Logo" [ref=e207] [cursor=pointer]:
+            - /url: https://www.ucop.edu/laboratory-management/about-the-labs/overview-lbnl.html
+            - img "University of California Logo" [ref=e208]
+    - generic [ref=e213]:
+      - paragraph [ref=e215]: Lawrence Berkeley National Laboratory is a U.S. DOE Office of Science national laboratory managed by the University of California.
+      - navigation [ref=e217]:
+        - list [ref=e218]:
+          - listitem [ref=e219]:
+            - link "Staff Directory" [ref=e220] [cursor=pointer]:
+              - /url: https://phonebook.lbl.gov/
+          - listitem [ref=e221]:
+            - link "For Employees" [ref=e222] [cursor=pointer]:
+              - /url: https://elements.lbl.gov/
+          - listitem [ref=e223]:
+            - link "Emergency Status" [ref=e224] [cursor=pointer]:
+              - /url: https://status.lbl.gov/
+          - listitem [ref=e225]:
+            - link "Privacy & Security Notice" [ref=e226] [cursor=pointer]:
+              - /url: https://www.lbl.gov/terms-and-conditions/
+          - listitem [ref=e227]:
+            - link "Site Feedback" [ref=e228] [cursor=pointer]:
+              - /url: https://www.lbl.gov/web-support/

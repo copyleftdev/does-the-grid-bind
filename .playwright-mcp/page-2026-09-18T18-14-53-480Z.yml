@@ -1,0 +1,215 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: LBNL 2026 data center energy usage report update Shehabi new report to Congress Energy Act 2020
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards" [ref=e25] [cursor=pointer]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: Rewards
+          - img [ref=e30]
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Web" [ref=e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0db6986caf7be5465a4f91de8e98ba0fe83c923034a58298f73cb3934f884ebeJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPUxCTkwrMjAyNitkYXRhK2NlbnRlcitlbmVyZ3krdXNhZ2UrcmVwb3J0K3VwZGF0ZStTaGVoYWJpK25ldytyZXBvcnQrdG8rQ29uZ3Jlc3MrRW5lcmd5K0FjdCsyMDIwJndlYnNjcD0xJkZPUk09SERSV1ND&ntb=1
+        - listitem [ref=e50]:
+          - link "Search" [ref=e51] [cursor=pointer]:
+            - /url: /copilotsearch?q=LBNL+2026+data+center+energy+usage+report+update+Shehabi+new+report+to+Congress+Energy+Act+2020&FORM=CSSCOP
+            - img [ref=e52]
+            - text: Search
+        - listitem [ref=e54]:
+          - link "Images" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e31c6b46f0a6f5eedb79d2cd05e702e618fa3ae37fdbc5fb30fe6bd5a7a69a59JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT1MQk5MKzIwMjYrZGF0YStjZW50ZXIrZW5lcmd5K3VzYWdlK3JlcG9ydCt1cGRhdGUrU2hlaGFiaStuZXcrcmVwb3J0K3RvK0NvbmdyZXNzK0VuZXJneStBY3QrMjAyMCZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=e56]:
+          - link "Videos" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=171114e2750db06afe4e3593a1bddb3c23ffc0cc3da61773e70c6b07ef6ca6b7JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT1MQk5MKzIwMjYrZGF0YStjZW50ZXIrZW5lcmd5K3VzYWdlK3JlcG9ydCt1cGRhdGUrU2hlaGFiaStuZXcrcmVwb3J0K3RvK0NvbmdyZXNzK0VuZXJneStBY3QrMjAyMCZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=e58]:
+          - link "Maps" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ddf5fc3c70e2d238830df604820fce2ac8e9bd9699b8a07276303f2860fea39eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT1MQk5MKzIwMjYrZGF0YStjZW50ZXIrZW5lcmd5K3VzYWdlK3JlcG9ydCt1cGRhdGUrU2hlaGFiaStuZXcrcmVwb3J0K3RvK0NvbmdyZXNzK0VuZXJneStBY3QrMjAyMCZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e60]:
+          - link "Copilot" [ref=e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=af54953c68aa9fc6c9aa3dcc80a9cf4f2262845a62da663491423aa2df56a13bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PUxCTkwrMjAyNitkYXRhK2NlbnRlcitlbmVyZ3krdXNhZ2UrcmVwb3J0K3VwZGF0ZStTaGVoYWJpK25ldytyZXBvcnQrdG8rQ29uZ3Jlc3MrRW5lcmd5K0FjdCsyMDIwJnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+        - listitem [ref=e62]:
+          - button "More" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: More
+  - main "Search Results" [ref=e68]:
+    - generic [ref=e69]:
+      - list [ref=e70]:
+        - listitem [ref=e71]:
+          - generic [ref=e73]:
+            - generic [ref=e74]:
+              - heading "Copilot Search Branding" [level=2] [ref=e75]:
+                - link "Copilot Search Branding" [ref=e76] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=598c9e46be514f5d7cea1f469b43ff66c1e4b775172d2d268c224c2adba1714fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NvcGlsb3RzZWFyY2g_cT1MQk5MKzIwMjYrZGF0YStjZW50ZXIrZW5lcmd5K3VzYWdlK3JlcG9ydCt1cGRhdGUrU2hlaGFiaStuZXcrcmVwb3J0K3RvK0NvbmdyZXNzK0VuZXJneStBY3QrMjAyMCZmb3JtPUNTQlJBTkQ&ntb=1
+              - button "More info about AI summary" [ref=e82]:
+                - img [ref=e84]
+            - region "Copilot Search" [ref=e88]:
+              - generic [ref=e94]: Searching for "LBNL 2026 data center energy usage report update Shehabi new report to Congress Energy Act 2020"
+      - list [ref=e95]:
+        - listitem [ref=e96]:
+          - link "Energy Technologies Area" [ref=e98] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b8cd7313400ed91379b28bd557e219e971ff2520da012aafbee12aecf07e10caJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEubGJsLmdvdi9wdWJsaWNhdGlvbnMvdW5pdGVkLXN0YXRlcy1kYXRhLWNlbnRlci1lbmVyZ3ktMjAyNQ&ntb=1
+            - generic [ref=e103]:
+              - generic [ref=e104]: Energy Technologies Area
+              - generic [ref=e107]: https://eta.lbl.gov › publications
+          - 'heading "United States Data Center Energy Usage Report: 2025 Update" [level=2] [ref=e108]':
+            - 'link "United States Data Center Energy Usage Report: 2025 Update" [ref=e109] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=b8cd7313400ed91379b28bd557e219e971ff2520da012aafbee12aecf07e10caJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEubGJsLmdvdi9wdWJsaWNhdGlvbnMvdW5pdGVkLXN0YXRlcy1kYXRhLWNlbnRlci1lbmVyZ3ktMjAyNQ&ntb=1
+          - paragraph [ref=e111]: This report updates the 2024 Data Center Energy Usage Report (2024 Report) and estimates that data centers could account for …
+        - listitem [ref=e112]:
+          - link "lbl.gov" [ref=e114] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0f14db0481af09b9a78c4a48751411acfc394eb44842c8735dd1f746533ef3a7JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9lbmVyZ3lhbmFseXNpcy5sYmwuZ292L3Jlc2VhcmNoLWFyZWFzL2RhdGEtY2VudGVycw&ntb=1
+            - generic [ref=e119]:
+              - generic [ref=e120]: lbl.gov
+              - generic [ref=e123]: https://energyanalysis.lbl.gov › research-areas › data-centers
+          - 'heading "Publications: Data Centers | Energy Analysis Division" [level=2] [ref=e124]':
+            - 'link "Publications: Data Centers | Energy Analysis Division" [ref=e125] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=0f14db0481af09b9a78c4a48751411acfc394eb44842c8735dd1f746533ef3a7JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9lbmVyZ3lhbmFseXNpcy5sYmwuZ292L3Jlc2VhcmNoLWFyZWFzL2RhdGEtY2VudGVycw&ntb=1
+          - paragraph [ref=e127]: "Shehabi, Arman, Sarah Josephine Smith, Eric R Masanet, and Jonathan G Koomey. \" Data center growth in the United States: …"
+        - listitem [ref=e128]:
+          - link "Center of Expertise for Energy Efficiency in Data Centers" [ref=e130] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7ca88775faff53c18bbdf7342437703c19477876671e53458c9129798df6c879JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9kYXRhY2VudGVycy5sYmwuZ292L21vZGVsaW5nLWZvcmVjYXN0aW5n&ntb=1
+            - generic [ref=e135]:
+              - generic [ref=e136]: Center of Expertise for Energy Efficiency in Data Centers
+              - generic [ref=e139]: https://datacenters.lbl.gov › modeling-forecasting
+          - heading "U.S. Data Center Energy & Water Modeling & Forecasting" [level=2] [ref=e140]:
+            - link "U.S. Data Center Energy & Water Modeling & Forecasting" [ref=e141] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=7ca88775faff53c18bbdf7342437703c19477876671e53458c9129798df6c879JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9kYXRhY2VudGVycy5sYmwuZ292L21vZGVsaW5nLWZvcmVjYXN0aW5n&ntb=1
+          - paragraph [ref=e143]: LBNL’s bottom-up national data center energy model is a foundational part of DOE’s energy usage reports. This model is regularly …
+        - listitem [ref=e144]:
+          - link "lbl.gov" [ref=e146] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=aa60a01ec644bca48bd0e45e11583f3109de96ae252e4b86d2471087ba217e4aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEtcHVibGljYXRpb25zLmxibC5nb3YvcHVibGljYXRpb25zLzIwMjQtbGJubC1kYXRhLWNlbnRlci1lbmVyZ3ktdXNhZ2UtcmVwb3J0&ntb=1
+            - generic [ref=e151]:
+              - generic [ref=e152]: lbl.gov
+              - generic [ref=e155]: https://eta-publications.lbl.gov › publications
+          - heading "2024 United States Data Center Energy Usage Report" [level=2] [ref=e156]:
+            - link "2024 United States Data Center Energy Usage Report" [ref=e157] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=aa60a01ec644bca48bd0e45e11583f3109de96ae252e4b86d2471087ba217e4aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEtcHVibGljYXRpb25zLmxibC5nb3YvcHVibGljYXRpb25zLzIwMjQtbGJubC1kYXRhLWNlbnRlci1lbmVyZ3ktdXNhZ2UtcmVwb3J0&ntb=1
+          - generic [ref=e158]:
+            - paragraph [ref=e159]: Dec 19, 2024 · The Energy Act of 2020 calls for the U.S. Department of Energy to make available to the public an update to …
+            - generic [ref=e161]:
+              - list [ref=e162]:
+                - listitem [ref=e163]:
+                  - generic [ref=e164]:
+                    - strong [ref=e165]: "DOI:"
+                    - text: 10.71468/P1WC7Q
+                - listitem [ref=e166]:
+                  - generic [ref=e167]:
+                    - strong [ref=e168]: "LBL Report Number:"
+                    - text: LBNL-2001637
+              - list [ref=e169]:
+                - listitem [ref=e170]:
+                  - generic [ref=e171]:
+                    - strong [ref=e172]: "Institution:"
+                    - text: Lawrence Berkeley National Laboratory
+                - listitem [ref=e173]:
+                  - generic [ref=e174]:
+                    - strong [ref=e175]: "Year of Publication:"
+                    - text: "2024"
+        - listitem [ref=e176]:
+          - link "lbl.gov" [ref=e178] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7d84cb4dc38352a4d9510f54dd209a9212504c6037bc1a2f96b447a3d1c1f907JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEtcHVibGljYXRpb25zLmxibC5nb3YvcHVibGljYXRpb25zL3VuaXRlZC1zdGF0ZXMtZGF0YS1jZW50ZXItZW5lcmd5LTIwMjU&ntb=1
+            - generic [ref=e183]:
+              - generic [ref=e184]: lbl.gov
+              - generic [ref=e187]: https://eta-publications.lbl.gov › publications
+          - 'heading "United States Data Center Energy Usage Report: 2025 Update" [level=2] [ref=e188]':
+            - 'link "United States Data Center Energy Usage Report: 2025 Update" [ref=e189] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=7d84cb4dc38352a4d9510f54dd209a9212504c6037bc1a2f96b447a3d1c1f907JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEtcHVibGljYXRpb25zLmxibC5nb3YvcHVibGljYXRpb25zL3VuaXRlZC1zdGF0ZXMtZGF0YS1jZW50ZXItZW5lcmd5LTIwMjU&ntb=1
+          - paragraph [ref=e191]: This report updates the 2024 Data Center Energy Usage Report (2024 Report) and estimates that data centers could account for …
+        - listitem [ref=e192]:
+          - link "lbl.gov" [ref=e194] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b637c6ace94b5f62da89e17739efeb05a4287ef604aaa765f88e061c27de0358JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9zZXRhLmxibC5nb3YvcmVzZWFyY2gtYXJlYXMvZGF0YS1jZW50ZXJz&ntb=1
+            - generic [ref=e199]:
+              - generic [ref=e200]: lbl.gov
+              - generic [ref=e203]: https://seta.lbl.gov › research-areas › data-centers
+          - 'heading "Publications: Data Centers | Systems & Energy Technologies Analysis" [level=2] [ref=e204]':
+            - 'link "Publications: Data Centers | Systems & Energy Technologies Analysis" [ref=e205] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=b637c6ace94b5f62da89e17739efeb05a4287ef604aaa765f88e061c27de0358JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9zZXRhLmxibC5nb3YvcmVzZWFyY2gtYXJlYXMvZGF0YS1jZW50ZXJz&ntb=1
+          - paragraph [ref=e207]: "Shehabi, Arman, Sarah Josephine Smith, Eric R Masanet, and Jonathan G Koomey. \" Data center growth in the United States: …"
+        - listitem [ref=e208]:
+          - link "lbl.gov" [ref=e210] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3ebb3f0c216034d8fc738964a29619aaa13d4f069dd99180cae6de67a320dc54JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9wcm9maWxlcy5sYmwuZ292LzIwMzY2LWFybWFuLXNoZWhhYmkvcHVibGljYXRpb25z&ntb=1
+            - generic [ref=e215]:
+              - generic [ref=e216]: lbl.gov
+              - generic [ref=e219]: https://profiles.lbl.gov › publications
+          - heading "Arman Shehabi | Publications | Lawrence Berkeley National Lab" [level=2] [ref=e220]:
+            - link "Arman Shehabi | Publications | Lawrence Berkeley National Lab" [ref=e221] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=3ebb3f0c216034d8fc738964a29619aaa13d4f069dd99180cae6de67a320dc54JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9wcm9maWxlcy5sYmwuZ292LzIwMzY2LWFybWFuLXNoZWhhYmkvcHVibGljYXRpb25z&ntb=1
+          - paragraph [ref=e223]: May 1, 2026 · Accurately quantifying the energy use of artificial intelligence (AI) training is critical for infrastructure planning, carbon …
+        - listitem [ref=e224]:
+          - link "Data Center Knowledge" [ref=e226] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e42500d5c1a88949fd6c07fd16c7127a3d5fefa54503248de481606f89bd75b1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmtub3dsZWRnZS5jb20vZW5lcmd5LXBvd2VyLXN1cHBseS93aWxsLWRhdGEtY2VudGVycy1nZXQtZ29vZC1tYXJrcy1pbi1uZXctZW5lcmd5LXJlcG9ydC10by1jb25ncmVzcy0&ntb=1
+            - generic [ref=e231]:
+              - generic [ref=e232]: Data Center Knowledge
+              - generic [ref=e235]: https://www.datacenterknowledge.com › energy-power...
+          - heading "Will Data Centers Get Good Marks in New Energy Report to Congress?" [level=2] [ref=e236]:
+            - link "Will Data Centers Get Good Marks in New Energy Report to Congress?" [ref=e237] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=e42500d5c1a88949fd6c07fd16c7127a3d5fefa54503248de481606f89bd75b1JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZGF0YWNlbnRlcmtub3dsZWRnZS5jb20vZW5lcmd5LXBvd2VyLXN1cHBseS93aWxsLWRhdGEtY2VudGVycy1nZXQtZ29vZC1tYXJrcy1pbi1uZXctZW5lcmd5LXJlcG9ydC10by1jb25ncmVzcy0&ntb=1
+          - paragraph [ref=e239]: Apr 23, 2024 · Arman Shehabi, Energy/Environmental Policy Staff Scientist at LBNL presented the assumptions being used to …
+        - listitem [ref=e240]:
+          - link "lbl.gov" [ref=e242] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3de146f2eb447e1390ac2ae4a42bc6a1595d69d50bc746ff1beaea05dd4d188dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9iaWVzLmxibC5nb3YvcmVzZWFyY2gtYXJlYXMvZGF0YS1jZW50ZXJz&ntb=1
+            - generic [ref=e247]:
+              - generic [ref=e248]: lbl.gov
+              - generic [ref=e251]: https://bies.lbl.gov › research-areas › data-centers
+          - 'heading "Publications: Data Centers | Building & Industrial Energy Systems …" [level=2] [ref=e252]':
+            - 'link "Publications: Data Centers | Building & Industrial Energy Systems …" [ref=e253] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=3de146f2eb447e1390ac2ae4a42bc6a1595d69d50bc746ff1beaea05dd4d188dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9iaWVzLmxibC5nb3YvcmVzZWFyY2gtYXJlYXMvZGF0YS1jZW50ZXJz&ntb=1
+          - paragraph [ref=e255]: "\" United States Data Center Energy Usage Report: 2025 Update.\" (2026). Granderson, Jessica, Ian M Hoffman, Billie Holecek, Eliot …"
+        - listitem [ref=e256]:
+          - link "Energy Technologies Area" [ref=e258] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=39c606adf5c0be30925961ffbed4993b9ac31a23ad93e53751417d944c0b791cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEubGJsLmdvdi9yZXNlYXJjaC1hcmVhcy9kYXRhLWNlbnRlcnM&ntb=1
+            - generic [ref=e263]:
+              - generic [ref=e264]: Energy Technologies Area
+              - generic [ref=e267]: https://eta.lbl.gov › research-areas › data-centers
+          - 'heading "Publications: Data Centers | Energy Technologies Area" [level=2] [ref=e268]':
+            - 'link "Publications: Data Centers | Energy Technologies Area" [ref=e269] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=39c606adf5c0be30925961ffbed4993b9ac31a23ad93e53751417d944c0b791cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEubGJsLmdvdi9yZXNlYXJjaC1hcmVhcy9kYXRhLWNlbnRlcnM&ntb=1
+          - paragraph [ref=e271]: "\" Data Center Chiller Plant: Simulation-based Comparative Control Design Case Study.\" Proceedings of the 2022 Building …"
+        - listitem [ref=e272]:
+          - link "Some results have been removed" [ref=e274] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cfae312eccc7b1136a2e8edfaa56fb317e844dceaa61d61539a83af16197d145JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e275]:
+          - navigation "More results for LBNL 2026 data center energy usage report update Shehabi new report to Congress Energy Act 2020":
+            - list:
+              - listitem [ref=e276]:
+                - generic "Page 1" [ref=e277]: "1"
+              - listitem [ref=e278]:
+                - link "Page 2" [ref=e279] [cursor=pointer]:
+                  - /url: /search?q=LBNL+2026+data+center+energy+usage+report+update+Shehabi+new+report+to+Congress+Energy+Act+2020&FPIG=87C7344FA0EC44B0B765FD77F2851569&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e280]:
+                - link "Page 3" [ref=e281] [cursor=pointer]:
+                  - /url: /search?q=LBNL+2026+data+center+energy+usage+report+update+Shehabi+new+report+to+Congress+Energy+Act+2020&FPIG=87C7344FA0EC44B0B765FD77F2851569&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e282]:
+                - link "Next page" [ref=e283] [cursor=pointer]:
+                  - /url: /search?q=LBNL+2026+data+center+energy+usage+report+update+Shehabi+new+report+to+Congress+Energy+Act+2020&FPIG=87C7344FA0EC44B0B765FD77F2851569&first=11&FORM=PORE
+      - complementary "Additional Results" [ref=e284]:
+        - list
+  - contentinfo [ref=e285]:
+    - generic [ref=e286]:
+      - list:
+        - listitem [ref=e287]:
+          - link "Privacy" [ref=e288] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e289]:
+          - link "Terms" [ref=e290] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

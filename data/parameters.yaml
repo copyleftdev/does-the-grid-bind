@@ -475,3 +475,21 @@ parameters:
     source: "NVIDIA disclosed $25B per GW for Grace Blackwell"
     url: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
     as_of: 2026-08-26
+
+  us_industrial_electricity_price:
+    value: "91.7"
+    unit: USD/MWh
+    provenance: MEASURED
+    source: "EIA Electric Power Monthly Table 5.6.A, US total industrial sector (9.17 cents/kWh)"
+    url: https://www.eia.gov/electricity/monthly/epm_table_grapher.php?t=epmt_5_6_a
+    as_of: 2026-06
+    note: "Up ~3% y/y from 8.90 cents. Commercial sector 14.19 cents/kWh. Large datacenters contract below retail industrial, so this is an upper bound on their energy cost."
+
+  h100_it_watts_per_gpu_slot:
+    value: 1275
+    unit: W
+    provenance: VENDOR
+    source: "DGX H100: 10.2 kW rated / 8 GPUs, including CPU, NVLink and in-chassis networking"
+    url: https://www.megware.com/fileadmin/user_upload/LandingPage%20NVIDIA/nvidia-h100-datasheet.pdf
+    as_of: 2024
+    note: "1.82x the bare 700 W die TDP. Chassis overhead is not a rounding error."
