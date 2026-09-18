@@ -1,0 +1,6 @@
+[     110ms] [WARNING] This ad's html cannot be accessed using the getHtml method on googletag.Slot. Returning the empty string instead. @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[     205ms] [INFO] Powered by AMP ⚡ HTML – Version 2607210106000 https://www.cnbc.com/2025/11/14/ai-gpu-depreciation-coreweave-nvidia-michael-burry.html @ https://cdn.ampproject.org/rtv/012607210106000/amp4ads-v0.mjs:1
+[    2910ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.x.com/2/guide.json?count=5&display_location=web_sidebar:0
+[    3053ms] [ERROR] Not signed in with the identity provider. @ https://x.com/michaeljburry/status/1987918650104283372:0
+[    4354ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://abs.twimg.com/x-web/x-web/assets/sentry-filter-XrCsXdPa.js:2
+[    7964ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.x.com/2/guide.json?count=5&display_location=web_sidebar:0

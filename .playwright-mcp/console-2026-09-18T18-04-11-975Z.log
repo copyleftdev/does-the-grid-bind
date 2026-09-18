@@ -1,0 +1,7 @@
+[    1179ms] [ERROR] [GSI_LOGGER]: Missing required parameter: client_id. @ https://accounts.google.com/gsi/client:87
+[    1182ms] [ERROR] [GSI_LOGGER]: Missing required parameter: client_id. @ https://accounts.google.com/gsi/client:87
+[    1237ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fsearch%3Fq%3Dfrom%253Amichaeljburry%2520depreciation%26f%3Dlive&mode=login:0
+[    1252ms] [WARNING] [GSI_LOGGER]: google.accounts.id.initialize() is called multiple times. This could cause unexpected behavior and only the last initialized instance will be used. @ https://accounts.google.com/gsi/client:86
+[    1375ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fsearch%3Fq%3Dfrom%253Amichaeljburry%2520depreciation%26f%3Dlive&mode=login:0
+[    1630ms] [ERROR] Not signed in with the identity provider. @ https://x.com/i/jf/onboarding/web?redirect_after_login=%2Fsearch%3Fq%3Dfrom%253Amichaeljburry%2520depreciation%26f%3Dlive&mode=login:0
+[    1825ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client:87

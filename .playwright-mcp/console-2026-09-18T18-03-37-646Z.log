@@ -1,0 +1,4 @@
+[    2255ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.x.com/2/guide.json?count=5&display_location=web_sidebar:0
+[    2372ms] [ERROR] Not signed in with the identity provider. @ https://x.com/michaeljburry/status/1987918650104283372:0
+[    3998ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://abs.twimg.com/x-web/x-web/assets/sentry-filter-XrCsXdPa.js:2
+[    7313ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.x.com/2/guide.json?count=5&display_location=web_sidebar:0

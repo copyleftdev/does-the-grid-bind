@@ -1,0 +1,66 @@
+[    3135ms] [WARNING] The resource https://cdn.futustatic.com/futunn_news_nuxt/3409d92d.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.moomoo.com/news/post/40857541/early-warning-barclays-reduction-in-ai-costs-and-depreciation-cuts?level=1&data_ticket=1789754546372745:0
+[    3135ms] [WARNING] The resource https://cdn.futustatic.com/futunn_news_nuxt/f193fcde.js was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.moomoo.com/news/post/40857541/early-warning-barclays-reduction-in-ai-costs-and-depreciation-cuts?level=1&data_ticket=1789754546372745:0
+[    3608ms] [LOG] [Amplitude] Initializing event bridge @ :8
+[    3608ms] [LOG] [Amplitude] Debug helper ready: window.cnbcAmplitudeDebug() @ :267
+[    3608ms] [LOG] mParticle flow: rule start — wrapWithOneTrust CAT7 will gate load @ :595
+[    6608ms] [WARNING] [Amplitude] SDK detection timeout - queue-only mode enabled @ :217
+[    6843ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ https://www.cnbc.com/blaize/datalayer:0
+[    7408ms] [LOG] [Amplitude] Queue: No events to drain @ :112
+[    7686ms] [LOG] saveDocIDToUserInfo @ :4
+[    7829ms] [LOG] [Zephr Debug 141] __CNBC_META_DATA snapshot at dependsOn resolve: {layout: Array(0), aboutThisSection: null, aboutThisSectionRTE: Object, additionalMetadata: null, additionalSectionContentFormatted: technology|mobile|us news|ai artificial i} @ :1
+[    7832ms] [LOG] [Newsletter Conversion] Script starting... @ :53
+[    7832ms] [LOG] [Newsletter Conversion] Current pathname: /2025/11/14/ai-gpu-depreciation-coreweave-nvidia-michael-burry.html @ :54
+[    7832ms] [LOG] [Newsletter Conversion] Not on a tracked newsletter page @ :110
+[    7833ms] [LOG] WPromote Pixels - CAT4 - Enabled @ :373
+[    7833ms] [LOG] mParticle flow: wrapWithOneTrust passed CAT7 → resolveUser().then(loadmParticleIntegration) @ :598
+[    7833ms] [LOG] mParticle flow: resolveUser start 3000 @ :272
+[    7833ms] [LOG] Amplitude SDK 2: loading script @ :233
+[    7833ms] [LOG] Amplitude SDK 2: environment production @ :245
+[    7834ms] [LOG] Parsely - CAT7 - Enabled @ :202
+[    7836ms] [LOG] VWO - CAT7 - Enabled @ :52
+[    7837ms] [LOG] True Anthem Tag - CAT4 - Enabled @ :38
+[    7913ms] [INFO] [AccessEnabler.js][info] Version: 4.7.1-5a99613 RELEASE @ https://entitlement.auth.adobe.com/entitlement/v4/AccessEnabler.js:0
+[    7977ms] [LOG] ****** [mps] REDIRECTED: false → app.mps.vsnt.net ****** @ :1
+[    7979ms] [LOG] --[executed]--> MPS Header Additions (2) @ :0
+[    7981ms] [LOG] --[executed]--> MPS Footer Additions (3) @ :0
+[    7982ms] [LOG] This is the MPS omniture pagecall @ :1
+[    8027ms] [LOG] Amplitude SDK 2: script loaded @ :253
+[    8027ms] [LOG] Amplitude SDK 2: initializing web prod @ :157
+[    8027ms] [LOG] Amplitude SDK 2: starting device ID polling @ :171
+[    8028ms] [LOG] Amplitude SDK 2: polling for device ID (attempt 1) @ :175
+[    8028ms] [LOG] Amplitude SDK 2: device ID found in localStorage f1053e07-cbc7-42be-aba6-4cf56ebfdfc3 @ :187
+[    8028ms] [LOG] Amplitude SDK 2: device ID set in Amplitude f1053e07-cbc7-42be-aba6-4cf56ebfdfc3 @ :191
+[    8028ms] [LOG] Amplitude SDK 2: marked as initialized @ :201
+[    8028ms] [LOG] Amplitude SDK 2: pending queue length 0 @ :118
+[    8028ms] [LOG] Amplitude SDK 2: no queued events to drain @ :121
+[    8098ms] [LOG] [Marketing Pixels] ✅ gtag.js loaded for AW-304008397 @ :327
+[    8134ms] [INFO] [AccessEnablerProxy.js][info] Version: 4.7.1-5a99613 RELEASE @ https://sp.auth.adobe.com/entitlement/v4/AccessEnablerProxy.js:0
+[    8154ms] [LOG] [Marketing Pixels] ✅ gtag.js loaded for AW-491671965 @ :42
+[    8196ms] [WARNING] [GPT] PubAdsService.disableInitialLoad is deprecated, use googletag.setConfig({disableInitialLoad: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[    8240ms] [LOG] [ExperimentProvider] Article tracker initialized on page load @ https://static-redesign.cnbcfm.com/dist/main-ab47e61485b584136054.js:216
+[    8399ms] [WARNING] [GPT] Slot.setCollapseEmptyDiv is deprecated, use Slot.setConfig({collapseDiv: ...}) instead.
+https://goo.gle/gpt-message#171 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[    8406ms] [WARNING] The following functions are deprecated: googletag.pubads().setTagForChildDirectedTreatment(), googletag.pubads().clearTagForChildDirectedTreatment(), googletag.pubads().setRequestNonPersonalizedAds(), and googletag.pubads().setTagForUnderAgeOfConsent(). Please use googletag.pubads().setPrivacySettings() instead. @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:18
+[    8653ms] [LOG] PLSUB init called 17897546076461222 @ https://cdn-gl.imrworldwide.com/novms/js/2/nlsSDK600.bundle.min.js:5
+[    8705ms] [WARNING] Google Deploy of the SharedId library has been deprecated. Please select another option in the GAM UI. If you use Prebid, we suggest the Prebid.js UserId option. If you do not, you may configure GAM to allow Google to share a first party user identifier with OB and AB participants, which is either the publisherProvidedId or the __gads value when that is missing. @ https://cdn.jsdelivr.net/gh/prebid/shared-id/pubcid.js/docs/pubcid.min.js:0
+[    8709ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[    8835ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202609160101/pubads_impl.js?cb=122881093:22
+[    8839ms] [LOG] [CNBC ScrollDepth] listener attached @ :340
+[    8840ms] [LOG] [CNBC ScrollDepth] initialized {pageName: 108224537|2025/11/14/ai-gpu-depreciation-coreweave-nvidia-michael-burry} @ :345
+[    8840ms] [LOG] finished executing omniture now @ :1220
+[    8996ms] [LOG] [mps:hb:dv] Call onDvtagReady @ https://app.mps.vsnt.net/fetch/ext/load-cnbc-web.js?nowrite=2:4106
+[    8998ms] [LOG] Polar Native - CAT4 - Enabled @ :34
+[    8999ms] [LOG] TVPromote Global Pixel - CAT4 - Enabled @ :43
+[    8999ms] [LOG] AdmantX - CAT4 - Enabled @ :39
+[    9003ms] [LOG] Iterate Survey - CAT6 - Enabled @ :112
+[    9003ms] [LOG] Omniture Search Quote Linkcall - CAT7 - Enabled @ :59
+[    9003ms] [LOG] [MPS Amp] Amplitude helper installed (additive only) {hasCnbcAmplitudeLogEvent: true, hasMParticle: false, ampInit: true} @ :81
+[    9004ms] [LOG] Omniture Video Events - CAT7 - Enabled @ :1087
+[    9004ms] [LOG] [MPS Amp] ready — filter console by [MPS Amp] on video play @ :1088
+[    9004ms] [LOG] Omniture Quotepage Linkcall - CAT7 - Enabled @ :62
+[    9004ms] [LOG] Omniture Quotepage Linkcall - CAT7 - Enabled @ :39
+[    9004ms] [LOG] SailThru - CAT7 - Enabled @ :77
+[    9122ms] [ERROR] [AccessEnabler.js][error] Callback [ sendTrackingData ] is NOT implemented! Invoked with params [ authenticationDetection,false,,,,computer,html5,Linux, ]. @ https://static-redesign.cnbcfm.com/dist/main-ab47e61485b584136054.js:1
