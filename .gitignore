@@ -5,3 +5,5 @@ data/raw/*.gz
 spec/states/
 spec/*.out
 .cache/
+.playwright-mcp/
+*.png
