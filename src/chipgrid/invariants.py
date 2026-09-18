@@ -271,3 +271,51 @@ def cannibalization_breakeven_ratio(
 
 
 CORE_INVARIANTS = [I1_FLEET, I2_ENVELOPE, I4_BOOK]
+
+
+# ---------------------------------------------------------------------------
+# I10. Sector budget closure.  One firm's revenue is another firm's capex.
+# ---------------------------------------------------------------------------
+def buyer_capex_required(
+    vendor_revenue: Interval,
+    accelerator_share_of_buyer_capex: Interval,
+    vendor_share_of_accelerator_spend: Interval,
+) -> Interval:
+    """Total buyer capex implied by a vendor revenue figure.
+
+    This is an accounting identity across the sector, not a behavioural model:
+    every dollar of NVIDIA data-center revenue is a dollar of somebody's
+    capital expenditure in the same period, up to channel inventory and
+    payment timing. So a revenue forecast is simultaneously a forecast of the
+    buyers' capex budgets, and it can be checked against those budgets as
+    they are actually guided.
+
+    It is an independent test of C1 and C2 that never mentions the grid. If
+    the implied buyer capex exceeds what the buyers have guided to, the
+    shipment forecast fails for a reason that has nothing to do with
+    transformers -- and the article's mechanism is then not the binding one.
+
+    Two caveats, both of which cut the same way and neither of which is small:
+
+    - Vendor financing breaks the independence the identity assumes. When a
+      vendor takes equity in a customer that then buys its product, the same
+      dollar is counted as an investment and as revenue. The identity still
+      holds; what fails is the inference that the revenue reflects
+      independent third-party demand.
+    - Neoclouds funded by debt secured on the GPUs themselves make buyer capex
+      a function of the resale value of the collateral, which is the very
+      quantity the cannibalization argument puts in doubt. That is a feedback
+      loop, not an exogenous budget.
+    """
+    return vendor_revenue / (
+        accelerator_share_of_buyer_capex * vendor_share_of_accelerator_spend
+    )
+
+
+I10_BUDGET_NOTE = (
+    "I10 is the check the energization argument does not need but should not "
+    "skip: shipments are bounded by buyers' budgets as well as by buyers' "
+    "substations, and whichever bound binds first is the one that decides the "
+    "outcome. An analysis that establishes a grid constraint has not thereby "
+    "established that the grid is the binding constraint."
+)

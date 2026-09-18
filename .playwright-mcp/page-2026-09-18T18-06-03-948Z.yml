@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "DuckDuckGo" [ref=e4] [cursor=pointer]:
+        - /url: /html/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - textbox [ref=e7]: "\"Morgan Stanley\" September 2025 depreciation hyperscaler note AI capex earnings drag"
+          - button "Submit" [ref=e8] [cursor=pointer]
+        - combobox [ref=e10] [cursor=pointer]:
+          - option "All Regions" [selected]
+          - option "Argentina"
+          - option "Australia"
+          - option "Austria"
+          - option "Belgium (fr)"
+          - option "Belgium (nl)"
+          - option "Brazil"
+          - option "Bulgaria"
+          - option "Canada (en)"
+          - option "Canada (fr)"
+          - option "Catalonia"
+          - option "Chile"
+          - option "China"
+          - option "Colombia"
+          - option "Croatia"
+          - option "Czech Republic"
+          - option "Denmark"
+          - option "Estonia"
+          - option "Finland"
+          - option "France"
+          - option "Germany"
+          - option "Greece"
+          - option "Hong Kong"
+          - option "Hungary"
+          - option "Iceland"
+          - option "India (en)"
+          - option "Indonesia (en)"
+          - option "Ireland"
+          - option "Israel (en)"
+          - option "Italy"
+          - option "Japan"
+          - option "Korea"
+          - option "Latvia"
+          - option "Lithuania"
+          - option "Malaysia (en)"
+          - option "Mexico"
+          - option "Netherlands"
+          - option "New Zealand"
+          - option "Norway"
+          - option "Pakistan (en)"
+          - option "Peru"
+          - option "Philippines (en)"
+          - option "Poland"
+          - option "Portugal"
+          - option "Romania"
+          - option "Russia"
+          - option "Saudi Arabia"
+          - option "Singapore"
+          - option "Slovakia"
+          - option "Slovenia"
+          - option "South Africa"
+          - option "Spain (ca)"
+          - option "Spain (es)"
+          - option "Sweden"
+          - option "Switzerland (de)"
+          - option "Switzerland (fr)"
+          - option "Taiwan"
+          - option "Thailand (en)"
+          - option "Turkey"
+          - option "US (English)"
+          - option "US (Spanish)"
+          - option "Ukraine"
+          - option "United Kingdom"
+          - option "Vietnam (en)"
+        - combobox [ref=e12] [cursor=pointer]:
+          - option "Any Time" [selected]
+          - option "Past Day"
+          - option "Past Week"
+          - option "Past Month"
+          - option "Past Year"
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - heading "AI Capex Has Officially Surpassed the Dot-Com Era's Peak. What Comes ..." [level=2] [ref=e18]:
+          - link "AI Capex Has Officially Surpassed the Dot-Com Era's Peak. What Comes ..." [ref=e19] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.studioglobal.ai%2Fdiscover%2Fanswers%2Faccording%2Dto%2Dmorgan%2Dstanley%2Ds%2Drecent%2Dreport%2Dhow%2D6a2a1f15d68c087b86d9c734&rut=655b9e8fa268cbb485e955a7ddc9fdf9cabc0211e18bfab575b6909568a6eafb
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.studioglobal.ai%2Fdiscover%2Fanswers%2Faccording%2Dto%2Dmorgan%2Dstanley%2Ds%2Drecent%2Dreport%2Dhow%2D6a2a1f15d68c087b86d9c734&rut=655b9e8fa268cbb485e955a7ddc9fdf9cabc0211e18bfab575b6909568a6eafb
+          - link "www.studioglobal.ai/discover/answers/according-to-morgan-stanley-s-recent-report-how-6a2a1f15d68c087b86d9c734" [ref=e24] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.studioglobal.ai%2Fdiscover%2Fanswers%2Faccording%2Dto%2Dmorgan%2Dstanley%2Ds%2Drecent%2Dreport%2Dhow%2D6a2a1f15d68c087b86d9c734&rut=655b9e8fa268cbb485e955a7ddc9fdf9cabc0211e18bfab575b6909568a6eafb
+          - text: 2026-06-11T00:00:00.0000000
+        - link "In September 2025, Morgan Stanley had projected a 26% capex-to-revenue ratio by 2027—a level that merely approached the dot-com peak . The upward revision underscores how rapidly the AI spending race has intensified." [ref=e25] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.studioglobal.ai%2Fdiscover%2Fanswers%2Faccording%2Dto%2Dmorgan%2Dstanley%2Ds%2Drecent%2Dreport%2Dhow%2D6a2a1f15d68c087b86d9c734&rut=655b9e8fa268cbb485e955a7ddc9fdf9cabc0211e18bfab575b6909568a6eafb
+      - generic [ref=e27]:
+        - heading "Morgan Stanley Revises Hyperscaler Capex Estimate to $1.4 Trillion" [level=2] [ref=e28]:
+          - link "Morgan Stanley Revises Hyperscaler Capex Estimate to $1.4 Trillion" [ref=e29] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.datacenterdigest.net%2Fmorgan%2Dstanley%2Drevises%2Dhyperscaler%2Dcapex%2Destimate%2Dto%2D1%2D4%2Dtrillion%2F&rut=7badf0846d851e1491db5e7b527349c6ec19995fca3c6e96c759feff26f486ea
+        - generic [ref=e31]:
+          - link [ref=e33] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.datacenterdigest.net%2Fmorgan%2Dstanley%2Drevises%2Dhyperscaler%2Dcapex%2Destimate%2Dto%2D1%2D4%2Dtrillion%2F&rut=7badf0846d851e1491db5e7b527349c6ec19995fca3c6e96c759feff26f486ea
+          - link "www.datacenterdigest.net/morgan-stanley-revises-hyperscaler-capex-estimate-to-1-4-trillion/" [ref=e34] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.datacenterdigest.net%2Fmorgan%2Dstanley%2Drevises%2Dhyperscaler%2Dcapex%2Destimate%2Dto%2D1%2D4%2Dtrillion%2F&rut=7badf0846d851e1491db5e7b527349c6ec19995fca3c6e96c759feff26f486ea
+        - link "Subscribe AI Morgan Stanley Revises Hyperscaler Capex Estimate to $1.4 Trillion September 05, 2026 Morgan Stanley analysts now project cumulative hyperscaler capital expenditure at $1.4 trillion, revising upward after major cloud providers reported stronger-than-expected earnings and raised their own forward guidance." [ref=e35] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.datacenterdigest.net%2Fmorgan%2Dstanley%2Drevises%2Dhyperscaler%2Dcapex%2Destimate%2Dto%2D1%2D4%2Dtrillion%2F&rut=7badf0846d851e1491db5e7b527349c6ec19995fca3c6e96c759feff26f486ea
+      - generic [ref=e37]:
+        - 'heading "Morgan Stanley Research Report Analysis: The Inference Era Begins ..." [level=2] [ref=e38]':
+          - 'link "Morgan Stanley Research Report Analysis: The Inference Era Begins ..." [ref=e39] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.techflowpost.com%2Fen%2DUS%2Farticle%2F33825&rut=ceda2fcb5e968990b85cda5c5a7e7614dd4349b3edad738b227d21fac92f16da
+        - generic [ref=e41]:
+          - link [ref=e43] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.techflowpost.com%2Fen%2DUS%2Farticle%2F33825&rut=ceda2fcb5e968990b85cda5c5a7e7614dd4349b3edad738b227d21fac92f16da
+          - link "www.techflowpost.com/en-US/article/33825" [ref=e44] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.techflowpost.com%2Fen%2DUS%2Farticle%2F33825&rut=ceda2fcb5e968990b85cda5c5a7e7614dd4349b3edad738b227d21fac92f16da
+          - text: 2026-09-08T00:00:00.0000000
+        - link "By Rita Hyperscaler data center capital expenditures will reach $1.5 trillion in 2027, a 60% year-over-year increase, with the growth rate plummeting to 12% in 2028. On September 4, Morgan Stanley released an AI Guide report spanning seven teams and addressing eight key debates. The report notes that AI is transitioning from the training era to the inference era, with investor capital ..." [ref=e45] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.techflowpost.com%2Fen%2DUS%2Farticle%2F33825&rut=ceda2fcb5e968990b85cda5c5a7e7614dd4349b3edad738b227d21fac92f16da
+      - generic [ref=e47]:
+        - heading "Struggling to make sense of Big Tech's $600 billion bet on AI? Here's a ..." [level=2] [ref=e48]:
+          - link "Struggling to make sense of Big Tech's $600 billion bet on AI? Here's a ..." [ref=e49] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tker.co%2Fp%2Fai%2Dcapex%2Dwill%2Dcause%2Dtech%2Dhyperscaler%2Ddepreciation%2Dexpense%2Dto%2Drise&rut=c2fcd4fb219f9615b9aa2446ab8fffc88e982cb163112f6ce3121e8d01d54b9a
+        - generic [ref=e51]:
+          - link [ref=e53] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tker.co%2Fp%2Fai%2Dcapex%2Dwill%2Dcause%2Dtech%2Dhyperscaler%2Ddepreciation%2Dexpense%2Dto%2Drise&rut=c2fcd4fb219f9615b9aa2446ab8fffc88e982cb163112f6ce3121e8d01d54b9a
+          - link "www.tker.co/p/ai-capex-will-cause-tech-hyperscaler-depreciation-expense-to-rise" [ref=e54] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tker.co%2Fp%2Fai%2Dcapex%2Dwill%2Dcause%2Dtech%2Dhyperscaler%2Ddepreciation%2Dexpense%2Dto%2Drise&rut=c2fcd4fb219f9615b9aa2446ab8fffc88e982cb163112f6ce3121e8d01d54b9a
+          - text: 2026-02-10T00:00:00.0000000
+        - link "Morgan Stanley's accounting experts aren't so sure. \"As hyperscalers transition from asset-light to infrastructure-heavy business models to meet growing AI demand, traditional depreciation forecasting methodologies may under-appreciate the expenses from this rising capex,\" Morgan Stanley analysts wrote in a Jan. 28 research note." [ref=e55] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tker.co%2Fp%2Fai%2Dcapex%2Dwill%2Dcause%2Dtech%2Dhyperscaler%2Ddepreciation%2Dexpense%2Dto%2Drise&rut=c2fcd4fb219f9615b9aa2446ab8fffc88e982cb163112f6ce3121e8d01d54b9a
+      - generic [ref=e57]:
+        - heading "Morgan Stanley Lifts 2026 Hyperscaler Capex Forecast to $805 Billion" [level=2] [ref=e58]:
+          - link "Morgan Stanley Lifts 2026 Hyperscaler Capex Forecast to $805 Billion" [ref=e59] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.aichatdaily.com%2Fai%2Dbusiness%2Faichat%2D20260504%2Ds2%2Dmorgan%2Dstanley%2Draises%2D2026&rut=59899da0ede3eaab3e0ebe8a2fdbbb6e56bc43e7c8d233421fc9851183ff5df9
+        - generic [ref=e61]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.aichatdaily.com%2Fai%2Dbusiness%2Faichat%2D20260504%2Ds2%2Dmorgan%2Dstanley%2Draises%2D2026&rut=59899da0ede3eaab3e0ebe8a2fdbbb6e56bc43e7c8d233421fc9851183ff5df9
+          - link "www.aichatdaily.com/ai-business/aichat-20260504-s2-morgan-stanley-raises-2026" [ref=e64] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.aichatdaily.com%2Fai%2Dbusiness%2Faichat%2D20260504%2Ds2%2Dmorgan%2Dstanley%2Draises%2D2026&rut=59899da0ede3eaab3e0ebe8a2fdbbb6e56bc43e7c8d233421fc9851183ff5df9
+          - text: 2026-05-04T21:28:00.0000000
+        - link "01 Morgan Stanley raised its 2026 hyperscaler capex forecast to $805 billion, up from $765 billion previously. 02 The forecast covers combined spending from Microsoft, Amazon, Google, Meta, and Oracle on AI data center buildouts." [ref=e65] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.aichatdaily.com%2Fai%2Dbusiness%2Faichat%2D20260504%2Ds2%2Dmorgan%2Dstanley%2Draises%2D2026&rut=59899da0ede3eaab3e0ebe8a2fdbbb6e56bc43e7c8d233421fc9851183ff5df9
+      - button "Next" [ref=e68] [cursor=pointer]
+      - link "Feedback" [ref=e70] [cursor=pointer]:
+        - /url: //duckduckgo.com/feedback.html
+  - img [ref=e71]

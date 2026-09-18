@@ -1,0 +1,3 @@
+[    2302ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.x.com/2/guide.json?count=5&display_location=web_sidebar:0
+[    2359ms] [ERROR] Not signed in with the identity provider. @ https://x.com/michaeljburry/status/2089208509900693930:0
+[    7369ms] [ERROR] Failed to load resource: the server responded with a status of 404 () @ https://api.x.com/2/guide.json?count=5&display_location=web_sidebar:0
