@@ -1,0 +1,8 @@
+[project]
+name = "chipgrid"
+version = "0.1.0"
+description = "Invariant model of the AI-accelerator / grid-energization gap"
+requires-python = ">=3.12"
+
+[tool.setuptools.packages.find]
+where = ["src"]
