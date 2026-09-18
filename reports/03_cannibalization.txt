@@ -1,0 +1,95 @@
+
+==============================================================================
+C8 / C11 — the cannibalization trade, priced
+==============================================================================
+
+The article treats the write-down as a deterrent: pulling two-year-old H100s
+forces accelerated depreciation or impairment, and "you cannot maintain the
+position that server assets have a six-year useful life while simultaneously
+cycling hardware every twenty-four months."
+
+That is true as accounting. The question the article does not ask is whether
+the charge is large enough to change the decision. It is a one-off balance-
+sheet event weighed against a recurring revenue gain, so the comparison is
+decidable once a revenue-per-megawatt figure exists. Nebius disclosed one.
+
+  derived: 685 H100 per facility MW at PUE 1.145
+  Hopper revenue per MW-year at $2.65/GPU-hr, util [0.85, 1.00]: $[13.5, 15.9] M/MW/yr
+  (Nebius's disclosed CURRENT-generation yield, for contrast: $[20.0, 25.0] M/MW/yr)
+  IT content per MW, Hopper..Grace Blackwell (filed)  $[18.0, 25.0] M/MW
+  revenue per MW-year of the RETIRED asset (derived)  $[13.5, 15.9] M/MW/yr
+  asset age / book life                                24 / 72 months
+  remaining book life                                  4.00 years
+
+  unamortised book value written off (no resale)      $[12.00, 16.67] M/MW
+  BREAK-EVEN performance-per-watt ratio rho*           [1.189, 1.308]
+
+  rho* is the factor by which the new generation's performance per watt must
+  beat the old one's for the swap to repay the write-down over the retired
+  asset's remaining book life.
+
+  observed, rack-level dense FP8, H100 -> GB300        1.723
+  observed, rack-level dense FP4, GB200 -> GB300       1.333
+
+  does the observed ratio clear the bar?
+    dense FP8, two generations               1.72  vs  [1.19, 1.31]     YES, by every point of the interval
+    dense FP4, one generation                1.33  vs  [1.19, 1.31]     YES, by every point of the interval
+
+  Read the margins, not just the verdicts. The two-generation swap clears its
+  break-even by a wide margin. The ONE-generation swap clears by about two
+  percent of the ratio -- inside the error of every input feeding it, and it
+  would not clear at all if the retired asset's utilization sat at the low end
+  while its book life ran to six years.
+
+  So the model's prediction is narrower and more falsifiable than either the
+  article's or my own first pass at it:
+
+    operators should cycle the installed base roughly every TWO generations,
+    not every one, and the cycling decision should be visibly sensitive to the
+    rental price of the OUTGOING part rather than to the specification of the
+    incoming one.
+
+  Where the swap does clear, the write-down is not a deterrent: it is roughly
+  one year of the incremental revenue it buys. That inverts the article's
+  conclusion without disputing its premise. The impairment is an
+  EARNINGS-OPTICS event, not an economic constraint -- which is exactly why one
+  would expect to observe operators taking the charge and disclosing it,
+  rather than protecting the useful-life assumption by declining the trade.
+
+
+==============================================================================
+And the resale market decides how much of the charge is even real
+==============================================================================
+
+  An asset pulled at 24 months against a 72-month book life needs to
+  resell for exactly 0.6667 of original cost to avoid any P&L charge.
+
+    resale at   0.00 of cost  ->  charge $[12.00, 16.67] M/MW
+    resale at   0.25 of cost  ->  charge $[5.75, 12.17] M/MW
+    resale at   0.50 of cost  ->  charge $[0.00, 7.67] M/MW
+    resale at 0.6667 of cost  ->  charge $[0.00, 4.67] M/MW
+
+  And prior-generation hardware is not cheap right now. NVIDIA disclosed A100
+  cloud pricing up ~15% year to date; CoreWeave disclosed average A100 pricing
+  ROSE in 2025. A part launched in 2020 is appreciating in the rental market,
+  which supports its residual value and shrinks the charge further.
+
+
+==============================================================================
+The liability the life extension created
+==============================================================================
+
+  I4 (book conservation) says depreciation moves cost between periods and
+  cannot reduce it. Extending useful life therefore does not make the expense
+  go away; it defers it, and an early retirement calls the deferral.
+
+    life 4y -> 6y, asset pulled at age 2:  extra unamortised value = 0.1667 of gross cost
+    life 3y -> 6y, asset pulled at age 2:  extra unamortised value = 0.3333 of gross cost
+    life 4y -> 5y, asset pulled at age 2:  extra unamortised value = 0.1000 of gross cost
+    life 5y -> 6y, asset pulled at age 2:  extra unamortised value = 0.0667 of gross cost
+
+  The 4-to-6-year extension that Microsoft and Alphabet made is worth exactly
+  one sixth of gross cost in additional exposure at age two. That is the
+  quantity at risk per dollar of fleet, and it is fixed by arithmetic before
+  any judgement about whether the extension was justified.
+

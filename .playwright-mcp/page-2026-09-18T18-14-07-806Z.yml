@@ -1,0 +1,223 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: PJM 2026 Load Forecast Report data center large load MW additions pjm.com pdf
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards" [ref=e25] [cursor=pointer]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: Rewards
+          - img [ref=e30]
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Web" [ref=e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a576820f7cdda9104aff5d4521a1f0101e68b764668c5e4c2327ba46adf56732JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPVBKTSsyMDI2K0xvYWQrRm9yZWNhc3QrUmVwb3J0K2RhdGErY2VudGVyK2xhcmdlK2xvYWQrTVcrYWRkaXRpb25zK3BqbS5jb20rcGRmJndlYnNjcD0xJkZPUk09SERSV1ND&ntb=1
+        - listitem [ref=e50]:
+          - link "Search" [ref=e51] [cursor=pointer]:
+            - /url: /copilotsearch?q=PJM+2026+Load+Forecast+Report+data+center+large+load+MW+additions+pjm.com+pdf&FORM=CSSCOP
+            - img [ref=e52]
+            - text: Search
+        - listitem [ref=e54]:
+          - link "Images" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cf7456e6fee6719f8c96d156fa07aab3acf2d7d51c313e90529a1fb9d27b34d4JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT1QSk0rMjAyNitMb2FkK0ZvcmVjYXN0K1JlcG9ydCtkYXRhK2NlbnRlcitsYXJnZStsb2FkK01XK2FkZGl0aW9ucytwam0uY29tK3BkZiZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=e56]:
+          - link "Videos" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3a7bdf8284ea3d75bdb4aa2b0522500680a7af7591f27aabcfb300f39e4790dfJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT1QSk0rMjAyNitMb2FkK0ZvcmVjYXN0K1JlcG9ydCtkYXRhK2NlbnRlcitsYXJnZStsb2FkK01XK2FkZGl0aW9ucytwam0uY29tK3BkZiZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=e58]:
+          - link "Maps" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=690973751f46b42382beeb4c18c3a717bc33ac6600fafa5091b4b3f1026e4e59JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT1QSk0rMjAyNitMb2FkK0ZvcmVjYXN0K1JlcG9ydCtkYXRhK2NlbnRlcitsYXJnZStsb2FkK01XK2FkZGl0aW9ucytwam0uY29tK3BkZiZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e60]:
+          - link "Copilot" [ref=e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6d0ca340f05e509e377b1088861a3d61e1c07635cbe01fcb0bf1d529932ea8daJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PVBKTSsyMDI2K0xvYWQrRm9yZWNhc3QrUmVwb3J0K2RhdGErY2VudGVyK2xhcmdlK2xvYWQrTVcrYWRkaXRpb25zK3BqbS5jb20rcGRmJnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+        - listitem [ref=e62]:
+          - button "More" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: More
+  - generic [ref=e67]:
+    - main "Search Results" [ref=e68]:
+      - generic [ref=e70]: About 666 results
+      - list [ref=e81]:
+        - listitem [ref=e82]:
+          - link "PJM" [ref=e84] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=60c70538a3f28d89db98fbb083306f8cefae3f593a24c93da7a32c0b9bda8772JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9saWJyYXJ5L3JlcG9ydHMtbm90aWNlcy9sb2FkLWZvcmVjYXN0LzIwMjYtbG9hZC1yZXBvcnQucGRm&ntb=1
+            - generic [ref=e89]:
+              - generic [ref=e90]: PJM
+              - generic [ref=e93]: https://www.pjm.com › ... › DotCom › library › reports-notices › load-forecast
+          - generic [ref=e94]:
+            - generic [ref=e95]: "[PDF]"
+            - heading "PJM Load Forecast Report" [level=2] [ref=e96]:
+              - link "PJM Load Forecast Report" [ref=e97] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=60c70538a3f28d89db98fbb083306f8cefae3f593a24c93da7a32c0b9bda8772JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9saWJyYXJ5L3JlcG9ydHMtbm90aWNlcy9sb2FkLWZvcmVjYXN0LzIwMjYtbG9hZC1yZXBvcnQucGRm&ntb=1
+          - paragraph [ref=e99]: Jan 14, 2026 · PJM, in collaboration with stakeholders, created and published a Load Adjustment Request Implementation (PDF) …
+          - generic [ref=e100]:
+            - list [ref=e101]:
+              - listitem [ref=e102]:
+                - link "2026 PJM Long-Term Load …" [ref=e103] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e5f4719f586b4686b0d026b3b045e100b7b82aaf0b6370bb5a9ba57ec3a3bf5bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9jb21taXR0ZWVzLWdyb3Vwcy9zdWJjb21taXR0ZWVzL2xhcy8yMDI2LzIwMjYwMTIzLzIwMjYwMTIzLWl0ZW0tMDMtLS1wam0tMjAyNi1sb25nLXRlcm0tbG9hZC1mb3JlY2FzdC0tLXByZXNlbnRhdGlvbi5wZGY&ntb=1
+                - paragraph [ref=e104]: "For any zone with existing data center loads in history: …"
+              - listitem [ref=e105]:
+                - link "Load" [ref=e106] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=2d71e24f8c21663be0a0e8ea1f445531b0011d732d6fcec183053e94be59bd6eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9kYXRhdmlld2VyLnBqbS5jb20vZGF0YXZpZXdlci9wYWdlcy9wdWJsaWMvbG9hZC5qc2Y&ntb=1
+                - paragraph [ref=e107]: "Disclaimer: Data Viewer is provided for informational …"
+            - list [ref=e108]:
+              - listitem [ref=e109]:
+                - link "2026 Long-Term Load Fore…" [ref=e110] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1f7f039de14e41bd19c94a827d7acb584d7deaaf2ffb3c260a3ef5d9c32de46cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9wbGFubmluZy9yZXMtYWRlcS9sb2FkLWZvcmVjYXN0L2xvYWQtZm9yZWNhc3Qtc3VwcGxlbWVudC0yMDI2LnBkZg&ntb=1
+                - paragraph [ref=e111]: Exelon requested that PJM consider load additions …
+          - link "See results only from pjm.com" [ref=e112] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=fb77d13a45fdf4efe6f3b95a346660de2a899215be76018d2e418f96049f9627JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPXNpdGU6cGptLmNvbStQSk0rMjAyNitMb2FkK0ZvcmVjYXN0K1JlcG9ydCtkYXRhK2NlbnRlcitsYXJnZStsb2FkK01XK2FkZGl0aW9ucytwam0uY29tK3BkZiZmb3JtPURMSU5LUg&ntb=1
+        - listitem [ref=e113]:
+          - link "PJM" [ref=e115] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e5f4719f586b4686b0d026b3b045e100b7b82aaf0b6370bb5a9ba57ec3a3bf5bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9jb21taXR0ZWVzLWdyb3Vwcy9zdWJjb21taXR0ZWVzL2xhcy8yMDI2LzIwMjYwMTIzLzIwMjYwMTIzLWl0ZW0tMDMtLS1wam0tMjAyNi1sb25nLXRlcm0tbG9hZC1mb3JlY2FzdC0tLXByZXNlbnRhdGlvbi5wZGY&ntb=1
+            - generic [ref=e120]:
+              - generic [ref=e121]: PJM
+              - generic [ref=e124]: https://www.pjm.com › media › DotCom › committees...
+          - generic [ref=e125]:
+            - generic [ref=e126]: "[PDF]"
+            - heading "2026 PJM Long-Term Load Forecast" [level=2] [ref=e127]:
+              - link "2026 PJM Long-Term Load Forecast" [ref=e128] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e5f4719f586b4686b0d026b3b045e100b7b82aaf0b6370bb5a9ba57ec3a3bf5bJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9jb21taXR0ZWVzLWdyb3Vwcy9zdWJjb21taXR0ZWVzL2xhcy8yMDI2LzIwMjYwMTIzLzIwMjYwMTIzLWl0ZW0tMDMtLS1wam0tMjAyNi1sb25nLXRlcm0tbG9hZC1mb3JlY2FzdC0tLXByZXNlbnRhdGlvbi5wZGY&ntb=1
+          - paragraph [ref=e130]: "Jan 23, 2026 · For any zone with existing data center loads in history: PJM removes monthly data center load from the commercial …"
+        - listitem [ref=e131]:
+          - link "site.com" [ref=e133] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=2997195a274c29e52438d612836320e352165eac9deb12fa1379488997e4be6cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9wam0ubXkuc2l0ZS5jb20vcHVibGlja25vd2xlZGdlL3MvYXJ0aWNsZS9Mb2FkLUZvcmVjYXN0aW5nLVN1cHBsZW1lbnQtYW5kLTIwMjYtUEpNLUxvYWQtRm9yZWNhc3QtUmVwb3J0&ntb=1
+            - generic [ref=e138]:
+              - generic [ref=e139]: site.com
+              - generic [ref=e142]: https://pjm.my.site.com › ...
+          - heading "Load Forecasting Supplement and 2026 PJM Load Forecast Report" [level=2] [ref=e143]:
+            - link "Load Forecasting Supplement and 2026 PJM Load Forecast Report" [ref=e144] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=2997195a274c29e52438d612836320e352165eac9deb12fa1379488997e4be6cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9wam0ubXkuc2l0ZS5jb20vcHVibGlja25vd2xlZGdlL3MvYXJ0aWNsZS9Mb2FkLUZvcmVjYXN0aW5nLVN1cHBsZW1lbnQtYW5kLTIwMjYtUEpNLUxvYWQtRm9yZWNhc3QtUmVwb3J0&ntb=1
+          - paragraph [ref=e146]: PJM Interconnection released the 2026 PJM Load Forecast Report, which contains projections of peak load, net energy, load …
+        - listitem [ref=e147]:
+          - link "PJM" [ref=e149] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=2933c1c467d88349a40a49c1dd100a0cde6fdd1554d6a1620a7797f0433e30f4JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9jb21taXR0ZWVzLWdyb3Vwcy9jb21taXR0ZWVzL3BjLzIwMjYvMjAyNjAyMDMvMjAyNjAyMDMtaXRlbS0wNS0tLTIwMjYtcGptLWxvbmctdGVybS1sb2FkLWZvcmVjYXN0LnBkZg&ntb=1
+            - generic [ref=e154]:
+              - generic [ref=e155]: PJM
+              - generic [ref=e158]: https://www.pjm.com › ...
+          - generic [ref=e159]:
+            - generic [ref=e160]: "[PDF]"
+            - heading "2026 PJM Long-Term Load Forecast" [level=2] [ref=e161]:
+              - link "2026 PJM Long-Term Load Forecast" [ref=e162] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=2933c1c467d88349a40a49c1dd100a0cde6fdd1554d6a1620a7797f0433e30f4JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9jb21taXR0ZWVzLWdyb3Vwcy9jb21taXR0ZWVzL3BjLzIwMjYvMjAyNjAyMDMvMjAyNjAyMDMtaXRlbS0wNS0tLTIwMjYtcGptLWxvbmctdGVybS1sb2FkLWZvcmVjYXN0LnBkZg&ntb=1
+          - paragraph [ref=e164]: "Feb 3, 2026 · • Load Adjustments: – Data Centers (AEP, ATSI, APS, BGE, COMED, DAYTON, DQE, JCPL, METED, PECO, …"
+        - listitem [ref=e165]:
+          - link "PJM" [ref=e167] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=1f7f039de14e41bd19c94a827d7acb584d7deaaf2ffb3c260a3ef5d9c32de46cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9wbGFubmluZy9yZXMtYWRlcS9sb2FkLWZvcmVjYXN0L2xvYWQtZm9yZWNhc3Qtc3VwcGxlbWVudC0yMDI2LnBkZg&ntb=1
+            - generic [ref=e172]:
+              - generic [ref=e173]: PJM
+              - generic [ref=e176]: https://www.pjm.com › ... › planning › res-adeq › load-forecast
+          - generic [ref=e177]:
+            - generic [ref=e178]: "[PDF]"
+            - heading "2026 Long-Term Load Forecast Supplement - pjm.com" [level=2] [ref=e179]:
+              - link "2026 Long-Term Load Forecast Supplement - pjm.com" [ref=e180] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=1f7f039de14e41bd19c94a827d7acb584d7deaaf2ffb3c260a3ef5d9c32de46cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9wbGFubmluZy9yZXMtYWRlcS9sb2FkLWZvcmVjYXN0L2xvYWQtZm9yZWNhc3Qtc3VwcGxlbWVudC0yMDI2LnBkZg&ntb=1
+          - paragraph [ref=e182]: Exelon requested that PJM consider load additions related to growth in data centers in their PECO zone. PJM considered the below …
+        - listitem [ref=e183]:
+          - link "PJM Inside Lines" [ref=e185] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=acd22be100c6aae1b48d380f4c5b70d10d71515e0ff58032baaa1a042be92295JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnNpZGVsaW5lcy5wam0uY29tL3BqbXMtdXBkYXRlZC0yMC15ZWFyLWZvcmVjYXN0LWNvbnRpbnVlcy10by1zZWUtc2lnbmlmaWNhbnQtbG9uZy10ZXJtLWxvYWQtZ3Jvd3RoLw&ntb=1
+            - generic [ref=e190]:
+              - generic [ref=e191]: PJM Inside Lines
+              - generic [ref=e194]: https://insidelines.pjm.com
+          - heading "PJM’s Updated 20-Year Forecast Continues To See Significant Long …" [level=2] [ref=e195]:
+            - link "PJM’s Updated 20-Year Forecast Continues To See Significant Long …" [ref=e196] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=acd22be100c6aae1b48d380f4c5b70d10d71515e0ff58032baaa1a042be92295JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnNpZGVsaW5lcy5wam0uY29tL3BqbXMtdXBkYXRlZC0yMC15ZWFyLWZvcmVjYXN0LWNvbnRpbnVlcy10by1zZWUtc2lnbmlmaWNhbnQtbG9uZy10ZXJtLWxvYWQtZ3Jvd3RoLw&ntb=1
+          - paragraph [ref=e198]: Jan 14, 2026 · The PJM 2026 Long-Term Load Forecast Report confirms the trend of significant growth in electricity demand over the …
+        - listitem [ref=e199]:
+          - link "POWER Magazine" [ref=e201] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ec3dadcde3003cc6a727323c76c8445bc40c4650af722ca1c47baa4d48949c1fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucG93ZXJtYWcuY29tL3BqbS1kaWFscy1iYWNrLW5lYXItdGVybS1sb2FkLW91dGxvb2stYnV0LW1haW50YWlucy1zdGVlcC1sb25nLXRlcm0tZ3Jvd3RoLXRyYWplY3Rvcnkv&ntb=1
+            - generic [ref=e206]:
+              - generic [ref=e207]: POWER Magazine
+              - generic [ref=e210]: https://www.powermag.com › pjm-dials-back-near-term...
+          - heading "PJM Dials Back Near-Term Load Outlook but Maintains Steep Long …" [level=2] [ref=e211]:
+            - link "PJM Dials Back Near-Term Load Outlook but Maintains Steep Long …" [ref=e212] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=ec3dadcde3003cc6a727323c76c8445bc40c4650af722ca1c47baa4d48949c1fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucG93ZXJtYWcuY29tL3BqbS1kaWFscy1iYWNrLW5lYXItdGVybS1sb2FkLW91dGxvb2stYnV0LW1haW50YWlucy1zdGVlcC1sb25nLXRlcm0tZ3Jvd3RoLXRyYWplY3Rvcnkv&ntb=1
+          - paragraph [ref=e214]: Jan 15, 2026 · The report shows PJM adjusted load forecasts for 15 of its transmission zones in the 2026 report, with 14 zones where …
+        - listitem [ref=e215]:
+          - list [ref=e216]:
+            - listitem [ref=e217]:
+              - generic [ref=e218]:
+                - generic [ref=e219] [cursor=pointer]:
+                  - generic [ref=e224]: maddox.com
+                  - generic [ref=e225]:
+                    - generic [ref=e227]: https://www.maddox.com › Data-Center › Transformers
+                    - button "About our ads" [ref=e228]:
+                      - img "About our ads" [ref=e230]
+                  - link "Join Now" [ref=e236]:
+                    - /url: https://www.bing.com/aclk?ld=e8wNyY99H1uYgd_QxnbUtUtTVUCUxIjsrzHDgyJ59b1Sq2q3vZzOF8beiFuWlZdfCouyNrLNqiC5OgV0brbFUtvUKd4lVNLA83Ifm_CE8_vNqRA1zi70vmlR0CGoKqSpxhIbEl1TwitA9HvXmeH_SqQj4e8mnIyoGRuL8agRXq0redT2PLN6BD9D_Yxzs4XiWf1vfSG4ZxNe48xjp4ZBOt3V9QO_DeS-2ny_8K6AenWFrTb9hw&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFkZG94LmNvbSUyZnByb2plY3RzJTJmZGF0YWNlbnRlcnMlM2ZrZXl3b3JkJTNkZGF0YSUyNTIwY2VudGVyJTI1MjB0cmFuc2Zvcm1lcnMlMjZ1dG1fdGVybSUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2dXRtX2NhbXBhaWduJTNkVHJhbnNmb3JtZXJzJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2aHNhX2FjYyUzZDgxMzM2OTk0ODElMjZoc2FfY2FtJTNkMzA1NjY1MzMzJTI2aHNhX2dycCUzZDEyMTYwNjAxNzQzODM0MTYlMjZoc2FfYWQlM2QlMjZoc2Ffc3JjJTNkbyUyNmhzYV90Z3QlM2Rrd2QtODI2MDE4NTgwNTU2NjklM2Fsb2MtNDA4NCUyNmhzYV9rdyUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2aHNhX210JTNkYiUyNmhzYV9uZXQlM2RhZHdvcmRzJTI2aHNhX3ZlciUzZDMlMjZ0d19zb3VyY2UlM2Rnb29nbGUlMjZ0d19hZGlkJTNkJTI2dHdfY2FtcGFpZ24lM2QxODExNjQxNTUlMjZtc2Nsa2lkJTNkNGU3NDY1Njg3MmU1MWUyOGVhZmYwZmM1MGQ4YTJmYjklMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RUcmFuc2Zvcm1lcnMlMjUyMC0lMjUyMFNHJTI2dXRtX3Rlcm0lM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNnV0bV9jb250ZW50JTNkRGF0YWNlbnRlciUyNTIwVHJhbnNmb3JtZXJz&rlid=4e74656872e51e28eaff0fc50d8a2fb9&ntb=1
+                    - generic [ref=e237]: Join Now
+                - heading "Data Center Transformers | Get Data Center Transformers Fast" [level=2] [ref=e238]:
+                  - link "Data Center Transformers | Get Data Center Transformers Fast" [ref=e239] [cursor=pointer]:
+                    - /url: https://www.bing.com/aclk?ld=e8VdtEA7Hx-t04DJjKXvEr-jVUCUzKYAgsPM1ahSiqxxZ6UDOYJQc1ZgiKeBnQf2JZLA7936kGgk5Yuno7HWL17DlFF81sF6v3052Qm7CGx3T8eD1o-BMP9vs0gdhUPrhF8Vypg1lE-WbxgjP2vH3bxGTA6H_UayCZ9yfz2c_YqF-2FmfSqKGwLxtC4AYWpYzTlkqURTuFlkftgg0eTwD5UWu8l9I&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFkZG94LmNvbSUyZnByb2plY3RzJTJmZGF0YWNlbnRlcnMlM2ZrZXl3b3JkJTNkZGF0YSUyNTIwY2VudGVyJTI1MjB0cmFuc2Zvcm1lcnMlMjZ1dG1fdGVybSUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2dXRtX2NhbXBhaWduJTNkVHJhbnNmb3JtZXJzJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2aHNhX2FjYyUzZDgxMzM2OTk0ODElMjZoc2FfY2FtJTNkMzA1NjY1MzMzJTI2aHNhX2dycCUzZDEyMTYwNjAxNzQzODM0MTYlMjZoc2FfYWQlM2QlMjZoc2Ffc3JjJTNkbyUyNmhzYV90Z3QlM2Rrd2QtODI2MDE4NTgwNTU2NjklM2Fsb2MtNDA4NCUyNmhzYV9rdyUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2aHNhX210JTNkYiUyNmhzYV9uZXQlM2RhZHdvcmRzJTI2aHNhX3ZlciUzZDMlMjZ0d19zb3VyY2UlM2Rnb29nbGUlMjZ0d19hZGlkJTNkJTI2dHdfY2FtcGFpZ24lM2QxODExNjQxNTUlMjZtc2Nsa2lkJTNkNTA5ZjUwNThmNWY4MTJiZGM4OTYzYWY1OGE5Nzc3ZTMlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RUcmFuc2Zvcm1lcnMlMjUyMC0lMjUyMFNHJTI2dXRtX3Rlcm0lM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNnV0bV9jb250ZW50JTNkRGF0YWNlbnRlciUyNTIwVHJhbnNmb3JtZXJz&rlid=509f5058f5f812bdc8963af58a9777e3&ntb=1
+                - generic [ref=e240]:
+                  - generic [ref=e241]:
+                    - generic [ref=e244]: Sponsored
+                    - text: Largest selection of new and reconditioned transformers in the US. Contact us today. Need a custom solution? We will manufacture it faster than anyone else in the industry
+                  - generic [ref=e245]: "Brands: Abb, Cooper, Howard Industries, Ge"
+                - list "Please use arrow keys to navigate" [ref=e252]:
+                  - listitem [ref=e253] [cursor=pointer]:
+                    - link "Medium Voltage Dry-Type" [ref=e255]:
+                      - /url: https://www.bing.com/aclk?ld=e8zfJQNNN5cmmm7MW3KzvCuDVUCUzTzkWOMCSopDlWwni7QzacBD-ppgyQieUiBVUiwnZPXw3XkxtLZumVhvQWkyfqQas7nJ8aTARqHbwaV7F7nbAHQCaAEOe47urKnzbrc07-zoMRF3pPyriwor0WMhB1CFJ03_aJnER73Nb4cWipr1pdj52T2nxjZIY842TCR_WfaYE_eRhjqMC8y6oJ_VcDmS2wp-UcbYH-J-0ua0VH_UA5&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFkZG94LmNvbSUyZnByb2R1Y3RzLWFuZC1zZXJ2aWNlcyUyZm1lZGl1bS12b2x0YWdlLWRyeS10eXBlJTNma2V5d29yZCUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2dXRtX3Rlcm0lM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNnV0bV9jYW1wYWlnbiUzZFRyYW5zZm9ybWVycyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNmhzYV9hY2MlM2Q4MTMzNjk5NDgxJTI2aHNhX2NhbSUzZDMwNTY2NTMzMyUyNmhzYV9ncnAlM2QxMjE2MDYwMTc0MzgzNDE2JTI2aHNhX2FkJTNkJTI2aHNhX3NyYyUzZG8lMjZoc2FfdGd0JTNka3dkLTgyNjAxODU4MDU1NjY5JTNhbG9jLTQwODQlMjZoc2Ffa3clM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNmhzYV9tdCUzZGIlMjZoc2FfbmV0JTNkYWR3b3JkcyUyNmhzYV92ZXIlM2QzJTI2dHdfc291cmNlJTNkZ29vZ2xlJTI2dHdfYWRpZCUzZCUyNnR3X2NhbXBhaWduJTNkMTgxMTY0MTU1JTI2bXNjbGtpZCUzZGQyZTkyMGZlZGRhZDE3NTk2NTgxNGE1M2EyYzI2YTJkJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkVHJhbnNmb3JtZXJzJTI1MjAtJTI1MjBTRyUyNnV0bV90ZXJtJTNkZGF0YSUyNTIwY2VudGVyJTI1MjB0cmFuc2Zvcm1lcnMlMjZ1dG1fY29udGVudCUzZERhdGFjZW50ZXIlMjUyMFRyYW5zZm9ybWVycw&rlid=d2e920feddad175965814a53a2c26a2d&ntb=1
+                      - generic [ref=e256]: Medium Voltage Dry-Type
+                  - listitem [ref=e257] [cursor=pointer]:
+                    - link "Low Voltage Dry-Type" [ref=e259]:
+                      - /url: https://www.bing.com/aclk?ld=e80Wq3xIhifaXIlfPqFs2H8TVUCUxWnSngW-VepTakr7vHhBNq_K-dwzM-tgusANSjFbU3vcKtG3qRynPM0s6wNFnuqv1bXm2Cyvx5WHOc_duSmqcD0-_xOaa3CPyZkP0D4IIf8Bo8bJ5ongAP1WNXAftiVpzAPNWs6eBZSFgsK_rLF3eW3-7rzfuANcT_UhkIXdVZeFSqvG8ws4g69WP033M0osGhrajpOn279kCWzgThE8Jy&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFkZG94LmNvbSUyZnByb2R1Y3RzLWFuZC1zZXJ2aWNlcyUyZmxvdy12b2x0YWdlLWRyeS10eXBlJTNma2V5d29yZCUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2dXRtX3Rlcm0lM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNnV0bV9jYW1wYWlnbiUzZFRyYW5zZm9ybWVycyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNmhzYV9hY2MlM2Q4MTMzNjk5NDgxJTI2aHNhX2NhbSUzZDMwNTY2NTMzMyUyNmhzYV9ncnAlM2QxMjE2MDYwMTc0MzgzNDE2JTI2aHNhX2FkJTNkJTI2aHNhX3NyYyUzZG8lMjZoc2FfdGd0JTNka3dkLTgyNjAxODU4MDU1NjY5JTNhbG9jLTQwODQlMjZoc2Ffa3clM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNmhzYV9tdCUzZGIlMjZoc2FfbmV0JTNkYWR3b3JkcyUyNmhzYV92ZXIlM2QzJTI2dHdfc291cmNlJTNkZ29vZ2xlJTI2dHdfYWRpZCUzZCUyNnR3X2NhbXBhaWduJTNkMTgxMTY0MTU1JTI2bXNjbGtpZCUzZDhhMzdhNWU0YWM3NTE2ODgyY2EzY2Y0OWQzMWEyNmYwJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkVHJhbnNmb3JtZXJzJTI1MjAtJTI1MjBTRyUyNnV0bV90ZXJtJTNkZGF0YSUyNTIwY2VudGVyJTI1MjB0cmFuc2Zvcm1lcnMlMjZ1dG1fY29udGVudCUzZERhdGFjZW50ZXIlMjUyMFRyYW5zZm9ybWVycw&rlid=8a37a5e4ac7516882ca3cf49d31a26f0&ntb=1
+                      - generic [ref=e260]: Low Voltage Dry-Type
+                  - listitem [ref=e261] [cursor=pointer]:
+                    - link "Contact Us" [ref=e263]:
+                      - /url: https://www.bing.com/aclk?ld=e8pHhe5T66b02OCftYIsaDDDVUCUwaXJbDrs4IxEremKacFUWhkWYoH9DUGvt9MylSCewOmqN1zry7cDagi6JVNzrlPkZQiLjjQk5Jor3tpvF8ETaF4J4hsW9TMqOsqh7X9nfMwTwJ5xrIYdVHiWnvC0QCkxpH_G7QobGiAE2ra4anzODCfzcs7nuENWWQa-P-VsIPi3Ur1STJ2ueEn2Kcs2KDNVeGieAQJg26QZulozRivZtI&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFkZG94LmNvbSUyZmNvbnRhY3QlM2ZrZXl3b3JkJTNkZGF0YSUyNTIwY2VudGVyJTI1MjB0cmFuc2Zvcm1lcnMlMjZ1dG1fdGVybSUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2dXRtX2NhbXBhaWduJTNkVHJhbnNmb3JtZXJzJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2aHNhX2FjYyUzZDgxMzM2OTk0ODElMjZoc2FfY2FtJTNkMzA1NjY1MzMzJTI2aHNhX2dycCUzZDEyMTYwNjAxNzQzODM0MTYlMjZoc2FfYWQlM2QlMjZoc2Ffc3JjJTNkbyUyNmhzYV90Z3QlM2Rrd2QtODI2MDE4NTgwNTU2NjklM2Fsb2MtNDA4NCUyNmhzYV9rdyUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2aHNhX210JTNkYiUyNmhzYV9uZXQlM2RhZHdvcmRzJTI2aHNhX3ZlciUzZDMlMjZ0d19zb3VyY2UlM2Rnb29nbGUlMjZ0d19hZGlkJTNkJTI2dHdfY2FtcGFpZ24lM2QxODExNjQxNTUlMjZtc2Nsa2lkJTNkZGMyMzA2MzIzZTkzMWI1NDQ2NGQ2YzlmNDFmYzRjOGYlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RUcmFuc2Zvcm1lcnMlMjUyMC0lMjUyMFNHJTI2dXRtX3Rlcm0lM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNnV0bV9jb250ZW50JTNkRGF0YWNlbnRlciUyNTIwVHJhbnNmb3JtZXJz&rlid=dc2306323e931b54464d6c9f41fc4c8f&ntb=1
+                      - generic [ref=e264]: Contact Us
+                  - listitem [ref=e265] [cursor=pointer]:
+                    - link "Substation" [ref=e267]:
+                      - /url: https://www.bing.com/aclk?ld=e89rvZnSGZzxIYnJ804VfNITVUCUy9SfbnYstQiBNoM4jpOCxve4f_K0FSfkCIaAhNEzglBqKhJI85SvA8JYsWduR6EH2jU9oP6od_tLQNhDE_aKUocWW-ZpDOdqoEJKDmiIbsmzqjzX6pCRknFUNKHu59-Ila6_3Gx8KkgC2oivPjyyggyEj1T9fp00zbgvUuYqbmLUX2AYVOtoPBDeEqY3CWNGYOdoHmn2p18fnudnqZ_pmZ&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFkZG94LmNvbSUyZnByb2R1Y3RzLWFuZC1zZXJ2aWNlcyUyZnN1YnN0YXRpb24lM2ZrZXl3b3JkJTNkZGF0YSUyNTIwY2VudGVyJTI1MjB0cmFuc2Zvcm1lcnMlMjZ1dG1fdGVybSUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2dXRtX2NhbXBhaWduJTNkVHJhbnNmb3JtZXJzJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2aHNhX2FjYyUzZDgxMzM2OTk0ODElMjZoc2FfY2FtJTNkMzA1NjY1MzMzJTI2aHNhX2dycCUzZDEyMTYwNjAxNzQzODM0MTYlMjZoc2FfYWQlM2QlMjZoc2Ffc3JjJTNkbyUyNmhzYV90Z3QlM2Rrd2QtODI2MDE4NTgwNTU2NjklM2Fsb2MtNDA4NCUyNmhzYV9rdyUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2aHNhX210JTNkYiUyNmhzYV9uZXQlM2RhZHdvcmRzJTI2aHNhX3ZlciUzZDMlMjZ0d19zb3VyY2UlM2Rnb29nbGUlMjZ0d19hZGlkJTNkJTI2dHdfY2FtcGFpZ24lM2QxODExNjQxNTUlMjZtc2Nsa2lkJTNkYWM1MTNiOTgxMDExMTIyZDNlZTA1MTM1NmY3ZWRkNmElMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RUcmFuc2Zvcm1lcnMlMjUyMC0lMjUyMFNHJTI2dXRtX3Rlcm0lM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNnV0bV9jb250ZW50JTNkRGF0YWNlbnRlciUyNTIwVHJhbnNmb3JtZXJz&rlid=ac513b981011122d3ee051356f7edd6a&ntb=1
+                      - generic [ref=e268]: Substation
+                  - listitem [ref=e269] [cursor=pointer]:
+                    - link "Padmount" [ref=e271]:
+                      - /url: https://www.bing.com/aclk?ld=e857r9BE3SDcik0tvEAcGLDTVUCUzqeFqSMEvSOYTnv6ukwDa21GcXuzcQL8ek6VizON2iZHtIVCG_8lycCTzjUulZd9QtXL5c-REXCY5z4Q4i6OgZ42_2YASFIN1jZcYTkxtFh9CkfD99QqCnRFME0jpNX_JKvt4Z8D0GOETlmwzDmGcK6-jHfHepXZdh8kAGf6EjCULdW93T4-9HPd8YGLS3AK-ufXysQxkoUluNGs8QvWAq&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFkZG94LmNvbSUyZnByb2R1Y3RzLWFuZC1zZXJ2aWNlcyUyZnBhZG1vdW50JTNma2V5d29yZCUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2dXRtX3Rlcm0lM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNnV0bV9jYW1wYWlnbiUzZFRyYW5zZm9ybWVycyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNmhzYV9hY2MlM2Q4MTMzNjk5NDgxJTI2aHNhX2NhbSUzZDMwNTY2NTMzMyUyNmhzYV9ncnAlM2QxMjE2MDYwMTc0MzgzNDE2JTI2aHNhX2FkJTNkJTI2aHNhX3NyYyUzZG8lMjZoc2FfdGd0JTNka3dkLTgyNjAxODU4MDU1NjY5JTNhbG9jLTQwODQlMjZoc2Ffa3clM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNmhzYV9tdCUzZGIlMjZoc2FfbmV0JTNkYWR3b3JkcyUyNmhzYV92ZXIlM2QzJTI2dHdfc291cmNlJTNkZ29vZ2xlJTI2dHdfYWRpZCUzZCUyNnR3X2NhbXBhaWduJTNkMTgxMTY0MTU1JTI2bXNjbGtpZCUzZDdjYTgyZDk0ZDM1NTE0MDNlZWM1NDczOWFjM2EzYTU1JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkVHJhbnNmb3JtZXJzJTI1MjAtJTI1MjBTRyUyNnV0bV90ZXJtJTNkZGF0YSUyNTIwY2VudGVyJTI1MjB0cmFuc2Zvcm1lcnMlMjZ1dG1fY29udGVudCUzZERhdGFjZW50ZXIlMjUyMFRyYW5zZm9ybWVycw&rlid=7ca82d94d3551403eec54739ac3a3a55&ntb=1
+                      - generic [ref=e272]: Padmount
+                  - listitem [ref=e273] [cursor=pointer]:
+                    - link "Get In Touch" [ref=e275]:
+                      - /url: https://www.bing.com/aclk?ld=e8AjcYMj09HA11kLsY6EbFITVUCUwjTgE4P9vSYOb-xTy5jap3abS8dve1N4_DcRZCBwXGNAbPtjU94JHQZUOYhpMPo8IRMVas0FX0u1LRQC4A6QBnlSyHiV0LEm_pzw0HAF_EGwwmLvfIA-DgLIuJIAqc75P2qIQv1L0m1SiqhC8yHCqlwTShe_1zi4fYh4Pa6bJ2Bcq4DsEHuR1R6YdPMtO0pdOfOH5txk6y2dAa6j3kNUVX&u=aHR0cHMlM2ElMmYlMmZ3d3cubWFkZG94LmNvbSUyZmNvbnRhY3QlM2ZrZXl3b3JkJTNkZGF0YSUyNTIwY2VudGVyJTI1MjB0cmFuc2Zvcm1lcnMlMjZ1dG1fdGVybSUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2dXRtX2NhbXBhaWduJTNkVHJhbnNmb3JtZXJzJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2aHNhX2FjYyUzZDgxMzM2OTk0ODElMjZoc2FfY2FtJTNkMzA1NjY1MzMzJTI2aHNhX2dycCUzZDEyMTYwNjAxNzQzODM0MTYlMjZoc2FfYWQlM2QlMjZoc2Ffc3JjJTNkbyUyNmhzYV90Z3QlM2Rrd2QtODI2MDE4NTgwNTU2NjklM2Fsb2MtNDA4NCUyNmhzYV9rdyUzZGRhdGElMjUyMGNlbnRlciUyNTIwdHJhbnNmb3JtZXJzJTI2aHNhX210JTNkYiUyNmhzYV9uZXQlM2RhZHdvcmRzJTI2aHNhX3ZlciUzZDMlMjZ0d19zb3VyY2UlM2Rnb29nbGUlMjZ0d19hZGlkJTNkJTI2dHdfY2FtcGFpZ24lM2QxODExNjQxNTUlMjZtc2Nsa2lkJTNkNjkwZmMwMWU1ZTRiMWM1MGU5YzZhYWIzMjEyNGM3YzQlMjZ1dG1fc291cmNlJTNkYmluZyUyNnV0bV9tZWRpdW0lM2RjcGMlMjZ1dG1fY2FtcGFpZ24lM2RUcmFuc2Zvcm1lcnMlMjUyMC0lMjUyMFNHJTI2dXRtX3Rlcm0lM2RkYXRhJTI1MjBjZW50ZXIlMjUyMHRyYW5zZm9ybWVycyUyNnV0bV9jb250ZW50JTNkRGF0YWNlbnRlciUyNTIwVHJhbnNmb3JtZXJz&rlid=690fc01e5e4b1c50e9c6aab32124c7c4&ntb=1
+                      - generic [ref=e276]: Get In Touch
+        - listitem [ref=e277]:
+          - navigation "More results for PJM 2026 Load Forecast Report data center large load MW additions pjm.com pdf":
+            - list:
+              - listitem [ref=e278]:
+                - generic "Page 1" [ref=e279]: "1"
+              - listitem [ref=e280]:
+                - link "Page 2" [ref=e281] [cursor=pointer]:
+                  - /url: /search?q=PJM+2026+Load+Forecast+Report+data+center+large+load+MW+additions+pjm.com+pdf&FPIG=A3EEF225D81247C4BF0A465F408A9CCE&first=8&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e282]:
+                - link "Page 3" [ref=e283] [cursor=pointer]:
+                  - /url: /search?q=PJM+2026+Load+Forecast+Report+data+center+large+load+MW+additions+pjm.com+pdf&FPIG=A3EEF225D81247C4BF0A465F408A9CCE&first=18&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e284]:
+                - link "Next page" [ref=e285] [cursor=pointer]:
+                  - /url: /search?q=PJM+2026+Load+Forecast+Report+data+center+large+load+MW+additions+pjm.com+pdf&FPIG=A3EEF225D81247C4BF0A465F408A9CCE&first=8&FORM=PORE
+    - complementary "Additional Results" [ref=e286]:
+      - list
+  - contentinfo [ref=e287]:
+    - generic [ref=e288]:
+      - list:
+        - listitem [ref=e289]:
+          - link "Privacy" [ref=e290] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e291]:
+          - link "Terms" [ref=e292] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

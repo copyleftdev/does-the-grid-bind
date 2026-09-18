@@ -445,3 +445,33 @@ parameters:
       and revenue, which makes it the bridge between the grid side and the
       economics side of this model. Short-duration (<=6mo) deals yield
       $40-50M/MW/yr.
+
+  trendforce_highend_gpu_unit_growth_2026:
+    value: "0.26"
+    unit: dimensionless
+    provenance: ESTIMATED
+    source: "TrendForce, NVIDIA high-end GPU unit shipments 2026 (revised down from 26.8%)"
+    url: https://www.trendforce.com/presscenter/news/20260408-13003.html
+    as_of: 2026-04-08
+    note: >
+      Directly contradicts '2x units' for the high-end GPU basket. Both can
+      be true only if Huang's undefined 'chips' basket is dominated by
+      low-ASP silicon: Vera CPUs (revenue guided to more than double),
+      Groq LPUs at 256 per LPX rack, five networking families, RTX parts.
+
+  nvda_it_content_per_mw_hopper:
+    value: 18
+    unit: USD millions per MW
+    provenance: FILED
+    source: "Derived from NVIDIA's disclosed $18B per GW for Hopper"
+    url: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+    as_of: 2026-08-26
+    note: "A lower bound on the book value of the IT asset per MW: ODM margin and non-NVIDIA content sit on top."
+
+  nvda_it_content_per_mw_grace_blackwell:
+    value: 25
+    unit: USD millions per MW
+    provenance: FILED
+    source: "NVIDIA disclosed $25B per GW for Grace Blackwell"
+    url: https://s201.q4cdn.com/141608511/files/content_files/TRANSCRIPT_-NVIDIA-Corp-NVDA-US-Q2-2027-Earnings-Call-26-August-2026-5_00-PM-ET.pdf
+    as_of: 2026-08-26
