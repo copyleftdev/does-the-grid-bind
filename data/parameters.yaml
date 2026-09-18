@@ -493,3 +493,93 @@ parameters:
     url: https://www.megware.com/fileadmin/user_upload/LandingPage%20NVIDIA/nvidia-h100-datasheet.pdf
     as_of: 2024
     note: "1.82x the bare 700 W die TDP. Chassis overhead is not a rounding error."
+
+  # ===================================================== depreciation (filed)
+  amzn_accelerated_depreciation_q4_2024:
+    value: 920
+    unit: USD millions
+    provenance: FILED
+    source: "Amazon FY2024 10-K Note 1: 'we also determined, primarily in the fourth quarter, to retire early certain of our servers and networking equipment. We recorded approximately $920 million of accelerated depreciation and related charges'"
+    url: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm
+    as_of: 2024-12-31
+    note: >
+      THE ARTICLE'S C11, ALREADY OBSERVED. Amazon early-retired servers and
+      took the charge. What was retired is not specified: no generation, no
+      count, no location, no gross cost.
+
+  amzn_useful_life_reversal_fy2025_actual:
+    value: 1400
+    unit: USD millions
+    provenance: FILED
+    source: "Amazon FY2025 10-K: increase in D&A from cutting a subset of servers/networking from 6 to 5 years"
+    url: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+    as_of: 2025-12-31
+    note: >
+      Guided at ~$0.7bn operating income, realised at $1.4bn D&A / $1.0bn net
+      income / -$0.10 per share. Roughly double the guidance, rising every
+      quarter. The stated reason is verbatim the article's mechanism:
+      'the increased pace of technology development, particularly in the area
+      of artificial intelligence and machine learning.'
+
+  amzn_gross_servers_networking_2025:
+    value: 172492
+    unit: USD millions
+    provenance: FILED
+    source: "Amazon FY2025 10-K, servers and networking equipment at gross cost"
+    url: https://www.sec.gov/Archives/edgar/data/1018724/000101872426000004/amzn-20251231.htm
+    as_of: 2025-12-31
+
+  meta_life_extension_2025_actual:
+    value: 2920
+    unit: USD millions
+    provenance: FILED
+    source: "Meta FY2025 10-K: most servers and network assets extended to 5.5 years effective 2025-01-01; depreciation reduced $2.92bn, net income +$2.59bn, +$1.00 per diluted share"
+    url: https://www.sec.gov/Archives/edgar/data/1326801/000162828026003942/meta-20251231.htm
+    as_of: 2025-12-31
+    note: "SAME EFFECTIVE DATE as Amazon's reduction, opposite direction, comparable hardware."
+
+  # ------------------------------------------- observed secondary-market values
+  h100_sxm5_resale_fraction_of_basis:
+    value: "0.484"
+    unit: dimensionless
+    provenance: MEASURED
+    source: "CCIR executed secondary-market median $16,250 against launch basis, age 3.9 years, n=10 over 90 days"
+    url: https://ccir.io/hardware
+    as_of: 2026-09-14
+    note: >
+      Small n. CCIR's 'launch basis' is a system-allocated per-GPU cost, not
+      chip MSRP; re-basing on MSRP roughly doubles the residual percentage.
+      H100 PCIe prints 79.4% at the same age, 31 points apart on the same
+      silicon, so the series is noisy.
+
+  h100_sxm5_resale_decay_per_year:
+    value: "0.170"
+    unit: per year
+    provenance: DERIVED
+    source: "Constant-rate decline implied by CCIR executed median at age 3.9 years"
+    url: https://ccir.io/hardware
+
+  a100_80gb_resale_fraction_of_basis:
+    value: "0.244"
+    unit: dimensionless
+    provenance: MEASURED
+    source: "CCIR executed median $6,074, age 5.8 years, n=14"
+    url: https://ccir.io/hardware
+    as_of: 2026-09-14
+
+  v100_32gb_resale_fraction_of_basis:
+    value: "0.035"
+    unit: dimensionless
+    provenance: MEASURED
+    source: "CCIR executed median $650, age 8.5 years, n=122 (the only large sample in the series)"
+    url: https://ccir.io/hardware
+    as_of: 2026-09-14
+
+  sutton_fy2025_aggregate_depreciation_understatement:
+    value: 43800
+    unit: USD millions
+    provenance: ESTIMATED
+    source: "Sutton Financial Reporting, five hyperscalers, FY2025 operating income effect of slower depreciation vs a 4-year life"
+    url: https://suttonfinancialreporting.com/wp-content/uploads/2026/04/Hyperscalers-AI-assets-and-depreciation-policy.pdf
+    as_of: 2026-04
+    note: "11% of the $438.5bn aggregate reported operating income. Method independently reproduced exactly from its stated inputs."
