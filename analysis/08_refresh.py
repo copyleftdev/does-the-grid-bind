@@ -58,6 +58,31 @@ print(f"""
   stating it has never retired an A100.
 """)
 
+H("Route 3 — the constraint the model did not carry")
+print("""
+  Both routes above account only for AGGREGATE megawatts at the site. Dean Lee
+  raised a third limit in reply to this audit, and it is a real one:
+
+    "you can clear out fourteen legacy server bays and still lack the power
+     infrastructure to light up a single AI rack. Legacy data center retrofits
+     run into feeder and substation limits almost immediately."
+
+  A hall's feeders, busway and local substation are sized for the density the
+  hall was built at. Freeing 140 kW of contracted capacity across fourteen
+  cabinets does not put 140 kW at one cabinet, and the distribution equipment
+  between them is its own multi-month procurement. So even the megawatt-neutral
+  route 2 swap is not automatically executable in place.
+
+  There is no published figure for how much retrofit in-building distribution
+  actually permits. That was searched alongside the decommissioned-MW question
+  and returned the same confirmed negative, which makes it a THIRD unsourced
+  quantity sitting on top of the two the sensitivity analysis already found.
+
+  Its effect on the model is directional and one-sided: it cannot raise the
+  reuse ceiling, only keep it from being reached. The bound below is therefore
+  a ceiling, not an estimate.
+""")
+
 H("Bound")
 hi_iv = ai_ret + (I.of(1) - ai_ret) * recovered
 hi = hi_iv.hi
@@ -66,7 +91,8 @@ print(f"  Route 2 contribution   <= {ai_ret.fmt(2)}")
 print(f"  => share_refresh bounded at                    [0.00, {float(hi):.2f}]")
 print(f"""
   I began this model allowing share_refresh anywhere in [0.10, 0.45]. The
-  physical and fleet-composition evidence bounds it at roughly [0.05, {float(hi):.2f}].
+  physical and fleet-composition evidence caps it at {float(hi):.2f}, and route 3 means
+  even that is a ceiling rather than a level.
   That is a real tightening of one of the two dominant factors, and it moves
   the answer TOWARD the article's conclusion: less of the new hardware can
   hide in existing power than a casual reading of "10-13% fleet turnover"

@@ -71,9 +71,9 @@ out["claims"] = [
  {"id":"C11","text":"Early decommissioning forces accelerated depreciation","verdict":"true",
   "note":"Confirmed — and it already happened. Amazon took a $920M charge in Q4 2024. But the conclusion inverts."},
  {"id":"C12","text":"Marginal cost is largely electricity; spot prices must fall","verdict":"false",
-  "note":"Electricity is 20% of cash cost. Spot is up 32.5% off its trough."},
- {"id":"C13","text":"The return distribution splits","verdict":"partial",
-  "note":"Real and computable — but the market is not currently inside the loss band."},
+  "note":"Electricity is 20% of cash cost. Spot is up 32.5% off its trough \u2014 the same datum that confirms C13, because the two claims are about different things: the average and the variance."},
+ {"id":"C13","text":"The return distribution splits","verdict":"true",
+  "note":"Initially scored partial here, against the wrong test — whether the market sits inside the loss band. C13 is a claim about DISPERSION between holders of energized interconnection and holders of unenergized hardware, and that rent migration is observable. Corrected after the author pointed it out."},
 ]
 
 # --------------------------------------------------------------- the trichotomy
@@ -162,7 +162,8 @@ out["reconciliation"] = {
 # ------------------------------------------------------------------- density
 out["density_refresh"] = {"enterprise_rack_kw":[8,10],"ai_rack_kw":[132,142],
                           "ratio":[13.2,17.8],"recovered":[0.056,0.076],
-                          "bound":[0.0,0.23]}
+                          "bound":[0.0,0.23],
+                          "ceiling_note":"A third limit applies on top: a hall's feeders, busway and local substation are sized for the density it was built at, so freeing 140 kW across fourteen cabinets does not put 140 kW at one cabinet. Raised by the author in reply. No published figure exists for how much retrofit in-building distribution permits, so the bound above is a ceiling rather than a level."}
 
 out["unknowns"] = [
  "What fraction of new hardware lands in an already-energized envelope. No published measurement. 33.9% of the variance.",
@@ -171,6 +172,7 @@ out["unknowns"] = [
  "What Amazon actually retired in Q4 2024 — no generation, count, location or gross cost is disclosed.",
  "Burry’s $176bn derivation. Verified as his exact words; the method is paywalled and unreproduced in ten months.",
  "The scaling from two published meter readings to a national energization figure. No source provides it — and it carries the verdict.",
+ "How much retrofit capacity in-building distribution actually permits — feeders, busway and the local substation. Raised by the author after publication; searched, and it returns the same confirmed negative as decommissioned megawatts. A third unsourced quantity on top of the two above.",
 ]
 
 Path("site/data/figures.json").write_text(json.dumps(out, indent=1, ensure_ascii=False))

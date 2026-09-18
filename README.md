@@ -30,7 +30,7 @@ the answer and the interval is the honest form of the uncertainty.
 | | |
 |---|---|
 | Claims tested | 13 |
-| Stands | 4 · Partly 4 · **Falsified 5** |
+| Stands | 5 · Partly 3 · **Falsified 5** |
 | Parameters | 86, of which **45** are hard evidence |
 | TLC runs | 9/9 matched their declared expected outcome |
 | Tests | 15 |

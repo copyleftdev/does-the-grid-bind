@@ -45,7 +45,7 @@ known.
 | C10 | Hyperscalers extended 3–4 yr → 5–6 yr, deferring billions | **Confirmed, exactly.** $43.8bn of FY2025 operating income across five companies, 11% of reported |
 | C11 | Early decommission forces accelerated depreciation or impairment | **Confirmed — and it happened in 2024.** Amazon's $920M charge. But the conclusion inverts (below) |
 | C12 | Marginal cost ≈ electricity; spot must fall | **Falsified twice.** Electricity is 20% of cash cost, not "largely" it. Spot is **up 32.5%** off its trough |
-| C13 | Return distribution splits | **Real and computable**, but the market is not currently in the loss band |
+| C13 | Return distribution splits | **Stands.** Initially scored partial here against the wrong test — see the correction below |
 
 ---
 
@@ -493,3 +493,52 @@ Ranked by how much each moved the answer.
 - **Tests:** 15, including cross-checks that the Python regime classifier
   reproduces all three TLC regimes from independent code.
 
+---
+
+## 11. After publication — two corrections from the author
+
+The audit was posted as a comment on the original article. Dean Lee replied
+within the hour, conceded the two sourcing errors, and returned two things that
+change this document.
+
+### His addition: in-building distribution is a third limit
+
+> "If an enterprise cabinet delivers 10 kW and an NVL72 demands 140 kW, you can
+> clear out fourteen legacy server bays and still lack the power infrastructure
+> to light up a single AI rack. Legacy data center retrofits run into **feeder
+> and substation limits** almost immediately."
+
+The `share_refresh` bound in section 8 accounts only for aggregate megawatts at
+a site. It does not account for the fact that a hall's feeders, busway and local
+substation are sized for the density that hall was built at — so freeing 140 kW
+across fourteen cabinets does not put 140 kW at one cabinet, and the
+distribution equipment in between is its own multi-month procurement.
+
+This binds in the same direction as the rack-density argument rather than
+against it, and it means **[0.00, 0.23] is a ceiling that is not approached,
+not a range**. There is no published figure for how much retrofit in-building
+distribution permits; searched, and it returns the same confirmed negative as
+decommissioned megawatts. It is therefore a *third* unsourced quantity on top of
+the two the sensitivity analysis already identified.
+
+### My error: C13 was scored against the wrong test
+
+> "When energized power is the binding constraint, the economic rent migrates
+> from the chip fabricator to the entity holding the energized interconnection
+> queue. The 30 percent rebound in compute lease rates is simply **the shadow
+> price of megawatts asserting itself over unenergized silicon**."
+
+C13 was marked *partial* on the grounds that the market is not currently inside
+the loss band. That is the wrong test. C13 is a claim about **dispersion** —
+between holders of energized interconnection and holders of unenergized
+hardware — not about whether capital is being returned on average. The rent
+migration he describes is observable, and the rising rental price is evidence
+*for* it.
+
+So the same datum cuts both ways, because the two claims are about different
+moments of the same distribution: it **falsifies C12** (the average must fall)
+and **confirms C13** (the variance widens). C13 is corrected to *stands*, and
+the scoreboard moves to 5 stands / 3 partial / 5 falsified.
+
+That is worth stating plainly: the strongest correction to this audit came from
+the author of the thing being audited.

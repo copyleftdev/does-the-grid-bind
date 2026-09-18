@@ -814,3 +814,25 @@ parameters:
     url: https://www.nerc.com/pa/RAPA/ra/Reliability%20Assessments%20DL/NERC_LTRA_2025.pdf
     as_of: 2026-01
     note: "Another 190 GW of Tier 2 would need to complete interconnection and reach operation to meet expected demand growth."
+
+  # ------------------------------- in-building distribution, the third limit
+  retrofit_feeder_limit_gw:
+    value: [0, 0]
+    unit: GW
+    provenance: ASSUMED
+    source: "No published measurement exists"
+    note: >
+      A retrofit is capped by the feeders, busway and local substation serving
+      the hall long before it is capped by the site's contracted megawatts.
+      Raised by Dean Lee in reply to this audit (dev.to, 2026-09-18): "you can
+      clear out fourteen legacy server bays and still lack the power
+      infrastructure to light up a single AI rack. Legacy data center retrofits
+      run into feeder and substation limits almost immediately."
+
+      This is a real constraint that the model did not carry, and it binds in
+      the same direction as the rack-density bound rather than against it. It
+      is entered at zero because no published figure exists for how much
+      retrofit capacity in-building distribution actually permits - searched
+      alongside the decommissioned-MW question, which returned the same
+      confirmed negative. Its effect is therefore to make share_refresh's upper
+      bound a CEILING that is not approached, not to move the bound itself.

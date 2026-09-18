@@ -76,7 +76,6 @@ body {
   font-weight: 350;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  overflow-x: clip;
 }
 
 /* the ember bleed: a single warm source behind the whole page */
