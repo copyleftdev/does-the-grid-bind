@@ -1,0 +1,259 @@
+# Parameters for the energization-gap model.
+#
+# Rules enforced by src/chipgrid/load.py:
+#   - every non-ASSUMED parameter carries a source
+#   - every MEASURED / FILED / OFFICIAL parameter carries an as-of date
+#   - values are exact literals (strings or ints), never floats
+#   - a two-element value is a closed interval [lo, hi]
+#
+# provenance: MEASURED | FILED | OFFICIAL | ESTIMATED | VENDOR | ADVOCACY | DERIVED | ASSUMED
+
+parameters:
+
+  # ----------------------------------------------------------------- demand
+  us_dc_twh_2024:
+    value: 192
+    unit: TWh/yr
+    provenance: MEASURED
+    source: "LBNL-2001758, US Data Center Energy Usage Report: 2025 Update"
+    url: https://doi.org/10.71468/P1RP4F
+    as_of: 2026-06
+    note: >
+      Excludes cryptocurrency mining. Came in at the LOW end of the 2024
+      report's range, and LBNL revised prior years down: fewer accelerators
+      shipped in 2023-24 than IDC had forecast. The near-term overshoot in the
+      2024-vintage forecasts was real and has been corrected.
+
+  us_dc_twh_2030_reference:
+    value: 649
+    unit: TWh/yr
+    provenance: ESTIMATED
+    source: "LBNL-2001758 Reference Case"
+    url: https://doi.org/10.71468/P1RP4F
+    as_of: 2026-06
+
+  us_dc_twh_2030_range:
+    value: [521, 843]
+    unit: TWh/yr
+    provenance: ESTIMATED
+    source: "LBNL-2001758 Compounded Uncertainty low/high"
+    url: https://doi.org/10.71468/P1RP4F
+    as_of: 2026-06
+
+  us_dc_twh_2030_all_forecasters:
+    value: [380, 843]
+    unit: TWh/yr
+    provenance: ESTIMATED
+    source: "EPRI 2026 low bound to LBNL 2026 high bound"
+    url: https://restservice.epri.com/publicattachment/97025
+    as_of: 2026-06
+    note: >
+      2.2x spread across credible forecasters. EPRI INCLUDES crypto mining,
+      LBNL excludes it (~70 TWh in 2023), so the two are not the same
+      quantity and the true spread is wider than it looks.
+
+  # ------------------------------------------------- the conversion to power
+  interconnection_capacity_factor_lbnl:
+    value: "0.50"
+    unit: dimensionless
+    provenance: ASSUMED
+    source: "LBNL-2001758: 'not well documented but is estimated to be around 50%'"
+    url: https://doi.org/10.71468/P1RP4F
+    note: >
+      LBNL's own words. This single undocumented number converts every TWh
+      figure into the GW figure that the grid debate is conducted in.
+
+  interconnection_capacity_factor_measured_hyperscale:
+    value: "0.75"
+    unit: dimensionless
+    provenance: MEASURED
+    source: "EPRI 2026, Powering Intelligence; quoted in IEA Key Questions on Energy and AI p.56"
+    url: https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf
+    as_of: 2026-04
+    note: "Measured across examined hyperscale facilities. Colocation measured at 0.57."
+
+  interconnection_capacity_factor_measured_colo:
+    value: "0.57"
+    unit: dimensionless
+    provenance: MEASURED
+    source: "EPRI 2026, via IEA Key Questions on Energy and AI p.56"
+    url: https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf
+    as_of: 2026-04
+
+  us_interconnection_gw_added_per_yr_2024_2030:
+    value: "17.4"
+    unit: GW/yr
+    provenance: ESTIMATED
+    source: "LBNL-2001758 Reference Case, 148 GW by 2030, CAGR 22%"
+    url: https://doi.org/10.71468/P1RP4F
+    as_of: 2026-06
+    note: "Carries LBNL's 50% capacity-factor assumption; at EPRI's measured 75% it is ~11.6 GW/yr."
+
+  # ------------------------------------------------------------- hardware
+  accelerator_units_shipped_2024:
+    value: 7000000
+    unit: units/yr
+    provenance: ESTIMATED
+    source: "LBNL-2001758 (73% GPU / 27% ASIC)"
+    url: https://doi.org/10.71468/P1RP4F
+    as_of: 2026-06
+
+  accelerator_units_shipped_2030:
+    value: 19000000
+    unit: units/yr
+    provenance: ESTIMATED
+    source: "LBNL-2001758"
+    url: https://doi.org/10.71468/P1RP4F
+    as_of: 2026-06
+
+  gb300_nvl72_rack_kw:
+    value: [132, 142]
+    unit: kW/rack
+    provenance: VENDOR
+    source: "Supermicro/HPE 132 kW nominal; Lenovo 135 kW TDP; NVIDIA RA 'up to 142 kW'"
+    url: https://lenovopress.lenovo.com/lp2357-lenovo-nvidia-gb300-nvl72-rack-scale-ai
+    as_of: 2026-08
+    note: >
+      NVIDIA publishes no power figure for GB300 NVL72 on its product page.
+      Every number here is an OEM's, and they disagree by 8%. Peak (EDPp)
+      is ~155 kW. Use rack power, not die TDP: the B300 die figure is itself
+      contested at 1100 W (Lenovo) vs 1400 W (secondary reporting).
+
+  gpus_per_nvl72_rack:
+    value: 72
+    unit: GPU/rack
+    provenance: VENDOR
+    source: "NVIDIA GB300 NVL72"
+    url: https://www.nvidia.com/en-us/data-center/gb300-nvl72/
+    as_of: 2026-06
+
+  ai_facility_pue_2024:
+    value: "1.145"
+    unit: dimensionless
+    provenance: ESTIMATED
+    source: "LBNL-2001758, AI-serving facilities only"
+    url: https://doi.org/10.71468/P1RP4F
+    as_of: 2026-06
+    note: >
+      Projected to reach only 1.136 by 2030. There is essentially no further
+      headroom from cooling efficiency; the era of efficiency offsetting
+      growth is over and LBNL says so explicitly.
+
+  # ------------------------------------------- performance per watt, RACK level
+  rack_dense_fp8_tflops_per_watt_h100:
+    value: "1.55"
+    unit: TFLOP/W
+    provenance: DERIVED
+    source: "DGX H100: 8 x 1979 TF dense FP8 / 10.2 kW rated (NVIDIA datasheet)"
+    url: https://www.megware.com/fileadmin/user_upload/LandingPage%20NVIDIA/nvidia-h100-datasheet.pdf
+    note: "Dense. NVIDIA's headline 3958 TF FP8 is WITH 2:4 sparsity."
+
+  rack_dense_fp8_tflops_per_watt_gb300:
+    value: "2.67"
+    unit: TFLOP/W
+    provenance: DERIVED
+    source: "GB300 NVL72: 72 x 5 PF dense FP8 / 135 kW"
+    url: https://www.nvidia.com/en-us/data-center/gb300-nvl72/
+
+  rack_dense_fp4_tflops_per_watt_gb200:
+    value: "6.00"
+    unit: TFLOP/W
+    provenance: DERIVED
+    source: "GB200 NVL72: 720 PF dense FP4 / 120 kW"
+    url: https://www.nvidia.com/en-us/data-center/gb200-nvl72/
+
+  rack_dense_fp4_tflops_per_watt_gb300:
+    value: "8.00"
+    unit: TFLOP/W
+    provenance: DERIVED
+    source: "GB300 NVL72: 1080 PF dense FP4 / 135 kW"
+    url: https://www.nvidia.com/en-us/data-center/gb300-nvl72/
+
+  # ------------------------------------------------------------ utilization
+  gpu_utilization_hyperscale_training:
+    value: ["0.83", "0.85"]
+    unit: dimensionless
+    provenance: MEASURED
+    source: "Meta RSC-1, via DataCenterKnowledge"
+    url: https://www.datacenterknowledge.com/infrastructure/ai-demand-surges-as-billions-in-compute-remain-locked
+    as_of: 2026-05
+
+  gpu_utilization_enterprise_k8s:
+    value: "0.05"
+    unit: dimensionless
+    provenance: MEASURED
+    source: "Cast AI, 2026 State of Kubernetes Optimization Report (~23,000 clusters)"
+    url: https://venturebeat.com/infrastructure/5-gpu-utilization-the-401-billion-ai-infrastructure-problem-enterprises-cant-keep-ignoring
+    as_of: 2026-05
+    note: >
+      Heavily selection-biased. The circulated '95% of GPUs are idle' is just
+      1 minus this number and is NOT a fleet statistic. No one has published
+      a fleet-weighted average; the honest range is 5% to 85%.
+
+  h100_measured_power_fraction_of_tdp:
+    value: "0.74"
+    unit: dimensionless
+    provenance: MEASURED
+    source: "Brookhaven National Lab, 8xH100 DGX node under training (Latif et al. 2024)"
+    url: https://doi.org/10.71468/P1RP4F
+    as_of: 2024
+    note: "One of very few directly measured power figures in this entire domain."
+
+  # --------------------------------------------------------- queue discount
+  dominion_contracted_gw:
+    value: "47"
+    unit: GW
+    provenance: OFFICIAL
+    source: "Dominion Energy Virginia: 9.8 GW ESA + 7.1 GW CLOA + 30.1 GW ELOA"
+    url: https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/dominion-documentation.pdf
+    as_of: 2025-07
+
+  dominion_forecast_gw:
+    value: "16.6"
+    unit: GW
+    provenance: OFFICIAL
+    source: "Dominion Energy Virginia 2025 IRP demand forecast to 2046"
+    url: https://www.pjm.com/-/media/DotCom/planning/res-adeq/load-forecast/dominion-documentation.pdf
+    as_of: 2025-07
+    note: >
+      The cleanest available evidence that contracted capacity must be
+      discounted: one utility holds 47 GW of signed contracts and forecasts
+      16.6 GW of actual load. Ratio 0.35.
+
+  ercot_large_load_queue_gw:
+    value: 230
+    unit: GW
+    provenance: OFFICIAL
+    source: "ERCOT large-load interconnection queue, via IEA Key Questions on Energy and AI"
+    url: https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf
+    as_of: 2026-01
+    note: "Against an 85 GW all-time ERCOT system peak. The queue is 2.7x the entire state's peak demand."
+
+  announced_to_deployed_gb200_ratio:
+    value: "0.06"
+    unit: dimensionless
+    provenance: ESTIMATED
+    source: "Air Street Capital State of AI Compute Index v6: 100,128 deployed vs 1.66M announced GB200/GB300"
+    url: https://press.airstreet.com/p/state-of-ai-compute-index-june-2026
+    as_of: 2026-07
+    note: "Tracked public systems only; undercounts hyperscaler internal fleets."
+
+  # ---------------------------------------------------------------- capex
+  datacenter_capex_per_kw:
+    value: [40000, 50000]
+    unit: USD/kW
+    provenance: ESTIMATED
+    source: "IEA Key Questions on Energy and AI (including IT)"
+    url: https://iea.blob.core.windows.net/assets/3179f7f8-01f6-4dd6-bffa-c9f7b73f1dc9/KeyQuestionsonEnergyandAI.pdf
+    as_of: 2026-04
+    note: "Five to ten times a nuclear plant on a per-kW basis."
+
+  # ----------------------------------------------------------- US vs global
+  us_share_of_global_dc_electricity:
+    value: ["0.45", "0.50"]
+    unit: dimensionless
+    provenance: ESTIMATED
+    source: "IEA Energy and AI"
+    url: https://www.iea.org/reports/energy-and-ai/energy-demand-from-ai
+    as_of: 2025-04
+    note: "China ~25%, Europe ~15%. Electricity share is a proxy for deployment share, not the same thing."

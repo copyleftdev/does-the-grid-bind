@@ -1,0 +1,341 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - banner:
+      - generic [ref=e6]:
+        - link "FERC" [ref=e7] [cursor=pointer]:
+          - /url: /
+        - separator [ref=e8]
+        - navigation [ref=e11]:
+          - menubar [ref=e12]:
+            - listitem [ref=e13]:
+              - link "Industries & Data" [ref=e14] [cursor=pointer]:
+                - /url: ""
+                - img [ref=e16]
+                - generic [ref=e19]: Industries & Data
+            - listitem [ref=e20]:
+              - link "Public Participation" [ref=e21] [cursor=pointer]:
+                - /url: ""
+                - img [ref=e23]
+                - generic [ref=e26]: Public Participation
+            - listitem [ref=e27]:
+              - link "Enforcement & Legal" [ref=e28] [cursor=pointer]:
+                - /url: ""
+                - img [ref=e30]
+                - generic [ref=e34]: Enforcement & Legal
+            - listitem [ref=e35]:
+              - link "News & Events" [ref=e36] [cursor=pointer]:
+                - /url: ""
+                - img [ref=e38]
+                - generic [ref=e42]: News & Events
+              - text: ➝ ➝
+            - listitem [ref=e43]:
+              - link "Tribal Relations" [ref=e44] [cursor=pointer]:
+                - /url: /tribalrelations
+                - img [ref=e46]
+                - generic [ref=e51]: Tribal Relations
+            - listitem [ref=e52]:
+              - link "About" [ref=e53] [cursor=pointer]:
+                - /url: ""
+                - img [ref=e55]
+                - generic [ref=e58]: About
+            - listitem [ref=e59]:
+              - link "FERC Online" [ref=e60] [cursor=pointer]:
+                - /url: ""
+                - img [ref=e62]
+                - generic [ref=e66]: FERC Online
+            - menuitem "Search" [ref=e67]:
+              - link "Search" [ref=e68] [cursor=pointer]:
+                - /url: "#"
+                - img [ref=e70]
+                - generic [ref=e73]: Search
+    - main [ref=e74]:
+      - main [ref=e75]:
+        - generic [ref=e78]:
+          - generic [ref=e80]:
+            - navigation [ref=e82]:
+              - list [ref=e83]:
+                - listitem [ref=e84]:
+                  - link "Home" [ref=e85] [cursor=pointer]:
+                    - /url: /
+                  - img [ref=e87]
+                - listitem [ref=e89]:
+                  - text: media
+                  - img [ref=e91]
+                - listitem [ref=e93]: Energy Infrastructure Update for December 2023
+            - heading "Energy Infrastructure Update for December 2023" [level=1] [ref=e94]
+            - separator [ref=e95]
+            - generic [ref=e96]: May 20, 2024
+            - navigation [ref=e97]:
+              - list [ref=e98]:
+                - listitem [ref=e99]:
+                  - link "Share on Twitter" [ref=e100] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e102]
+                    - generic [ref=e104]: Share on Twitter
+                - listitem [ref=e105]:
+                  - link "Share on Facebook" [ref=e106] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e108]
+                    - generic [ref=e110]: Share on Facebook
+                - listitem [ref=e111]:
+                  - link "Share on LinkedIn" [ref=e112] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e114]
+                    - generic [ref=e116]: Share on LinkedIn
+                - listitem [ref=e117]:
+                  - link "Share via E-mail" [ref=e118] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e120]
+                    - generic [ref=e123]: Share via E-mail
+                - listitem [ref=e124]:
+                  - link "Print This Page" [ref=e125] [cursor=pointer]:
+                    - /url: "#"
+                    - img [ref=e127]
+                    - generic [ref=e129]: Print This Page
+          - article [ref=e130]:
+            - generic [ref=e131]:
+              - iframe [ref=e133]:
+                - generic [ref=f128e6]:
+                  - generic [ref=f128e7]:
+                    - button "Toggle Sidebar" [ref=f128e8]:
+                      - generic: Toggle Sidebar
+                    - button "Find" [ref=f128e11]:
+                      - generic: Find
+                    - generic [ref=f128e12]:
+                      - button "Previous" [disabled]:
+                        - generic: Previous
+                      - button "Next" [disabled]:
+                        - generic: Next
+                    - generic [ref=f128e14]:
+                      - spinbutton "Page" [ref=f128e16]: "0"
+                      - generic [ref=f128e17]: of ⁨0⁩
+                  - generic [ref=f128e18]:
+                    - generic [ref=f128e19]:
+                      - button "Zoom Out" [ref=f128e20]:
+                        - generic: Zoom Out
+                      - button "Zoom In" [ref=f128e22]:
+                        - generic: Zoom In
+                    - combobox "Zoom" [ref=f128e24]:
+                      - option "Automatic Zoom" [selected]
+                      - option "Actual Size"
+                      - option "Page Fit"
+                      - option "Page Width"
+                      - option "⁨50⁩%"
+                      - option "⁨75⁩%"
+                      - option "⁨100⁩%"
+                      - option "⁨125⁩%"
+                      - option "⁨150⁩%"
+                      - option "⁨200⁩%"
+                      - option "⁨300⁩%"
+                      - option "⁨400⁩%"
+                  - generic [ref=f128e25]:
+                    - radiogroup [ref=f128e26]:
+                      - generic [ref=f128e27]:
+                        - radio "Highlight" [disabled]:
+                          - generic: Highlight
+                      - generic [ref=f128e28]:
+                        - radio "Text" [disabled]:
+                          - generic: Text
+                      - generic [ref=f128e29]:
+                        - radio "Draw" [disabled]:
+                          - generic: Draw
+                      - generic [ref=f128e30]:
+                        - radio "Add or edit images" [disabled]:
+                          - generic: Add or edit images
+                    - generic [ref=f128e32]:
+                      - button "Print" [ref=f128e33]:
+                        - generic: Print
+                      - button "Save" [ref=f128e34]:
+                        - generic: Save
+                    - button "Tools" [ref=f128e37]:
+                      - generic: Tools
+              - paragraph [ref=e135]: This page was last updated on May 20, 2024
+    - contentinfo [ref=e136]:
+      - generic [ref=e138]:
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - img "Federal Energy Regulatory Commission Logo" [ref=e141]
+            - heading "Federal Energy Regulatory Commission" [level=2] [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e144]: Receive Our Newsletter
+            - link "Click to Subscribe" [ref=e145] [cursor=pointer]:
+              - /url: https://mailchi.mp/ferc/makxuvzsfh
+          - list [ref=e147]:
+            - listitem [ref=e148]:
+              - link "Twitter" [ref=e149] [cursor=pointer]:
+                - /url: https://twitter.com/ferc
+                - generic [ref=e150]: Twitter
+                - img [ref=e152]
+            - listitem [ref=e154]:
+              - link "Facebook" [ref=e155] [cursor=pointer]:
+                - /url: https://www.facebook.com/FERC.gov/
+                - generic [ref=e156]: Facebook
+                - img [ref=e158]
+            - listitem [ref=e160]:
+              - link "Instagram" [ref=e161] [cursor=pointer]:
+                - /url: https://www.instagram.com/fercgov/
+                - generic [ref=e162]: Instagram
+                - img [ref=e164]
+            - listitem [ref=e166]:
+              - link "LinkedIn" [ref=e167] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/federal-energy-regulatory-commission
+                - generic [ref=e168]: LinkedIn
+                - img [ref=e170]
+            - listitem [ref=e172]:
+              - link "YouTube" [ref=e173] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/FercGov-energy
+                - generic [ref=e174]: YouTube
+                - img [ref=e176]
+        - navigation [ref=e181]:
+          - list [ref=e182]:
+            - listitem [ref=e183]:
+              - text: Industries & Data
+              - separator [ref=e184]
+              - navigation [ref=e185]:
+                - list [ref=e186]:
+                  - listitem [ref=e187]:
+                    - link "Natural Gas" [ref=e188] [cursor=pointer]:
+                      - /url: /industries-data/natural-gas/overview
+                  - listitem [ref=e189]:
+                    - link "Electric" [ref=e190] [cursor=pointer]:
+                      - /url: /industries-data/electric/overview
+                  - listitem [ref=e191]:
+                    - link "Hydropower" [ref=e192] [cursor=pointer]:
+                      - /url: /industries-data/hydropower/overview
+                  - listitem [ref=e193]:
+                    - link "Market Assessments" [ref=e194] [cursor=pointer]:
+                      - /url: /industries-data/market-assesments/overview
+                  - listitem [ref=e195]:
+                    - link "Oil" [ref=e196] [cursor=pointer]:
+                      - /url: /industries-data/oil/overview
+                  - listitem [ref=e197]:
+                    - link "Resources" [ref=e198] [cursor=pointer]:
+                      - /url: /industries-data/resources/overview
+            - listitem [ref=e199]:
+              - text: Enforcement & Legal
+              - separator [ref=e200]
+              - navigation [ref=e201]:
+                - list [ref=e202]:
+                  - listitem [ref=e203]:
+                    - link "Enforcement" [ref=e204] [cursor=pointer]:
+                      - /url: /enforcement-legal/enforcement/overview
+                  - listitem [ref=e205]:
+                    - link "Enforcement Hotline" [ref=e206] [cursor=pointer]:
+                      - /url: https://www.ferc.gov/enforcement-legal/enforcement/enforcement-hotline
+                  - listitem [ref=e207]:
+                    - link "Legal" [ref=e208] [cursor=pointer]:
+                      - /url: /enforcement-legal/legal/overview
+                  - listitem [ref=e209]:
+                    - link "FOIA" [ref=e210] [cursor=pointer]:
+                      - /url: /enforcement-legal/foia/overview
+                  - listitem [ref=e211]:
+                    - link "CEII" [ref=e212] [cursor=pointer]:
+                      - /url: /enforcement-legal/ceii/overview
+                  - listitem [ref=e213]:
+                    - link "Inspector General" [ref=e214] [cursor=pointer]:
+                      - /url: https://www.energy.gov/ig/office-inspector-general
+            - listitem [ref=e215]:
+              - text: News & Events
+              - separator [ref=e216]
+              - navigation [ref=e217]:
+                - list [ref=e218]:
+                  - listitem [ref=e219]:
+                    - link "News Releases & Headlines" [ref=e220] [cursor=pointer]:
+                      - /url: /news-events/news/news-releases-headlines
+                  - listitem [ref=e221]:
+                    - link "Event Calendar" [ref=e222] [cursor=pointer]:
+                      - /url: /news-events/events
+            - listitem [ref=e223]:
+              - text: About
+              - separator [ref=e224]
+              - navigation [ref=e225]:
+                - list [ref=e226]:
+                  - listitem [ref=e227]:
+                    - link "About FERC" [ref=e228] [cursor=pointer]:
+                      - /url: /about/what-ferc/overview
+                  - listitem [ref=e229]:
+                    - link "Employee Information" [ref=e230] [cursor=pointer]:
+                      - /url: /employee-information
+                  - listitem [ref=e231]:
+                    - link "Equal Employment Opportunity (EEO)" [ref=e232] [cursor=pointer]:
+                      - /url: /EEO
+                  - listitem [ref=e233]:
+                    - link "Section 508 Compliance" [ref=e234] [cursor=pointer]:
+                      - /url: /ferc-accessibility-statement
+                  - listitem [ref=e235]:
+                    - link "Architectural Barriers" [ref=e236] [cursor=pointer]:
+                      - /url: /notice-rights-architectural-barriers
+                  - listitem [ref=e237]:
+                    - link "Privacy" [ref=e238] [cursor=pointer]:
+                      - /url: https://www.ferc.gov/privacy
+                  - listitem [ref=e239]:
+                    - link "Comment Policy" [ref=e240] [cursor=pointer]:
+                      - /url: /comment-policy
+            - listitem [ref=e241]:
+              - text: FERC Online
+              - separator [ref=e242]
+              - navigation [ref=e243]:
+                - list [ref=e244]:
+                  - listitem [ref=e245]:
+                    - link "eLibrary" [ref=e246] [cursor=pointer]:
+                      - /url: https://elibrary.ferc.gov/idmws/search/fercgensearch.asp
+                  - listitem [ref=e247]:
+                    - link "eRegister" [ref=e248] [cursor=pointer]:
+                      - /url: https://ferconline.ferc.gov/eRegistration.aspx
+                  - listitem [ref=e249]:
+                    - link "eComment" [ref=e250] [cursor=pointer]:
+                      - /url: https://ferconline.ferc.gov/QuickComment.aspx
+                  - listitem [ref=e251]:
+                    - link "eFile" [ref=e252] [cursor=pointer]:
+                      - /url: https://ferconline.ferc.gov/eFiling.aspx
+                  - listitem [ref=e253]:
+                    - link "eSubscription" [ref=e254] [cursor=pointer]:
+                      - /url: https://ferconline.ferc.gov/eSubscription.aspx
+                  - listitem [ref=e255]:
+                    - link "eService" [ref=e256] [cursor=pointer]:
+                      - /url: https://ferconline.ferc.gov/ServiceList.aspx
+                  - listitem [ref=e257]:
+                    - link "eTariff" [ref=e258] [cursor=pointer]:
+                      - /url: https://etariff.ferc.gov/TariffList.aspx
+                  - listitem [ref=e259]:
+                    - link "FERC Filing Fees" [ref=e260] [cursor=pointer]:
+                      - /url: /filing-fees
+      - navigation [ref=e262]:
+        - list [ref=e263]:
+          - listitem [ref=e264]:
+            - link "Administrative Policies" [ref=e265] [cursor=pointer]:
+              - /url: /about/what-ferc/administrative-policies
+            - text: "|"
+          - listitem [ref=e266]:
+            - link "Whistleblower Protection" [ref=e267] [cursor=pointer]:
+              - /url: https://osc.gov/
+            - text: "|"
+          - listitem [ref=e268]:
+            - link "Digital Strategy" [ref=e269] [cursor=pointer]:
+              - /url: /about/what-ferc/digital-strategy
+            - text: "|"
+          - listitem [ref=e270]:
+            - link "No Fear Act" [ref=e271] [cursor=pointer]:
+              - /url: /enforcement-legal/legal/no-fear-act
+            - text: "|"
+          - listitem [ref=e272]:
+            - link "FOIA" [ref=e273] [cursor=pointer]:
+              - /url: /enforcement-legal/foia/overview
+            - text: "|"
+          - listitem [ref=e274]:
+            - link "CEII" [ref=e275] [cursor=pointer]:
+              - /url: /enforcement-legal/ceii/overview
+            - text: "|"
+          - listitem [ref=e276]:
+            - link "Privacy Policy" [ref=e277] [cursor=pointer]:
+              - /url: /privacy
+            - text: "|"
+          - listitem [ref=e278]:
+            - link "Budget & Performance" [ref=e279] [cursor=pointer]:
+              - /url: /about/what-ferc/about/strategic-documents/agency-reports
+            - text: "|"
+          - listitem [ref=e280]:
+            - link "Sitemap" [ref=e281] [cursor=pointer]:
+              - /url: /sitemap

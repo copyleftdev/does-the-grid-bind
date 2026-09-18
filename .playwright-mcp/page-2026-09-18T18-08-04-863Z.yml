@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "DuckDuckGo" [ref=e4] [cursor=pointer]:
+        - /url: /html/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - textbox [ref=e7]: Barclays Sandler 2026 depreciation EPS estimates hyperscalers internet note
+          - button "Submit" [ref=e8] [cursor=pointer]
+        - combobox [ref=e10] [cursor=pointer]:
+          - option "All Regions" [selected]
+          - option "Argentina"
+          - option "Australia"
+          - option "Austria"
+          - option "Belgium (fr)"
+          - option "Belgium (nl)"
+          - option "Brazil"
+          - option "Bulgaria"
+          - option "Canada (en)"
+          - option "Canada (fr)"
+          - option "Catalonia"
+          - option "Chile"
+          - option "China"
+          - option "Colombia"
+          - option "Croatia"
+          - option "Czech Republic"
+          - option "Denmark"
+          - option "Estonia"
+          - option "Finland"
+          - option "France"
+          - option "Germany"
+          - option "Greece"
+          - option "Hong Kong"
+          - option "Hungary"
+          - option "Iceland"
+          - option "India (en)"
+          - option "Indonesia (en)"
+          - option "Ireland"
+          - option "Israel (en)"
+          - option "Italy"
+          - option "Japan"
+          - option "Korea"
+          - option "Latvia"
+          - option "Lithuania"
+          - option "Malaysia (en)"
+          - option "Mexico"
+          - option "Netherlands"
+          - option "New Zealand"
+          - option "Norway"
+          - option "Pakistan (en)"
+          - option "Peru"
+          - option "Philippines (en)"
+          - option "Poland"
+          - option "Portugal"
+          - option "Romania"
+          - option "Russia"
+          - option "Saudi Arabia"
+          - option "Singapore"
+          - option "Slovakia"
+          - option "Slovenia"
+          - option "South Africa"
+          - option "Spain (ca)"
+          - option "Spain (es)"
+          - option "Sweden"
+          - option "Switzerland (de)"
+          - option "Switzerland (fr)"
+          - option "Taiwan"
+          - option "Thailand (en)"
+          - option "Turkey"
+          - option "US (English)"
+          - option "US (Spanish)"
+          - option "Ukraine"
+          - option "United Kingdom"
+          - option "Vietnam (en)"
+        - combobox [ref=e12] [cursor=pointer]:
+          - option "Any Time" [selected]
+          - option "Past Day"
+          - option "Past Week"
+          - option "Past Month"
+          - option "Past Year"
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - 'heading "Hyperscaler AI Capex 2026: $434B and the D&A Lag" [level=2] [ref=e18]':
+          - 'link "Hyperscaler AI Capex 2026: $434B and the D&A Lag" [ref=e19] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsiliconanalysts.com%2Fanalysis%2Fhyperscaler%2Dai%2Dcapex%2Ddepreciation%2Dwall%2D2026&rut=b042977c6de3ecaa52379e905aee256a326a38964cd02233d20d5a5ac098c3ef
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsiliconanalysts.com%2Fanalysis%2Fhyperscaler%2Dai%2Dcapex%2Ddepreciation%2Dwall%2D2026&rut=b042977c6de3ecaa52379e905aee256a326a38964cd02233d20d5a5ac098c3ef
+          - link "siliconanalysts.com/analysis/hyperscaler-ai-capex-depreciation-wall-2026" [ref=e24] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsiliconanalysts.com%2Fanalysis%2Fhyperscaler%2Dai%2Dcapex%2Ddepreciation%2Dwall%2D2026&rut=b042977c6de3ecaa52379e905aee256a326a38964cd02233d20d5a5ac098c3ef
+          - text: 2026-07-10T00:00:00.0000000
+        - 'link "Executive Summary The four US hyperscalers — Microsoft, Alphabet, Amazon, and Meta — purchased $433.9B of property and equipment in the four quarters through March 2026 (SA estimate: sum of reported cash-flow figures), against roughly $149B of reported depreciation over the same span. Quarterly combined capex reached $129.8B in 1Q26, up 80% year over year, and company guidance for calendar ..." [ref=e25] [cursor=pointer]':
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsiliconanalysts.com%2Fanalysis%2Fhyperscaler%2Dai%2Dcapex%2Ddepreciation%2Dwall%2D2026&rut=b042977c6de3ecaa52379e905aee256a326a38964cd02233d20d5a5ac098c3ef
+      - generic [ref=e27]:
+        - heading "The debt and yield eclipse | Barclays Private Bank" [level=2] [ref=e28]:
+          - link "The debt and yield eclipse | Barclays Private Bank" [ref=e29] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fprivatebank.barclays.com%2Finsights%2Fmarket%2Dperspectives%2Dseptember%2D09%2D2026%2Fthe%2Ddebt%2Dand%2Dyield%2Declipse%2F&rut=193e7b7f6ab933db8bfd282e07cdbdc6399dd86cba056ef7dddade822dbaf771
+        - generic [ref=e31]:
+          - link [ref=e33] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fprivatebank.barclays.com%2Finsights%2Fmarket%2Dperspectives%2Dseptember%2D09%2D2026%2Fthe%2Ddebt%2Dand%2Dyield%2Declipse%2F&rut=193e7b7f6ab933db8bfd282e07cdbdc6399dd86cba056ef7dddade822dbaf771
+          - link "privatebank.barclays.com/insights/market-perspectives-september-09-2026/the-debt-and-yield-eclipse/" [ref=e34] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fprivatebank.barclays.com%2Finsights%2Fmarket%2Dperspectives%2Dseptember%2D09%2D2026%2Fthe%2Ddebt%2Dand%2Dyield%2Declipse%2F&rut=193e7b7f6ab933db8bfd282e07cdbdc6399dd86cba056ef7dddade822dbaf771
+          - text: 2026-09-04T00:00:00.0000000
+        - link "On average, the major hyperscalers expect to keep net leverage below 1.0x (net debt/earnings before interest, depreciation and amortisation), broadly consistent with current credit rating thresholds." [ref=e35] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fprivatebank.barclays.com%2Finsights%2Fmarket%2Dperspectives%2Dseptember%2D09%2D2026%2Fthe%2Ddebt%2Dand%2Dyield%2Declipse%2F&rut=193e7b7f6ab933db8bfd282e07cdbdc6399dd86cba056ef7dddade822dbaf771
+      - generic [ref=e37]:
+        - 'heading "AI Capex Cycle 2026: $775-800B Hyperscaler Buildout — CFA Analysis" [level=2] [ref=e38]':
+          - 'link "AI Capex Cycle 2026: $775-800B Hyperscaler Buildout — CFA Analysis" [ref=e39] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Falcapitaladvisory.com%2Fresearch%2Fintelligence%2Fai%2Dinfrastructure.html&rut=14f925b0afb008f1d37dfbcb770979a76bcfcfaa71553a3b67fa210dc8c89e68
+        - generic [ref=e41]:
+          - link [ref=e43] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Falcapitaladvisory.com%2Fresearch%2Fintelligence%2Fai%2Dinfrastructure.html&rut=14f925b0afb008f1d37dfbcb770979a76bcfcfaa71553a3b67fa210dc8c89e68
+          - link "alcapitaladvisory.com/research/intelligence/ai-infrastructure.html" [ref=e44] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Falcapitaladvisory.com%2Fresearch%2Fintelligence%2Fai%2Dinfrastructure.html&rut=14f925b0afb008f1d37dfbcb770979a76bcfcfaa71553a3b67fa210dc8c89e68
+          - text: 2026-02-01T00:00:00.0000000
+        - link "The AI capex cycle has accelerated beyond February 2026 projections. Q1 2026 earnings confirmed the Big-5 hyperscalers will spend ~$775-800 billion in 2026 capex — ~64% above 2025 — while Goldman Sachs projects US data centre power demand rising from 41 GW in 2026 to 66 GW in 2027; Morgan Stanley projects it widening to ~49 GW by 2028." [ref=e45] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Falcapitaladvisory.com%2Fresearch%2Fintelligence%2Fai%2Dinfrastructure.html&rut=14f925b0afb008f1d37dfbcb770979a76bcfcfaa71553a3b67fa210dc8c89e68
+      - generic [ref=e47]:
+        - heading "AI Capex Depreciation Risk Threatens S&P 500 Earnings · TFTC" [level=2] [ref=e48]:
+          - link "AI Capex Depreciation Risk Threatens S&P 500 Earnings · TFTC" [ref=e49] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tftc.io%2Fai%2Dcapex%2Ddepreciation%2Drisk%2Dsp500%2Dearnings%2Dhyperscalers&rut=4bc1e18b72d49cd4f5192300bfec809b4a4efc25ac07695eb4bf3fc0fc43ba6b
+        - generic [ref=e51]:
+          - link [ref=e53] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tftc.io%2Fai%2Dcapex%2Ddepreciation%2Drisk%2Dsp500%2Dearnings%2Dhyperscalers&rut=4bc1e18b72d49cd4f5192300bfec809b4a4efc25ac07695eb4bf3fc0fc43ba6b
+          - link "www.tftc.io/ai-capex-depreciation-risk-sp500-earnings-hyperscalers" [ref=e54] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tftc.io%2Fai%2Dcapex%2Ddepreciation%2Drisk%2Dsp500%2Dearnings%2Dhyperscalers&rut=4bc1e18b72d49cd4f5192300bfec809b4a4efc25ac07695eb4bf3fc0fc43ba6b
+          - text: 2026-07-24T00:00:00.0000000
+        - link "The five biggest hyperscalers will spend roughly $760B on AI infrastructure in 2026 while expensing $211B. The remaining $549B deferred cost is the catch behind record S&P 500 earnings." [ref=e55] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.tftc.io%2Fai%2Dcapex%2Ddepreciation%2Drisk%2Dsp500%2Dearnings%2Dhyperscalers&rut=4bc1e18b72d49cd4f5192300bfec809b4a4efc25ac07695eb4bf3fc0fc43ba6b
+      - generic [ref=e57]:
+        - heading "PDF lyperscalers' Capex Above $600 Bn in 2026" [level=2] [ref=e58]:
+          - link "PDF lyperscalers' Capex Above $600 Bn in 2026" [ref=e59] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.mufgamericas.com%2Fsites%2Fdefault%2Ffiles%2Fdocument%2F2025%2D12%2FAI_Chart_Weekly_12_19_Financing_the_AI_Supercycle.pdf&rut=f9fe01d79b7c03714afc8eb90c1d39de7052826f2bbf54fd1ec40f6c82367db4
+            - generic [ref=e60]: PDF
+            - text: lyperscalers' Capex Above $600 Bn in 2026
+        - generic [ref=e62]:
+          - link [ref=e64] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.mufgamericas.com%2Fsites%2Fdefault%2Ffiles%2Fdocument%2F2025%2D12%2FAI_Chart_Weekly_12_19_Financing_the_AI_Supercycle.pdf&rut=f9fe01d79b7c03714afc8eb90c1d39de7052826f2bbf54fd1ec40f6c82367db4
+          - link "www.mufgamericas.com/sites/default/files/document/2025-12/AI_Chart_Weekly_12_19_Financing_the_AI_Supercycle.pdf" [ref=e65] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.mufgamericas.com%2Fsites%2Fdefault%2Ffiles%2Fdocument%2F2025%2D12%2FAI_Chart_Weekly_12_19_Financing_the_AI_Supercycle.pdf&rut=f9fe01d79b7c03714afc8eb90c1d39de7052826f2bbf54fd1ec40f6c82367db4
+        - link "lyperscalers' Capex Above $600 Bn in 2026 Hyperscaler capex spending for the \"big five\" is now widely forecast to exceed $600 bn in 2026, a 36% increase over 2025." [ref=e66] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.mufgamericas.com%2Fsites%2Fdefault%2Ffiles%2Fdocument%2F2025%2D12%2FAI_Chart_Weekly_12_19_Financing_the_AI_Supercycle.pdf&rut=f9fe01d79b7c03714afc8eb90c1d39de7052826f2bbf54fd1ec40f6c82367db4
+      - generic [ref=e68]:
+        - 'heading "Barclays 1H 2026 CIO Survey: AI Capex Boom Reshapes Sector Allocation ..." [level=2] [ref=e69]':
+          - 'link "Barclays 1H 2026 CIO Survey: AI Capex Boom Reshapes Sector Allocation ..." [ref=e70] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fbarclays%2D1h%2D2026%2Dcio%2Dsurvey%2Dai%2Dcapex%2Dboom%2Dreshapes%2Dsector%2Dallocation%2Dcredit%2Dmarkets%2D2604%2F&rut=b34723bcf5f8322d96661fc9be8fdfc3f97fa53ce3f5626b8f7d05d217b7de37
+        - generic [ref=e72]:
+          - link [ref=e74] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fbarclays%2D1h%2D2026%2Dcio%2Dsurvey%2Dai%2Dcapex%2Dboom%2Dreshapes%2Dsector%2Dallocation%2Dcredit%2Dmarkets%2D2604%2F&rut=b34723bcf5f8322d96661fc9be8fdfc3f97fa53ce3f5626b8f7d05d217b7de37
+          - link "www.ainvest.com/news/barclays-1h-2026-cio-survey-ai-capex-boom-reshapes-sector-allocation-credit-markets-2604/" [ref=e75] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fbarclays%2D1h%2D2026%2Dcio%2Dsurvey%2Dai%2Dcapex%2Dboom%2Dreshapes%2Dsector%2Dallocation%2Dcredit%2Dmarkets%2D2604%2F&rut=b34723bcf5f8322d96661fc9be8fdfc3f97fa53ce3f5626b8f7d05d217b7de37
+          - text: 2026-04-20T13:28:00.0000000
+        - link "The hyperscalers are effectively becoming utility-like issuers-massive, consistent, and driven by multi-year capital programs rather than cyclical earnings. This is a structural shift in the credit market's DNA, not a temporary surge. Portfolio positioning must account for tech's new role as the primary engine of corporate credit supply." [ref=e76] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fbarclays%2D1h%2D2026%2Dcio%2Dsurvey%2Dai%2Dcapex%2Dboom%2Dreshapes%2Dsector%2Dallocation%2Dcredit%2Dmarkets%2D2604%2F&rut=b34723bcf5f8322d96661fc9be8fdfc3f97fa53ce3f5626b8f7d05d217b7de37
+      - generic [ref=e78]:
+        - heading "Barclays Investor Relations | Barclays" [level=2] [ref=e79]:
+          - link "Barclays Investor Relations | Barclays" [ref=e80] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fhome.barclays%2Finvestor%2Drelations%2F&rut=5f9cbdb0c08b2309fa358fd0acd3d4607af4407b66dbeb161aeb591f0f138a3a
+        - generic [ref=e82]:
+          - link [ref=e84] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fhome.barclays%2Finvestor%2Drelations%2F&rut=5f9cbdb0c08b2309fa358fd0acd3d4607af4407b66dbeb161aeb591f0f138a3a
+          - link "home.barclays/investor-relations/" [ref=e85] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fhome.barclays%2Finvestor%2Drelations%2F&rut=5f9cbdb0c08b2309fa358fd0acd3d4607af4407b66dbeb161aeb591f0f138a3a
+          - text: 2026-07-28T00:00:00.0000000
+        - link "Everything Barclays investors need to know; view important share prices, see our latest and archived financial results, and download documents and reports." [ref=e86] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fhome.barclays%2Finvestor%2Drelations%2F&rut=5f9cbdb0c08b2309fa358fd0acd3d4607af4407b66dbeb161aeb591f0f138a3a
+      - generic [ref=e88]:
+        - heading "2026 Financial results - Barclays" [level=2] [ref=e89]:
+          - link "2026 Financial results - Barclays" [ref=e90] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fhome.barclays%2Finvestor%2Drelations%2Freports%2Dand%2Devents%2Ffinancial%2Dresults%2F&rut=a9f8a6293cf6c451f973c67fb9aaae9b0ba78bdf29107de4df558f89cca92244
+        - generic [ref=e92]:
+          - link [ref=e94] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fhome.barclays%2Finvestor%2Drelations%2Freports%2Dand%2Devents%2Ffinancial%2Dresults%2F&rut=a9f8a6293cf6c451f973c67fb9aaae9b0ba78bdf29107de4df558f89cca92244
+          - link "home.barclays/investor-relations/reports-and-events/financial-results/" [ref=e95] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fhome.barclays%2Finvestor%2Drelations%2Freports%2Dand%2Devents%2Ffinancial%2Dresults%2F&rut=a9f8a6293cf6c451f973c67fb9aaae9b0ba78bdf29107de4df558f89cca92244
+        - link "View all of our latest financial results announcements, including management presentations, webcasts, scripts and other supporting information." [ref=e96] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fhome.barclays%2Finvestor%2Drelations%2Freports%2Dand%2Devents%2Ffinancial%2Dresults%2F&rut=a9f8a6293cf6c451f973c67fb9aaae9b0ba78bdf29107de4df558f89cca92244
+      - generic [ref=e98]:
+        - heading "PDF Hyperscalers, Ai Assets and Depreciation Policy" [level=2] [ref=e99]:
+          - link "PDF Hyperscalers, Ai Assets and Depreciation Policy" [ref=e100] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsuttonfinancialreporting.com%2Fwp%2Dcontent%2Fuploads%2F2026%2F04%2FHyperscalers%2DAI%2Dassets%2Dand%2Ddepreciation%2Dpolicy.pdf&rut=2647071957669e3ed75c91f0ecf6badb691dd58ef4d368038fd16ca4fce79dc9
+            - generic [ref=e101]: PDF
+            - text: Hyperscalers, Ai Assets and Depreciation Policy
+        - generic [ref=e103]:
+          - link [ref=e105] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsuttonfinancialreporting.com%2Fwp%2Dcontent%2Fuploads%2F2026%2F04%2FHyperscalers%2DAI%2Dassets%2Dand%2Ddepreciation%2Dpolicy.pdf&rut=2647071957669e3ed75c91f0ecf6badb691dd58ef4d368038fd16ca4fce79dc9
+          - link "suttonfinancialreporting.com/wp-content/uploads/2026/04/Hyperscalers-AI-assets-and-depreciation-policy.pdf" [ref=e106] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsuttonfinancialreporting.com%2Fwp%2Dcontent%2Fuploads%2F2026%2F04%2FHyperscalers%2DAI%2Dassets%2Dand%2Ddepreciation%2Dpolicy.pdf&rut=2647071957669e3ed75c91f0ecf6badb691dd58ef4d368038fd16ca4fce79dc9
+        - link "Global investment in data centres topped $580bn in 2025, of which the hyperscalers' share was over $400bn.2 The investment will lift their reported depreciation expense; lengthening asset life softens the impact on earnings. Data servers and network assets account for around half of data centre capex." [ref=e107] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsuttonfinancialreporting.com%2Fwp%2Dcontent%2Fuploads%2F2026%2F04%2FHyperscalers%2DAI%2Dassets%2Dand%2Ddepreciation%2Dpolicy.pdf&rut=2647071957669e3ed75c91f0ecf6badb691dd58ef4d368038fd16ca4fce79dc9
+      - generic [ref=e109]:
+        - heading "Early warning! Barclays reduces expectations for technology ... - GMT EIGHT" [level=2] [ref=e110]:
+          - link "Early warning! Barclays reduces expectations for technology ... - GMT EIGHT" [ref=e111] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgmteight.com%2Fcontent%2Fdetail%2F143115&rut=39fdefd7e8771d70db626ec4ca82c6348611ddcebebc6b8eb4362c5357377765
+        - generic [ref=e113]:
+          - link [ref=e115] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgmteight.com%2Fcontent%2Fdetail%2F143115&rut=39fdefd7e8771d70db626ec4ca82c6348611ddcebebc6b8eb4362c5357377765
+          - link "gmteight.com/content/detail/143115" [ref=e116] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgmteight.com%2Fcontent%2Fdetail%2F143115&rut=39fdefd7e8771d70db626ec4ca82c6348611ddcebebc6b8eb4362c5357377765
+        - link "Barclays analyst Ross Sandler pointed out that the market has underestimated the not-so-hidden costs of artificial intelligence, which account for 5%-10% of earnings per share and have also inflated price-earnings ratios by similar amounts." [ref=e117] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fgmteight.com%2Fcontent%2Fdetail%2F143115&rut=39fdefd7e8771d70db626ec4ca82c6348611ddcebebc6b8eb4362c5357377765
+      - button "Next" [ref=e120] [cursor=pointer]
+      - link "Feedback" [ref=e122] [cursor=pointer]:
+        - /url: //duckduckgo.com/feedback.html
+  - img [ref=e123]

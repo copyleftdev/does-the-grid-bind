@@ -1,0 +1,196 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: "\"lbnl-2001637\" 2024 United States Data Center Energy Usage Report pdf"
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards" [ref=e25] [cursor=pointer]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: Rewards
+          - img [ref=e30]
+      - link "Sign in" [ref=e42] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e43]
+    - navigation "Search Filter" [ref=e44]:
+      - list [ref=e45]:
+        - listitem [ref=e46]:
+          - link "All" [ref=e47] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e48]:
+          - link "Web" [ref=e49] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=97eadd9f66fe9cbf6821976b5ba35e827a0e630e239c118d88661472bceda405JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPSUyMmxibmwtMjAwMTYzNyUyMisyMDI0K1VuaXRlZCtTdGF0ZXMrRGF0YStDZW50ZXIrRW5lcmd5K1VzYWdlK1JlcG9ydCtwZGYmd2Vic2NwPTEmRk9STT1IRFJXU0M&ntb=1
+        - listitem [ref=e50]:
+          - link "Search" [ref=e51] [cursor=pointer]:
+            - /url: /copilotsearch?q=%22lbnl-2001637%22+2024+United+States+Data+Center+Energy+Usage+Report+pdf&FORM=CSSCOP
+            - img [ref=e52]
+            - text: Search
+        - listitem [ref=e54]:
+          - link "Images" [ref=e55] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ac45ada7d4d1e677bed28acab710deb4f6f1f1da65e1d0cc891daf3ff41a20dcJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT0lMjJsYm5sLTIwMDE2MzclMjIrMjAyNCtVbml0ZWQrU3RhdGVzK0RhdGErQ2VudGVyK0VuZXJneStVc2FnZStSZXBvcnQrcGRmJkZPUk09SERSU0Mz&ntb=1
+        - listitem [ref=e56]:
+          - link "Videos" [ref=e57] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8d2850b05d0418bbabe9b6bac50170c18d355d037067398da0d5d6b3e84f6786JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT0lMjJsYm5sLTIwMDE2MzclMjIrMjAyNCtVbml0ZWQrU3RhdGVzK0RhdGErQ2VudGVyK0VuZXJneStVc2FnZStSZXBvcnQrcGRmJkZPUk09SERSU0M0&ntb=1
+        - listitem [ref=e58]:
+          - link "Maps" [ref=e59] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=541724a1316a61924b13833d0c064ec2e8b4cdb319276adb5be3f9e27e8c6f8eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT0lMjJsYm5sLTIwMDE2MzclMjIrMjAyNCtVbml0ZWQrU3RhdGVzK0RhdGErQ2VudGVyK0VuZXJneStVc2FnZStSZXBvcnQrcGRmJkZPUk09SERSU0M2&ntb=1
+        - listitem [ref=e60]:
+          - link "Copilot" [ref=e61] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6b4d080afc6a9c5bdc1f670d7d8d52cf5885404d6765fe9f352987fdfe43655fJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PSUyMmxibmwtMjAwMTYzNyUyMisyMDI0K1VuaXRlZCtTdGF0ZXMrRGF0YStDZW50ZXIrRW5lcmd5K1VzYWdlK1JlcG9ydCtwZGYmc2VuZHF1ZXJ5PTEmRk9STT1TQ0NPRFg&ntb=1
+        - listitem [ref=e62]:
+          - button "More" [ref=e63] [cursor=pointer]:
+            - img [ref=e65]
+            - text: More
+  - generic [ref=e67]:
+    - main "Search Results" [ref=e68]:
+      - generic [ref=e70]: About 1,660 results
+      - list [ref=e81]:
+        - listitem [ref=e82]:
+          - link "lbl.gov" [ref=e84] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=409ac2b38d5566fd210103bd7a4b8d94a3f51a91c81aaeca899619e2f387a75cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEtcHVibGljYXRpb25zLmxibC5nb3Yvc2l0ZXMvZGVmYXVsdC9maWxlcy8yMDI0LTEyL2xibmwtMjAyNC11bml0ZWQtc3RhdGVzLWRhdGEtY2VudGVyLWVuZXJneS11c2FnZS1yZXBvcnRfMS5wZGY&ntb=1
+            - generic [ref=e89]:
+              - generic [ref=e90]: lbl.gov
+              - generic [ref=e93]: https://eta-publications.lbl.gov › sites › default › files
+          - generic [ref=e94]:
+            - generic [ref=e95]: "[PDF]"
+            - heading "2024 United States Data Center Energy Usage Report" [level=2] [ref=e96]:
+              - link "2024 United States Data Center Energy Usage Report" [ref=e97] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=409ac2b38d5566fd210103bd7a4b8d94a3f51a91c81aaeca899619e2f387a75cJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEtcHVibGljYXRpb25zLmxibC5nb3Yvc2l0ZXMvZGVmYXVsdC9maWxlcy8yMDI0LTEyL2xibmwtMjAyNC11bml0ZWQtc3RhdGVzLWRhdGEtY2VudGVyLWVuZXJneS11c2FnZS1yZXBvcnRfMS5wZGY&ntb=1
+          - paragraph [ref=e99]: While many of these efficiency strategies continue to provide significant energy efficiency improvements in data center design and …
+        - listitem [ref=e100]:
+          - link "Energy Technologies Area" [ref=e102] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=91764a8290fac52b1b8925cea3f9184dbe6ebd069c7d23c6fbcb553af2eaefb4JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEubGJsLmdvdi9wdWJsaWNhdGlvbnMvMjAyNC1sYm5sLWRhdGEtY2VudGVyLWVuZXJneS11c2FnZS1yZXBvcnQ&ntb=1
+            - generic [ref=e107]:
+              - generic [ref=e108]: Energy Technologies Area
+              - generic [ref=e111]: https://eta.lbl.gov › publications
+          - heading "2024 United States Data Center Energy Usage Report" [level=2] [ref=e112]:
+            - link "2024 United States Data Center Energy Usage Report" [ref=e113] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=91764a8290fac52b1b8925cea3f9184dbe6ebd069c7d23c6fbcb553af2eaefb4JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ldGEubGJsLmdvdi9wdWJsaWNhdGlvbnMvMjAyNC1sYm5sLWRhdGEtY2VudGVyLWVuZXJneS11c2FnZS1yZXBvcnQ&ntb=1
+          - paragraph [ref=e115]: Dec 19, 2024 · The Energy Act of 2020 calls for the U.S. Department of Energy to make available to the public an update to …
+        - listitem [ref=e116]:
+          - link "Scribd" [ref=e118] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9995e4732e56453017ac3450091b7d6004dd8f67e3127305b6dec4eeca8a779eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc2NyaWJkLmNvbS9kb2N1bWVudC84NjQzNDc4ODYvTGJubC0yMDI0LVVuaXRlZC1TdGF0ZXMtRGF0YS1DZW50ZXItRW5lcmd5LVVzYWdlLVJlcG9ydA&ntb=1
+            - generic [ref=e123]:
+              - generic [ref=e124]: Scribd
+              - generic [ref=e127]: https://www.scribd.com › ...
+          - heading "2024 US Data Center Energy Report | PDF | Data Center | Central ..." [level=2] [ref=e128]:
+            - link "2024 US Data Center Energy Report | PDF | Data Center | Central ..." [ref=e129] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=9995e4732e56453017ac3450091b7d6004dd8f67e3127305b6dec4eeca8a779eJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc2NyaWJkLmNvbS9kb2N1bWVudC84NjQzNDc4ODYvTGJubC0yMDI0LVVuaXRlZC1TdGF0ZXMtRGF0YS1DZW50ZXItRW5lcmd5LVVzYWdlLVJlcG9ydA&ntb=1
+          - paragraph [ref=e131]: Lbnl 2024 United States Data Center Energy Usage Report - Free download as PDF File (.pdf), Text File (.txt) or read online for free.
+        - listitem [ref=e132]:
+          - link "Department of Energy" [ref=e134] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a072b09ff48efda95d260998e791766194c8907a10f9916233a4b43b5e3f7f67JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZW5lcmd5Lmdvdi9zaXRlcy9kZWZhdWx0L2ZpbGVzLzIwMjUtMDgvZmVtcC1kYXRhLWNlbnRlcnMtZmFjdC1zaGVldC0yMDI1LnBkZg&ntb=1
+            - generic [ref=e139]:
+              - generic [ref=e140]: Department of Energy
+              - generic [ref=e143]: https://www.energy.gov › sites › default › files
+          - generic [ref=e144]:
+            - generic [ref=e145]: "[PDF]"
+            - heading "Data Center Energy Efficiency" [level=2] [ref=e146]:
+              - link "Data Center Energy Efficiency" [ref=e147] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=a072b09ff48efda95d260998e791766194c8907a10f9916233a4b43b5e3f7f67JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZW5lcmd5Lmdvdi9zaXRlcy9kZWZhdWx0L2ZpbGVzLzIwMjUtMDgvZmVtcC1kYXRhLWNlbnRlcnMtZmFjdC1zaGVldC0yMDI1LnBkZg&ntb=1
+          - paragraph [ref=e149]: Private and public sector efforts are underway to reduce energy use in data centers. The Office of Management and Budget’s …
+        - listitem [ref=e150]:
+          - generic [ref=e151]:
+            - link "Explore this image" [ref=e154] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=csqFVV10&id=97E12953535D9B63A31003D6EF19696891C0EC5E&thid=OIP.csqFVV106D0OBIEFnK3JQQAAAA&mediaurl=https://www.energy.gov/sites/default/files/2024-12/shutterstock_2520544431.jpg&q=%22lbnl-2001637%22+2024+United+States+Data+Center+Energy+Usage+Report+pdf&ck=7701A87B013863BC5661A67537A6BC47&idpp=rc&expw=474&exph=315&form=rc2idp
+            - generic [ref=e156]:
+              - link "Department of Energy" [ref=e158] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=614663589c4c70b71a3a2c621047617ab5954a4824a13a3be7f266604520cc07JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZW5lcmd5Lmdvdi9hcnRpY2xlcy9kb2UtcmVsZWFzZXMtbmV3LXJlcG9ydC1ldmFsdWF0aW5nLWluY3JlYXNlLWVsZWN0cmljaXR5LWRlbWFuZC1kYXRhLWNlbnRlcnM&ntb=1
+                - generic [ref=e163]:
+                  - generic [ref=e164]: Department of Energy
+                  - generic [ref=e167]: https://www.energy.gov › articles › doe-releases-new...
+              - heading "DOE Releases New Report Evaluating Increase in …" [level=2] [ref=e168]:
+                - link "DOE Releases New Report Evaluating Increase in …" [ref=e169] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=614663589c4c70b71a3a2c621047617ab5954a4824a13a3be7f266604520cc07JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuZW5lcmd5Lmdvdi9hcnRpY2xlcy9kb2UtcmVsZWFzZXMtbmV3LXJlcG9ydC1ldmFsdWF0aW5nLWluY3JlYXNlLWVsZWN0cmljaXR5LWRlbWFuZC1kYXRhLWNlbnRlcnM&ntb=1
+              - paragraph [ref=e170]: Dec 20, 2024 · The report indicates that total data center electricity usage climbed from 58 TWh in 2014 to …
+        - listitem [ref=e172]:
+          - link "Center of Expertise for Energy Efficiency in Data Centers" [ref=e174] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=877646b4a63f377eb6f38226db25e7f63642e54f0448f6a1905193daddb5235dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9kYXRhY2VudGVycy5sYmwuZ292Lw&ntb=1
+            - generic [ref=e179]:
+              - generic [ref=e180]: Center of Expertise for Energy Efficiency in Data Centers
+              - generic [ref=e183]: https://datacenters.lbl.gov
+          - heading "Home | Center of Expertise for Data Center Energy" [level=2] [ref=e184]:
+            - link "Home | Center of Expertise for Data Center Energy" [ref=e185] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=877646b4a63f377eb6f38226db25e7f63642e54f0448f6a1905193daddb5235dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9kYXRhY2VudGVycy5sYmwuZ292Lw&ntb=1
+          - paragraph [ref=e187]: Lawrence Berkeley National Laboratory (LBNL) leads the development of several tools and technologies that generate and evaluate …
+        - listitem [ref=e188]:
+          - link "The Belfer Center for Science and International Affairs" [ref=e190] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=7d89a449c20d71d827c316a6f029910e879ffd027576ed142e0ec6b0fce59976JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuYmVsZmVyY2VudGVyLm9yZy9yZXNlYXJjaC1hbmFseXNpcy9haS1kYXRhLWNlbnRlcnMtdXMtZWxlY3RyaWMtZ3JpZA&ntb=1
+            - generic [ref=e195]:
+              - generic [ref=e196]: The Belfer Center for Science and International Affairs
+              - generic [ref=e199]: https://www.belfercenter.org › research-analysis › ai...
+          - 'heading "AI, Data Centers, and the U.S. Electric Grid: A Watershed Moment" [level=2] [ref=e200]':
+            - 'link "AI, Data Centers, and the U.S. Electric Grid: A Watershed Moment" [ref=e201] [cursor=pointer]':
+              - /url: https://www.bing.com/ck/a?!&&p=7d89a449c20d71d827c316a6f029910e879ffd027576ed142e0ec6b0fce59976JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuYmVsZmVyY2VudGVyLm9yZy9yZXNlYXJjaC1hbmFseXNpcy9haS1kYXRhLWNlbnRlcnMtdXMtZWxlY3RyaWMtZ3JpZA&ntb=1
+          - paragraph [ref=e203]: Feb 10, 2026 · Electricity consumption growth rates are increasing across the United States, driven, in part, by a boom in hyperscale …
+        - listitem [ref=e204]:
+          - link "Congress.gov" [ref=e206] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=37ce1e86aa36737eb3d15ed42d5d8c8b25c40920bc9becb2c088818950c31230JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY29uZ3Jlc3MuZ292L2Nyc19leHRlcm5hbF9wcm9kdWN0cy9SL1BERi9SNDg2NDYvUjQ4NjQ2LjgucGRm&ntb=1
+            - generic [ref=e211]:
+              - generic [ref=e212]: Congress.gov
+              - generic [ref=e215]: https://www.congress.gov › crs_external_products › PDF
+          - generic [ref=e216]:
+            - generic [ref=e217]: "[PDF]"
+            - 'heading "Data Centers and Their Energy Consumption: Frequently Asked …" [level=2] [ref=e218]':
+              - 'link "Data Centers and Their Energy Consumption: Frequently Asked …" [ref=e219] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=37ce1e86aa36737eb3d15ed42d5d8c8b25c40920bc9becb2c088818950c31230JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuY29uZ3Jlc3MuZ292L2Nyc19leHRlcm5hbF9wcm9kdWN0cy9SL1BERi9SNDg2NDYvUjQ4NjQ2LjgucGRm&ntb=1
+          - paragraph [ref=e221]: May 12, 2026 · U.S. data center annual energy use in 2023 (not accounting for cryptocurrency) was approximately 176 terawatt …
+        - listitem [ref=e222]:
+          - link "arXiv.org" [ref=e224] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=e8eea34ec2e0875359e579b2abe72dbe27da0d2496c7ff8482b63b34207129b0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDYuMDU0MjA&ntb=1
+            - generic [ref=e229]:
+              - generic [ref=e230]: arXiv.org
+              - generic [ref=e233]: https://arxiv.org › pdf
+          - generic [ref=e234]:
+            - generic [ref=e235]: "[PDF]"
+            - heading "Assessing the Carbon Emissions and Energy Consumption of U.S ..." [level=2] [ref=e236]:
+              - link "Assessing the Carbon Emissions and Energy Consumption of U.S ..." [ref=e237] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e8eea34ec2e0875359e579b2abe72dbe27da0d2496c7ff8482b63b34207129b0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9hcnhpdi5vcmcvcGRmLzI2MDYuMDU0MjA&ntb=1
+          - paragraph [ref=e239]: We compiled facility-level informa-tion on 403 US hyperscale data centers operating between May 2024 and April 2025 and …
+        - listitem [ref=e240]:
+          - link "AAAS" [ref=e242] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=a715c7b7687febe191a21f35d428426ea5e7e53b0cad46de17db7a24e6dbc8f6JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuYWFhcy5vcmcvc2l0ZXMvZGVmYXVsdC9maWxlcy8yMDI1LTA1L0xpbmVSb2FsZF9DU0dNV19BQUFTRVBJX1NoYXBpbmdBSUZ1dHVyZUluWW91clN0YXRlX01heTIwMjUucGRm&ntb=1
+            - generic [ref=e247]:
+              - generic [ref=e248]: AAAS
+              - generic [ref=e251]: https://www.aaas.org › ...
+          - generic [ref=e252]:
+            - generic [ref=e253]: "[PDF]"
+            - heading "AI Datacenters Energy Use and Grid Impacts - aaas.org" [level=2] [ref=e254]:
+              - link "AI Datacenters Energy Use and Grid Impacts - aaas.org" [ref=e255] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=a715c7b7687febe191a21f35d428426ea5e7e53b0cad46de17db7a24e6dbc8f6JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuYWFhcy5vcmcvc2l0ZXMvZGVmYXVsdC9maWxlcy8yMDI1LTA1L0xpbmVSb2FsZF9DU0dNV19BQUFTRVBJX1NoYXBpbmdBSUZ1dHVyZUluWW91clN0YXRlX01heTIwMjUucGRm&ntb=1
+          - paragraph [ref=e257]: If data centers have incentives to be flexible, i.e., avoid using power when everyone else needs it or respond to real-time electricity …
+        - listitem [ref=e258]:
+          - navigation "More results for \"lbnl-2001637\" 2024 United States Data Center Energy Usage Report pdf":
+            - list:
+              - listitem [ref=e259]:
+                - generic "Page 1" [ref=e260]: "1"
+              - listitem [ref=e261]:
+                - link "Page 2" [ref=e262] [cursor=pointer]:
+                  - /url: /search?q=%22lbnl-2001637%22+2024+United+States+Data+Center+Energy+Usage+Report+pdf&FPIG=136A9D85787D4D888DDAF86640B2C3A2&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e263]:
+                - link "Page 3" [ref=e264] [cursor=pointer]:
+                  - /url: /search?q=%22lbnl-2001637%22+2024+United+States+Data+Center+Energy+Usage+Report+pdf&FPIG=136A9D85787D4D888DDAF86640B2C3A2&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e265]:
+                - link "Next page" [ref=e266] [cursor=pointer]:
+                  - /url: /search?q=%22lbnl-2001637%22+2024+United+States+Data+Center+Energy+Usage+Report+pdf&FPIG=136A9D85787D4D888DDAF86640B2C3A2&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=e267]:
+      - list
+  - contentinfo [ref=e268]:
+    - generic [ref=e269]:
+      - list:
+        - listitem [ref=e270]:
+          - link "Privacy" [ref=e271] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e272]:
+          - link "Terms" [ref=e273] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

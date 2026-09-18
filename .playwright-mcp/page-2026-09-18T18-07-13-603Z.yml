@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "DuckDuckGo" [ref=e4] [cursor=pointer]:
+        - /url: /html/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - textbox [ref=e7]: Barclays note November 2025 Burry depreciation hyperscalers response analysts
+          - button "Submit" [ref=e8] [cursor=pointer]
+        - combobox [ref=e10] [cursor=pointer]:
+          - option "All Regions" [selected]
+          - option "Argentina"
+          - option "Australia"
+          - option "Austria"
+          - option "Belgium (fr)"
+          - option "Belgium (nl)"
+          - option "Brazil"
+          - option "Bulgaria"
+          - option "Canada (en)"
+          - option "Canada (fr)"
+          - option "Catalonia"
+          - option "Chile"
+          - option "China"
+          - option "Colombia"
+          - option "Croatia"
+          - option "Czech Republic"
+          - option "Denmark"
+          - option "Estonia"
+          - option "Finland"
+          - option "France"
+          - option "Germany"
+          - option "Greece"
+          - option "Hong Kong"
+          - option "Hungary"
+          - option "Iceland"
+          - option "India (en)"
+          - option "Indonesia (en)"
+          - option "Ireland"
+          - option "Israel (en)"
+          - option "Italy"
+          - option "Japan"
+          - option "Korea"
+          - option "Latvia"
+          - option "Lithuania"
+          - option "Malaysia (en)"
+          - option "Mexico"
+          - option "Netherlands"
+          - option "New Zealand"
+          - option "Norway"
+          - option "Pakistan (en)"
+          - option "Peru"
+          - option "Philippines (en)"
+          - option "Poland"
+          - option "Portugal"
+          - option "Romania"
+          - option "Russia"
+          - option "Saudi Arabia"
+          - option "Singapore"
+          - option "Slovakia"
+          - option "Slovenia"
+          - option "South Africa"
+          - option "Spain (ca)"
+          - option "Spain (es)"
+          - option "Sweden"
+          - option "Switzerland (de)"
+          - option "Switzerland (fr)"
+          - option "Taiwan"
+          - option "Thailand (en)"
+          - option "Turkey"
+          - option "US (English)"
+          - option "US (Spanish)"
+          - option "Ukraine"
+          - option "United Kingdom"
+          - option "Vietnam (en)"
+        - combobox [ref=e12] [cursor=pointer]:
+          - option "Any Time" [selected]
+          - option "Past Day"
+          - option "Past Week"
+          - option "Past Month"
+          - option "Past Year"
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - 'heading "Burry Calls ''Fraud'' on Hyperscalers: 4 Pins Set to Pop the AI Bubble ..." [level=2] [ref=e18]':
+          - 'link "Burry Calls ''Fraud'' on Hyperscalers: 4 Pins Set to Pop the AI Bubble ..." [ref=e19] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmarkets.financialcontent.com%2Fwedbush%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=226322d5848560647d7e3de2b1869e991096e84264371d13b6b822a2411fd892
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmarkets.financialcontent.com%2Fwedbush%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=226322d5848560647d7e3de2b1869e991096e84264371d13b6b822a2411fd892
+          - link "markets.financialcontent.com/wedbush/article/barchart-2025-11-20-burry-calls-fraud-on-hyperscalers-4-pins-set-to-pop-the-ai-bubble-and-the-big-short-math-on-big-tech" [ref=e24] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmarkets.financialcontent.com%2Fwedbush%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=226322d5848560647d7e3de2b1869e991096e84264371d13b6b822a2411fd892
+          - text: 2025-11-20T13:18:00.0000000
+        - 'link "The Core of Burry''s Accusation: \"Creative Accounting\" in the AI Arms Race Burry''s argument centers on one key issue: Big Tech is massively understating depreciation expenses on AI chips and servers, and overstating earnings. AI chips are extremely expensive and have a short life cycle, often just 2-3 years." [ref=e25] [cursor=pointer]':
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmarkets.financialcontent.com%2Fwedbush%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=226322d5848560647d7e3de2b1869e991096e84264371d13b6b822a2411fd892
+      - generic [ref=e27]:
+        - heading "Michael Burry, the 'Big Short' Investor, Claims AI Giants Are Inflating ..." [level=2] [ref=e28]:
+          - link "Michael Burry, the 'Big Short' Investor, Claims AI Giants Are Inflating ..." [ref=e29] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dualmedia.com%2Fmichael%2Dburry%2Dai%2Dearnings%2F&rut=9626ef6bb64739b88dda59c5aebbe97fdf3be1df3b19d637a8bef75679c75ea6
+        - generic [ref=e31]:
+          - link [ref=e33] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dualmedia.com%2Fmichael%2Dburry%2Dai%2Dearnings%2F&rut=9626ef6bb64739b88dda59c5aebbe97fdf3be1df3b19d637a8bef75679c75ea6
+          - link "www.dualmedia.com/michael-burry-ai-earnings/" [ref=e34] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dualmedia.com%2Fmichael%2Dburry%2Dai%2Dearnings%2F&rut=9626ef6bb64739b88dda59c5aebbe97fdf3be1df3b19d637a8bef75679c75ea6
+          - text: 2025-11-12T00:00:00.0000000
+        - link "Michael Burry, the investor known from Big Short lore, accused top cloud and AI providers of inflating earnings through aggressive accounting. The claim centers on extended useful lives for chips and servers, a move that lowers annual depreciation and lifts reported profit. Burry estimated a possible understatement of depreciation near $176 billion across hyperscalers from 2026 through 2028 ..." [ref=e35] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.dualmedia.com%2Fmichael%2Dburry%2Dai%2Dearnings%2F&rut=9626ef6bb64739b88dda59c5aebbe97fdf3be1df3b19d637a8bef75679c75ea6
+      - generic [ref=e37]:
+        - heading "The $200 Billion Question Hiding in Big Tech's AI Spending" [level=2] [ref=e38]:
+          - link "The $200 Billion Question Hiding in Big Tech's AI Spending" [ref=e39] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Ffootnotebrief.com%2Fhyperscaler%2Ddepreciation%2Dai%2Dcapex%2Dcircularity%2F&rut=a3f5f4067e0706682ff13fd36ce43210924279e57d001bd1aaa195d75a85d778
+        - generic [ref=e41]:
+          - link [ref=e43] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Ffootnotebrief.com%2Fhyperscaler%2Ddepreciation%2Dai%2Dcapex%2Dcircularity%2F&rut=a3f5f4067e0706682ff13fd36ce43210924279e57d001bd1aaa195d75a85d778
+          - link "footnotebrief.com/hyperscaler-depreciation-ai-capex-circularity/" [ref=e44] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Ffootnotebrief.com%2Fhyperscaler%2Ddepreciation%2Dai%2Dcapex%2Dcircularity%2F&rut=a3f5f4067e0706682ff13fd36ce43210924279e57d001bd1aaa195d75a85d778
+          - text: 2026-05-21T00:00:00.0000000
+        - link "On November 11, 2025, Michael Burry — manager of Scion Capital, known for predicting the 2008 housing collapse — posted on X that hyperscalers were artificially boosting earnings by extending useful life assumptions beyond what 2-3 year product cycles justify." [ref=e45] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Ffootnotebrief.com%2Fhyperscaler%2Ddepreciation%2Dai%2Dcapex%2Dcircularity%2F&rut=a3f5f4067e0706682ff13fd36ce43210924279e57d001bd1aaa195d75a85d778
+      - generic [ref=e47]:
+        - 'heading "Los Angeles Daily News - Burry Calls ''Fraud'' on Hyperscalers: 4 Pins ..." [level=2] [ref=e48]':
+          - 'link "Los Angeles Daily News - Burry Calls ''Fraud'' on Hyperscalers: 4 Pins ..." [ref=e49] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmarkets.financialcontent.com%2Fdailynews%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=cc7ae4ace798ba86308ca7737420f693295325e5f168a5f6d679ebfcb6d7b9f4
+        - generic [ref=e51]:
+          - link [ref=e53] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmarkets.financialcontent.com%2Fdailynews%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=cc7ae4ace798ba86308ca7737420f693295325e5f168a5f6d679ebfcb6d7b9f4
+          - link "markets.financialcontent.com/dailynews/article/barchart-2025-11-20-burry-calls-fraud-on-hyperscalers-4-pins-set-to-pop-the-ai-bubble-and-the-big-short-math-on-big-tech" [ref=e54] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmarkets.financialcontent.com%2Fdailynews%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=cc7ae4ace798ba86308ca7737420f693295325e5f168a5f6d679ebfcb6d7b9f4
+          - text: 2025-11-20T00:00:00.0000000
+        - 'link "The Core of Burry''s Accusation: \"Creative Accounting\" in the AI Arms Race Burry''s argument centers on one key issue: Big Tech is massively understating depreciation expenses on AI chips and servers, and overstating earnings. AI chips are extremely expensive and have a short life cycle, often just 2-3 years." [ref=e55] [cursor=pointer]':
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmarkets.financialcontent.com%2Fdailynews%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=cc7ae4ace798ba86308ca7737420f693295325e5f168a5f6d679ebfcb6d7b9f4
+      - generic [ref=e57]:
+        - heading "Michael Burry's AI Depreciation Warning" [level=2] [ref=e58]:
+          - link "Michael Burry's AI Depreciation Warning" [ref=e59] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcoastaljournal.substack.com%2Fp%2Fmichael%2Dburrys%2Dai%2Ddepreciation%2Dwarning&rut=8a8a6e007d836984422bc302a6d527d27af0526662ca99b17dbb0b9b0c500887
+        - generic [ref=e61]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcoastaljournal.substack.com%2Fp%2Fmichael%2Dburrys%2Dai%2Ddepreciation%2Dwarning&rut=8a8a6e007d836984422bc302a6d527d27af0526662ca99b17dbb0b9b0c500887
+          - link "coastaljournal.substack.com/p/michael-burrys-ai-depreciation-warning" [ref=e64] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcoastaljournal.substack.com%2Fp%2Fmichael%2Dburrys%2Dai%2Ddepreciation%2Dwarning&rut=8a8a6e007d836984422bc302a6d527d27af0526662ca99b17dbb0b9b0c500887
+          - text: 2025-11-10T00:00:00.0000000
+        - link "According to Burry, hyperscalers like Coreweave, Meta, Oracle, and others are collectively understating depreciation by roughly $176 billion between 2026 and 2028. ( More on that HERE with our report we did in August 2025 ) That means Wall Street's favorite growth stories could be overstating profits by 20% to 30%." [ref=e65] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fcoastaljournal.substack.com%2Fp%2Fmichael%2Dburrys%2Dai%2Ddepreciation%2Dwarning&rut=8a8a6e007d836984422bc302a6d527d27af0526662ca99b17dbb0b9b0c500887
+      - generic [ref=e67]:
+        - 'heading "Business Insurance - Magazine - Burry Calls ''Fraud'' on Hyperscalers: 4 ..." [level=2] [ref=e68]':
+          - 'link "Business Insurance - Magazine - Burry Calls ''Fraud'' on Hyperscalers: 4 ..." [ref=e69] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Findex.businessinsurance.com%2Fbusinessinsurance%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=7000b8f8b6396ef32b9149d064cf5cad005b9c78b65aa6f18ae0540c94ed5be0
+        - generic [ref=e71]:
+          - link [ref=e73] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Findex.businessinsurance.com%2Fbusinessinsurance%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=7000b8f8b6396ef32b9149d064cf5cad005b9c78b65aa6f18ae0540c94ed5be0
+          - link "index.businessinsurance.com/businessinsurance/article/barchart-2025-11-20-burry-calls-fraud-on-hyperscalers-4-pins-set-to-pop-the-ai-bubble-and-the-big-short-math-on-big-tech" [ref=e74] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Findex.businessinsurance.com%2Fbusinessinsurance%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=7000b8f8b6396ef32b9149d064cf5cad005b9c78b65aa6f18ae0540c94ed5be0
+          - text: 2025-11-20T13:18:00.0000000
+        - 'link "The Core of Burry''s Accusation: \"Creative Accounting\" in the AI Arms Race Burry''s argument centers on one key issue: Big Tech is massively understating depreciation expenses on AI chips and servers, and overstating earnings. AI chips are extremely expensive and have a short life cycle, often just 2-3 years." [ref=e75] [cursor=pointer]':
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Findex.businessinsurance.com%2Fbusinessinsurance%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=7000b8f8b6396ef32b9149d064cf5cad005b9c78b65aa6f18ae0540c94ed5be0
+      - generic [ref=e77]:
+        - 'heading "Michael Burry''s AI Depreciation Thesis: Accounting Distortions and the ..." [level=2] [ref=e78]':
+          - 'link "Michael Burry''s AI Depreciation Thesis: Accounting Distortions and the ..." [ref=e79] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fmichael%2Dburry%2Dai%2Ddepreciation%2Dthesis%2Daccounting%2Ddistortions%2Dlooming%2Doverinvestment%2Drisk%2Dtech%2D2511%2F&rut=f0cc8811b9405da442485f06dea4134cf4460664e7ee871c0c13cb3d6117b462
+        - generic [ref=e81]:
+          - link [ref=e83] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fmichael%2Dburry%2Dai%2Ddepreciation%2Dthesis%2Daccounting%2Ddistortions%2Dlooming%2Doverinvestment%2Drisk%2Dtech%2D2511%2F&rut=f0cc8811b9405da442485f06dea4134cf4460664e7ee871c0c13cb3d6117b462
+          - link "www.ainvest.com/news/michael-burry-ai-depreciation-thesis-accounting-distortions-looming-overinvestment-risk-tech-2511/" [ref=e84] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fmichael%2Dburry%2Dai%2Ddepreciation%2Dthesis%2Daccounting%2Ddistortions%2Dlooming%2Doverinvestment%2Drisk%2Dtech%2D2511%2F&rut=f0cc8811b9405da442485f06dea4134cf4460664e7ee871c0c13cb3d6117b462
+          - text: 2025-11-30T01:36:00.0000000
+        - 'link "The Core of Burry''s Argument: Depreciation Mismatch Burry''s central claim is that hyperscalers are depreciating AI chips-such as Nvidia''s GPUs-over 5-6 years, despite their actual economic lifespan being only 2-3 years due to rapid technological obsolescence and physical wear according to analysis." [ref=e85] [cursor=pointer]':
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fmichael%2Dburry%2Dai%2Ddepreciation%2Dthesis%2Daccounting%2Ddistortions%2Dlooming%2Doverinvestment%2Drisk%2Dtech%2D2511%2F&rut=f0cc8811b9405da442485f06dea4134cf4460664e7ee871c0c13cb3d6117b462
+      - generic [ref=e87]:
+        - 'heading "Hyperscaler AI Capex 2026: $434B and the D&A Lag" [level=2] [ref=e88]':
+          - 'link "Hyperscaler AI Capex 2026: $434B and the D&A Lag" [ref=e89] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsiliconanalysts.com%2Fanalysis%2Fhyperscaler%2Dai%2Dcapex%2Ddepreciation%2Dwall%2D2026&rut=b042977c6de3ecaa52379e905aee256a326a38964cd02233d20d5a5ac098c3ef
+        - generic [ref=e91]:
+          - link [ref=e93] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsiliconanalysts.com%2Fanalysis%2Fhyperscaler%2Dai%2Dcapex%2Ddepreciation%2Dwall%2D2026&rut=b042977c6de3ecaa52379e905aee256a326a38964cd02233d20d5a5ac098c3ef
+          - link "siliconanalysts.com/analysis/hyperscaler-ai-capex-depreciation-wall-2026" [ref=e94] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsiliconanalysts.com%2Fanalysis%2Fhyperscaler%2Dai%2Dcapex%2Ddepreciation%2Dwall%2D2026&rut=b042977c6de3ecaa52379e905aee256a326a38964cd02233d20d5a5ac098c3ef
+          - text: 2026-07-10T00:00:00.0000000
+        - link "The bear case sharpened in November 2025 when Michael Burry publicly argued the accelerator fleets inside these totals have an economic life closer to two to three years than the five-to-six-year schedules in use, and that industry depreciation could be understated by ~$176B over 2026-2028." [ref=e95] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsiliconanalysts.com%2Fanalysis%2Fhyperscaler%2Dai%2Dcapex%2Ddepreciation%2Dwall%2D2026&rut=b042977c6de3ecaa52379e905aee256a326a38964cd02233d20d5a5ac098c3ef
+      - generic [ref=e97]:
+        - 'heading "Burry Calls ''Fraud'' on Hyperscalers: 4 Pins Set to Pop the AI Bubble ..." [level=2] [ref=e98]':
+          - 'link "Burry Calls ''Fraud'' on Hyperscalers: 4 Pins Set to Pop the AI Bubble ..." [ref=e99] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.financialcontent.com%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=aa458fe6fc41205796fcb48f5761c0ea4a8e99d97a15a68a744c8dd1254b18dc
+        - generic [ref=e101]:
+          - link [ref=e103] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.financialcontent.com%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=aa458fe6fc41205796fcb48f5761c0ea4a8e99d97a15a68a744c8dd1254b18dc
+          - link "www.financialcontent.com/article/barchart-2025-11-20-burry-calls-fraud-on-hyperscalers-4-pins-set-to-pop-the-ai-bubble-and-the-big-short-math-on-big-tech" [ref=e104] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.financialcontent.com%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=aa458fe6fc41205796fcb48f5761c0ea4a8e99d97a15a68a744c8dd1254b18dc
+          - text: 2025-11-20T13:18:00.0000000
+        - link "Here's a closer look at the accounting concerns Michael Burry is calling out on AI hyperscalers, and 4 points of concern for bubble-watchers." [ref=e105] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.financialcontent.com%2Farticle%2Fbarchart%2D2025%2D11%2D20%2Dburry%2Dcalls%2Dfraud%2Don%2Dhyperscalers%2D4%2Dpins%2Dset%2Dto%2Dpop%2Dthe%2Dai%2Dbubble%2Dand%2Dthe%2Dbig%2Dshort%2Dmath%2Don%2Dbig%2Dtech&rut=aa458fe6fc41205796fcb48f5761c0ea4a8e99d97a15a68a744c8dd1254b18dc
+      - generic [ref=e107]:
+        - heading "Michael Burry says Big Tech stretched the life of its AI chips. Here's ..." [level=2] [ref=e108]:
+          - link "Michael Burry says Big Tech stretched the life of its AI chips. Here's ..." [ref=e109] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsolurana.com%2Finsights%2Fburry%2Dai%2Ddepreciation%2Duseful%2Dlife%2F&rut=d9d74c9adc5dfe427f78620f47f5c876461af8030dd6febb85dba9460e581ea2
+        - generic [ref=e111]:
+          - link [ref=e113] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsolurana.com%2Finsights%2Fburry%2Dai%2Ddepreciation%2Duseful%2Dlife%2F&rut=d9d74c9adc5dfe427f78620f47f5c876461af8030dd6febb85dba9460e581ea2
+          - link "solurana.com/insights/burry-ai-depreciation-useful-life/" [ref=e114] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsolurana.com%2Finsights%2Fburry%2Dai%2Ddepreciation%2Duseful%2Dlife%2F&rut=d9d74c9adc5dfe427f78620f47f5c876461af8030dd6febb85dba9460e581ea2
+          - text: 2026-06-18T00:00:00.0000000
+        - link "Michael Burry's 2025 claim that AI hyperscalers lift profits by extending the useful life of their servers — explained through CFA Level I depreciation and the useful-life assumption." [ref=e115] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsolurana.com%2Finsights%2Fburry%2Dai%2Ddepreciation%2Duseful%2Dlife%2F&rut=d9d74c9adc5dfe427f78620f47f5c876461af8030dd6febb85dba9460e581ea2
+      - button "Next" [ref=e118] [cursor=pointer]
+      - link "Feedback" [ref=e120] [cursor=pointer]:
+        - /url: //duckduckgo.com/feedback.html
+  - img [ref=e121]

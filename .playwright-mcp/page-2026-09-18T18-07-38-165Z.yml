@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "DuckDuckGo" [ref=e4] [cursor=pointer]:
+        - /url: /html/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - textbox [ref=e7]: Amazon server useful life six to five years 2025 depreciation analysts reaction
+          - button "Submit" [ref=e8] [cursor=pointer]
+        - combobox [ref=e10] [cursor=pointer]:
+          - option "All Regions" [selected]
+          - option "Argentina"
+          - option "Australia"
+          - option "Austria"
+          - option "Belgium (fr)"
+          - option "Belgium (nl)"
+          - option "Brazil"
+          - option "Bulgaria"
+          - option "Canada (en)"
+          - option "Canada (fr)"
+          - option "Catalonia"
+          - option "Chile"
+          - option "China"
+          - option "Colombia"
+          - option "Croatia"
+          - option "Czech Republic"
+          - option "Denmark"
+          - option "Estonia"
+          - option "Finland"
+          - option "France"
+          - option "Germany"
+          - option "Greece"
+          - option "Hong Kong"
+          - option "Hungary"
+          - option "Iceland"
+          - option "India (en)"
+          - option "Indonesia (en)"
+          - option "Ireland"
+          - option "Israel (en)"
+          - option "Italy"
+          - option "Japan"
+          - option "Korea"
+          - option "Latvia"
+          - option "Lithuania"
+          - option "Malaysia (en)"
+          - option "Mexico"
+          - option "Netherlands"
+          - option "New Zealand"
+          - option "Norway"
+          - option "Pakistan (en)"
+          - option "Peru"
+          - option "Philippines (en)"
+          - option "Poland"
+          - option "Portugal"
+          - option "Romania"
+          - option "Russia"
+          - option "Saudi Arabia"
+          - option "Singapore"
+          - option "Slovakia"
+          - option "Slovenia"
+          - option "South Africa"
+          - option "Spain (ca)"
+          - option "Spain (es)"
+          - option "Sweden"
+          - option "Switzerland (de)"
+          - option "Switzerland (fr)"
+          - option "Taiwan"
+          - option "Thailand (en)"
+          - option "Turkey"
+          - option "US (English)"
+          - option "US (Spanish)"
+          - option "Ukraine"
+          - option "United Kingdom"
+          - option "Vietnam (en)"
+        - combobox [ref=e12] [cursor=pointer]:
+          - option "Any Time" [selected]
+          - option "Past Day"
+          - option "Past Week"
+          - option "Past Month"
+          - option "Past Year"
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - heading "Amazon revises server lifespan amid AI shift, impacting 2025 earnings" [level=2] [ref=e18]:
+          - link "Amazon revises server lifespan amid AI shift, impacting 2025 earnings" [ref=e19] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdeepquarry.substack.com%2Fp%2Famazon%2Drevises%2Dserver%2Dlifespan%2Damid&rut=531b93894d65c4b6d2b8b977c4bceebdfbe3e14a60af5b270850c67b2974afe3
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdeepquarry.substack.com%2Fp%2Famazon%2Drevises%2Dserver%2Dlifespan%2Damid&rut=531b93894d65c4b6d2b8b977c4bceebdfbe3e14a60af5b270850c67b2974afe3
+          - link "deepquarry.substack.com/p/amazon-revises-server-lifespan-amid" [ref=e24] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdeepquarry.substack.com%2Fp%2Famazon%2Drevises%2Dserver%2Dlifespan%2Damid&rut=531b93894d65c4b6d2b8b977c4bceebdfbe3e14a60af5b270850c67b2974afe3
+          - text: 2025-02-11T00:00:00.0000000
+        - link "Accounting rules treat changes in depreciable life as a change in accounting estimate, reported prospectively. Notably, in 2024, Amazon and other technological giants such as Alphabet, Microsoft, and Meta have extended the useful life of servers and networking equipment from four to five or even six years, cutting depreciation expenses by billions." [ref=e25] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdeepquarry.substack.com%2Fp%2Famazon%2Drevises%2Dserver%2Dlifespan%2Damid&rut=531b93894d65c4b6d2b8b977c4bceebdfbe3e14a60af5b270850c67b2974afe3
+      - generic [ref=e27]:
+        - heading "Amazon Extended Server Life Twice, Then Reversed It. The Reason They ..." [level=2] [ref=e28]:
+          - link "Amazon Extended Server Life Twice, Then Reversed It. The Reason They ..." [ref=e29] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.hudson%2Dlabs.com%2Fresearch%2Famazon%2Dserver%2Ddepreciation%2Damzn&rut=59cc6dfb62401bfdd5a0002a37a5e48a52b8f84f2bbf4d9c75efe9914384d94c
+        - generic [ref=e31]:
+          - link [ref=e33] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.hudson%2Dlabs.com%2Fresearch%2Famazon%2Dserver%2Ddepreciation%2Damzn&rut=59cc6dfb62401bfdd5a0002a37a5e48a52b8f84f2bbf4d9c75efe9914384d94c
+          - link "www.hudson-labs.com/research/amazon-server-depreciation-amzn" [ref=e34] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.hudson%2Dlabs.com%2Fresearch%2Famazon%2Dserver%2Ddepreciation%2Damzn&rut=59cc6dfb62401bfdd5a0002a37a5e48a52b8f84f2bbf4d9c75efe9914384d94c
+          - text: 2026-07-30T00:00:00.0000000
+        - link "Amazon (AMZN) reduced server useful life to 5 years in 2025, impacting AWS net income by $1.0B due to AI-driven tech changes." [ref=e35] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.hudson%2Dlabs.com%2Fresearch%2Famazon%2Dserver%2Ddepreciation%2Damzn&rut=59cc6dfb62401bfdd5a0002a37a5e48a52b8f84f2bbf4d9c75efe9914384d94c
+      - generic [ref=e37]:
+        - heading "PDF Hyperscalers, Ai Assets and Depreciation Policy" [level=2] [ref=e38]:
+          - link "PDF Hyperscalers, Ai Assets and Depreciation Policy" [ref=e39] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsuttonfinancialreporting.com%2Fwp%2Dcontent%2Fuploads%2F2026%2F04%2FHyperscalers%2DAI%2Dassets%2Dand%2Ddepreciation%2Dpolicy.pdf&rut=2647071957669e3ed75c91f0ecf6badb691dd58ef4d368038fd16ca4fce79dc9
+            - generic [ref=e40]: PDF
+            - text: Hyperscalers, Ai Assets and Depreciation Policy
+        - generic [ref=e42]:
+          - link [ref=e44] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsuttonfinancialreporting.com%2Fwp%2Dcontent%2Fuploads%2F2026%2F04%2FHyperscalers%2DAI%2Dassets%2Dand%2Ddepreciation%2Dpolicy.pdf&rut=2647071957669e3ed75c91f0ecf6badb691dd58ef4d368038fd16ca4fce79dc9
+          - link "suttonfinancialreporting.com/wp-content/uploads/2026/04/Hyperscalers-AI-assets-and-depreciation-policy.pdf" [ref=e45] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsuttonfinancialreporting.com%2Fwp%2Dcontent%2Fuploads%2F2026%2F04%2FHyperscalers%2DAI%2Dassets%2Dand%2Ddepreciation%2Dpolicy.pdf&rut=2647071957669e3ed75c91f0ecf6badb691dd58ef4d368038fd16ca4fce79dc9
+        - link "Between 2022 and 2025, these five hyperscalers extended the estimated useful life of their data servers and network assets.1 Over this period, Meta raised it from four to five and a half years, the others from four to six years. (Amazon dialled back the estimated life of a subset of servers from six to five years in its 2025 financial year.) Why did all five companies decide at this time that ..." [ref=e46] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsuttonfinancialreporting.com%2Fwp%2Dcontent%2Fuploads%2F2026%2F04%2FHyperscalers%2DAI%2Dassets%2Dand%2Ddepreciation%2Dpolicy.pdf&rut=2647071957669e3ed75c91f0ecf6badb691dd58ef4d368038fd16ca4fce79dc9
+      - generic [ref=e48]:
+        - heading "Amazon's AI chips age faster than Jassy says - MoneyWise" [level=2] [ref=e49]:
+          - link "Amazon's AI chips age faster than Jassy says - MoneyWise" [ref=e50] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmoneywise.com%2Fnews%2Ftop%2Dstories%2Famazon%2Dai%2Ddata%2Dcenter%2Dserver%2Ddepreciation%2Dchip%2Dlifespan&rut=8a6c426eaaaf85e43c4fcdf8f4c1de9830ab0176ca6305d99d815f7e8d3906f6
+        - generic [ref=e52]:
+          - link [ref=e54] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmoneywise.com%2Fnews%2Ftop%2Dstories%2Famazon%2Dai%2Ddata%2Dcenter%2Dserver%2Ddepreciation%2Dchip%2Dlifespan&rut=8a6c426eaaaf85e43c4fcdf8f4c1de9830ab0176ca6305d99d815f7e8d3906f6
+          - link "moneywise.com/news/top-stories/amazon-ai-data-center-server-depreciation-chip-lifespan" [ref=e55] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmoneywise.com%2Fnews%2Ftop%2Dstories%2Famazon%2Dai%2Ddata%2Dcenter%2Dserver%2Ddepreciation%2Dchip%2Dlifespan&rut=8a6c426eaaaf85e43c4fcdf8f4c1de9830ab0176ca6305d99d815f7e8d3906f6
+          - text: 2026-08-07T00:00:00.0000000
+        - link "After finishing a useful life study in the fourth quarter of 2024, Amazon cut a subset of its servers and networking equipment from six years to five, effective January 2025." [ref=e56] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmoneywise.com%2Fnews%2Ftop%2Dstories%2Famazon%2Dai%2Ddata%2Dcenter%2Dserver%2Ddepreciation%2Dchip%2Dlifespan&rut=8a6c426eaaaf85e43c4fcdf8f4c1de9830ab0176ca6305d99d815f7e8d3906f6
+      - generic [ref=e58]:
+        - heading "Everyone Is Stretching Server Useful Life. Amazon Just Went the Other ..." [level=2] [ref=e59]:
+          - link "Everyone Is Stretching Server Useful Life. Amazon Just Went the Other ..." [ref=e60] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.hudson%2Dlabs.com%2Fresearch%2Fserver%2Duseful%2Dlife%2Damzn%2Dmeta&rut=38b7d8d7410f441d18aed4aa9409b85e5a188dfeb206f7aad583dbcf3a2632fb
+        - generic [ref=e62]:
+          - link [ref=e64] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.hudson%2Dlabs.com%2Fresearch%2Fserver%2Duseful%2Dlife%2Damzn%2Dmeta&rut=38b7d8d7410f441d18aed4aa9409b85e5a188dfeb206f7aad583dbcf3a2632fb
+          - link "www.hudson-labs.com/research/server-useful-life-amzn-meta" [ref=e65] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.hudson%2Dlabs.com%2Fresearch%2Fserver%2Duseful%2Dlife%2Damzn%2Dmeta&rut=38b7d8d7410f441d18aed4aa9409b85e5a188dfeb206f7aad583dbcf3a2632fb
+          - text: 2026-07-30T00:00:00.0000000
+        - link "Amazon (AMZN) shortened server useful life to 5 years, increasing 2025 depreciation by $1.4B. Meta (META) and others extended asset lives." [ref=e66] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.hudson%2Dlabs.com%2Fresearch%2Fserver%2Duseful%2Dlife%2Damzn%2Dmeta&rut=38b7d8d7410f441d18aed4aa9409b85e5a188dfeb206f7aad583dbcf3a2632fb
+      - generic [ref=e68]:
+        - heading "How long does an AI server live? Hyperscaler depreciation, by the ..." [level=2] [ref=e69]:
+          - link "How long does an AI server live? Hyperscaler depreciation, by the ..." [ref=e70] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwiresift.com%2Fai%2Dserver%2Ddepreciation&rut=a924c59461861e0b73612cb696cdfd71167b42302101557579a03a19086247b7
+        - generic [ref=e72]:
+          - link [ref=e74] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwiresift.com%2Fai%2Dserver%2Ddepreciation&rut=a924c59461861e0b73612cb696cdfd71167b42302101557579a03a19086247b7
+          - link "wiresift.com/ai-server-depreciation" [ref=e75] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwiresift.com%2Fai%2Dserver%2Ddepreciation&rut=a924c59461861e0b73612cb696cdfd71167b42302101557579a03a19086247b7
+        - link "Four extended toward six years and held. Amazon alone stepped back. A longer assumed life means less depreciation and higher reported profit. Amazon stretched its servers out with everyone else, reaching six years, then in 2025 cut a subset back to five, citing the pace of AI hardware turnover." [ref=e76] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwiresift.com%2Fai%2Dserver%2Ddepreciation&rut=a924c59461861e0b73612cb696cdfd71167b42302101557579a03a19086247b7
+      - generic [ref=e78]:
+        - 'heading "Amazon AWS Server Lifespan: 5-6 Years Useful Life Explained" [level=2] [ref=e79]':
+          - 'link "Amazon AWS Server Lifespan: 5-6 Years Useful Life Explained" [ref=e80] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Funanswered.io%2Fguide%2Famazon%2Dserver%2Dlifespan%2Duseful%2Dlife&rut=6b1227e392b4c95eb592ecaabfc670c8c88fde6cbbf4459a85e833632022f68b
+        - generic [ref=e82]:
+          - link [ref=e84] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Funanswered.io%2Fguide%2Famazon%2Dserver%2Dlifespan%2Duseful%2Dlife&rut=6b1227e392b4c95eb592ecaabfc670c8c88fde6cbbf4459a85e833632022f68b
+          - link "unanswered.io/guide/amazon-server-lifespan-useful-life" [ref=e85] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Funanswered.io%2Fguide%2Famazon%2Dserver%2Dlifespan%2Duseful%2Dlife&rut=6b1227e392b4c95eb592ecaabfc670c8c88fde6cbbf4459a85e833632022f68b
+          - text: 2026-08-12T00:00:00.0000000
+        - link "Explore how Amazon sets AWS server useful life at 5-6 years for depreciation, recent changes due to AI advances, and financial impacts shown in filings." [ref=e86] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Funanswered.io%2Fguide%2Famazon%2Dserver%2Dlifespan%2Duseful%2Dlife&rut=6b1227e392b4c95eb592ecaabfc670c8c88fde6cbbf4459a85e833632022f68b
+      - generic [ref=e88]:
+        - heading "Amazon Reduces Server Useful Life to Five Years, Impacting 2025 ..." [level=2] [ref=e89]:
+          - link "Amazon Reduces Server Useful Life to Five Years, Impacting 2025 ..." [ref=e90] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdeepnewz.com%2Fcompany%2Dearnings%2Famazon%2Dreduces%2Dserver%2Duseful%2Dlife%2Dto%2Dfive%2Dyears%2Dimpacting%2D2025%2Doperating%2Dincome%2D31f69dfd&rut=199a5f26434fdd2ee8b57c2c32ff6401036157816a848088bf62476c9f207cf4
+        - generic [ref=e92]:
+          - link [ref=e94] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdeepnewz.com%2Fcompany%2Dearnings%2Famazon%2Dreduces%2Dserver%2Duseful%2Dlife%2Dto%2Dfive%2Dyears%2Dimpacting%2D2025%2Doperating%2Dincome%2D31f69dfd&rut=199a5f26434fdd2ee8b57c2c32ff6401036157816a848088bf62476c9f207cf4
+          - link "deepnewz.com/company-earnings/amazon-reduces-server-useful-life-to-five-years-impacting-2025-operating-income-31f69dfd" [ref=e95] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdeepnewz.com%2Fcompany%2Dearnings%2Famazon%2Dreduces%2Dserver%2Duseful%2Dlife%2Dto%2Dfive%2Dyears%2Dimpacting%2D2025%2Doperating%2Dincome%2D31f69dfd&rut=199a5f26434fdd2ee8b57c2c32ff6401036157816a848088bf62476c9f207cf4
+          - text: 2025-02-09T00:00:00.0000000
+        - link "Amazon has announced a reduction in the useful life of a subset of its servers and networking equipment from six years to five years, effective January 2025. This decision follows a previous extension of the useful life to six years in the first quarter of 2024 and a prior increase from four to five years in 2022. Th.." [ref=e96] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdeepnewz.com%2Fcompany%2Dearnings%2Famazon%2Dreduces%2Dserver%2Duseful%2Dlife%2Dto%2Dfive%2Dyears%2Dimpacting%2D2025%2Doperating%2Dincome%2D31f69dfd&rut=199a5f26434fdd2ee8b57c2c32ff6401036157816a848088bf62476c9f207cf4
+      - generic [ref=e98]:
+        - heading "Amazon (AMZN) Property, Plant & Equipment (2015-2025 10-K) | edgar.tools" [level=2] [ref=e99]:
+          - link "Amazon (AMZN) Property, Plant & Equipment (2015-2025 10-K) | edgar.tools" [ref=e100] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fapp.edgar.tools%2Fcompanies%2FAMZN%2Fdisclosures%2Fproperty%2Dplant%2Dequipment&rut=8302898adae122e9cc4a18b8d445c5453dc497aec3faedb89e90fd04c5db8182
+        - generic [ref=e102]:
+          - link [ref=e104] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fapp.edgar.tools%2Fcompanies%2FAMZN%2Fdisclosures%2Fproperty%2Dplant%2Dequipment&rut=8302898adae122e9cc4a18b8d445c5453dc497aec3faedb89e90fd04c5db8182
+          - link "app.edgar.tools/companies/AMZN/disclosures/property-plant-equipment" [ref=e105] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fapp.edgar.tools%2Fcompanies%2FAMZN%2Fdisclosures%2Fproperty%2Dplant%2Dequipment&rut=8302898adae122e9cc4a18b8d445c5453dc497aec3faedb89e90fd04c5db8182
+          - text: 2026-02-06T00:00:00.0000000
+        - link "Amazon (AMZN) property, plant & equipment (2015-2025 10-K) — PP&E balances, depreciation methods, and useful life estimates. 11 years of XBRL data." [ref=e106] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fapp.edgar.tools%2Fcompanies%2FAMZN%2Fdisclosures%2Fproperty%2Dplant%2Dequipment&rut=8302898adae122e9cc4a18b8d445c5453dc497aec3faedb89e90fd04c5db8182
+      - generic [ref=e108]:
+        - heading "The Useful Life of a Useful Life - Medium" [level=2] [ref=e109]:
+          - link "The Useful Life of a Useful Life - Medium" [ref=e110] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmedium.com%2Fall%2Don%2Dthe%2Dline%2Fthe%2Duseful%2Dlife%2Dof%2Da%2Duseful%2Dlife%2D2caac709b5e0&rut=4e9da51d23a28f8503514b59a1ae35fee71d63500026d88bed4961e52c32428b
+        - generic [ref=e112]:
+          - link [ref=e114] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmedium.com%2Fall%2Don%2Dthe%2Dline%2Fthe%2Duseful%2Dlife%2Dof%2Da%2Duseful%2Dlife%2D2caac709b5e0&rut=4e9da51d23a28f8503514b59a1ae35fee71d63500026d88bed4961e52c32428b
+          - link "medium.com/all-on-the-line/the-useful-life-of-a-useful-life-2caac709b5e0" [ref=e115] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmedium.com%2Fall%2Don%2Dthe%2Dline%2Fthe%2Duseful%2Dlife%2Dof%2Da%2Duseful%2Dlife%2D2caac709b5e0&rut=4e9da51d23a28f8503514b59a1ae35fee71d63500026d88bed4961e52c32428b
+          - text: 2026-06-02T00:00:00.0000000
+        - link "The 2025 10-K confirmed that \"decreases in the depreciation growth rate due to an extension in the useful lives of servers and network assets, effective January 1, 2025,\" flowed through full ..." [ref=e116] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fmedium.com%2Fall%2Don%2Dthe%2Dline%2Fthe%2Duseful%2Dlife%2Dof%2Da%2Duseful%2Dlife%2D2caac709b5e0&rut=4e9da51d23a28f8503514b59a1ae35fee71d63500026d88bed4961e52c32428b
+      - button "Next" [ref=e119] [cursor=pointer]
+      - link "Feedback" [ref=e121] [cursor=pointer]:
+        - /url: //duckduckgo.com/feedback.html
+  - img [ref=e122]

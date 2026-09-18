@@ -1,0 +1,226 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: "\"s2.q4cdn.com/510812146\" 2Q 2026 earnings call slides Dominion pdf"
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - button "Microsoft Rewards"
+      - link "Sign in" [ref=e25] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e26]
+    - navigation "Search Filter" [ref=e27]:
+      - list [ref=e28]:
+        - listitem [ref=e29]:
+          - link "All" [ref=e30] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+        - listitem [ref=e31]:
+          - link "Web" [ref=e32] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6d7517b575d798f34d7a3febf698fccc0f3da62056dbd9c541100f4d5ce201cfJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPSUyMnMyLnE0Y2RuLmNvbSUyZjUxMDgxMjE0NiUyMisyUSsyMDI2K2Vhcm5pbmdzK2NhbGwrc2xpZGVzK0RvbWluaW9uK3BkZiZ3ZWJzY3A9MSZGT1JNPUhEUldTQw&ntb=1
+        - listitem [ref=e33]:
+          - link "Search" [ref=e34] [cursor=pointer]:
+            - /url: /copilotsearch?q=%22s2.q4cdn.com%2f510812146%22+2Q+2026+earnings+call+slides+Dominion+pdf&FORM=CSSCOP
+            - img [ref=e35]
+            - text: Search
+        - listitem [ref=e37]:
+          - link "Images" [ref=e38] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=02aa08be8d14a4d131d60f6a289baf7d7ed6580632ef5a70e43662ca2dbc5eacJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2ltYWdlcy9zZWFyY2g_cT0lMjJzMi5xNGNkbi5jb20lMmY1MTA4MTIxNDYlMjIrMlErMjAyNitlYXJuaW5ncytjYWxsK3NsaWRlcytEb21pbmlvbitwZGYmRk9STT1IRFJTQzM&ntb=1
+        - listitem [ref=e39]:
+          - link "Videos" [ref=e40] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=87cdddbe2f7f2d3ef90c60f8d4d2e22d9d3223a9227993ad7052eb2147e35804JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3ZpZGVvcy9zZWFyY2g_cT0lMjJzMi5xNGNkbi5jb20lMmY1MTA4MTIxNDYlMjIrMlErMjAyNitlYXJuaW5ncytjYWxsK3NsaWRlcytEb21pbmlvbitwZGYmRk9STT1IRFJTQzQ&ntb=1
+        - listitem [ref=e41]:
+          - link "Maps" [ref=e42] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=36fe96f7ae4bad039bb4c4a1c92edcac7932c8c2e427c0b9b3846812b1634494JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L21hcHM_cT0lMjJzMi5xNGNkbi5jb20lMmY1MTA4MTIxNDYlMjIrMlErMjAyNitlYXJuaW5ncytjYWxsK3NsaWRlcytEb21pbmlvbitwZGYmRk9STT1IRFJTQzY&ntb=1
+        - listitem [ref=e43]:
+          - link "Copilot" [ref=e44] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a856acda3b529cc86ab4e18fbe6fbb5879ea92ce97c64d500e1b34b15b9a584JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L2NoYXQ_cHJvbXB0PSUyMnMyLnE0Y2RuLmNvbSUyZjUxMDgxMjE0NiUyMisyUSsyMDI2K2Vhcm5pbmdzK2NhbGwrc2xpZGVzK0RvbWluaW9uK3BkZiZzZW5kcXVlcnk9MSZGT1JNPVNDQ09EWA&ntb=1
+        - listitem [ref=e45]:
+          - button "More" [ref=e46] [cursor=pointer]:
+            - img [ref=e48]
+            - text: More
+  - generic [ref=e50]:
+    - main "Search Results" [ref=e51]:
+      - generic [ref=e53]: About 15 results
+      - list [ref=e64]:
+        - listitem [ref=e65]:
+          - link "dominionenergy.com" [ref=e67] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=ecaec377423e99ab96840720e186043f29e9881cd930172771e4589e39d9d3dfJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RvcnMuZG9taW5pb25lbmVyZ3kuY29tL3NlYXJjaC1yZXN1bHRzL2RlZmF1bHQuYXNweD9QYWdlTnVtYmVyPTEyNQ&ntb=1
+            - generic [ref=e72]:
+              - generic [ref=e73]: dominionenergy.com
+              - generic [ref=e76]: https://investors.dominionenergy.com › search-results › default.aspx
+          - heading "Search Results - investors.dominionenergy.com" [level=2] [ref=e77]:
+            - link "Search Results - investors.dominionenergy.com" [ref=e78] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=ecaec377423e99ab96840720e186043f29e9881cd930172771e4589e39d9d3dfJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RvcnMuZG9taW5pb25lbmVyZ3kuY29tL3NlYXJjaC1yZXN1bHRzL2RlZmF1bHQuYXNweD9QYWdlTnVtYmVyPTEyNQ&ntb=1
+          - paragraph [ref=e80]: "PDF Download: 2026-07-31-DE-IR-2Q-2026-earnings-call-slides-vTC.pdf No summary available …"
+        - listitem [ref=e81]:
+          - link "dominionenergy.com" [ref=e83] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6a921978404b85f6b448d45d8a5e5de7b82419a7577518636650b45b05f665ebJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RvcnMuZG9taW5pb25lbmVyZ3kuY29tL3Jzcy9wcmVzZW50YXRpb24uYXNweA&ntb=1
+            - generic [ref=e88]:
+              - generic [ref=e89]: dominionenergy.com
+              - generic [ref=e92]: https://investors.dominionenergy.com › rss › presentation.aspx
+          - heading "Dominion Energy Presentations" [level=2] [ref=e93]:
+            - link "Dominion Energy Presentations" [ref=e94] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=6a921978404b85f6b448d45d8a5e5de7b82419a7577518636650b45b05f665ebJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RvcnMuZG9taW5pb25lbmVyZ3kuY29tL3Jzcy9wcmVzZW50YXRpb24uYXNweA&ntb=1
+          - paragraph [ref=e96]: 5e70bf64-e7af-490c-94b0-4986d8e076d9<br /><a href="http://s2.q4cdn.com/510812146/files/doc_presentations/2026/05/2026-05-18 …
+        - listitem [ref=e97]:
+          - link "SEC.gov" [ref=e99] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=40153ac752b7064f9b96cc360938299af41029727f3bb6091451d1b1c3240d17JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9jb3JwZmluL25vLWFjdGlvbi8xNGEtOC9jaGV2ZWRkZW5kb21pbmlvbjEyMzAyNC0xNGE4aW5jLnBkZg&ntb=1
+            - generic [ref=e104]:
+              - generic [ref=e105]: SEC.gov
+              - generic [ref=e108]: https://www.sec.gov › files › corpfin › no-action
+          - generic [ref=e109]:
+            - generic [ref=e110]: "[PDF]"
+            - heading "Dominion Energy, Inc. - SEC.gov" [level=2] [ref=e111]:
+              - link "Dominion Energy, Inc. - SEC.gov" [ref=e112] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=40153ac752b7064f9b96cc360938299af41029727f3bb6091451d1b1c3240d17JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9jb3JwZmluL25vLWFjdGlvbi8xNGEtOC9jaGV2ZWRkZW5kb21pbmlvbjEyMzAyNC0xNGE4aW5jLnBkZg&ntb=1
+          - paragraph [ref=e114]: This letter provides an explanation of why Dominion Energy believes that it may exclude the Proposal from its Proxy Materials and …
+        - listitem [ref=e115]:
+          - link "SEC.gov" [ref=e117] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=929ad1e435d08a0d9ab7692fdfafb6b2d835aff8cbe46f2f46234eb59c15b324JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9jb3JwZmluL25vLWFjdGlvbi8xNGEtOC9jYXRoY2FydGRvbWluaW9uMTIzMDI0LTE0YThpbmMucGRm&ntb=1
+            - generic [ref=e122]:
+              - generic [ref=e123]: SEC.gov
+              - generic [ref=e126]: https://www.sec.gov › files › corpfin › no-action
+          - generic [ref=e127]:
+            - generic [ref=e128]: "[PDF]"
+            - heading "Dominion Energy, Inc. - SEC.gov" [level=2] [ref=e129]:
+              - link "Dominion Energy, Inc. - SEC.gov" [ref=e130] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=929ad1e435d08a0d9ab7692fdfafb6b2d835aff8cbe46f2f46234eb59c15b324JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cuc2VjLmdvdi9maWxlcy9jb3JwZmluL25vLWFjdGlvbi8xNGEtOC9jYXRoY2FydGRvbWluaW9uMTIzMDI0LTE0YThpbmMucGRm&ntb=1
+          - paragraph [ref=e132]: Dominion Energy’s shareholders approved the 2022 Proposal. In direct response to shareholder approval of the 2022 Proposal, …
+        - listitem [ref=e133]:
+          - link "PJM" [ref=e135] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9bbfb236e4e565be8f2da5c106688ac8a24da021c969d6d0819b5a38575579ccJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9wbGFubmluZy9nZW4tcmV0aXJlL2RlYWN0aXZhdGlvbi1ub3RpY2VzL2VkZHlzdG9uZS1kb2U1MjYucGRm&ntb=1
+            - generic [ref=e140]:
+              - generic [ref=e141]: PJM
+              - generic [ref=e144]: https://www.pjm.com › ... › planning › gen-retire › deactivation-notices
+          - generic [ref=e145]:
+            - generic [ref=e146]: "[PDF]"
+            - heading "Department of Energy Washington, DC 20585 - pjm.com" [level=2] [ref=e147]:
+              - link "Department of Energy Washington, DC 20585 - pjm.com" [ref=e148] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=9bbfb236e4e565be8f2da5c106688ac8a24da021c969d6d0819b5a38575579ccJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly93d3cucGptLmNvbS8tL21lZGlhL0RvdENvbS9wbGFubmluZy9nZW4tcmV0aXJlL2RlYWN0aXZhdGlvbi1ub3RpY2VzL2VkZHlzdG9uZS1kb2U1MjYucGRm&ntb=1
+          - paragraph [ref=e150]: 47 See Dominion Energy Virginia, Q4 2024 Earnings Call, at 18 (Feb. 12, 2025), …
+        - listitem [ref=e151]:
+          - link "sc.gov" [ref=e153] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=eb2c0190aa689893e33ff12dc8f0ae195642fa4850151447b0a3addbb9ef409aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9kbXMucHNjLnNjLmdvdi9BdHRhY2htZW50cy9NYXR0ZXIvYmQ5MTM4MzUtNjZhZC00MmM3LWE4MDAtY2YzNGI0MDA5NDcy&ntb=1
+            - generic [ref=e158]:
+              - generic [ref=e159]: sc.gov
+              - generic [ref=e162]: https://dms.psc.sc.gov › Attachments › Matter
+          - generic [ref=e163]:
+            - generic [ref=e164]: "[PDF]"
+            - heading "REBUTTAL TESTIMONY OF MATTHEW E. STANTON ON …" [level=2] [ref=e165]:
+              - link "REBUTTAL TESTIMONY OF MATTHEW E. STANTON ON …" [ref=e166] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=eb2c0190aa689893e33ff12dc8f0ae195642fa4850151447b0a3addbb9ef409aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9kbXMucHNjLnNjLmdvdi9BdHRhY2htZW50cy9NYXR0ZXIvYmQ5MTM4MzUtNjZhZC00MmM3LWE4MDAtY2YzNGI0MDA5NDcy&ntb=1
+          - paragraph [ref=e168]: Apr 21, 2026 · 3 See 2026 Dominion Energy Inc. Proxy Statement at 59-63, available at …
+        - listitem [ref=e169]:
+          - link "Virginia Conservation Network" [ref=e171] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=948583a8e7c1ecaf173edd9febe442fdd7f0afed4c672df5d697f3dc4ca43d27JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly92Y252YS5vcmcvYWdlbmRhLWl0ZW0vc2hpZnRpbmctdXRpbGl0eS1pbmNlbnRpdmVzLXRvLXJlZHVjZS1jb3N0cy8&ntb=1
+            - generic [ref=e176]:
+              - generic [ref=e177]: Virginia Conservation Network
+              - generic [ref=e180]: https://vcnva.org › agenda-item › shifting-utility-incentives-to-reduce-costs
+          - heading "SHIFTING UTILITY INCENTIVES TO REDUCE COSTS" [level=2] [ref=e181]:
+            - link "SHIFTING UTILITY INCENTIVES TO REDUCE COSTS" [ref=e182] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=948583a8e7c1ecaf173edd9febe442fdd7f0afed4c672df5d697f3dc4ca43d27JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly92Y252YS5vcmcvYWdlbmRhLWl0ZW0vc2hpZnRpbmctdXRpbGl0eS1pbmNlbnRpdmVzLXRvLXJlZHVjZS1jb3N0cy8&ntb=1
+          - paragraph [ref=e184]: The current regulatory system governing Virginia’s investor-owned utility monopolies (IOUs), Dominion Energy and Appalachian …
+        - listitem [ref=e185]:
+          - link "dominionenergy.com" [ref=e187] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=35dfa85ea536a612a2a1cbb51b7dc1d561e232f7140f6c4a38842c7999dc5b65JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RvcnMuZG9taW5pb25lbmVyZ3kuY29tL3NlYXJjaC1yZXN1bHRzL2RlZmF1bHQuYXNweD9QYWdlTnVtYmVyPTEyMA&ntb=1
+            - generic [ref=e192]:
+              - generic [ref=e193]: dominionenergy.com
+              - generic [ref=e196]: https://investors.dominionenergy.com › search-results › default.aspx
+          - heading "Search Results - investors.dominionenergy.com" [level=2] [ref=e197]:
+            - link "Search Results - investors.dominionenergy.com" [ref=e198] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=35dfa85ea536a612a2a1cbb51b7dc1d561e232f7140f6c4a38842c7999dc5b65JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RvcnMuZG9taW5pb25lbmVyZ3kuY29tL3NlYXJjaC1yZXN1bHRzL2RlZmF1bHQuYXNweD9QYWdlTnVtYmVyPTEyMA&ntb=1
+          - paragraph [ref=e200]: "PDF Download: 2021-08-06-DE-IR-2Q-2021-earnings-call-slides-vF.pdf No summary available …"
+        - listitem [ref=e201]:
+          - link "dominionenergy.com" [ref=e203] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=9c77add71b8c5a465a0f7d5b722ecee8da144c924f19c3aeef4984266e8ac31aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RvcnMuZG9taW5pb25lbmVyZ3kuY29tL3NlYXJjaC1yZXN1bHRzL2RlZmF1bHQuYXNweD9QYWdlTnVtYmVyPTg1&ntb=1
+            - generic [ref=e208]:
+              - generic [ref=e209]: dominionenergy.com
+              - generic [ref=e212]: https://investors.dominionenergy.com › search-results › default.aspx
+          - heading "Search Results - Dominion Energy" [level=2] [ref=e213]:
+            - link "Search Results - Dominion Energy" [ref=e214] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=9c77add71b8c5a465a0f7d5b722ecee8da144c924f19c3aeef4984266e8ac31aJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9pbnZlc3RvcnMuZG9taW5pb25lbmVyZ3kuY29tL3NlYXJjaC1yZXN1bHRzL2RlZmF1bHQuYXNweD9QYWdlTnVtYmVyPTg1&ntb=1
+          - paragraph [ref=e216]: "PDF Download: 2020-02-11-DE-IR-Q4-2019-earnings-call-slides-Schedule-of-Change-in-Capitalization-vTC-II.pdf No summary …"
+        - listitem [ref=e217]:
+          - link "National Legal And Policy Center" [ref=e219] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=4978aeb3ba9b4020af277b13055fb429c113f7ddf77e41ad2b9e437652f2acb0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ubHBjLm9yZy93cC1jb250ZW50L3VwbG9hZHMvMjAyNS8wMy9Eb21pbmlvbi1wcm9wb3NhbC0yMDI1LnBkZg&ntb=1
+            - generic [ref=e224]:
+              - generic [ref=e225]: National Legal And Policy Center
+              - generic [ref=e228]: https://nlpc.org › wp-content › uploads
+          - generic [ref=e229]:
+            - generic [ref=e230]: "[PDF]"
+            - heading "Dominion-proposal-2025 - nlpc.org" [level=2] [ref=e231]:
+              - link "Dominion-proposal-2025 - nlpc.org" [ref=e232] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=4978aeb3ba9b4020af277b13055fb429c113f7ddf77e41ad2b9e437652f2acb0JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cHM6Ly9ubHBjLm9yZy93cC1jb250ZW50L3VwbG9hZHMvMjAyNS8wMy9Eb21pbmlvbi1wcm9wb3NhbC0yMDI1LnBkZg&ntb=1
+          - paragraph [ref=e234]: Research shows these scenarios are unlikely, and that harmful consequences from carbon dioxide emissions have been …
+        - listitem [ref=e235]:
+          - generic [ref=e236]:
+            - heading "Searches you might like" [level=2] [ref=e237]
+            - list [ref=e238]:
+              - listitem [ref=e239]:
+                - link "941 quarterly 2025 form" [ref=e240] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=420e890afc565f8caa3a5dfb0147dab1a9052f8359c6ebcfc5d89bf3734afd86JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPTk0MSUyMHF1YXJ0ZXJseSUyMDIwMjUlMjBmb3JtJkZPUk09Qk1RUzAx&ntb=1
+                  - generic [ref=e242]:
+                    - strong [ref=e243]: "941"
+                    - text: quarterly 2025 form
+              - listitem [ref=e244]:
+                - link "s23" [ref=e245] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=7d8d6d145a1a1eb4503a8f4f1b4e576df8c48f19b7ff13dfb8f30b62028c3942JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPXMyMyZGT1JNPUJNUVMwMg&ntb=1
+                  - strong [ref=e248]: s23
+              - listitem [ref=e249]:
+                - link "s26 release date" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=00e67dd723a3fca183aba8280cd6624be5e562639fa662a6cd8941221dfa6befJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPXMyNiUyMHJlbGVhc2UlMjBkYXRlJkZPUk09Qk1RUzAz&ntb=1
+                  - generic [ref=e252]:
+                    - strong [ref=e253]: s26
+                    - text: release date
+              - listitem [ref=e254]:
+                - link "q4 inc" [ref=e255] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=2c291bbbe64bdadf45adcfb4277d86eb1980b0952e56941f3af6ab8e2fb59e11JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPXE0JTIwaW5jJkZPUk09Qk1RUzA0&ntb=1
+                  - generic [ref=e257]:
+                    - strong [ref=e258]: q4
+                    - text: inc
+              - listitem [ref=e259]:
+                - link "qou260" [ref=e260] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=0c0faf397b704d2dc49d8cfb7235cc22888bba1d0798e092d28d24c2159549c5JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPXFvdTI2MCZGT1JNPUJNUVMwNQ&ntb=1
+                  - strong [ref=e263]: qou260
+              - listitem [ref=e264]:
+                - link "2 earnings" [ref=e265] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=bb5a61fae9d53d9f78dc1ad6a09911b2f72a9bbfd1c1b4a517f5f3ebbbda1287JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPTIlMjBlYXJuaW5ncyZGT1JNPUJNUVMwNg&ntb=1
+                  - generic [ref=e267]:
+                    - text: "2"
+                    - strong [ref=e268]: earnings
+              - listitem [ref=e269]:
+                - link "272526" [ref=e270] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=bfd8218c09616dc8b392f16e3c12b5a1e0280fae5bc0b0639ab9d1b289332e01JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPTI3MjUyNiZGT1JNPUJNUVMwNw&ntb=1
+                  - strong [ref=e273]: "272526"
+              - listitem [ref=e274]:
+                - link "qoe260gfinm" [ref=e275] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ea31b7fa6c8798114158aa7a2cf6e91e2b451c30f5aac7ba7dd09d9990a82a15JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1L3NlYXJjaD9xPXFvZTI2MGdmaW5tJkZPUk09Qk1RUzA4&ntb=1
+                  - strong [ref=e278]: qoe260gfinm
+        - listitem [ref=e279]:
+          - link "Some results have been removed" [ref=e281] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=cfae312eccc7b1136a2e8edfaa56fb317e844dceaa61d61539a83af16197d145JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e282]:
+          - navigation "More results for \"s2.q4cdn.com/510812146\" 2Q 2026 earnings call slides Dominion pdf":
+            - list:
+              - listitem [ref=e283]:
+                - link "Next page" [ref=e284] [cursor=pointer]:
+                  - /url: /search?q=%22s2.q4cdn.com%2f510812146%22+2Q+2026+earnings+call+slides+Dominion+pdf&FPIG=FB25B99546944843B9466E2F987BBFE7&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=e285]:
+      - list
+  - contentinfo [ref=e286]:
+    - generic [ref=e287]:
+      - list:
+        - listitem [ref=e288]:
+          - link "Privacy" [ref=e289] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=21685a3332097b4144ff792d82d1fc83f30198ac85fe4e0ee1cd9d2400bd5707JmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e290]:
+          - link "Terms" [ref=e291] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8f4c9de2347407bd4c1f233de2930901be7cc45b9828cf79942067cdafd6632dJmltdHM9MTc4OTY4OTYwMA&ptn=3&ver=2&hsh=4&fclid=153021a9-7424-6d20-1b81-367175d06cf8&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

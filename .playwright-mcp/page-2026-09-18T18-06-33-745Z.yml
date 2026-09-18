@@ -1,0 +1,205 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e3]:
+      - link "DuckDuckGo" [ref=e4] [cursor=pointer]:
+        - /url: /html/
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - textbox [ref=e7]: UBS note hyperscaler depreciation useful life earnings Burry
+          - button "Submit" [ref=e8] [cursor=pointer]
+        - combobox [ref=e10] [cursor=pointer]:
+          - option "All Regions" [selected]
+          - option "Argentina"
+          - option "Australia"
+          - option "Austria"
+          - option "Belgium (fr)"
+          - option "Belgium (nl)"
+          - option "Brazil"
+          - option "Bulgaria"
+          - option "Canada (en)"
+          - option "Canada (fr)"
+          - option "Catalonia"
+          - option "Chile"
+          - option "China"
+          - option "Colombia"
+          - option "Croatia"
+          - option "Czech Republic"
+          - option "Denmark"
+          - option "Estonia"
+          - option "Finland"
+          - option "France"
+          - option "Germany"
+          - option "Greece"
+          - option "Hong Kong"
+          - option "Hungary"
+          - option "Iceland"
+          - option "India (en)"
+          - option "Indonesia (en)"
+          - option "Ireland"
+          - option "Israel (en)"
+          - option "Italy"
+          - option "Japan"
+          - option "Korea"
+          - option "Latvia"
+          - option "Lithuania"
+          - option "Malaysia (en)"
+          - option "Mexico"
+          - option "Netherlands"
+          - option "New Zealand"
+          - option "Norway"
+          - option "Pakistan (en)"
+          - option "Peru"
+          - option "Philippines (en)"
+          - option "Poland"
+          - option "Portugal"
+          - option "Romania"
+          - option "Russia"
+          - option "Saudi Arabia"
+          - option "Singapore"
+          - option "Slovakia"
+          - option "Slovenia"
+          - option "South Africa"
+          - option "Spain (ca)"
+          - option "Spain (es)"
+          - option "Sweden"
+          - option "Switzerland (de)"
+          - option "Switzerland (fr)"
+          - option "Taiwan"
+          - option "Thailand (en)"
+          - option "Turkey"
+          - option "US (English)"
+          - option "US (Spanish)"
+          - option "Ukraine"
+          - option "United Kingdom"
+          - option "Vietnam (en)"
+        - combobox [ref=e12] [cursor=pointer]:
+          - option "Any Time" [selected]
+          - option "Past Day"
+          - option "Past Week"
+          - option "Past Month"
+          - option "Past Year"
+    - generic [ref=e15]:
+      - generic [ref=e17]:
+        - heading "Michael Burry says Big Tech stretched the life of its AI chips. Here's ..." [level=2] [ref=e18]:
+          - link "Michael Burry says Big Tech stretched the life of its AI chips. Here's ..." [ref=e19] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsolurana.com%2Finsights%2Fburry%2Dai%2Ddepreciation%2Duseful%2Dlife%2F&rut=d9d74c9adc5dfe427f78620f47f5c876461af8030dd6febb85dba9460e581ea2
+        - generic [ref=e21]:
+          - link [ref=e23] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsolurana.com%2Finsights%2Fburry%2Dai%2Ddepreciation%2Duseful%2Dlife%2F&rut=d9d74c9adc5dfe427f78620f47f5c876461af8030dd6febb85dba9460e581ea2
+          - link "solurana.com/insights/burry-ai-depreciation-useful-life/" [ref=e24] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsolurana.com%2Finsights%2Fburry%2Dai%2Ddepreciation%2Duseful%2Dlife%2F&rut=d9d74c9adc5dfe427f78620f47f5c876461af8030dd6febb85dba9460e581ea2
+          - text: 2026-06-18T00:00:00.0000000
+        - link "Michael Burry's 2025 claim that AI hyperscalers lift profits by extending the useful life of their servers — explained through CFA Level I depreciation and the useful-life assumption." [ref=e25] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fsolurana.com%2Finsights%2Fburry%2Dai%2Ddepreciation%2Duseful%2Dlife%2F&rut=d9d74c9adc5dfe427f78620f47f5c876461af8030dd6febb85dba9460e581ea2
+      - generic [ref=e27]:
+        - heading "The $200 Billion Question Hiding in Big Tech's AI Spending" [level=2] [ref=e28]:
+          - link "The $200 Billion Question Hiding in Big Tech's AI Spending" [ref=e29] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Ffootnotebrief.com%2Fhyperscaler%2Ddepreciation%2Dai%2Dcapex%2Dcircularity%2F&rut=a3f5f4067e0706682ff13fd36ce43210924279e57d001bd1aaa195d75a85d778
+        - generic [ref=e31]:
+          - link [ref=e33] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Ffootnotebrief.com%2Fhyperscaler%2Ddepreciation%2Dai%2Dcapex%2Dcircularity%2F&rut=a3f5f4067e0706682ff13fd36ce43210924279e57d001bd1aaa195d75a85d778
+          - link "footnotebrief.com/hyperscaler-depreciation-ai-capex-circularity/" [ref=e34] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Ffootnotebrief.com%2Fhyperscaler%2Ddepreciation%2Dai%2Dcapex%2Dcircularity%2F&rut=a3f5f4067e0706682ff13fd36ce43210924279e57d001bd1aaa195d75a85d778
+          - text: 2026-05-21T00:00:00.0000000
+        - link "Microsoft, Google, and Amazon are stretching depreciation schedules while funding each other's AI revenue. The $200B earnings question explained." [ref=e35] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Ffootnotebrief.com%2Fhyperscaler%2Ddepreciation%2Dai%2Dcapex%2Dcircularity%2F&rut=a3f5f4067e0706682ff13fd36ce43210924279e57d001bd1aaa195d75a85d778
+      - generic [ref=e37]:
+        - heading "Burry's 2-3 Year AI Chip Warning Hits as Hyperscaler Spending Jumped to ..." [level=2] [ref=e38]:
+          - link "Burry's 2-3 Year AI Chip Warning Hits as Hyperscaler Spending Jumped to ..." [ref=e39] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fburry%2D2%2D3%2Dyear%2Dai%2Dchip%2Dwarning%2Dhits%2Dhyperscaler%2Dspending%2Djumped%2D725%2Dbillion%2D2607%2F&rut=de74cffacbb0bf7ef66abf10f0716e265c4e5f831719552dbc8b92f4b1276a37
+        - generic [ref=e41]:
+          - link [ref=e43] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fburry%2D2%2D3%2Dyear%2Dai%2Dchip%2Dwarning%2Dhits%2Dhyperscaler%2Dspending%2Djumped%2D725%2Dbillion%2D2607%2F&rut=de74cffacbb0bf7ef66abf10f0716e265c4e5f831719552dbc8b92f4b1276a37
+          - link "www.ainvest.com/news/burry-2-3-year-ai-chip-warning-hits-hyperscaler-spending-jumped-725-billion-2607/" [ref=e44] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fburry%2D2%2D3%2Dyear%2Dai%2Dchip%2Dwarning%2Dhits%2Dhyperscaler%2Dspending%2Djumped%2D725%2Dbillion%2D2607%2F&rut=de74cffacbb0bf7ef66abf10f0716e265c4e5f831719552dbc8b92f4b1276a37
+          - text: 2026-07-02T19:09:00.0000000
+        - link "When a company buys a GPU, it spreads the cost over an estimated useful life, so a longer schedule reduces the annual expense and lifts reported profit. By Burry's estimate, the five hyperscalers could have understated depreciation by around $176 billion from 2026 to 2028 if AI chips really follow a 2-3 year cycle." [ref=e45] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fburry%2D2%2D3%2Dyear%2Dai%2Dchip%2Dwarning%2Dhits%2Dhyperscaler%2Dspending%2Djumped%2D725%2Dbillion%2D2607%2F&rut=de74cffacbb0bf7ef66abf10f0716e265c4e5f831719552dbc8b92f4b1276a37
+      - generic [ref=e47]:
+        - 'heading "Michael Burry''s AI Bear Case Is Back: The $176 Billion Depreciation Math" [level=2] [ref=e48]':
+          - 'link "Michael Burry''s AI Bear Case Is Back: The $176 Billion Depreciation Math" [ref=e49] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fmichael%2Dburry%2Dai%2Dbear%2Dcase%2D176%2Dbillion%2Ddepreciation%2Dmath%2D2607%2F&rut=6d344fecece9c6846d9f404bed315e7360999530d829af0e978f73f50b3f3cba
+        - generic [ref=e51]:
+          - link [ref=e53] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fmichael%2Dburry%2Dai%2Dbear%2Dcase%2D176%2Dbillion%2Ddepreciation%2Dmath%2D2607%2F&rut=6d344fecece9c6846d9f404bed315e7360999530d829af0e978f73f50b3f3cba
+          - link "www.ainvest.com/news/michael-burry-ai-bear-case-176-billion-depreciation-math-2607/" [ref=e54] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fmichael%2Dburry%2Dai%2Dbear%2Dcase%2D176%2Dbillion%2Ddepreciation%2Dmath%2D2607%2F&rut=6d344fecece9c6846d9f404bed315e7360999530d829af0e978f73f50b3f3cba
+          - text: 2026-07-02T14:32:00.0000000
+        - link "The debate is about depreciation timing, not proven fraud Burry's renewed alarm is not about proved accounting fraud. It is an economics and timing dispute over how long AI chips keep real earning power. He argues hyperscalers are depreciating Nvidia NVDA+0.82% GPUs over five to six years when their real economic life is just 2-3 years. By his model, that assumption gap would leave $176 ..." [ref=e55] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.ainvest.com%2Fnews%2Fmichael%2Dburry%2Dai%2Dbear%2Dcase%2D176%2Dbillion%2Ddepreciation%2Dmath%2D2607%2F&rut=6d344fecece9c6846d9f404bed315e7360999530d829af0e978f73f50b3f3cba
+      - generic [ref=e57]:
+        - 'heading "AI Hyperscalers Accused of Earnings Inflation: Michael Burry''s ..." [level=2] [ref=e58]':
+          - 'link "AI Hyperscalers Accused of Earnings Inflation: Michael Burry''s ..." [ref=e59] [cursor=pointer]':
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fnpifund.com%2Farticle%2Fai%2Dhyperscalers%2Daccused%2Dof%2Dearnings%2Dinflation%2Dmichael%2Dburry%2Ds%2Dallegations%2Dand%2Dmarket%2Dimpact&rut=2cd963f5c1a290f526a9c8c59d128c49c68b58faa96912e37dcc3640d2804bf5
+        - generic [ref=e61]:
+          - link [ref=e63] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fnpifund.com%2Farticle%2Fai%2Dhyperscalers%2Daccused%2Dof%2Dearnings%2Dinflation%2Dmichael%2Dburry%2Ds%2Dallegations%2Dand%2Dmarket%2Dimpact&rut=2cd963f5c1a290f526a9c8c59d128c49c68b58faa96912e37dcc3640d2804bf5
+          - link "npifund.com/article/ai-hyperscalers-accused-of-earnings-inflation-michael-burry-s-allegations-and-market-impact" [ref=e64] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fnpifund.com%2Farticle%2Fai%2Dhyperscalers%2Daccused%2Dof%2Dearnings%2Dinflation%2Dmichael%2Dburry%2Ds%2Dallegations%2Dand%2Dmarket%2Dimpact&rut=2cd963f5c1a290f526a9c8c59d128c49c68b58faa96912e37dcc3640d2804bf5
+          - text: 2026-09-19T00:00:00.0000000
+        - link "By extending the estimated lifespan of these assets, companies can lower their annual depreciation costs, making their profits look higher. Burry claims hyperscalers are doing exactly this, especially with Nvidia chips and servers, which typically have a 2-3 year product cycle." [ref=e65] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fnpifund.com%2Farticle%2Fai%2Dhyperscalers%2Daccused%2Dof%2Dearnings%2Dinflation%2Dmichael%2Dburry%2Ds%2Dallegations%2Dand%2Dmarket%2Dimpact&rut=2cd963f5c1a290f526a9c8c59d128c49c68b58faa96912e37dcc3640d2804bf5
+      - generic [ref=e67]:
+        - heading "The GPU Depreciation Debate, Explained - edgewisely.com" [level=2] [ref=e68]:
+          - link "The GPU Depreciation Debate, Explained - edgewisely.com" [ref=e69] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.edgewisely.com%2Fthe%2Dfootnote%2Dquietly%2Dinflating%2Dai%2Dearnings%2F&rut=be7ae5edcc7ca4a63396aa0ffe33d3be3a25d77405ca8c8b6c1ff1cea7d7b925
+        - generic [ref=e71]:
+          - link [ref=e73] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.edgewisely.com%2Fthe%2Dfootnote%2Dquietly%2Dinflating%2Dai%2Dearnings%2F&rut=be7ae5edcc7ca4a63396aa0ffe33d3be3a25d77405ca8c8b6c1ff1cea7d7b925
+          - link "www.edgewisely.com/the-footnote-quietly-inflating-ai-earnings/" [ref=e74] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.edgewisely.com%2Fthe%2Dfootnote%2Dquietly%2Dinflating%2Dai%2Dearnings%2F&rut=be7ae5edcc7ca4a63396aa0ffe33d3be3a25d77405ca8c8b6c1ff1cea7d7b925
+          - text: 2026-09-07T00:00:00.0000000
+        - 'link "Every hyperscaler''s earnings report now contains a number almost nobody outside an accounting department reads closely: the assumed useful life of its servers. It sits in a footnote, expressed in years, and it quietly decides how much profit the company reports each quarter. In 2026, that footnote became one of the most contested numbers in tech." [ref=e75] [cursor=pointer]':
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.edgewisely.com%2Fthe%2Dfootnote%2Dquietly%2Dinflating%2Dai%2Dearnings%2F&rut=be7ae5edcc7ca4a63396aa0ffe33d3be3a25d77405ca8c8b6c1ff1cea7d7b925
+      - generic [ref=e77]:
+        - heading "The $176 Billion Accounting Question at the Heart of the AI Boom" [level=2] [ref=e78]:
+          - link "The $176 Billion Accounting Question at the Heart of the AI Boom" [ref=e79] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdavefriedman.substack.com%2Fp%2Fthe%2D176%2Dbillion%2Daccounting%2Dquestion&rut=72b51abab247cdc85f6a2e1ebf460843c36ea2df460d2f8e01bd44459a785dd5
+        - generic [ref=e81]:
+          - link [ref=e83] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdavefriedman.substack.com%2Fp%2Fthe%2D176%2Dbillion%2Daccounting%2Dquestion&rut=72b51abab247cdc85f6a2e1ebf460843c36ea2df460d2f8e01bd44459a785dd5
+          - link "davefriedman.substack.com/p/the-176-billion-accounting-question" [ref=e84] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdavefriedman.substack.com%2Fp%2Fthe%2D176%2Dbillion%2Daccounting%2Dquestion&rut=72b51abab247cdc85f6a2e1ebf460843c36ea2df460d2f8e01bd44459a785dd5
+          - text: 2026-01-19T00:00:00.0000000
+        - link "If the true useful life is three years rather than six, the industry is understating depreciation by $50-60 billion annually. Over Burry's 2026-2028 window, that compounds to something in the neighborhood of his $176 billion estimate." [ref=e85] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fdavefriedman.substack.com%2Fp%2Fthe%2D176%2Dbillion%2Daccounting%2Dquestion&rut=72b51abab247cdc85f6a2e1ebf460843c36ea2df460d2f8e01bd44459a785dd5
+      - generic [ref=e87]:
+        - heading "Michael Burry flags Big Tech's depreciation tweaks overstating earnings" [level=2] [ref=e88]:
+          - link "Michael Burry flags Big Tech's depreciation tweaks overstating earnings" [ref=e89] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fthedeepdive.ca%2Fburry%2Dwarns%2Dtech%2Ddepreciation%2Dchanges%2F&rut=64e59b8a92dd82ade80b2d5eb7f7fc297b9a350d975006c443dce0768f90d599
+        - generic [ref=e91]:
+          - link [ref=e93] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fthedeepdive.ca%2Fburry%2Dwarns%2Dtech%2Ddepreciation%2Dchanges%2F&rut=64e59b8a92dd82ade80b2d5eb7f7fc297b9a350d975006c443dce0768f90d599
+          - link "thedeepdive.ca/burry-warns-tech-depreciation-changes/" [ref=e94] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fthedeepdive.ca%2Fburry%2Dwarns%2Dtech%2Ddepreciation%2Dchanges%2F&rut=64e59b8a92dd82ade80b2d5eb7f7fc297b9a350d975006c443dce0768f90d599
+          - text: 2025-11-11T00:00:00.0000000
+        - link "Burry says useful-life extensions at Big Tech understate depreciation, leading to a possible overstatement of earnings in 2028." [ref=e95] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fthedeepdive.ca%2Fburry%2Dwarns%2Dtech%2Ddepreciation%2Dchanges%2F&rut=64e59b8a92dd82ade80b2d5eb7f7fc297b9a350d975006c443dce0768f90d599
+      - generic [ref=e97]:
+        - heading "'Big Short' investor Michael Burry accuses AI hyperscalers of ..." [level=2] [ref=e98]:
+          - link "'Big Short' investor Michael Burry accuses AI hyperscalers of ..." [ref=e99] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.cnbc.com%2F2025%2F11%2F11%2Fbig%2Dshort%2Dinvestor%2Dmichael%2Dburry%2Daccuses%2Dai%2Dhyperscalers%2Dof%2Dartificially%2Dboosting%2Dearnings.html&rut=cc5de08850370d6540000cb63fe361620d37ae624dea55238b46f070a96f7695
+        - generic [ref=e101]:
+          - link [ref=e103] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.cnbc.com%2F2025%2F11%2F11%2Fbig%2Dshort%2Dinvestor%2Dmichael%2Dburry%2Daccuses%2Dai%2Dhyperscalers%2Dof%2Dartificially%2Dboosting%2Dearnings.html&rut=cc5de08850370d6540000cb63fe361620d37ae624dea55238b46f070a96f7695
+          - link "www.cnbc.com/2025/11/11/big-short-investor-michael-burry-accuses-ai-hyperscalers-of-artificially-boosting-earnings.html" [ref=e104] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.cnbc.com%2F2025%2F11%2F11%2Fbig%2Dshort%2Dinvestor%2Dmichael%2Dburry%2Daccuses%2Dai%2Dhyperscalers%2Dof%2Dartificially%2Dboosting%2Dearnings.html&rut=cc5de08850370d6540000cb63fe361620d37ae624dea55238b46f070a96f7695
+          - text: 2025-11-11T14:26:00.0000000
+        - link "Burry alleged that \"hyperscalers\" are artificially boosting earnings by extending the useful life of their computer equipment." [ref=e105] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.cnbc.com%2F2025%2F11%2F11%2Fbig%2Dshort%2Dinvestor%2Dmichael%2Dburry%2Daccuses%2Dai%2Dhyperscalers%2Dof%2Dartificially%2Dboosting%2Dearnings.html&rut=cc5de08850370d6540000cb63fe361620d37ae624dea55238b46f070a96f7695
+      - generic [ref=e107]:
+        - heading "Are AI Chip \"Useful Lives\" Creating Useless Earnings?" [level=2] [ref=e108]:
+          - link "Are AI Chip \"Useful Lives\" Creating Useless Earnings?" [ref=e109] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.levelheadedinvesting.com%2Fp%2Fare%2Dai%2Dchips%2Duseful%2Dlives%2Dcreating%2Duseless%2Dearnings&rut=78cdb9877f40c3464c081166adbf75aa82607c6a67206599fd23527e11b364ac
+        - generic [ref=e111]:
+          - link [ref=e113] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.levelheadedinvesting.com%2Fp%2Fare%2Dai%2Dchips%2Duseful%2Dlives%2Dcreating%2Duseless%2Dearnings&rut=78cdb9877f40c3464c081166adbf75aa82607c6a67206599fd23527e11b364ac
+          - link "www.levelheadedinvesting.com/p/are-ai-chips-useful-lives-creating-useless-earnings" [ref=e114] [cursor=pointer]:
+            - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.levelheadedinvesting.com%2Fp%2Fare%2Dai%2Dchips%2Duseful%2Dlives%2Dcreating%2Duseless%2Dearnings&rut=78cdb9877f40c3464c081166adbf75aa82607c6a67206599fd23527e11b364ac
+          - text: 2025-12-04T00:00:00.0000000
+        - link "Michael Burry says AI earnings are fake. I break down his depreciation \"fraud\" claim, hyperscaler CapEx, and what it means for Alphabet and Amazon." [ref=e115] [cursor=pointer]:
+          - /url: //duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.levelheadedinvesting.com%2Fp%2Fare%2Dai%2Dchips%2Duseful%2Dlives%2Dcreating%2Duseless%2Dearnings&rut=78cdb9877f40c3464c081166adbf75aa82607c6a67206599fd23527e11b364ac
+      - button "Next" [ref=e118] [cursor=pointer]
+      - link "Feedback" [ref=e120] [cursor=pointer]:
+        - /url: //duckduckgo.com/feedback.html
+  - img [ref=e121]
