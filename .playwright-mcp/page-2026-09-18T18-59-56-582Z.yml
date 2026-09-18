@@ -1,0 +1,337 @@
+- generic [active] [ref=e1]:
+  - link "Skip to the report" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - banner [ref=e3]:
+    - heading "Does the grid bind?" [level=1] [ref=e4]:
+      - generic [ref=e5]: Does the grid
+      - generic [ref=e6]: bind?
+    - paragraph [ref=e7]: An argument went around that AI chip shipments are outrunning the power to plug them in. It is probably right. Almost none of its reasons are.
+    - generic [ref=e8]:
+      - generic [ref=e9]: P(stranding forced)
+      - generic [ref=e10]: 0.0%
+      - paragraph [ref=e12]:
+        - text: Monte Carlo over sourced intervals, 500,000 draws, seed 20260918. The exact interval classification returns
+        - strong [ref=e13]: undecided
+        - text: ", which is why this is a probability and not a number."
+    - generic [ref=e14]:
+      - generic [ref=e15]: Subject “What Happens When Chip Volume Doubles but the Grid Does Not”
+      - generic [ref=e16]: Parameters 86, of which 45 hard evidence
+      - generic [ref=e17]: Formal 9/9 TLC runs
+    - generic [ref=e18]:
+      - generic [ref=e19]: read
+      - img [ref=e20]
+  - main [ref=e22]:
+    - generic [ref=e24]:
+      - heading "A correct conclusion resting on broken premises" [level=2] [ref=e25]
+      - paragraph [ref=e26]: That combination is the entire result, and it is more interesting than either half alone.
+      - paragraph [ref=e27]: The thesis is simple enough. Semiconductor output can double in a year. Substations cannot. So hardware arrives before power does, and the excess must either sit in a warehouse losing value or displace working machines that have not finished depreciating. Both cost money. Watch the substation queues, not just the wafer starts.
+      - paragraph [ref=e28]: The shape of that argument is sound, and the data mostly supports where it lands. What does not survive is the evidence offered for it. The headline revenue figure is not the company’s. The arithmetic that turns two growth rates into a price decline is wrong by a factor of two. The claim that fabs are fast and grids are slow was true two years ago and is not true now. And the prediction that compute prices must fall is contradicted by the price of compute, which has risen by a third since its trough.
+      - paragraph [ref=e29]: "More usefully: the strongest evidence for the thesis is a number the argument never cites, and two of its conclusions are refuted by taking its own mechanism seriously."
+    - generic [ref=e31]:
+      - heading "Thirteen claims, scored" [level=2] [ref=e32]
+      - paragraph [ref=e33]: Every falsifiable assertion, and the test that decides it. Rhetoric is not listed — only things that could be wrong.
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: C1
+          - generic [ref=e38]: "Huang: NVIDIA will sell twice as many chips next year"
+          - generic [ref=e39]:
+            - img [ref=e40]
+            - generic [ref=e41]: partly
+          - paragraph [ref=e42]: True, but he said “chips” and never defined the basket. No primary source narrows it to data-centre GPUs.
+        - generic [ref=e43]:
+          - generic [ref=e44]: C2
+          - generic [ref=e45]: NVIDIA outlined FY2028 revenue of roughly $673 billion
+          - generic [ref=e46]:
+            - img [ref=e47]
+            - generic [ref=e49]: falsified
+          - paragraph [ref=e50]: Not NVIDIA’s number. CNBC’s arithmetic on an analyst consensus. “673” appears zero times in the 8-K, the 10-Q and the transcript.
+        - generic [ref=e51]:
+          - generic [ref=e52]: C3
+          - generic [ref=e53]: The thirty-point gap implies ASP compression
+          - generic [ref=e54]:
+            - img [ref=e55]
+            - generic [ref=e57]: falsified
+          - paragraph [ref=e58]: −15%, not −30. Different speakers, dates and periods. And NVIDIA attributed the gap to supply on that same call.
+        - generic [ref=e59]:
+          - generic [ref=e60]: C4
+          - generic [ref=e61]: Fab and packaging capacity can double within several quarters
+          - generic [ref=e62]:
+            - img [ref=e63]
+            - generic [ref=e65]: falsified
+          - paragraph [ref=e66]: "True in 2024. CoWoS growth now decays to +30%. TSMC’s CEO: “two to three years to build a new fab. No shortcuts.”"
+        - generic [ref=e67]:
+          - generic [ref=e68]: C5
+          - generic [ref=e69]: High-voltage transformers carry 36–48 month lead times
+          - generic [ref=e70]:
+            - img [ref=e71]
+            - generic [ref=e72]: partly
+          - paragraph [ref=e73]: Directionally right, high, and thin. Best survey figure is 29 months; every published number traces to one root.
+        - generic [ref=e74]:
+          - generic [ref=e75]: C6
+          - generic [ref=e76]: Interconnection queues average four to seven years
+          - generic [ref=e77]:
+            - img [ref=e78]
+            - generic [ref=e80]: stands
+          - paragraph [ref=e81]: Measured median request-to-COD is 61 months for 2025 completions.
+        - generic [ref=e82]:
+          - generic [ref=e83]: C7
+          - generic [ref=e84]: The grid cannot double energized megawatts in twelve months
+          - generic [ref=e85]:
+            - img [ref=e86]
+            - generic [ref=e88]: stands
+          - paragraph [ref=e89]: ERCOT energized +0.9 GW of large load in 2025 against 445.8 GW of applications.
+        - generic [ref=e90]:
+          - generic [ref=e91]: C8
+          - generic [ref=e92]: Excess hardware takes one of two paths, both penalised
+          - generic [ref=e93]:
+            - img [ref=e94]
+            - generic [ref=e95]: partly
+          - paragraph [ref=e96]: It is three regimes, not two, with a computable boundary. Verified exhaustively in TLA+.
+        - generic [ref=e97]:
+          - generic [ref=e98]: C9
+          - generic [ref=e99]: Accelerators halve in competitiveness within three to four years
+          - generic [ref=e100]:
+            - img [ref=e101]
+            - generic [ref=e103]: falsified
+          - paragraph [ref=e104]: A 2020-vintage A100 is appreciating. NVIDIA disclosed A100 rental up ~15% year on year.
+        - generic [ref=e105]:
+          - generic [ref=e106]: C10
+          - generic [ref=e107]: Hyperscalers extended server life, deferring billions
+          - generic [ref=e108]:
+            - img [ref=e109]
+            - generic [ref=e111]: stands
+          - paragraph [ref=e112]: $43.8bn of FY2025 operating income across five companies — 11% of what they reported.
+        - generic [ref=e113]:
+          - generic [ref=e114]: C11
+          - generic [ref=e115]: Early decommissioning forces accelerated depreciation
+          - generic [ref=e116]:
+            - img [ref=e117]
+            - generic [ref=e119]: stands
+          - paragraph [ref=e120]: Confirmed — and it already happened. Amazon took a $920M charge in Q4 2024. But the conclusion inverts.
+        - generic [ref=e121]:
+          - generic [ref=e122]: C12
+          - generic [ref=e123]: Marginal cost is largely electricity; spot prices must fall
+          - generic [ref=e124]:
+            - img [ref=e125]
+            - generic [ref=e127]: falsified
+          - paragraph [ref=e128]: Electricity is 20% of cash cost. Spot is up 32.5% off its trough.
+        - generic [ref=e129]:
+          - generic [ref=e130]: C13
+          - generic [ref=e131]: The return distribution splits
+          - generic [ref=e132]:
+            - img [ref=e133]
+            - generic [ref=e134]: partly
+          - paragraph [ref=e135]: Real and computable — but the market is not currently inside the loss band.
+      - paragraph [ref=e136]: "Verdicts are against primary sources: SEC filings, earnings-call transcripts, EIA and LBNL publications, and ISO/RTO reporting. Where a figure could not be verified it is marked as such rather than assumed."
+    - generic [ref=e137]:
+      - generic [ref=e138]:
+        - heading "The choice is not between two things" [level=2] [ref=e139]
+        - paragraph [ref=e140]: "The argument says excess hardware takes one of two paths: sit stranded, or displace the installed base. Both carry a penalty, so the operator picks their poison."
+        - paragraph [ref=e141]:
+          - text: That is a claim about what is reachable, which is exactly the kind of claim a model checker settles. I wrote the pipeline as a state machine and let TLC explore
+          - emphasis [ref=e142]: every
+          - text: operator strategy — every possible schedule of shipping, warehousing, racking and cannibalising — to see whether any of them escapes.
+        - paragraph [ref=e143]: "None does. But the outcome space has three regions, not two, and which one you are in is decided by a threshold in three quantities: what ships, what is energized, and what already occupies the envelope."
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - generic [ref=e147]: A
+          - generic [ref=e148]: S ≤ E − B
+          - heading "Absorption is free" [level=3] [ref=e149]
+          - paragraph [ref=e150]: New capacity arrives faster than hardware does. Nothing is stranded and nothing is written down.
+        - generic [ref=e151]:
+          - generic [ref=e152]: B
+          - generic [ref=e153]: E − B < S ≤ E
+          - heading "The write-down is forced" [level=3] [ref=e154]
+          - paragraph [ref=e155]: Everything can be racked, but only by pulling working gear out of the envelope it occupies. There is no clean schedule.
+        - generic [ref=e156]:
+          - generic [ref=e157]: C
+          - generic [ref=e158]: S > E
+          - heading "Stranding is forced" [level=3] [ref=e159]
+          - paragraph [ref=e160]: No operator strategy absorbs the programme. Cannibalising does not cure it — it adds a write-down to it. The article misses this case.
+          - generic [ref=e161]: where the evidence points · 80.2%
+      - generic [ref=e162]:
+        - paragraph [ref=e163]:
+          - text: Regime C is the case the argument misses, and it is the one its own premise implies. There, cannibalising does not
+          - emphasis [ref=e164]: cure
+          - text: stranding — it adds a write-down to it. You pay twice.
+        - paragraph [ref=e165]: "Nine TLC configurations, each declaring its expected outcome before it runs. Three are canaries that must fail: a model checker that cannot report a violation has proved nothing. Three are reachability probes that separate a real result from a vacuous one — without them, “no strategy absorbs the programme cleanly” would hold trivially in regime C because nothing can be absorbed at all. An independent Python classifier reproduces all three regimes from separate code."
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - heading "Growth does not subtract" [level=2] [ref=e168]
+        - paragraph [ref=e169]: "The argument opens on a gap: units doubling against revenue growing seventy percent. Thirty points of daylight, read as evidence that prices per chip are collapsing."
+        - paragraph [ref=e170]: Growth rates compose by multiplication, not subtraction. Revenue is units times price, so the implied price change is a ratio.
+      - figure "The exact answer is −15%, not −30. Property testing pinned the general error at −u(r−u)/(1+u), which means the shortcut is worst precisely where unit growth is largest — the high-volume case the argument is about." [ref=e172]:
+        - generic [ref=e173]: The exact answer is −15%, not −30. Property testing pinned the general error at −u(r−u)/(1+u), which means the shortcut is worst precisely where unit growth is largest — the high-volume case the argument is about.
+      - generic [ref=e174]:
+        - paragraph [ref=e175]: The arithmetic is the smallest of four problems, though. The two quotes come from different speakers, three weeks apart, covering different periods — one about “next year”, the other about a fiscal year ending in January 2028. The product basket was never defined; the chief executive said “chips”, and the reporter who filed the story flagged in the same article that the company also sells CPUs, switch silicon, optical networking and laptop parts.
+        - paragraph [ref=e176]: "And the gap already had an explanation, given on the same call the revenue figure came from:"
+        - blockquote [ref=e177]:
+          - paragraph [ref=e178]: “Customers’ forecasts point to our growth doubling next year. However… we expect to grow approximately 70% as we are supply-constrained.”
+          - generic [ref=e179]: Chief Financial Officer, Q2 FY2027 earnings call, 26 August 2026
+        - paragraph [ref=e180]:
+          - text: "Supply, not price. Meanwhile the direction is wrong too: disclosed revenue per gigawatt of capacity went from $18bn to $25bn to $40bn across three generations, gross margin is guided"
+          - emphasis [ref=e181]: up
+          - text: on “executed price increases”, and customers were notified of rises above fifteen percent.
+        - paragraph [ref=e182]: The widely repeated $673 billion revenue figure is not the company’s. It is a news outlet’s arithmetic — an analyst consensus multiplied by 1.70. The string “673” appears zero times in the 8-K, the 10-Q and the corrected transcript, and neither filing contains any statement of that year’s revenue at all.
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - heading "Both sides are slow now" [level=2] [ref=e185]
+        - paragraph [ref=e186]: "The argument rests on an asymmetry: silicon is fast, the grid is slow. That asymmetry has closed, and the people who build the fast side say so on the record."
+      - figure "Grid equipment in ember, semiconductor capacity in blue. A greenfield fab now takes three to five years to build and ramp; the transformer figure the argument quotes is three to four. The two lead times overlap." [ref=e188]:
+        - generic [ref=e189]: Grid equipment in ember, semiconductor capacity in blue. A greenfield fab now takes three to five years to build and ramp; the transformer figure the argument quotes is three to four. The two lead times overlap.
+      - generic [ref=e190]:
+        - blockquote [ref=e191]:
+          - paragraph [ref=e192]: “It takes two to three years to build a new fab. No shortcuts. And it takes another one to two years to ramp it up.”
+          - generic [ref=e193]: Chief Executive, TSMC — said three times on one earnings call, April 2026
+        - paragraph [ref=e194]: Advanced packaging capacity did roughly double in 2024 and again in 2025, off a small base and into pre-built shells. Forward growth decays to +68%, then +54%, then +30%. The doubling era is behind, not ahead.
+        - paragraph [ref=e195]: "On the grid side the argument’s 36–48 month transformer figure is directionally right but high, and it rests on thinner evidence than its confidence implies. The best current survey figure is 29 months for power transformers and 33 for generator step-up units. Every published number traces back to one root: vendor interviews conducted over nine days in June 2023, and a single proprietary survey whose method and sample size are unpublished. There is no independent government measurement of transformer lead times at all."
+    - generic [ref=e196]:
+      - generic [ref=e197]:
+        - heading "The price went the other way" [level=2] [ref=e198]
+        - paragraph [ref=e199]: The economic prediction is that new capacity floods in against linearly growing demand, so rental prices must fall toward the cost of electricity. Prices bottomed in December 2025 and have risen by a third since.
+      - figure "H100 neocloud rental, dollars per GPU-hour. The green band is full-cost recovery computed bottom-up from filings, datasheets and government statistics — with no price observation anywhere in the inputs. The market floor landed inside it." [ref=e201]:
+        - generic [ref=e202]: H100 neocloud rental, dollars per GPU-hour. The green band is full-cost recovery computed bottom-up from filings, datasheets and government statistics — with no price observation anywhere in the inputs. The market floor landed inside it.
+      - generic [ref=e203]:
+        - paragraph [ref=e204]: Corroborated by the seller. On its own earnings call the chip vendor disclosed that H100 rental had “risen 20% year to date, while A100 cloud pricing is up nearly 15%.” The A100 launched in 2020. On the argument’s own schedule it should have lost half its competitiveness twice over. It is appreciating.
+        - generic [ref=e205]:
+          - generic [ref=e206]:
+            - generic [ref=e207]: $0.66
+            - generic [ref=e208]: All-in cash cost per GPU-hour, derived from a disclosed 75% contracted EBITDA margin
+          - generic [ref=e209]:
+            - generic [ref=e210]: 20%
+            - generic [ref=e211]: Share of that cash cost which is actually electricity — not “largely”, as claimed
+          - generic [ref=e212]:
+            - generic [ref=e213]: +32.5%
+            - generic [ref=e214]: Rise in the H100 index since its December 2025 trough
+        - paragraph [ref=e215]:
+          - text: Take the power-scarcity mechanism seriously and it predicts exactly this. If energized megawatts are the binding constraint, a machine that already occupies an energized slot is priced off the scarcity of the slot, not the speed of the chip.
+          - generic [ref=e216]: Which is why a six-year-old part appreciates while newer ones ship — and why the cannibalisation path loses its premise.
+        - paragraph [ref=e217]: The floor is worth naming precisely. It is not electricity and it is not physics. Full-cost recovery across four-, five- and six-year book lives computes to $1.43–$1.82 per GPU-hour; the independently observed market floor across two rental indices was $1.70–$2.15. The intervals overlap. The floor is the depreciation schedule — which means the same market price is above water on a six-year book and underwater on a four-year one.
+    - generic [ref=e218]:
+      - generic [ref=e219]:
+        - heading "Straight lines fall faster than markets" [level=2] [ref=e220]
+        - paragraph [ref=e221]: "The strongest claim in the argument is about accounting, and it is correct: cloud operators stretched server lives from three or four years out to five or six, deferring billions of expense, and pulling hardware early forces that deferral to come due."
+        - paragraph [ref=e222]:
+          - text: It is correct, it is quantified in filings — about $43.8 billion of operating income across five companies in one year, eleven percent of what they reported — and it has
+          - emphasis [ref=e223]: already happened
+          - text: .
+        - blockquote [ref=e224]:
+          - paragraph [ref=e225]: “…changing the useful lives of a subset of our servers and networking equipment, effective January 1, 2025, from six years to five years… In 2024, we also determined, primarily in the fourth quarter, to retire early certain of our servers and networking equipment. We recorded approximately $920 million of accelerated depreciation… due to an increased pace of technology development, particularly in the area of artificial intelligence and machine learning.”
+          - generic [ref=e226]: Amazon, FY2024 Form 10-K, Note 1
+        - paragraph [ref=e227]: "That is the mechanism, in the filing, in the company’s own words, two years before the argument was written. And then the conclusion inverts, for a reason that is pure arithmetic: book value falls in a straight line, resale value decays exponentially, and the two curves cross."
+      - figure "Beyond about 1.4 years, a six-year straight-line book carries the asset below what the market pays for it. Retiring early books a gain, not a charge. The diamonds are executed secondary-market sales; every one sits above book. The break-even — an asset pulled at 24 months must fetch exactly two-thirds of cost — was computed before any resale data was in hand. The observed curve puts a two-year-old part at roughly 0.69." [ref=e229]:
+        - generic [ref=e230]: Beyond about 1.4 years, a six-year straight-line book carries the asset below what the market pays for it. Retiring early books a gain, not a charge. The diamonds are executed secondary-market sales; every one sits above book. The break-even — an asset pulled at 24 months must fetch exactly two-thirds of cost — was computed before any resale data was in hand. The observed curve puts a two-year-old part at roughly 0.69.
+      - generic [ref=e231]:
+        - paragraph [ref=e232]: Two more things sit in the same filings. The $920 million charge is 0.53% of the gross fleet — a rounding error. And on the same day, the company extended heavy equipment from ten years to thirteen, worth about $0.9 billion to operating income, almost exactly cancelling the server hit in a different segment.
+        - paragraph [ref=e233]:
+          - text: On 1 January 2025, on comparable hardware, citing the same industry conditions, one company shortened server life from six years to five and another extended it from five to five and a half.
+          - generic [ref=e234]: Book life is a management judgment, not a measurement of how long hardware lasts.
+        - paragraph [ref=e235]: "Caveats that travel with the resale curve: the H100 sample is ten executed sales over ninety days and the A100 fourteen; only the V100, at 122, is a real sample. The index’s cost basis is system-allocated rather than chip list price — re-basing roughly doubles the residuals, which strengthens rather than weakens the conclusion. And the same part number prints 48.4% in one form factor and 79.4% in another at identical age."
+    - generic [ref=e236]:
+      - generic [ref=e237]:
+        - heading "A queue is an option book" [level=2] [ref=e238]
+        - paragraph [ref=e239]: Interconnection queues are quoted as though they were demand. They are not. Filing is cheap and priority is scarce, so the same megawatt is counted in several places at once, and most of it never arrives.
+      - 'figure "The largest US data-centre market, end to end. 445.8 GW of applications against 5.9 GW actually drawing power — 1.3%. The grid operator’s own words: 5,302 MW is “approximately 2% of the total load in our large load interconnection process.”" [ref=e241]':
+        - generic [ref=e242]: "The largest US data-centre market, end to end. 445.8 GW of applications against 5.9 GW actually drawing power — 1.3%. The grid operator’s own words: 5,302 MW is “approximately 2% of the total load in our large load interconnection process.”"
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - generic [ref=e245]:
+            - generic [ref=e246]: 13%
+            - generic [ref=e247]: Of queued generation capacity, 2000–2020 cohort, that ever reached commercial operation. 75% withdrew.
+          - generic [ref=e248]:
+            - generic [ref=e249]: 43%
+            - generic [ref=e250]:
+              - text: Conversion rate
+              - emphasis [ref=e251]: after
+              - text: an interconnection agreement has been executed
+          - generic [ref=e252]:
+            - generic [ref=e253]: "61"
+            - generic [ref=e254]: Median months from request to operation for 2025 completions — up from 22 in 2008
+        - paragraph [ref=e255]: "One utility states both numbers in a single filing: 47 gigawatts of signed data-centre contracts, and its own forecast of 16.6 gigawatts of load. A realisation ratio of 0.35."
+        - paragraph [ref=e256]: "Little’s Law reconciles two statistics that look contradictory. With 53 GW completing and about 750 GW withdrawing against a 2,061 GW queue, mean residence across all departures is 2.85 years, while the measured median for projects that actually finish is 5.08. Both are right: withdrawals leave early and pull the mean down, so completers wait roughly 1.8× the average departure. Two independent statistics agreeing is the point of running the check."
+    - generic [ref=e257]:
+      - generic [ref=e258]:
+        - heading "How much hardware is actually coming" [level=2] [ref=e259]
+        - paragraph [ref=e260]: The grid debate is conducted in gigawatts and the chip debate in dollars, so the two are never checked against each other. Both convert.
+      - figure "A national bottom-up energy model and a vendor’s revenue guidance divided by its own disclosed content per gigawatt. The two share no inputs and they agree. That is worth more than either number alone." [ref=e262]:
+        - generic [ref=e263]: A national bottom-up energy model and a vendor’s revenue guidance divided by its own disclosed content per gigawatt. The two share no inputs and they agree. That is worth more than either number alone.
+      - paragraph [ref=e265]: Set that against what the debate actually quotes — a 230 gigawatt state queue, 47 gigawatts of contracts at one utility — and the mismatch is not evidence of a shortage. It is evidence that an option book is being read as an order book.
+    - generic [ref=e266]:
+      - generic [ref=e267]:
+        - heading "The argument is about the wrong variable" [level=2] [ref=e268]
+        - paragraph [ref=e269]: Having reconciled the demand side, the question becomes which remaining uncertainty actually decides the answer. That is not the same question as which one people argue about.
+      - figure "Sobol total-effect indices on required new grid capacity. Two thirds of the variance sits in quantities with no published measurement — and neither appears anywhere in the original argument. The revenue figure it opens with contributes 0.002." [ref=e271]:
+        - generic [ref=e272]: Sobol total-effect indices on required new grid capacity. Two thirds of the variance sits in quantities with no published measurement — and neither appears anywhere in the original argument. The revenue figure it opens with contributes 0.002.
+      - generic [ref=e273]:
+        - paragraph [ref=e274]: Measuring the interconnection queue more precisely cannot settle this, because the queue is not where the variance lives. One of the two dominant factors can at least be bounded from physics, and doing so produces the strongest support the thesis gets anywhere in this audit.
+        - paragraph [ref=e275]: An enterprise rack draws eight to ten kilowatts. A current AI rack draws 132 to 142. Converting a rack slot therefore recovers between five and eight percent of what the new hardware needs; the rest has to come from somewhere new. The headline “ten to thirteen percent annual fleet turnover” is not a reuse pool, because conventional server energy is flat — those slots get refilled, not released.
+        - paragraph [ref=e276]:
+          - text: New hardware cannot hide in old power. It is the best argument for the thesis, and the argument never makes it.
+          - generic [ref=e277]: Bounded at 0–23%, against the 10–45% a casual reading would allow.
+    - generic [ref=e278]:
+      - generic [ref=e279]:
+        - 'heading "So: does the grid bind?" [level=2] [ref=e280]'
+        - paragraph [ref=e281]: Two operators in the United States publish actual meter readings for data-centre energization. Both are delivering roughly one gigawatt a year. National models imply seventeen.
+      - figure "The distribution of the annual shortfall. Everything to the right of the dashed line is hardware arriving before power. The exact interval classification of the same inputs returns undecided — it is consistent with all three regimes — so this probability, not a point estimate, is the honest form of the answer." [ref=e283]:
+        - generic [ref=e284]:
+          - text: The distribution of the annual shortfall. Everything to the right of the dashed line is hardware arriving before power. The exact interval classification of the same inputs returns
+          - emphasis [ref=e285]: undecided
+          - text: — it is consistent with all three regimes — so this probability, not a point estimate, is the honest form of the answer.
+      - generic [ref=e286]:
+        - generic [ref=e287]:
+          - generic [ref=e288]:
+            - generic [ref=e289]: 80.2%
+            - generic [ref=e290]: Probability of the stranding-forced regime
+          - generic [ref=e291]:
+            - generic [ref=e292]: "+1.66"
+            - generic [ref=e293]: Median annual shortfall, gigawatts per year
+          - generic [ref=e294]:
+            - generic [ref=e295]: 20.8%
+            - generic [ref=e296]: Median share of shipments arriving before power
+        - paragraph [ref=e297]: Probably yes — and modestly. Not a collapse. About a fifth of shipments, in the median case, landing ahead of the megawatts to run them.
+        - paragraph [ref=e298]: "The honest caveat is that the single number carrying this verdict is the one with the least evidence behind it: the scaling from two published meter readings to a national figure. No source provides it. It is my assumption, and if it is wrong, this conclusion moves."
+    - generic [ref=e300]:
+      - heading "What nobody knows" [level=2] [ref=e301]
+      - paragraph [ref=e302]: Listed because the sensitivity analysis says these dominate, and because an audit that hides its gaps is an advertisement.
+      - list [ref=e303]:
+        - listitem [ref=e304]: What fraction of new hardware lands in an already-energized envelope. No published measurement. 33.9% of the variance.
+        - listitem [ref=e305]: What fraction is powered outside the interconnection queue. No published measurement. 33.9% of the variance.
+        - listitem [ref=e306]: Fleet-weighted GPU utilization. Measured values span 5% to 85%. No one has published a weighted average.
+        - listitem [ref=e307]: What Amazon actually retired in Q4 2024 — no generation, count, location or gross cost is disclosed.
+        - listitem [ref=e308]: Burry’s $176bn derivation. Verified as his exact words; the method is paywalled and unreproduced in ten months.
+        - listitem [ref=e309]: The scaling from two published meter readings to a national energization figure. No source provides it — and it carries the verdict.
+  - contentinfo [ref=e310]:
+    - generic [ref=e311]:
+      - generic [ref=e312]:
+        - heading "Method" [level=3] [ref=e313]
+        - paragraph [ref=e314]:
+          - text: Three layers, each answering something the others cannot. A
+          - strong [ref=e315]: TLA+ model
+          - text: checked exhaustively with TLC, so structural claims are proved or refuted rather than asserted.
+          - strong [ref=e316]: Exact rational arithmetic
+          - text: through
+          - code [ref=e317]: agent-calc
+          - text: for every number that decides something — floats raise a type error rather than entering silently, and interval predicates are allowed to return
+          - emphasis [ref=e318]: undecided
+          - text: . And
+          - strong [ref=e319]: provenance-tagged parameters
+          - text: ", every one carrying its source class, with the hard-evidence ratio reported rather than hidden."
+        - paragraph [ref=e320]:
+          - text: Everything on this page is generated from
+          - code [ref=e321]: site/data/figures.json
+          - text: ", which is exported directly from the model. Nothing here was typed by hand, so the page cannot drift from the analysis behind it."
+        - paragraph [ref=e322]:
+          - link "Source, data and formal specification on GitHub →" [ref=e323] [cursor=pointer]:
+            - /url: https://github.com/copyleftdev/does-the-grid-bind
+      - generic [ref=e324]:
+        - heading "Colophon" [level=3] [ref=e325]
+        - paragraph [ref=e326]:
+          - text: Set in
+          - strong [ref=e327]: Fraunces
+          - text: and
+          - strong [ref=e328]: Newsreader
+          - text: ", with"
+          - strong [ref=e329]: IBM Plex Mono
+          - text: for figures.
+        - paragraph [ref=e330]: Chart series are validated against this surface for lightness band, chroma floor, colour-vision-deficiency separation, normal-vision separation and contrast. The first palette drafted for this page failed three of those five checks; these steps pass all of them.
+        - paragraph [ref=e336]: Audited 18 September 2026 against the article as published the same day. Figures current as of that date.

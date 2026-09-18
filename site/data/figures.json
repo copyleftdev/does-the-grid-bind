@@ -1,0 +1,794 @@
+{
+ "meta": {
+  "title": "Does the grid bind?",
+  "subject": "What Happens When Chip Volume Doubles but the Grid Does Not",
+  "author": "Dean Lee",
+  "published": "2026-09-18",
+  "audited": "2026-09-18",
+  "source_url": "https://dev.to/deanlee/what-happens-when-chip-volume-doubles-but-the-grid-does-not-485c",
+  "parameters": 86,
+  "hard_evidence": 45
+ },
+ "verdict": {
+  "p_regime_c": 0.8022,
+  "median_shortfall_gw": 1.663,
+  "median_stranded_share": 0.2075,
+  "shortfall_quantiles": {
+   "5": -1.531,
+   "25": 0.341,
+   "50": 1.663,
+   "75": 2.998,
+   "95": 4.791
+  },
+  "density": {
+   "edges": [
+    -6.0,
+    -5.75,
+    -5.5,
+    -5.25,
+    -5.0,
+    -4.75,
+    -4.5,
+    -4.25,
+    -4.0,
+    -3.75,
+    -3.5,
+    -3.25,
+    -3.0,
+    -2.75,
+    -2.5,
+    -2.25,
+    -2.0,
+    -1.75,
+    -1.5,
+    -1.25,
+    -1.0,
+    -0.75,
+    -0.5,
+    -0.25,
+    0.0,
+    0.25,
+    0.5,
+    0.75,
+    1.0,
+    1.25,
+    1.5,
+    1.75,
+    2.0,
+    2.25,
+    2.5,
+    2.75,
+    3.0,
+    3.25,
+    3.5,
+    3.75,
+    4.0,
+    4.25,
+    4.5,
+    4.75,
+    5.0,
+    5.25,
+    5.5,
+    5.75,
+    6.0,
+    6.25,
+    6.5,
+    6.75,
+    7.0,
+    7.25,
+    7.5,
+    7.75,
+    8.0,
+    8.25,
+    8.5,
+    8.75,
+    9.0,
+    9.25,
+    9.5,
+    9.75,
+    10.0
+   ],
+   "values": [
+    0.0,
+    2e-05,
+    8e-05,
+    0.00017,
+    0.00038,
+    0.00066,
+    0.00091,
+    0.00182,
+    0.00312,
+    0.00415,
+    0.00654,
+    0.00931,
+    0.01392,
+    0.01796,
+    0.02382,
+    0.03114,
+    0.04102,
+    0.05151,
+    0.06264,
+    0.07392,
+    0.08878,
+    0.10473,
+    0.11948,
+    0.135,
+    0.15034,
+    0.1661,
+    0.1771,
+    0.1873,
+    0.19601,
+    0.20156,
+    0.20162,
+    0.1985,
+    0.19322,
+    0.18767,
+    0.18042,
+    0.17016,
+    0.15476,
+    0.14122,
+    0.12846,
+    0.1135,
+    0.09843,
+    0.08307,
+    0.06918,
+    0.0572,
+    0.04473,
+    0.03412,
+    0.02528,
+    0.01858,
+    0.0122,
+    0.00817,
+    0.00481,
+    0.00307,
+    0.00123,
+    0.0006,
+    0.00022,
+    8e-05,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  "n": 500000,
+  "seed": 20260918
+ },
+ "claims": [
+  {
+   "id": "C1",
+   "text": "Huang: NVIDIA will sell twice as many chips next year",
+   "verdict": "partial",
+   "note": "True, but he said “chips” and never defined the basket. No primary source narrows it to data-centre GPUs."
+  },
+  {
+   "id": "C2",
+   "text": "NVIDIA outlined FY2028 revenue of roughly $673 billion",
+   "verdict": "false",
+   "note": "Not NVIDIA’s number. CNBC’s arithmetic on an analyst consensus. “673” appears zero times in the 8-K, the 10-Q and the transcript."
+  },
+  {
+   "id": "C3",
+   "text": "The thirty-point gap implies ASP compression",
+   "verdict": "false",
+   "note": "−15%, not −30. Different speakers, dates and periods. And NVIDIA attributed the gap to supply on that same call."
+  },
+  {
+   "id": "C4",
+   "text": "Fab and packaging capacity can double within several quarters",
+   "verdict": "false",
+   "note": "True in 2024. CoWoS growth now decays to +30%. TSMC’s CEO: “two to three years to build a new fab. No shortcuts.”"
+  },
+  {
+   "id": "C5",
+   "text": "High-voltage transformers carry 36–48 month lead times",
+   "verdict": "partial",
+   "note": "Directionally right, high, and thin. Best survey figure is 29 months; every published number traces to one root."
+  },
+  {
+   "id": "C6",
+   "text": "Interconnection queues average four to seven years",
+   "verdict": "true",
+   "note": "Measured median request-to-COD is 61 months for 2025 completions."
+  },
+  {
+   "id": "C7",
+   "text": "The grid cannot double energized megawatts in twelve months",
+   "verdict": "true",
+   "note": "ERCOT energized +0.9 GW of large load in 2025 against 445.8 GW of applications."
+  },
+  {
+   "id": "C8",
+   "text": "Excess hardware takes one of two paths, both penalised",
+   "verdict": "partial",
+   "note": "It is three regimes, not two, with a computable boundary. Verified exhaustively in TLA+."
+  },
+  {
+   "id": "C9",
+   "text": "Accelerators halve in competitiveness within three to four years",
+   "verdict": "false",
+   "note": "A 2020-vintage A100 is appreciating. NVIDIA disclosed A100 rental up ~15% year on year."
+  },
+  {
+   "id": "C10",
+   "text": "Hyperscalers extended server life, deferring billions",
+   "verdict": "true",
+   "note": "$43.8bn of FY2025 operating income across five companies — 11% of what they reported."
+  },
+  {
+   "id": "C11",
+   "text": "Early decommissioning forces accelerated depreciation",
+   "verdict": "true",
+   "note": "Confirmed — and it already happened. Amazon took a $920M charge in Q4 2024. But the conclusion inverts."
+  },
+  {
+   "id": "C12",
+   "text": "Marginal cost is largely electricity; spot prices must fall",
+   "verdict": "false",
+   "note": "Electricity is 20% of cash cost. Spot is up 32.5% off its trough."
+  },
+  {
+   "id": "C13",
+   "text": "The return distribution splits",
+   "verdict": "partial",
+   "note": "Real and computable — but the market is not currently inside the loss band."
+  }
+ ],
+ "regimes": [
+  {
+   "key": "A",
+   "name": "Absorption is free",
+   "cond": "S ≤ E − B",
+   "body": "New capacity arrives faster than hardware does. Nothing is stranded and nothing is written down."
+  },
+  {
+   "key": "B",
+   "name": "The write-down is forced",
+   "cond": "E − B < S ≤ E",
+   "body": "Everything can be racked, but only by pulling working gear out of the envelope it occupies. There is no clean schedule."
+  },
+  {
+   "key": "C",
+   "name": "Stranding is forced",
+   "cond": "S > E",
+   "body": "No operator strategy absorbs the programme. Cannibalising does not cure it — it adds a write-down to it. The article misses this case."
+  }
+ ],
+ "tlc": {
+  "configs": 9,
+  "passed": 9,
+  "canaries": 3,
+  "probes": 3
+ },
+ "asp": {
+  "exact": -0.15,
+  "additive": -0.3,
+  "ratio": 2.0,
+  "formula": "g_ASP = (1+g_rev)/(1+g_units) − 1 = 1.70/2.00 − 1 = −3/20"
+ },
+ "lead_times": [
+  {
+   "label": "Power transformer",
+   "months": 29,
+   "cls": "grid"
+  },
+  {
+   "label": "Generator step-up unit",
+   "months": 33,
+   "cls": "grid"
+  },
+  {
+   "label": "HV circuit breaker",
+   "months": 35,
+   "cls": "grid"
+  },
+  {
+   "label": "Interconnection request → COD",
+   "months": 61,
+   "cls": "grid"
+  },
+  {
+   "label": "Greenfield fab, build",
+   "months": 30,
+   "cls": "fab"
+  },
+  {
+   "label": "Greenfield fab, build + ramp",
+   "months": 48,
+   "cls": "fab"
+  },
+  {
+   "label": "New process node, end to end",
+   "months": 72,
+   "cls": "fab"
+  }
+ ],
+ "prices": {
+  "series": [
+   {
+    "t": "2023-09",
+    "h100": 7.76
+   },
+   {
+    "t": "2024-03",
+    "h100": 7.92
+   },
+   {
+    "t": "2024-09",
+    "h100": 3.0
+   },
+   {
+    "t": "2025-03",
+    "h100": 3.5
+   },
+   {
+    "t": "2025-06",
+    "h100": 3.29
+   },
+   {
+    "t": "2025-09",
+    "h100": 2.13
+   },
+   {
+    "t": "2025-12",
+    "h100": 2.0
+   },
+   {
+    "t": "2026-03",
+    "h100": 2.53
+   },
+   {
+    "t": "2026-06",
+    "h100": 2.79
+   },
+   {
+    "t": "2026-09",
+    "h100": 2.65
+   }
+  ],
+  "trough": {
+   "t": "2025-12",
+   "v": 2.0
+  },
+  "now": 2.65,
+  "rise": 0.325,
+  "a100_now": 1.58,
+  "cash_cost": 0.662,
+  "energy_cost": 0.134,
+  "energy_share": 0.202,
+  "full_cost": {
+   "4": 1.82,
+   "5": 1.588,
+   "6": 1.434
+  },
+  "observed_floor": [
+   1.7,
+   2.15
+  ]
+ },
+ "depreciation": {
+  "book": [
+   {
+    "age": 0.0,
+    "v": 1.0
+   },
+   {
+    "age": 0.25,
+    "v": 0.9583
+   },
+   {
+    "age": 0.5,
+    "v": 0.9167
+   },
+   {
+    "age": 0.75,
+    "v": 0.875
+   },
+   {
+    "age": 1.0,
+    "v": 0.8333
+   },
+   {
+    "age": 1.25,
+    "v": 0.7917
+   },
+   {
+    "age": 1.5,
+    "v": 0.75
+   },
+   {
+    "age": 1.75,
+    "v": 0.7083
+   },
+   {
+    "age": 2.0,
+    "v": 0.6667
+   },
+   {
+    "age": 2.25,
+    "v": 0.625
+   },
+   {
+    "age": 2.5,
+    "v": 0.5833
+   },
+   {
+    "age": 2.75,
+    "v": 0.5417
+   },
+   {
+    "age": 3.0,
+    "v": 0.5
+   },
+   {
+    "age": 3.25,
+    "v": 0.4583
+   },
+   {
+    "age": 3.5,
+    "v": 0.4167
+   },
+   {
+    "age": 3.75,
+    "v": 0.375
+   },
+   {
+    "age": 4.0,
+    "v": 0.3333
+   },
+   {
+    "age": 4.25,
+    "v": 0.2917
+   },
+   {
+    "age": 4.5,
+    "v": 0.25
+   },
+   {
+    "age": 4.75,
+    "v": 0.2083
+   },
+   {
+    "age": 5.0,
+    "v": 0.1667
+   },
+   {
+    "age": 5.25,
+    "v": 0.125
+   },
+   {
+    "age": 5.5,
+    "v": 0.0833
+   },
+   {
+    "age": 5.75,
+    "v": 0.0417
+   },
+   {
+    "age": 6.0,
+    "v": 0.0
+   },
+   {
+    "age": 6.25,
+    "v": 0.0
+   },
+   {
+    "age": 6.5,
+    "v": 0.0
+   },
+   {
+    "age": 6.75,
+    "v": 0.0
+   },
+   {
+    "age": 7.0,
+    "v": 0.0
+   },
+   {
+    "age": 7.25,
+    "v": 0.0
+   },
+   {
+    "age": 7.5,
+    "v": 0.0
+   },
+   {
+    "age": 7.75,
+    "v": 0.0
+   },
+   {
+    "age": 8.0,
+    "v": 0.0
+   }
+  ],
+  "resale": [
+   {
+    "age": 0.0,
+    "v": 1.0
+   },
+   {
+    "age": 0.25,
+    "v": 0.9545
+   },
+   {
+    "age": 0.5,
+    "v": 0.911
+   },
+   {
+    "age": 0.75,
+    "v": 0.8696
+   },
+   {
+    "age": 1.0,
+    "v": 0.83
+   },
+   {
+    "age": 1.25,
+    "v": 0.7922
+   },
+   {
+    "age": 1.5,
+    "v": 0.7562
+   },
+   {
+    "age": 1.75,
+    "v": 0.7217
+   },
+   {
+    "age": 2.0,
+    "v": 0.6889
+   },
+   {
+    "age": 2.25,
+    "v": 0.6575
+   },
+   {
+    "age": 2.5,
+    "v": 0.6276
+   },
+   {
+    "age": 2.75,
+    "v": 0.5991
+   },
+   {
+    "age": 3.0,
+    "v": 0.5718
+   },
+   {
+    "age": 3.25,
+    "v": 0.5458
+   },
+   {
+    "age": 3.5,
+    "v": 0.5209
+   },
+   {
+    "age": 3.75,
+    "v": 0.4972
+   },
+   {
+    "age": 4.0,
+    "v": 0.4746
+   },
+   {
+    "age": 4.25,
+    "v": 0.453
+   },
+   {
+    "age": 4.5,
+    "v": 0.4324
+   },
+   {
+    "age": 4.75,
+    "v": 0.4127
+   },
+   {
+    "age": 5.0,
+    "v": 0.3939
+   },
+   {
+    "age": 5.25,
+    "v": 0.376
+   },
+   {
+    "age": 5.5,
+    "v": 0.3589
+   },
+   {
+    "age": 5.75,
+    "v": 0.3425
+   },
+   {
+    "age": 6.0,
+    "v": 0.3269
+   },
+   {
+    "age": 6.25,
+    "v": 0.3121
+   },
+   {
+    "age": 6.5,
+    "v": 0.2979
+   },
+   {
+    "age": 6.75,
+    "v": 0.2843
+   },
+   {
+    "age": 7.0,
+    "v": 0.2714
+   },
+   {
+    "age": 7.25,
+    "v": 0.259
+   },
+   {
+    "age": 7.5,
+    "v": 0.2472
+   },
+   {
+    "age": 7.75,
+    "v": 0.236
+   },
+   {
+    "age": 8.0,
+    "v": 0.2252
+   }
+  ],
+  "crossover_age": 1.4,
+  "breakeven_at_24mo": 0.6667,
+  "observed": [
+   {
+    "part": "H100 80GB SXM5",
+    "age": 3.9,
+    "v": 0.484,
+    "n": 10
+   },
+   {
+    "part": "A100 80GB SXM4",
+    "age": 5.8,
+    "v": 0.244,
+    "n": 14
+   },
+   {
+    "part": "V100 32GB",
+    "age": 8.5,
+    "v": 0.035,
+    "n": 122
+   }
+  ],
+  "amzn_charge_musd": 920,
+  "amzn_gross_musd": 172492,
+  "amzn_charge_share": 0.00533
+ },
+ "funnel": [
+  {
+   "label": "Applications filed",
+   "gw": 445.8
+  },
+  {
+   "label": "Studies actually submitted",
+   "gw": 124.8
+  },
+  {
+   "label": "Under review",
+   "gw": 93.7
+  },
+  {
+   "label": "Screening requirements met",
+   "gw": 22.0
+  },
+  {
+   "label": "Approved, not operational",
+   "gw": 3.2
+  },
+  {
+   "label": "Observed energized",
+   "gw": 5.9,
+   "terminal": true
+  }
+ ],
+ "queue": {
+  "median_months": 61,
+  "completion_by_capacity": 0.13,
+  "withdrawn": 0.75,
+  "post_ia_conversion": 0.43,
+  "active_gw": 2061,
+  "throughput_gw": 53,
+  "littles_all_departures_yr": 2.85,
+  "measured_completers_yr": 5.08
+ },
+ "sobol": [
+  {
+   "k": "Share powered outside the queue",
+   "st": 0.339,
+   "sourced": false
+  },
+  {
+   "k": "Share landing in an energized envelope",
+   "st": 0.339,
+   "sourced": false
+  },
+  {
+   "k": "NVIDIA revenue per gigawatt",
+   "st": 0.324,
+   "sourced": true
+  },
+  {
+   "k": "US share of deployment",
+   "st": 0.016,
+   "sourced": true
+  },
+  {
+   "k": "NVIDIA revenue",
+   "st": 0.002,
+   "sourced": true
+  }
+ ],
+ "reconciliation": {
+  "routes": [
+   {
+    "name": "LBNL energy model, bottom-up",
+    "lo": 6.5,
+    "hi": 11.6
+   },
+   {
+    "name": "NVIDIA revenue ÷ disclosed $/GW",
+    "lo": 6.8,
+    "hi": 12.5
+   }
+  ],
+  "overlap": [
+   6.8,
+   11.6
+  ],
+  "quoted": [
+   {
+    "name": "ERCOT large-load queue",
+    "gw": 230
+   },
+   {
+    "name": "Dominion signed contracts",
+    "gw": 47
+   },
+   {
+    "name": "Dominion’s own load forecast",
+    "gw": 16.6
+   }
+  ]
+ },
+ "density_refresh": {
+  "enterprise_rack_kw": [
+   8,
+   10
+  ],
+  "ai_rack_kw": [
+   132,
+   142
+  ],
+  "ratio": [
+   13.2,
+   17.8
+  ],
+  "recovered": [
+   0.056,
+   0.076
+  ],
+  "bound": [
+   0.0,
+   0.23
+  ]
+ },
+ "unknowns": [
+  "What fraction of new hardware lands in an already-energized envelope. No published measurement. 33.9% of the variance.",
+  "What fraction is powered outside the interconnection queue. No published measurement. 33.9% of the variance.",
+  "Fleet-weighted GPU utilization. Measured values span 5% to 85%. No one has published a weighted average.",
+  "What Amazon actually retired in Q4 2024 — no generation, count, location or gross cost is disclosed.",
+  "Burry’s $176bn derivation. Verified as his exact words; the method is paywalled and unreproduced in ten months.",
+  "The scaling from two published meter readings to a national energization figure. No source provides it — and it carries the verdict."
+ ]
+}

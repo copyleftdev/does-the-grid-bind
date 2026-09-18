@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Does the grid bind? — an invariant audit of the energization gap</title>
+<meta name="description" content="A formal and empirical audit of the claim that AI accelerator shipments are outrunning the electrical grid. The conclusion is about 80% likely to be right, and most of the stated reasons for it are wrong.">
+<meta name="author" content="copyleftdev">
+<link rel="canonical" href="https://copyleftdev.github.io/does-the-grid-bind/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Does the grid bind?">
+<meta property="og:description" content="The conclusion is probably right. Most of the reasons are wrong. An invariant audit, in TLA+ and exact rational arithmetic, of the AI energization gap.">
+<meta property="og:url" content="https://copyleftdev.github.io/does-the-grid-bind/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#14100E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%2314100E'/><path d='M17 5 9 18h5l-1 9 9-13h-5z' fill='%23E8853A'/></svg>">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ScholarlyArticle",
+ "headline":"Does the grid bind? An invariant audit of the energization gap",
+ "datePublished":"2026-09-18","inLanguage":"en",
+ "author":{"@type":"Person","name":"copyleftdev","url":"https://github.com/copyleftdev"},
+ "abstract":"A formal (TLA+) and empirical audit of the claim that AI accelerator shipments are outrunning US grid energization. Monte Carlo over sourced intervals puts the probability of the stranding-forced regime at 0.802, while four of the argument's thirteen supporting claims are falsified against primary sources.",
+ "keywords":"AI infrastructure, data centre power, interconnection queue, TLA+, depreciation, NVIDIA, energization gap",
+ "isBasedOn":"https://dev.to/deanlee/what-happens-when-chip-volume-doubles-but-the-grid-does-not-485c",
+ "codeRepository":"https://github.com/copyleftdev/does-the-grid-bind"}
+</script>
+</head>
+<body data-palette="#d95926,#199e70,#3987e5,#d55181">
+<a class="skip" href="#main">Skip to the report</a>
+
+<header class="hero wrap">
+  <h1><span class="q">Does the grid</span><span class="q">bind?</span></h1>
+  <p class="hero-sub">An argument went around that AI chip shipments are outrunning the power to plug them in. It is probably right. Almost none of its reasons are.</p>
+
+  <div class="prob">
+    <div class="prob-label">P(stranding forced)</div>
+    <div class="prob-value" id="pv">0.0%</div>
+    <div class="prob-track"><div class="prob-fill" id="pf"></div></div>
+    <p class="prob-foot">Monte Carlo over sourced intervals, <span class="num" id="mcn">500,000</span> draws, seed <span class="num">20260918</span>. The exact interval classification returns <strong>undecided</strong>, which is why this is a probability and not a number.</p>
+  </div>
+
+  <div class="hero-meta">
+    <span><b>Subject</b> &nbsp;“What Happens When Chip Volume Doubles but the Grid Does Not”</span>
+    <span><b>Parameters</b> &nbsp;<span class="num" id="np">86</span>, of which <span class="num" id="nh">45</span> hard evidence</span>
+    <span><b>Formal</b> &nbsp;9/9 TLC runs</span>
+  </div>
+
+  <div class="scroll-cue" aria-hidden="true">
+    <span>read</span>
+    <svg width="14" height="20" viewBox="0 0 14 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M7 1v17M1 12l6 6 6-6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">A correct conclusion resting on broken premises</h2>
+  <p class="lede rise d1">That combination is the entire result, and it is more interesting than either half alone.</p>
+  <p class="rise d2">The thesis is simple enough. Semiconductor output can double in a year. Substations cannot. So hardware arrives before power does, and the excess must either sit in a warehouse losing value or displace working machines that have not finished depreciating. Both cost money. Watch the substation queues, not just the wafer starts.</p>
+  <p class="rise d2">The shape of that argument is sound, and the data mostly supports where it lands. What does not survive is the evidence offered for it. The headline revenue figure is not the company’s. The arithmetic that turns two growth rates into a price decline is wrong by a factor of two. The claim that fabs are fast and grids are slow was true two years ago and is not true now. And the prediction that compute prices must fall is contradicted by the price of compute, which has risen by a third since its trough.</p>
+  <p class="rise d3">More usefully: the strongest evidence for the thesis is a number the argument never cites, and two of its conclusions are refuted by taking its own mechanism seriously.</p>
+</div></section>
+
+<section class="wrap"><div class="col-wide">
+  <h2 class="rise">Thirteen claims, scored</h2>
+  <p class="lede rise d1">Every falsifiable assertion, and the test that decides it. Rhetoric is not listed — only things that could be wrong.</p>
+  <div class="viz rise d2"><div class="score" id="score"></div></div>
+  <p class="note rise">Verdicts are against primary sources: SEC filings, earnings-call transcripts, EIA and LBNL publications, and ISO/RTO reporting. Where a figure could not be verified it is marked as such rather than assumed.</p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">The choice is not between two things</h2>
+  <p class="rise d1">The argument says excess hardware takes one of two paths: sit stranded, or displace the installed base. Both carry a penalty, so the operator picks their poison.</p>
+  <p class="rise d1">That is a claim about what is reachable, which is exactly the kind of claim a model checker settles. I wrote the pipeline as a state machine and let TLC explore <em>every</em> operator strategy — every possible schedule of shipping, warehousing, racking and cannibalising — to see whether any of them escapes.</p>
+  <p class="rise d2">None does. But the outcome space has three regions, not two, and which one you are in is decided by a threshold in three quantities: what ships, what is energized, and what already occupies the envelope.</p>
+</div>
+<div class="col-wide viz rise d2"><div class="regimes" id="regimes"></div></div>
+<div class="col">
+  <p class="rise">Regime C is the case the argument misses, and it is the one its own premise implies. There, cannibalising does not <em>cure</em> stranding — it adds a write-down to it. You pay twice.</p>
+  <p class="note rise">Nine TLC configurations, each declaring its expected outcome before it runs. Three are canaries that must fail: a model checker that cannot report a violation has proved nothing. Three are reachability probes that separate a real result from a vacuous one — without them, “no strategy absorbs the programme cleanly” would hold trivially in regime C because nothing can be absorbed at all. An independent Python classifier reproduces all three regimes from separate code.</p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">Growth does not subtract</h2>
+  <p class="rise d1">The argument opens on a gap: units doubling against revenue growing seventy percent. Thirty points of daylight, read as evidence that prices per chip are collapsing.</p>
+  <p class="rise d1">Growth rates compose by multiplication, not subtraction. Revenue is units times price, so the implied price change is a ratio.</p>
+</div>
+<div class="col-wide viz rise d2"><figure><div id="asp"></div>
+  <figcaption><b>The exact answer is −15%, not −30.</b> Property testing pinned the general error at −u(r−u)/(1+u), which means the shortcut is worst precisely where unit growth is largest — the high-volume case the argument is about.</figcaption></figure></div>
+<div class="col">
+  <p class="rise">The arithmetic is the smallest of four problems, though. The two quotes come from different speakers, three weeks apart, covering different periods — one about “next year”, the other about a fiscal year ending in January 2028. The product basket was never defined; the chief executive said “chips”, and the reporter who filed the story flagged in the same article that the company also sells CPUs, switch silicon, optical networking and laptop parts.</p>
+  <p class="rise">And the gap already had an explanation, given on the same call the revenue figure came from:</p>
+  <blockquote class="filing rise">
+    <p>“Customers’ forecasts point to our growth doubling next year. However… we expect to grow approximately 70% as we are <b>supply-constrained</b>.”</p>
+    <cite>Chief Financial Officer, Q2 FY2027 earnings call, 26 August 2026</cite>
+  </blockquote>
+  <p class="rise">Supply, not price. Meanwhile the direction is wrong too: disclosed revenue per gigawatt of capacity went from $18bn to $25bn to $40bn across three generations, gross margin is guided <em>up</em> on “executed price increases”, and customers were notified of rises above fifteen percent.</p>
+  <p class="note rise">The widely repeated $673 billion revenue figure is not the company’s. It is a news outlet’s arithmetic — an analyst consensus multiplied by 1.70. The string “673” appears zero times in the 8-K, the 10-Q and the corrected transcript, and neither filing contains any statement of that year’s revenue at all.</p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">Both sides are slow now</h2>
+  <p class="rise d1">The argument rests on an asymmetry: silicon is fast, the grid is slow. That asymmetry has closed, and the people who build the fast side say so on the record.</p>
+</div>
+<div class="col-wide viz rise d2"><figure><div id="lead"></div>
+  <figcaption><b>Grid equipment in ember, semiconductor capacity in blue.</b> A greenfield fab now takes three to five years to build and ramp; the transformer figure the argument quotes is three to four. The two lead times overlap.</figcaption></figure></div>
+<div class="col">
+  <blockquote class="filing rise">
+    <p>“It takes <b>two to three years to build a new fab. No shortcuts.</b> And it takes another one to two years to ramp it up.”</p>
+    <cite>Chief Executive, TSMC — said three times on one earnings call, April 2026</cite>
+  </blockquote>
+  <p class="rise">Advanced packaging capacity did roughly double in 2024 and again in 2025, off a small base and into pre-built shells. Forward growth decays to +68%, then +54%, then +30%. The doubling era is behind, not ahead.</p>
+  <p class="note rise">On the grid side the argument’s 36–48 month transformer figure is directionally right but high, and it rests on thinner evidence than its confidence implies. The best current survey figure is 29 months for power transformers and 33 for generator step-up units. Every published number traces back to one root: vendor interviews conducted over nine days in June 2023, and a single proprietary survey whose method and sample size are unpublished. There is no independent government measurement of transformer lead times at all.</p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">The price went the other way</h2>
+  <p class="rise d1">The economic prediction is that new capacity floods in against linearly growing demand, so rental prices must fall toward the cost of electricity. Prices bottomed in December 2025 and have risen by a third since.</p>
+</div>
+<div class="col-wide viz rise d2"><figure><div id="price"></div>
+  <figcaption><b>H100 neocloud rental, dollars per GPU-hour.</b> The green band is full-cost recovery computed bottom-up from filings, datasheets and government statistics — with no price observation anywhere in the inputs. The market floor landed inside it.</figcaption></figure></div>
+<div class="col">
+  <p class="rise">Corroborated by the seller. On its own earnings call the chip vendor disclosed that H100 rental had “risen 20% year to date, while A100 cloud pricing is up nearly 15%.” The A100 launched in 2020. On the argument’s own schedule it should have lost half its competitiveness twice over. It is appreciating.</p>
+  <div class="stat-row rise">
+    <div><div class="stat-v" id="s-cash">$0.66</div><div class="stat-k">All-in cash cost per GPU-hour, derived from a disclosed 75% contracted EBITDA margin</div></div>
+    <div><div class="stat-v cool" id="s-energy">20%</div><div class="stat-k">Share of that cash cost which is actually electricity — not “largely”, as claimed</div></div>
+    <div><div class="stat-v" id="s-rise">+32.5%</div><div class="stat-k">Rise in the H100 index since its December 2025 trough</div></div>
+  </div>
+  <p class="pull rise">Take the power-scarcity mechanism seriously and it predicts exactly this. If energized megawatts are the binding constraint, a machine that already occupies an energized slot is priced off the scarcity of the slot, not the speed of the chip.
+    <cite>Which is why a six-year-old part appreciates while newer ones ship — and why the cannibalisation path loses its premise.</cite></p>
+  <p class="note rise">The floor is worth naming precisely. It is not electricity and it is not physics. Full-cost recovery across four-, five- and six-year book lives computes to $1.43–$1.82 per GPU-hour; the independently observed market floor across two rental indices was $1.70–$2.15. The intervals overlap. The floor is the depreciation schedule — which means the same market price is above water on a six-year book and underwater on a four-year one.</p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">Straight lines fall faster than markets</h2>
+  <p class="rise d1">The strongest claim in the argument is about accounting, and it is correct: cloud operators stretched server lives from three or four years out to five or six, deferring billions of expense, and pulling hardware early forces that deferral to come due.</p>
+  <p class="rise d1">It is correct, it is quantified in filings — about $43.8 billion of operating income across five companies in one year, eleven percent of what they reported — and it has <em>already happened</em>.</p>
+  <blockquote class="filing rise d2">
+    <p>“…changing the useful lives of a subset of our servers and networking equipment, effective January 1, 2025, <b>from six years to five years</b>… In 2024, we also determined, primarily in the fourth quarter, <b>to retire early</b> certain of our servers and networking equipment. We recorded approximately <b>$920 million of accelerated depreciation</b>… due to <b>an increased pace of technology development, particularly in the area of artificial intelligence and machine learning</b>.”</p>
+    <cite>Amazon, FY2024 Form 10-K, Note 1</cite>
+  </blockquote>
+  <p class="rise">That is the mechanism, in the filing, in the company’s own words, two years before the argument was written. And then the conclusion inverts, for a reason that is pure arithmetic: book value falls in a straight line, resale value decays exponentially, and the two curves cross.</p>
+</div>
+<div class="col-wide viz rise d2"><figure><div id="depr"></div>
+  <figcaption><b>Beyond about 1.4 years, a six-year straight-line book carries the asset below what the market pays for it.</b> Retiring early books a gain, not a charge. The diamonds are executed secondary-market sales; every one sits above book. The break-even — an asset pulled at 24 months must fetch exactly two-thirds of cost — was computed before any resale data was in hand. The observed curve puts a two-year-old part at roughly 0.69.</figcaption></figure></div>
+<div class="col">
+  <p class="rise">Two more things sit in the same filings. The $920 million charge is 0.53% of the gross fleet — a rounding error. And on the same day, the company extended heavy equipment from ten years to thirteen, worth about $0.9 billion to operating income, almost exactly cancelling the server hit in a different segment.</p>
+  <p class="pull rise">On 1 January 2025, on comparable hardware, citing the same industry conditions, one company shortened server life from six years to five and another extended it from five to five and a half.
+    <cite>Book life is a management judgment, not a measurement of how long hardware lasts.</cite></p>
+  <p class="note rise">Caveats that travel with the resale curve: the H100 sample is ten executed sales over ninety days and the A100 fourteen; only the V100, at 122, is a real sample. The index’s cost basis is system-allocated rather than chip list price — re-basing roughly doubles the residuals, which strengthens rather than weakens the conclusion. And the same part number prints 48.4% in one form factor and 79.4% in another at identical age.</p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">A queue is an option book</h2>
+  <p class="rise d1">Interconnection queues are quoted as though they were demand. They are not. Filing is cheap and priority is scarce, so the same megawatt is counted in several places at once, and most of it never arrives.</p>
+</div>
+<div class="col-wide viz rise d2"><figure><div id="funnel"></div>
+  <figcaption><b>The largest US data-centre market, end to end.</b> 445.8 GW of applications against 5.9 GW actually drawing power — 1.3%. The grid operator’s own words: 5,302 MW is “approximately 2% of the total load in our large load interconnection process.”</figcaption></figure></div>
+<div class="col">
+  <div class="stat-row rise">
+    <div><div class="stat-v">13%</div><div class="stat-k">Of queued generation capacity, 2000–2020 cohort, that ever reached commercial operation. 75% withdrew.</div></div>
+    <div><div class="stat-v">43%</div><div class="stat-k">Conversion rate <em>after</em> an interconnection agreement has been executed</div></div>
+    <div><div class="stat-v cool">61</div><div class="stat-k">Median months from request to operation for 2025 completions — up from 22 in 2008</div></div>
+  </div>
+  <p class="rise">One utility states both numbers in a single filing: 47 gigawatts of signed data-centre contracts, and its own forecast of 16.6 gigawatts of load. A realisation ratio of 0.35.</p>
+  <p class="note rise">Little’s Law reconciles two statistics that look contradictory. With 53 GW completing and about 750 GW withdrawing against a 2,061 GW queue, mean residence across all departures is 2.85 years, while the measured median for projects that actually finish is 5.08. Both are right: withdrawals leave early and pull the mean down, so completers wait roughly 1.8× the average departure. Two independent statistics agreeing is the point of running the check.</p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">How much hardware is actually coming</h2>
+  <p class="rise d1">The grid debate is conducted in gigawatts and the chip debate in dollars, so the two are never checked against each other. Both convert.</p>
+</div>
+<div class="col-wide viz rise d2"><figure><div id="recon"></div>
+  <figcaption><b>A national bottom-up energy model and a vendor’s revenue guidance divided by its own disclosed content per gigawatt.</b> The two share no inputs and they agree. That is worth more than either number alone.</figcaption></figure></div>
+<div class="col">
+  <p class="rise">Set that against what the debate actually quotes — a 230 gigawatt state queue, 47 gigawatts of contracts at one utility — and the mismatch is not evidence of a shortage. It is evidence that an option book is being read as an order book.</p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">The argument is about the wrong variable</h2>
+  <p class="rise d1">Having reconciled the demand side, the question becomes which remaining uncertainty actually decides the answer. That is not the same question as which one people argue about.</p>
+</div>
+<div class="col-wide viz rise d2"><figure><div id="sobol"></div>
+  <figcaption><b>Sobol total-effect indices on required new grid capacity.</b> Two thirds of the variance sits in quantities with no published measurement — and neither appears anywhere in the original argument. The revenue figure it opens with contributes 0.002.</figcaption></figure></div>
+<div class="col">
+  <p class="rise">Measuring the interconnection queue more precisely cannot settle this, because the queue is not where the variance lives. One of the two dominant factors can at least be bounded from physics, and doing so produces the strongest support the thesis gets anywhere in this audit.</p>
+  <p class="rise">An enterprise rack draws eight to ten kilowatts. A current AI rack draws 132 to 142. Converting a rack slot therefore recovers between five and eight percent of what the new hardware needs; the rest has to come from somewhere new. The headline “ten to thirteen percent annual fleet turnover” is not a reuse pool, because conventional server energy is flat — those slots get refilled, not released.</p>
+  <p class="pull rise">New hardware cannot hide in old power. It is the best argument for the thesis, and the argument never makes it.
+    <cite>Bounded at 0–23%, against the 10–45% a casual reading would allow.</cite></p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">So: does the grid bind?</h2>
+  <p class="rise d1">Two operators in the United States publish actual meter readings for data-centre energization. Both are delivering roughly one gigawatt a year. National models imply seventeen.</p>
+</div>
+<div class="col-wide viz rise d2"><figure><div id="density"></div>
+  <figcaption><b>The distribution of the annual shortfall.</b> Everything to the right of the dashed line is hardware arriving before power. The exact interval classification of the same inputs returns <em>undecided</em> — it is consistent with all three regimes — so this probability, not a point estimate, is the honest form of the answer.</figcaption></figure></div>
+<div class="col">
+  <div class="stat-row rise">
+    <div><div class="stat-v" id="s-p">80.2%</div><div class="stat-k">Probability of the stranding-forced regime</div></div>
+    <div><div class="stat-v" id="s-short">+1.66</div><div class="stat-k">Median annual shortfall, gigawatts per year</div></div>
+    <div><div class="stat-v" id="s-strand">20.7%</div><div class="stat-k">Median share of shipments arriving before power</div></div>
+  </div>
+  <p class="rise">Probably yes — and modestly. Not a collapse. About a fifth of shipments, in the median case, landing ahead of the megawatts to run them.</p>
+  <p class="rise">The honest caveat is that the single number carrying this verdict is the one with the least evidence behind it: the scaling from two published meter readings to a national figure. No source provides it. It is my assumption, and if it is wrong, this conclusion moves.</p>
+</div></section>
+
+<section class="wrap"><div class="col">
+  <h2 class="rise">What nobody knows</h2>
+  <p class="lede rise d1">Listed because the sensitivity analysis says these dominate, and because an audit that hides its gaps is an advertisement.</p>
+  <ol class="rise d2" id="unknowns" style="padding-left:1.3rem"></ol>
+</div></section>
+
+</main>
+
+<footer class="wrap">
+  <div class="colophon">
+    <div>
+      <h3>Method</h3>
+      <p>Three layers, each answering something the others cannot. A <strong>TLA+ model</strong> checked exhaustively with TLC, so structural claims are proved or refuted rather than asserted. <strong>Exact rational arithmetic</strong> through <code>agent-calc</code> for every number that decides something — floats raise a type error rather than entering silently, and interval predicates are allowed to return <em>undecided</em>. And <strong>provenance-tagged parameters</strong>, every one carrying its source class, with the hard-evidence ratio reported rather than hidden.</p>
+      <p>Everything on this page is generated from <code>site/data/figures.json</code>, which is exported directly from the model. Nothing here was typed by hand, so the page cannot drift from the analysis behind it.</p>
+      <p><a href="https://github.com/copyleftdev/does-the-grid-bind">Source, data and formal specification on GitHub →</a></p>
+    </div>
+    <div>
+      <h3>Colophon</h3>
+      <p class="small">Set in <strong>Fraunces</strong> and <strong>Newsreader</strong>, with <strong>IBM&nbsp;Plex&nbsp;Mono</strong> for figures.</p>
+      <p class="small">Chart series are validated against this surface for lightness band, chroma floor, colour-vision-deficiency separation, normal-vision separation and contrast. The first palette drafted for this page failed three of those five checks; these steps pass all of them.</p>
+      <div class="swatches" aria-hidden="true">
+        <i style="background:#d95926"></i><i style="background:#199e70"></i><i style="background:#3987e5"></i><i style="background:#d55181"></i>
+      </div>
+      <p class="small" style="margin-top:1.4rem">Audited 18 September 2026 against the article as published the same day. Figures current as of that date.</p>
+    </div>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/main.js"></script>
+</body>
+</html>

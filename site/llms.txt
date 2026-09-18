@@ -1,0 +1,42 @@
+# Does the grid bind?
+
+> An invariant audit of the claim that AI accelerator shipments are outrunning
+> US grid energization. Verdict: the conclusion is about 80% likely to be right,
+> and most of its stated reasons are wrong.
+
+Audited 2026-09-18 against "What Happens When Chip Volume Doubles but the Grid
+Does Not" (Dean Lee, dev.to, published the same day).
+
+## Headline result
+
+- P(stranding-forced regime) = 0.802 (Monte Carlo, n=500,000, seed 20260918)
+- Median annual shortfall +1.66 GW/yr; median 20.7% of shipments arriving before power
+- The exact interval classification of the same inputs returns UNDECIDED, so the
+  probability is the honest form of the answer, not a point estimate
+- 86 parameters, 45 of them hard evidence (MEASURED / FILED / OFFICIAL)
+- 9/9 TLA+ model-checking runs matched their declared expected outcome
+
+## What the audit found
+
+- The article's dichotomy (strand it, or cannibalize the installed base) is
+  actually a trichotomy with a computable boundary in shipped / energized /
+  installed-base. TLC over every operator strategy.
+- "Thirty percentage points" of ASP compression is an arithmetic error. Growth
+  composes multiplicatively: (1+0.70)/(1+1.00) - 1 = -15%, exactly -3/20.
+- The $673bn FY2028 revenue figure is not NVIDIA's; it is a news outlet's
+  multiplication of an analyst consensus. "673" appears zero times in the 8-K,
+  the 10-Q and the corrected transcript.
+- GPU rental prices rose 32.5% off their December 2025 trough. A 2020-vintage
+  A100 is appreciating. Electricity is 20% of cash marginal cost, not "largely" it.
+- Straight-line book value depreciates FASTER than exponential resale decay; the
+  curves cross at ~1.4 years, after which early retirement books a gain.
+- 66.4% of the remaining variance sits in two quantities with no published
+  measurement, neither of which the original article mentions.
+
+## Files
+
+- Report: https://copyleftdev.github.io/does-the-grid-bind/
+- Source, data and formal spec: https://github.com/copyleftdev/does-the-grid-bind
+- Figures as JSON: https://copyleftdev.github.io/does-the-grid-bind/data/figures.json
+- TLA+ specification: spec/Energization.tla
+- Provenance-tagged parameters: data/parameters.yaml
